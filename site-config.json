@@ -1,0 +1,10 @@
+{
+  "site": "SY 软件下载",
+  "subtitle": "官方下载 · 请认准本页面",
+  "mirrors": [
+    { "name": "加速线路 1", "prefix": "https://ghfast.top/" },
+    { "name": "加速线路 2", "prefix": "https://ghproxy.net/" },
+    { "name": "加速线路 3", "prefix": "https://gh-proxy.com/" },
+    { "name": "加速线路 4", "prefix": "https://mirror.ghproxy.com/" }
+  ]
+}
