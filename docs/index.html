@@ -28,15 +28,21 @@ h1{font-size:24px;margin:0 0 4px}
 .changelog code{background:#0f1115;border:1px solid #2c3340;border-radius:5px;padding:1px 6px;font-size:12.5px;word-break:break-all}
 .changelog hr{border:0;border-top:1px solid #262b36;margin:14px 0}
 .changelog a{color:#6ea8fe}
-.cat{margin-top:16px}
-.cat-title{font-size:13.5px;font-weight:700;color:#aab2c0;display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+details.cat{margin-top:14px}
+details.cat>summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:9px;flex-wrap:wrap;
+  font-size:13.5px;font-weight:700;color:#aab2c0;padding:5px 0}
+details.cat>summary::-webkit-details-marker{display:none}
+details.cat>summary::before{content:'▸';color:#6b7480;font-weight:400;transition:transform .15s}
+details.cat[open]>summary::before{transform:rotate(90deg)}
+.cat-count{color:#6b7480;font-weight:500;font-size:12px}
 .cat-all{cursor:pointer;font-size:12px;font-weight:600;color:#9cc0ff;background:#1a2030;border:1px solid #2c3a55;
   border-radius:7px;padding:4px 10px;margin-left:auto}
 .cat-all:hover{background:#212a3e}
-.cat.bundle{background:#13251a;border:1px solid #235138;border-radius:12px;padding:12px 14px;margin-top:16px}
-.cat.bundle .cat-title{color:#9be7b4}
+.cat-files{padding-top:2px}
+details.cat.bundle{background:#13251a;border:1px solid #235138;border-radius:12px;padding:10px 14px}
+details.cat.bundle>summary{color:#9be7b4}
 .file{border-top:1px solid #262b36;padding:12px 0 4px;margin-top:8px}
-.cat.bundle .file{border-top-color:#235138}
+details.cat.bundle .file{border-top-color:#235138}
 .file:first-of-type{border-top:0}
 .file-name{font-weight:600;word-break:break-all}
 .file-meta{color:#8b95a5;font-size:13px;margin:2px 0 10px}
@@ -132,10 +138,13 @@ function categoryBlock(cat,files){
   var allBtn='';
   if(files.length>1){
     var urls=files.map(function(f){return f.url;}).join('|');
-    allBtn='<span class="cat-all" data-urls="'+attr(urls)+'" onclick="dlGroup(this)">⬇ 下载本类全部 ('+files.length+')</span>';
+    allBtn='<span class="cat-all" data-urls="'+attr(urls)+'" onclick="event.preventDefault();event.stopPropagation();dlGroup(this)">⬇ 下载本类全部 ('+files.length+')</span>';
   }
-  return '<div class="cat'+(cat.bundle?' bundle':'')+'"><div class="cat-title">'+esc(cat.label)+allBtn+'</div>'+
-    files.map(fileBlock).join('')+'</div>';
+  // 文件超过 6 个的分类默认折叠，点标题展开
+  var open=(files.length<=6)?' open':'';
+  return '<details class="cat'+(cat.bundle?' bundle':'')+'"'+open+'>'+
+    '<summary>'+esc(cat.label)+' <span class="cat-count">'+files.length+' 个</span>'+allBtn+'</summary>'+
+    '<div class="cat-files">'+files.map(fileBlock).join('')+'</div></details>';
 }
 
 function versionBlock(v,cats,isFirst){
