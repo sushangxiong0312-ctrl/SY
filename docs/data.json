@@ -2,6 +2,40 @@
   "site": "SY 软件下载",
   "subtitle": "官方下载 · 请认准本页面",
   "repo": "sushangxiong0312-ctrl/SY",
-  "generatedAt": "2026-06-12T04:00:24.257Z",
-  "versions": []
+  "generatedAt": "2026-06-12T04:02:00.310Z",
+  "versions": [
+    {
+      "version": "v0.0.1",
+      "title": "v0.0.1 测试版",
+      "date": "2026-06-12T04:00:23Z",
+      "prerelease": false,
+      "body": "- 这是第一个测试版本\n- 验证发布链路是否通畅\n\n---\n**文件校验 (SHA256)**\n\n- `SY-demo-v0.0.1.txt`: `62f907c50050b85714af46bb4f59db8b28ed97e559a18902981ffdb0c18164f0`",
+      "files": [
+        {
+          "name": "SY-demo-v0.0.1.txt",
+          "size": 148,
+          "downloadCount": 0,
+          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v0.0.1/SY-demo-v0.0.1.txt",
+          "mirrors": [
+            {
+              "name": "加速线路 1",
+              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v0.0.1/SY-demo-v0.0.1.txt"
+            },
+            {
+              "name": "加速线路 2",
+              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v0.0.1/SY-demo-v0.0.1.txt"
+            },
+            {
+              "name": "加速线路 3",
+              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v0.0.1/SY-demo-v0.0.1.txt"
+            },
+            {
+              "name": "加速线路 4",
+              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v0.0.1/SY-demo-v0.0.1.txt"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
