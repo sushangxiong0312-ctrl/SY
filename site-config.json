@@ -6,5 +6,12 @@
     { "name": "加速线路 2", "prefix": "https://ghproxy.net/" },
     { "name": "加速线路 3", "prefix": "https://gh-proxy.com/" },
     { "name": "加速线路 4", "prefix": "https://mirror.ghproxy.com/" }
+  ],
+  "categories": [
+    { "key": "full", "label": "🎁 完整打包", "names": ["完整打包", "完整包", "完整", "打包"], "bundle": true },
+    { "key": "program", "label": "📦 程序文件", "names": ["程序文件", "程序", "主程序"] },
+    { "key": "driver", "label": "🖥️ 驱动文件", "names": ["驱动文件", "驱动"] },
+    { "key": "lib", "label": "🔧 依赖库文件", "names": ["依赖库文件", "依赖库", "依赖", "运行库", "库"] },
+    { "key": "other", "label": "📁 其他文件", "names": ["其他文件", "其他"] }
   ]
 }
