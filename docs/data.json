@@ -2,7 +2,34 @@
   "site": "SY 软件下载",
   "subtitle": "官方下载 · 请认准本页面",
   "repo": "sushangxiong0312-ctrl/SY",
-  "generatedAt": "2026-06-12T04:02:00.310Z",
+  "generatedAt": "2026-06-12T04:51:02.863Z",
+  "categories": [
+    {
+      "key": "full",
+      "label": "🎁 完整打包",
+      "bundle": true
+    },
+    {
+      "key": "program",
+      "label": "📦 程序文件",
+      "bundle": false
+    },
+    {
+      "key": "driver",
+      "label": "🖥️ 驱动文件",
+      "bundle": false
+    },
+    {
+      "key": "lib",
+      "label": "🔧 依赖库文件",
+      "bundle": false
+    },
+    {
+      "key": "other",
+      "label": "📁 其他文件",
+      "bundle": false
+    }
+  ],
   "versions": [
     {
       "version": "v0.0.1",
@@ -14,8 +41,9 @@
         {
           "name": "SY-demo-v0.0.1.txt",
           "size": 148,
-          "downloadCount": 0,
+          "downloadCount": 3,
           "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v0.0.1/SY-demo-v0.0.1.txt",
+          "category": "other",
           "mirrors": [
             {
               "name": "加速线路 1",
