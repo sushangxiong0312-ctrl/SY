@@ -69,7 +69,8 @@ async function main() {
         title: r.name || r.tag_name,
         date: r.published_at || r.created_at,
         prerelease: !!r.prerelease,
-        body: parsed.cleanBody,
+        // 去掉正文末尾的「文件校验 (SHA256)」块，下载页不显示
+        body: parsed.cleanBody.replace(/\n*-{3,}\s*\n\*\*文件校验[\s\S]*$/i, '').trim(),
         files: (r.assets || []).map((a) => {
           let category = parsed.map[a.name];
           if (!category || !validKeys.has(category)) category = fallback;
