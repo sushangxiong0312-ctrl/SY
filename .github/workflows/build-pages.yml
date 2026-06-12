@@ -1,27 +1,22 @@
-name: 构建并部署下载页
+name: 构建下载页数据
 
-# 任何 Release 变化（发布/编辑/删除）时自动重建并部署下载页，也可手动触发
+# 任何 Release 变化时重建下载页数据并推到 docs/，GitHub Pages 从分支自动部署
 on:
   release:
     types: [published, edited, deleted, released, prereleased, unpublished]
   workflow_dispatch:
 
 permissions:
-  contents: read
-  pages: write
-  id-token: write
+  contents: write
 
-# 连续触发时，让最新一次部署取代进行中的，避免互相撞车失败
+# 连发时只跑最新一次，避免并发
 concurrency:
-  group: pages
+  group: build-pages
   cancel-in-progress: true
 
 jobs:
-  build-deploy:
+  build:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deploy.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
 
@@ -34,13 +29,23 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: node scripts/build-data.js
 
-      - uses: actions/configure-pages@v5
-
-      - name: 打包 docs 目录为 Pages 制品
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: docs
-
-      - name: 部署到 GitHub Pages
-        id: deploy
-        uses: actions/deploy-pages@v4
+      - name: 有变化则提交并推送（带 rebase 重试防撞车）
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/data.json
+          if git diff --staged --quiet; then
+            echo "下载页数据无变化，跳过。"
+            exit 0
+          fi
+          git commit -m "自动更新下载页数据 [skip ci]"
+          for n in 1 2 3 4 5; do
+            if git pull --rebase --autostash origin main && git push; then
+              echo "已推送。"
+              exit 0
+            fi
+            echo "推送冲突，重试 $n …"
+            sleep 3
+          done
+          echo "推送多次失败"
+          exit 1
