@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>软件下载</title>
+<style>
+:root{color-scheme:light dark}
+*{box-sizing:border-box}
+body{margin:0;font:16px/1.65 -apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",Segoe UI,sans-serif;
+  background:#0f1115;color:#e8eaed;display:flex;justify-content:center;padding:28px 14px 60px}
+.wrap{width:100%;max-width:780px}
+header{margin-bottom:22px}
+h1{font-size:24px;margin:0 0 4px}
+.subtitle{color:#8b95a5;font-size:14px;margin:0}
+.repo{color:#6b7480;font-size:12px;margin-top:6px}
+.ver{background:#171a21;border:1px solid #262b36;border-radius:14px;padding:18px 20px;margin-bottom:16px}
+.ver-head{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.ver-num{font-size:19px;font-weight:700}
+.badge{font-size:11px;font-weight:700;padding:2px 8px;border-radius:20px}
+.badge.latest{background:#16301f;color:#7ee2a8;border:1px solid #235138}
+.badge.pre{background:#33270f;color:#e7c27e;border:1px solid #5a4423}
+.ver-date{color:#8b95a5;font-size:13px;margin-left:auto}
+.changelog{margin:12px 0 4px;color:#c7ccd4;font-size:14.5px}
+.changelog h2,.changelog h3{font-size:15px;margin:14px 0 6px;color:#e8eaed}
+.changelog ul{margin:8px 0;padding-left:22px}
+.changelog li{margin:3px 0}
+.changelog code{background:#0f1115;border:1px solid #2c3340;border-radius:5px;padding:1px 6px;font-size:12.5px;word-break:break-all}
+.changelog hr{border:0;border-top:1px solid #262b36;margin:14px 0}
+.changelog a{color:#6ea8fe}
+.file{border-top:1px solid #262b36;padding:14px 0 4px;margin-top:10px}
+.file-name{font-weight:600;word-break:break-all}
+.file-meta{color:#8b95a5;font-size:13px;margin:2px 0 10px}
+.btns{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.btn{display:inline-flex;align-items:center;gap:6px;text-decoration:none;font-size:14px;font-weight:600;
+  padding:9px 16px;border-radius:9px;border:1px solid transparent}
+.btn-main{background:#3b82f6;color:#fff}
+.btn-main:hover{background:#2f6fe0}
+details.accel{display:inline-block}
+details.accel summary{list-style:none;cursor:pointer;background:#1f2430;color:#cdd3dd;border:1px solid #2c3340;
+  padding:9px 14px;border-radius:9px;font-size:14px;font-weight:600}
+details.accel summary::-webkit-details-marker{display:none}
+.accel-list{display:flex;flex-wrap:wrap;gap:8px;margin-top:8px}
+.btn-accel{background:#1a2030;color:#9cc0ff;border:1px solid #2c3a55;font-weight:500;font-size:13px;padding:7px 13px}
+.btn-accel:hover{background:#212a3e}
+.tip{color:#7b8492;font-size:12px;margin-top:10px;line-height:1.5}
+.empty,.error{text-align:center;color:#8b95a5;padding:50px 0}
+.error{color:#ffb4b4}
+footer{margin-top:34px;text-align:center;color:#5c6472;font-size:12px}
+@media(max-width:480px){h1{font-size:21px}.ver{padding:16px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1 id="site">软件下载</h1>
+    <p class="subtitle" id="subtitle"></p>
+    <p class="repo" id="repo"></p>
+  </header>
+  <main id="list"><div class="empty">加载中…</div></main>
+  <footer>
+    页面由 GitHub Pages 托管 · 文件存于 GitHub Releases<br>
+    国内加速线路由第三方提供，可能不稳定；某条打不开请换其它线路或用「直接下载」。
+  </footer>
+</div>
+
+<script>
+function esc(s){return String(s==null?'':s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
+function fmtSize(n){if(n==null)return'';var u=['B','KB','MB','GB'],i=0,v=Number(n);
+  while(v>=1024&&i<u.length-1){v/=1024;i++;}return v.toFixed(v>=10||i===0?0:1)+' '+u[i];}
+function fmtDate(s){if(!s)return'';try{var d=new Date(s);
+  return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0');}catch(e){return'';}}
+
+// 极简 Markdown：转义后处理 标题/列表/粗体/行内代码/分隔线/链接
+function md(src){
+  var lines=esc(src||'').split(/\r?\n/),html='',inList=false;
+  function closeList(){if(inList){html+='</ul>';inList=false;}}
+  for(var i=0;i<lines.length;i++){
+    var ln=lines[i];
+    if(/^\s*[-*]\s+/.test(ln)){if(!inList){html+='<ul>';inList=true;}html+='<li>'+inline(ln.replace(/^\s*[-*]\s+/,''))+'</li>';continue;}
+    closeList();
+    if(/^\s*#{2,3}\s+/.test(ln)){html+='<h3>'+inline(ln.replace(/^\s*#{2,3}\s+/,''))+'</h3>';continue;}
+    if(/^\s*#{1}\s+/.test(ln)){html+='<h2>'+inline(ln.replace(/^\s*#\s+/,''))+'</h2>';continue;}
+    if(/^\s*---+\s*$/.test(ln)){html+='<hr>';continue;}
+    if(/^\s*$/.test(ln)){continue;}
+    html+='<p style="margin:6px 0">'+inline(ln)+'</p>';
+  }
+  closeList();
+  return html;
+}
+function inline(s){
+  return s.replace(/`([^`]+)`/g,'<code>$1</code>')
+          .replace(/\*\*([^*]+)\*\*/g,'<strong>$1</strong>')
+          .replace(/\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)/g,'<a href="$2" target="_blank" rel="noopener">$1</a>');
+}
+
+function fileBlock(f){
+  var accel='';
+  if(f.mirrors&&f.mirrors.length){
+    accel='<details class="accel"><summary>⚡ 国内加速</summary><div class="accel-list">'+
+      f.mirrors.map(function(m){return '<a class="btn btn-accel" href="'+esc(m.url)+'">'+esc(m.name)+'</a>';}).join('')+
+      '</div></details>';
+  }
+  var dl=(f.downloadCount!=null)?(' · 已下载 '+f.downloadCount+' 次'):'';
+  return '<div class="file"><div class="file-name">'+esc(f.name)+'</div>'+
+    '<div class="file-meta">'+fmtSize(f.size)+dl+'</div>'+
+    '<div class="btns"><a class="btn btn-main" href="'+esc(f.url)+'">⬇ 直接下载</a>'+accel+'</div></div>';
+}
+
+function versionBlock(v,isFirst){
+  var badge='';
+  if(isFirst&&!v.prerelease)badge='<span class="badge latest">最新</span>';
+  if(v.prerelease)badge='<span class="badge pre">预览版</span>';
+  var files=(v.files&&v.files.length)?v.files.map(fileBlock).join(''):'<div class="file-meta" style="padding-top:12px">该版本暂无文件</div>';
+  return '<section class="ver"><div class="ver-head">'+
+    '<span class="ver-num">'+esc(v.title||v.version)+'</span>'+badge+
+    '<span class="ver-date">'+fmtDate(v.date)+'</span></div>'+
+    (v.body?'<div class="changelog">'+md(v.body)+'</div>':'')+
+    files+'</section>';
+}
+
+fetch('./data.json?_='+Date.now()).then(function(r){
+  if(!r.ok)throw new Error('数据加载失败');return r.json();
+}).then(function(d){
+  if(d.site)document.getElementById('site').textContent=d.site;
+  document.title=d.site||'软件下载';
+  document.getElementById('subtitle').textContent=d.subtitle||'';
+  if(d.repo)document.getElementById('repo').textContent='项目：'+d.repo;
+  var list=document.getElementById('list');
+  if(!d.versions||!d.versions.length){list.innerHTML='<div class="empty">还没有发布任何版本。</div>';return;}
+  list.innerHTML=d.versions.map(function(v,i){return versionBlock(v,i===0);}).join('');
+}).catch(function(e){
+  document.getElementById('list').innerHTML='<div class="error">加载失败：'+esc(e.message)+'<br>请稍后刷新重试。</div>';
+});
+</script>
+</body>
+</html>
