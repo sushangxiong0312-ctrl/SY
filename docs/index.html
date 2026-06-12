@@ -62,9 +62,29 @@ details.accel summary::-webkit-details-marker{display:none}
 .error{color:#ffb4b4}
 footer{margin-top:34px;text-align:center;color:#5c6472;font-size:12px}
 @media(max-width:480px){h1{font-size:21px}.ver{padding:16px}}
+.gate{position:fixed;inset:0;background:#0f1115;display:flex;align-items:center;justify-content:center;z-index:100;padding:20px}
+.gate-box{width:100%;max-width:340px;text-align:center}
+.gate-box h2{font-size:18px;margin:0 0 6px;color:#e8eaed}
+.gate-box p{color:#8b95a5;font-size:13px;margin:0 0 18px}
+.gate-box input{width:100%;background:#171a21;border:1px solid #2c3340;border-radius:10px;color:#e8eaed;
+  padding:12px 14px;font:inherit;font-size:20px;text-align:center;letter-spacing:6px}
+.gate-box button{width:100%;margin-top:12px;background:#3b82f6;border:0;color:#fff;padding:12px;border-radius:10px;
+  font:inherit;font-weight:600;cursor:pointer}
+.gate-box button:hover{background:#2f6fe0}
+.gate-err{color:#ffb4b4;font-size:13px;margin-top:10px;min-height:18px}
+.hidden{display:none!important}
 </style>
 </head>
 <body>
+<div class="gate" id="gate">
+  <div class="gate-box">
+    <h2>🔒 请输入下载密码</h2>
+    <p>密码每天更新 · 6 位数字<br>向管理员获取今天的密码</p>
+    <input id="gatePw" type="tel" inputmode="numeric" maxlength="6" placeholder="今日密码" autofocus>
+    <button id="gateBtn">进入</button>
+    <div class="gate-err" id="gateErr"></div>
+  </div>
+</div>
 <div class="wrap">
   <header>
     <h1 id="site">软件下载</h1>
@@ -171,20 +191,50 @@ function versionBlock(v,cats,isFirst){
     body+filesHtml+'</section>';
 }
 
-fetch('./data.json?_='+Date.now()).then(function(r){
-  if(!r.ok)throw new Error('数据加载失败');return r.json();
-}).then(function(d){
-  if(d.site)document.getElementById('site').textContent=d.site;
-  document.title=d.site||'软件下载';
-  document.getElementById('subtitle').textContent=d.subtitle||'';
-  if(d.repo)document.getElementById('repo').textContent='项目：'+d.repo;
-  var cats=d.categories&&d.categories.length?d.categories:[{key:'other',label:'文件',bundle:false}];
-  var list=document.getElementById('list');
-  if(!d.versions||!d.versions.length){list.innerHTML='<div class="empty">还没有发布任何版本。</div>';return;}
-  list.innerHTML=d.versions.map(function(v,i){return versionBlock(v,cats,i===0);}).join('');
-}).catch(function(e){
-  document.getElementById('list').innerHTML='<div class="error">加载失败：'+esc(e.message)+'<br>请稍后刷新重试。</div>';
-});
+function loadData(){
+  fetch('./data.json?_='+Date.now()).then(function(r){
+    if(!r.ok)throw new Error('数据加载失败');return r.json();
+  }).then(function(d){
+    if(d.site)document.getElementById('site').textContent=d.site;
+    document.title=d.site||'软件下载';
+    document.getElementById('subtitle').textContent=d.subtitle||'';
+    if(d.repo)document.getElementById('repo').textContent='项目：'+d.repo;
+    var cats=d.categories&&d.categories.length?d.categories:[{key:'other',label:'文件',bundle:false}];
+    var list=document.getElementById('list');
+    if(!d.versions||!d.versions.length){list.innerHTML='<div class="empty">还没有发布任何版本。</div>';return;}
+    list.innerHTML=d.versions.map(function(v,i){return versionBlock(v,cats,i===0);}).join('');
+  }).catch(function(e){
+    document.getElementById('list').innerHTML='<div class="error">加载失败：'+esc(e.message)+'<br>请稍后刷新重试。</div>';
+  });
+}
+
+// ===== 每日密码门禁（密码每天变，当天验证后记住）=====
+var PASS_SEED='SY-8x2k9qZ-daily-7e1b';
+function cyrb53(str){
+  var h1=0xdeadbeef,h2=0x41c6ce57;
+  for(var i=0,ch;i<str.length;i++){ch=str.charCodeAt(i);h1=Math.imul(h1^ch,2654435761);h2=Math.imul(h2^ch,1597334677);}
+  h1=Math.imul(h1^(h1>>>16),2246822507);h1^=Math.imul(h2^(h2>>>13),3266489909);
+  h2=Math.imul(h2^(h2>>>16),2246822507);h2^=Math.imul(h1^(h1>>>13),3266489909);
+  return 4294967296*(2097151&h2)+(h1>>>0);
+}
+function bjDateStr(){
+  var now=new Date(); var u=new Date(now.getTime()+8*3600000);
+  return ''+u.getUTCFullYear()+String(u.getUTCMonth()+1).padStart(2,'0')+String(u.getUTCDate()).padStart(2,'0');
+}
+function todayCode(){ return String(cyrb53(PASS_SEED+':'+bjDateStr())%1000000).padStart(6,'0'); }
+function passGate(){ document.getElementById('gate').classList.add('hidden'); loadData(); }
+(function(){
+  var today=bjDateStr();
+  if(localStorage.getItem('sy_pass_day')===today){ passGate(); return; }
+  var inp=document.getElementById('gatePw'), btn=document.getElementById('gateBtn'), err=document.getElementById('gateErr');
+  function tryPass(){
+    var code=todayCode();
+    if((inp.value||'').trim()===code){ localStorage.setItem('sy_pass_day', today); passGate(); }
+    else { err.textContent='密码不对，请向管理员获取今天的密码'; inp.value=''; inp.focus(); }
+  }
+  btn.addEventListener('click', tryPass);
+  inp.addEventListener('keydown', function(e){ if(e.key==='Enter') tryPass(); });
+})();
 </script>
 </body>
 </html>
