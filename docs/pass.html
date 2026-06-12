@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>每日密码查询（管理员）</title>
+<style>
+body{margin:0;font:16px/1.6 -apple-system,"PingFang SC","Microsoft YaHei",sans-serif;background:#0f1115;color:#e8eaed;
+  display:flex;justify-content:center;align-items:center;min-height:100vh;padding:20px}
+.box{width:100%;max-width:360px;text-align:center}
+h1{font-size:18px;margin:0 0 18px;color:#aab2c0}
+input{width:100%;background:#171a21;border:1px solid #2c3340;border-radius:10px;color:#e8eaed;
+  padding:12px 14px;font:inherit;font-size:17px;text-align:center}
+button{width:100%;margin-top:12px;background:#3b82f6;border:0;color:#fff;padding:12px;border-radius:10px;
+  font:inherit;font-weight:600;cursor:pointer}
+button:hover{background:#2f6fe0}
+.err{color:#ffb4b4;font-size:13px;margin-top:10px;min-height:18px}
+.label{color:#8b95a5;font-size:13px}
+.code{font-size:46px;font-weight:700;letter-spacing:8px;color:#7ee2a8;margin:6px 0 4px}
+.date{color:#6b7480;font-size:13px;margin-bottom:24px}
+.future{background:#171a21;border:1px solid #262b36;border-radius:12px;padding:14px 16px;font-size:14px;text-align:left}
+.future .ft{color:#8b95a5;font-size:12px;margin-bottom:8px;text-align:center}
+.future .row{display:flex;justify-content:space-between;padding:3px 0;color:#c7ccd4}
+.future b{color:#9be7b4;letter-spacing:2px}
+.tip{color:#6b7480;font-size:12px;margin-top:18px;line-height:1.5}
+.hidden{display:none}
+</style>
+</head>
+<body>
+<div class="box">
+  <div id="lock">
+    <h1>🔐 管理员验证</h1>
+    <input id="pw" type="password" placeholder="请输入管理员口令" autofocus>
+    <button id="go">查看今日密码</button>
+    <div class="err" id="err"></div>
+  </div>
+  <div id="panel" class="hidden">
+    <h1>🔑 每日下载密码</h1>
+    <div class="label">今天的密码</div>
+    <div class="code" id="c">------</div>
+    <div class="date" id="d"></div>
+    <div class="future"><div class="ft">接下来几天</div><div id="f"></div></div>
+    <p class="tip">把「今天的密码」发给需要下载的人即可。<br>密码每天自动更换。本页只有你（输对口令）能看到。</p>
+  </div>
+</div>
+<script>
+var SEED='SY-8x2k9qZ-daily-7e1b';
+var ADMIN_HASH=8781396111351456;
+function cyrb53(str){
+  var h1=0xdeadbeef,h2=0x41c6ce57;
+  for(var i=0,ch;i<str.length;i++){ch=str.charCodeAt(i);h1=Math.imul(h1^ch,2654435761);h2=Math.imul(h2^ch,1597334677);}
+  h1=Math.imul(h1^(h1>>>16),2246822507);h1^=Math.imul(h2^(h2>>>13),3266489909);
+  h2=Math.imul(h2^(h2>>>16),2246822507);h2^=Math.imul(h1^(h1>>>13),3266489909);
+  return 4294967296*(2097151&h2)+(h1>>>0);
+}
+function bjDateStr(date){var u=new Date(date.getTime()+8*3600000);
+  return ''+u.getUTCFullYear()+String(u.getUTCMonth()+1).padStart(2,'0')+String(u.getUTCDate()).padStart(2,'0');}
+function codeFor(ds){return String(cyrb53(SEED+':'+ds)%1000000).padStart(6,'0');}
+function showPanel(){
+  document.getElementById('lock').classList.add('hidden');
+  document.getElementById('panel').classList.remove('hidden');
+  var t=bjDateStr(new Date());
+  document.getElementById('c').textContent=codeFor(t);
+  document.getElementById('d').textContent=t.slice(0,4)+'-'+t.slice(4,6)+'-'+t.slice(6,8)+'（北京时间）';
+  var fh='';
+  for(var i=1;i<=5;i++){var ds=bjDateStr(new Date(Date.now()+i*86400000));
+    fh+='<div class="row"><span>'+ds.slice(4,6)+'-'+ds.slice(6,8)+'</span><b>'+codeFor(ds)+'</b></div>';}
+  document.getElementById('f').innerHTML=fh;
+}
+(function(){
+  if(localStorage.getItem('sy_admin_ok')==='1'){ showPanel(); return; }
+  var pw=document.getElementById('pw'), go=document.getElementById('go'), err=document.getElementById('err');
+  function tryIt(){
+    if(cyrb53((pw.value||''))===ADMIN_HASH){ localStorage.setItem('sy_admin_ok','1'); showPanel(); }
+    else { err.textContent='口令不对'; pw.value=''; pw.focus(); }
+  }
+  go.addEventListener('click', tryIt);
+  pw.addEventListener('keydown', function(e){ if(e.key==='Enter') tryIt(); });
+})();
+</script>
+</body>
+</html>
