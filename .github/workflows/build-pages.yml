@@ -1,22 +1,27 @@
-name: 构建下载页数据
+name: 构建并部署下载页
 
-# 任何 Release 发生变化（发布/编辑/删除）时自动重建下载页数据，也可手动触发
+# 任何 Release 变化（发布/编辑/删除）时自动重建并部署下载页，也可手动触发
 on:
   release:
     types: [published, edited, deleted, released, prereleased, unpublished]
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
+  pages: write
+  id-token: write
 
-# 同一时间只保留最新一次运行，避免连发时互相覆盖
+# Pages 部署串行进行，避免互相覆盖；不取消进行中的部署
 concurrency:
-  group: build-pages
-  cancel-in-progress: true
+  group: pages
+  cancel-in-progress: false
 
 jobs:
-  build:
+  build-deploy:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
 
@@ -29,14 +34,13 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: node scripts/build-data.js
 
-      - name: 有变化则提交并推送
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs/data.json
-          if git diff --staged --quiet; then
-            echo "下载页数据无变化，跳过提交。"
-          else
-            git commit -m "自动更新下载页数据 [skip ci]"
-            git push
-          fi
+      - uses: actions/configure-pages@v5
+
+      - name: 打包 docs 目录为 Pages 制品
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+
+      - name: 部署到 GitHub Pages
+        id: deploy
+        uses: actions/deploy-pages@v4
