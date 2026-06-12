@@ -11,10 +11,10 @@ permissions:
   pages: write
   id-token: write
 
-# Pages 部署串行进行，避免互相覆盖；不取消进行中的部署
+# 连续触发时，让最新一次部署取代进行中的，避免互相撞车失败
 concurrency:
   group: pages
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   build-deploy:
