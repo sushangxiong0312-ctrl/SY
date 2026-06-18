@@ -2,7 +2,7 @@
   "site": "SY 软件下载",
   "subtitle": "官方下载 · 请认准本页面",
   "repo": "sushangxiong0312-ctrl/SY",
-  "generatedAt": "2026-06-12T08:23:56.875Z",
+  "generatedAt": "2026-06-18T03:08:13.396Z",
   "categories": [
     {
       "key": "full",
@@ -31,6 +31,74 @@
     }
   ],
   "versions": [
+    {
+      "version": "v2.1.0",
+      "title": "v2.1.0",
+      "date": "2026-06-13T05:53:08Z",
+      "prerelease": false,
+      "body": "- 高级功能新增「设备硬件配置」：可视化添加/删除/编辑 运动卡·IO模型(气缸/传感器/三色灯等)·通讯·相机，配置存设备并重启生效\n- 硬件配置改由设备存档(device.json)重建，便于跨机型迁移与现场调整\n- Modbus 增强：双字/浮点(Float32/Double64)/字符串 的读/写/缓写，支持字节序 ABCD/CDAB/BADC/DCBA 与缩放定点\n- 脚本编辑器新增「拆分视图」：参数页与 Run 页上下/左右分屏，可折叠拖动，编 Run 时常驻看参数\n- 脚本编辑器全角符号防呆：误打的中文标点(逗号/分号/括号等)红色高亮\n- 脚本编辑器工具箱拖入片段自动补齐 using 引用\n- 修复方法参数提示：输入左括号后正常弹出参数签名\n- 工序编辑器：编辑条左侧醒目显示当前工序名\n- 新建工序默认归类「未配置」\n- 更新新建工序模板\n- 设备模型(机器调整)：控制卡未连接弹提示不再闪退\n- 气缸「伸出/退回」按钮对调\n- 修复主窗口最大化按钮状态错乱\n- XYZR 多轴：移动速度改为「速率(0~100%)」按各轴最大速度钳制不过速\n- 新增到位判断(非阻塞)",
+      "files": [
+        {
+          "name": "AutoSoftware_v2.1.0.zip",
+          "size": 202947129,
+          "downloadCount": 0,
+          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.1.0/AutoSoftware_v2.1.0.zip",
+          "category": "full",
+          "mirrors": [
+            {
+              "name": "加速线路 1",
+              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.1.0/AutoSoftware_v2.1.0.zip"
+            },
+            {
+              "name": "加速线路 2",
+              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.1.0/AutoSoftware_v2.1.0.zip"
+            },
+            {
+              "name": "加速线路 3",
+              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.1.0/AutoSoftware_v2.1.0.zip"
+            },
+            {
+              "name": "加速线路 4",
+              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.1.0/AutoSoftware_v2.1.0.zip"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "version": "v1.0.1",
+      "title": "v1.0.1",
+      "date": "2026-06-12T11:04:57Z",
+      "prerelease": false,
+      "body": "- 自动更新新增「互联网通道」：局域网更新源不可达时，自动从 GitHub 下载并更新；软件版本号统一为语义版本（vX.Y.Z）\n- 维护页改版：高级功能统一为弹出式入口（工作流编辑 / 设备状态 / 全局参数脚本 / 工序编辑 / 产品标注训练）\n- 左侧菜单栏底部新增：切换语言 / 静音（屏蔽蜂鸣器）/ 关于\n- 新增「关于」窗口：上层显示软件版本与授权信息，下层集成软件更新检测\n- 完善自动更新中心：版本检测与一键升级\n- 工序/脚本编辑器对齐 VS：折叠改雪佛龙样式、底部状态栏（行列/缩进/换行/编码）、Ctrl+滚轮缩放\n- 编辑器快捷键：Ctrl+D 复制当前行、Ctrl+L 删除当前行、Ctrl+K,D 重新排版并简化命名空间限定\n- 工序编辑器工具箱新增「工序」分类：一键插入启动 / 停止 / 获取状态 / 调用并等待",
+      "files": [
+        {
+          "name": "AutoSoftware_v1.0.1.zip",
+          "size": 202921310,
+          "downloadCount": 1,
+          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v1.0.1/AutoSoftware_v1.0.1.zip",
+          "category": "program",
+          "mirrors": [
+            {
+              "name": "加速线路 1",
+              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v1.0.1/AutoSoftware_v1.0.1.zip"
+            },
+            {
+              "name": "加速线路 2",
+              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v1.0.1/AutoSoftware_v1.0.1.zip"
+            },
+            {
+              "name": "加速线路 3",
+              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v1.0.1/AutoSoftware_v1.0.1.zip"
+            },
+            {
+              "name": "加速线路 4",
+              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v1.0.1/AutoSoftware_v1.0.1.zip"
+            }
+          ]
+        }
+      ]
+    },
     {
       "version": "v1.0.0",
       "title": "v1.0.0",
