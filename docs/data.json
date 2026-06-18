@@ -2,7 +2,7 @@
   "site": "SY 软件下载",
   "subtitle": "官方下载 · 请认准本页面",
   "repo": "sushangxiong0312-ctrl/SY",
-  "generatedAt": "2026-06-18T03:08:13.396Z",
+  "generatedAt": "2026-06-18T03:13:25.583Z",
   "categories": [
     {
       "key": "full",
@@ -31,6 +31,14 @@
     }
   ],
   "versions": [
+    {
+      "version": "v2.5.11",
+      "title": "v2.5.11",
+      "date": "2026-06-18T03:13:12Z",
+      "prerelease": false,
+      "body": "- 模拟量输入(AI): 设备硬件配置「添加 IO 模型」列表新增「模拟量输入(AnalogInput)」, 可直接添加 AI 模型并选运动卡/AI 通道\n- 模拟量输入(AI): 硬件配置「类型参数」编辑器支持小数(double), Scale/Offset 现可直接在配置页填写(原先只能改 device.json)",
+      "files": []
+    },
     {
       "version": "v2.1.0",
       "title": "v2.1.0",
