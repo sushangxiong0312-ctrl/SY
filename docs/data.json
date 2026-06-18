@@ -2,7 +2,7 @@
   "site": "SY 软件下载",
   "subtitle": "官方下载 · 请认准本页面",
   "repo": "sushangxiong0312-ctrl/SY",
-  "generatedAt": "2026-06-18T03:13:25.583Z",
+  "generatedAt": "2026-06-18T03:14:13.833Z",
   "categories": [
     {
       "key": "full",
@@ -37,7 +37,33 @@
       "date": "2026-06-18T03:13:12Z",
       "prerelease": false,
       "body": "- 模拟量输入(AI): 设备硬件配置「添加 IO 模型」列表新增「模拟量输入(AnalogInput)」, 可直接添加 AI 模型并选运动卡/AI 通道\n- 模拟量输入(AI): 硬件配置「类型参数」编辑器支持小数(double), Scale/Offset 现可直接在配置页填写(原先只能改 device.json)",
-      "files": []
+      "files": [
+        {
+          "name": "AutoSoftware_v2.5.11.zip",
+          "size": 231221108,
+          "downloadCount": 0,
+          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.5.11/AutoSoftware_v2.5.11.zip",
+          "category": "full",
+          "mirrors": [
+            {
+              "name": "加速线路 1",
+              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.5.11/AutoSoftware_v2.5.11.zip"
+            },
+            {
+              "name": "加速线路 2",
+              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.5.11/AutoSoftware_v2.5.11.zip"
+            },
+            {
+              "name": "加速线路 3",
+              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.5.11/AutoSoftware_v2.5.11.zip"
+            },
+            {
+              "name": "加速线路 4",
+              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.5.11/AutoSoftware_v2.5.11.zip"
+            }
+          ]
+        }
+      ]
     },
     {
       "version": "v2.1.0",
