@@ -2,7 +2,7 @@
   "site": "SY 软件下载",
   "subtitle": "官方下载 · 请认准本页面",
   "repo": "sushangxiong0312-ctrl/SY",
-  "generatedAt": "2026-06-23T05:40:44.835Z",
+  "generatedAt": "2026-06-23T05:43:29.732Z",
   "categories": [
     {
       "key": "full",
@@ -477,6 +477,31 @@
                 {
                   "name": "加速线路 4",
                   "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/drivers/ndp48-x86-x64-allos-chs.exe"
+                }
+              ]
+            },
+            {
+              "name": "NDP48-x86-x64-AllOS-ENU.exe",
+              "size": 121346568,
+              "downloadCount": 0,
+              "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/drivers/NDP48-x86-x64-AllOS-ENU.exe",
+              "category": "other",
+              "mirrors": [
+                {
+                  "name": "加速线路 1",
+                  "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/drivers/NDP48-x86-x64-AllOS-ENU.exe"
+                },
+                {
+                  "name": "加速线路 2",
+                  "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/drivers/NDP48-x86-x64-AllOS-ENU.exe"
+                },
+                {
+                  "name": "加速线路 3",
+                  "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/drivers/NDP48-x86-x64-AllOS-ENU.exe"
+                },
+                {
+                  "name": "加速线路 4",
+                  "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/drivers/NDP48-x86-x64-AllOS-ENU.exe"
                 }
               ]
             }
@@ -5538,6 +5563,31 @@
             {
               "name": "加速线路 4",
               "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/drivers/ndp48-x86-x64-allos-chs.exe"
+            }
+          ]
+        },
+        {
+          "name": "NDP48-x86-x64-AllOS-ENU.exe",
+          "size": 121346568,
+          "downloadCount": 0,
+          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/drivers/NDP48-x86-x64-AllOS-ENU.exe",
+          "category": "other",
+          "mirrors": [
+            {
+              "name": "加速线路 1",
+              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/drivers/NDP48-x86-x64-AllOS-ENU.exe"
+            },
+            {
+              "name": "加速线路 2",
+              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/drivers/NDP48-x86-x64-AllOS-ENU.exe"
+            },
+            {
+              "name": "加速线路 3",
+              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/drivers/NDP48-x86-x64-AllOS-ENU.exe"
+            },
+            {
+              "name": "加速线路 4",
+              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/drivers/NDP48-x86-x64-AllOS-ENU.exe"
             }
           ]
         }
