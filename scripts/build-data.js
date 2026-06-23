@@ -106,10 +106,9 @@ async function main() {
       };
     });
 
-  // 按轨道分组；只输出有版本的轨道（没驱动版本时就不会冒出空的「驱动」Tab）
+  // 按轨道分组；输出全部已定义轨道（含暂无版本的），让「主程序/驱动」两个 Tab 一直在
   const trackData = tracks
-    .map((t) => ({ key: t.key, label: t.label, versions: versions.filter((v) => v.trackKey === t.key) }))
-    .filter((t) => t.versions.length);
+    .map((t) => ({ key: t.key, label: t.label, versions: versions.filter((v) => v.trackKey === t.key) }));
 
   const data = {
     site: cfg.site,

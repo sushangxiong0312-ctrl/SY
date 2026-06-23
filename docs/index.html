@@ -215,7 +215,7 @@ function loadData(){
     if(!tracks.length){list.innerHTML='<div class="empty">还没有发布任何版本。</div>';return;}
     var SHOW_LIMIT=3; // 每条线默认只显示最新 3 个版本，其余点「显示全部」展开
     function renderTrack(tr){
-      if(!tr.versions||!tr.versions.length)return'<div class="empty">该分类暂无版本。</div>';
+      if(!tr.versions||!tr.versions.length)return'<div class="empty">该分类暂无文件，敬请期待。</div>';
       var blocks=tr.versions.map(function(v,i){return versionBlock(v,cats,i===0);});
       if(blocks.length<=SHOW_LIMIT)return blocks.join('');
       var rest=blocks.length-SHOW_LIMIT;
