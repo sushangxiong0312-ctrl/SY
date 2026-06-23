@@ -49,6 +49,22 @@ async function main() {
   const validKeys = new Set(categories.map((c) => c.key));
   const fallback = validKeys.has('other') ? 'other' : (categories[categories.length - 1] || {}).key;
 
+  // 轨道（产品线）：按 release tag 前缀把版本分到不同独立版本线（如 主程序 / 驱动）
+  const tracks = (cfg.tracks && cfg.tracks.length) ? cfg.tracks : [{ key: 'app', label: '全部', tagPrefix: '' }];
+  const prefixedTracks = tracks.filter((t) => t.tagPrefix); // 非空前缀优先匹配
+  const fallbackTrack = tracks.find((t) => !t.tagPrefix) || tracks[tracks.length - 1];
+  // 选最长匹配的前缀，避免短前缀误抢
+  function pickTrack(tag) {
+    let best = null;
+    for (const t of prefixedTracks) {
+      if (tag.startsWith(t.tagPrefix) && (!best || t.tagPrefix.length > best.tagPrefix.length)) best = t;
+    }
+    return best || fallbackTrack;
+  }
+  function stripPrefix(tag, t) {
+    return (t.tagPrefix && tag.startsWith(t.tagPrefix)) ? tag.slice(t.tagPrefix.length) : tag;
+  }
+
   const res = await fetch(`https://api.github.com/repos/${repo}/releases?per_page=100`, {
     headers: {
       'Authorization': `Bearer ${token}`,
@@ -64,9 +80,13 @@ async function main() {
     .filter((r) => !r.draft)
     .map((r) => {
       const parsed = parseCategories(r.body || '', categories);
+      const track = pickTrack(r.tag_name);
+      const disp = stripPrefix(r.tag_name, track); // 去掉轨道前缀后的展示版本号
       return {
-        version: r.tag_name,
-        title: r.name || r.tag_name,
+        version: disp,
+        tag: r.tag_name,
+        trackKey: track.key,
+        title: (r.name && r.name !== r.tag_name) ? r.name : disp,
         date: r.published_at || r.created_at,
         prerelease: !!r.prerelease,
         // 去掉正文末尾的「文件校验 (SHA256)」块，下载页不显示
@@ -86,13 +106,19 @@ async function main() {
       };
     });
 
+  // 按轨道分组；只输出有版本的轨道（没驱动版本时就不会冒出空的「驱动」Tab）
+  const trackData = tracks
+    .map((t) => ({ key: t.key, label: t.label, versions: versions.filter((v) => v.trackKey === t.key) }))
+    .filter((t) => t.versions.length);
+
   const data = {
     site: cfg.site,
     subtitle: cfg.subtitle,
     repo,
     generatedAt: new Date().toISOString(),
     categories: categories.map((c) => ({ key: c.key, label: c.label, bundle: !!c.bundle })),
-    versions,
+    tracks: trackData,
+    versions, // 兼容旧前端：扁平的全部版本
   };
 
   fs.mkdirSync('docs', { recursive: true });

@@ -1,6 +1,10 @@
 {
   "site": "SY 软件下载",
   "subtitle": "官方下载 · 请认准本页面",
+  "tracks": [
+    { "key": "app", "label": "主程序", "tagPrefix": "" },
+    { "key": "driver", "label": "🖥️ 驱动", "tagPrefix": "driver-" }
+  ],
   "mirrors": [
     { "name": "加速线路 1", "prefix": "https://ghfast.top/" },
     { "name": "加速线路 2", "prefix": "https://ghproxy.net/" },
