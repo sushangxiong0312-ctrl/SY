@@ -215,6 +215,17 @@ function loadData(){
     if(!tracks.length){list.innerHTML='<div class="empty">还没有发布任何版本。</div>';return;}
     var SHOW_LIMIT=3; // 每条线默认只显示最新 3 个版本，其余点「显示全部」展开
     function renderTrack(tr){
+      // flat 轨道（驱动）：不分版本，直接平铺文件列表
+      if(tr.mode==='flat'){
+        var ff=tr.files||[];
+        if(!ff.length)return'<div class="empty">该分类暂无文件，敬请期待。</div>';
+        var allBtn='';
+        if(ff.length>1){
+          var urls=ff.map(function(f){return f.url;}).join('|');
+          allBtn='<div class="btns" style="margin-bottom:14px"><span class="cat-all" style="margin-left:0" data-urls="'+attr(urls)+'" onclick="event.preventDefault();dlGroup(this)">⬇ 下载全部 ('+ff.length+')</span></div>';
+        }
+        return '<section class="ver">'+allBtn+ff.map(fileBlock).join('')+'</section>';
+      }
       if(!tr.versions||!tr.versions.length)return'<div class="empty">该分类暂无文件，敬请期待。</div>';
       var blocks=tr.versions.map(function(v,i){return versionBlock(v,cats,i===0);});
       if(blocks.length<=SHOW_LIMIT)return blocks.join('');

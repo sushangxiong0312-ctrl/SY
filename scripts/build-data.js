@@ -106,9 +106,27 @@ async function main() {
       };
     });
 
-  // 按轨道分组；输出全部已定义轨道（含暂无版本的），让「主程序/驱动」两个 Tab 一直在
-  const trackData = tracks
-    .map((t) => ({ key: t.key, label: t.label, versions: versions.filter((v) => v.trackKey === t.key) }));
+  // flat 轨道（如驱动）：不分版本，把所属文件平铺成一个去重列表
+  const flatCatSet = new Set(tracks.filter((t) => t.mode === 'flat').flatMap((t) => t.categories || []));
+  function flatFilesFor(t) {
+    const owned = new Set(t.categories || []);
+    const seen = new Set(), out = [];
+    // 优先本轨道自己的 release（如 drivers 发布）里的文件
+    for (const v of versions) if (v.trackKey === t.key) for (const f of v.files) if (!seen.has(f.name)) { seen.add(f.name); out.push(f); }
+    // 兜底：其它 release 里仍被标成本轨道分类的文件（防止漏搬的驱动文件消失），按版本新→旧
+    for (const v of versions) if (v.trackKey !== t.key) for (const f of v.files) if (owned.has(f.category) && !seen.has(f.name)) { seen.add(f.name); out.push(f); }
+    return out;
+  }
+
+  // 按轨道分组；输出全部已定义轨道（含暂无内容的），让「主程序/驱动」两个 Tab 一直在
+  const trackData = tracks.map((t) => {
+    if (t.mode === 'flat') return { key: t.key, label: t.label, mode: 'flat', files: flatFilesFor(t) };
+    // versions 模式（主程序）：版本块里排除归属 flat 轨道的分类（驱动文件不在程序版本里显示）
+    const vs = versions
+      .filter((v) => v.trackKey === t.key)
+      .map((v) => ({ ...v, files: v.files.filter((f) => !flatCatSet.has(f.category)) }));
+    return { key: t.key, label: t.label, mode: 'versions', versions: vs };
+  });
 
   const data = {
     site: cfg.site,
