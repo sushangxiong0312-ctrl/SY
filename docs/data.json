@@ -2,7 +2,7 @@
   "site": "SY 软件下载",
   "subtitle": "官方下载 · 请认准本页面",
   "repo": "sushangxiong0312-ctrl/SY",
-  "generatedAt": "2026-06-23T04:58:30.535Z",
+  "generatedAt": "2026-06-23T04:59:10.908Z",
   "categories": [
     {
       "key": "full",
@@ -66,6 +66,56 @@
                 {
                   "name": "加速线路 4",
                   "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.9/AutoSoftware_v2.9.9.zip"
+                }
+              ]
+            },
+            {
+              "name": "dotnet-sdk-10.0.105-win-x64.exe",
+              "size": 216262504,
+              "downloadCount": 0,
+              "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.9/dotnet-sdk-10.0.105-win-x64.exe",
+              "category": "other",
+              "mirrors": [
+                {
+                  "name": "加速线路 1",
+                  "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.9/dotnet-sdk-10.0.105-win-x64.exe"
+                },
+                {
+                  "name": "加速线路 2",
+                  "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.9/dotnet-sdk-10.0.105-win-x64.exe"
+                },
+                {
+                  "name": "加速线路 3",
+                  "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.9/dotnet-sdk-10.0.105-win-x64.exe"
+                },
+                {
+                  "name": "加速线路 4",
+                  "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.9/dotnet-sdk-10.0.105-win-x64.exe"
+                }
+              ]
+            },
+            {
+              "name": "ndp48-x86-x64-allos-chs.exe",
+              "size": 5749144,
+              "downloadCount": 0,
+              "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.9/ndp48-x86-x64-allos-chs.exe",
+              "category": "other",
+              "mirrors": [
+                {
+                  "name": "加速线路 1",
+                  "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.9/ndp48-x86-x64-allos-chs.exe"
+                },
+                {
+                  "name": "加速线路 2",
+                  "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.9/ndp48-x86-x64-allos-chs.exe"
+                },
+                {
+                  "name": "加速线路 3",
+                  "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.9/ndp48-x86-x64-allos-chs.exe"
+                },
+                {
+                  "name": "加速线路 4",
+                  "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.9/ndp48-x86-x64-allos-chs.exe"
                 }
               ]
             }
@@ -4711,6 +4761,56 @@
             {
               "name": "加速线路 4",
               "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.9/AutoSoftware_v2.9.9.zip"
+            }
+          ]
+        },
+        {
+          "name": "dotnet-sdk-10.0.105-win-x64.exe",
+          "size": 216262504,
+          "downloadCount": 0,
+          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.9/dotnet-sdk-10.0.105-win-x64.exe",
+          "category": "other",
+          "mirrors": [
+            {
+              "name": "加速线路 1",
+              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.9/dotnet-sdk-10.0.105-win-x64.exe"
+            },
+            {
+              "name": "加速线路 2",
+              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.9/dotnet-sdk-10.0.105-win-x64.exe"
+            },
+            {
+              "name": "加速线路 3",
+              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.9/dotnet-sdk-10.0.105-win-x64.exe"
+            },
+            {
+              "name": "加速线路 4",
+              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.9/dotnet-sdk-10.0.105-win-x64.exe"
+            }
+          ]
+        },
+        {
+          "name": "ndp48-x86-x64-allos-chs.exe",
+          "size": 5749144,
+          "downloadCount": 0,
+          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.9/ndp48-x86-x64-allos-chs.exe",
+          "category": "other",
+          "mirrors": [
+            {
+              "name": "加速线路 1",
+              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.9/ndp48-x86-x64-allos-chs.exe"
+            },
+            {
+              "name": "加速线路 2",
+              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.9/ndp48-x86-x64-allos-chs.exe"
+            },
+            {
+              "name": "加速线路 3",
+              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.9/ndp48-x86-x64-allos-chs.exe"
+            },
+            {
+              "name": "加速线路 4",
+              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.9/ndp48-x86-x64-allos-chs.exe"
             }
           ]
         }
