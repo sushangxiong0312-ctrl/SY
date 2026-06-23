@@ -2,7 +2,7 @@
   "site": "SY 软件下载",
   "subtitle": "官方下载 · 请认准本页面",
   "repo": "sushangxiong0312-ctrl/SY",
-  "generatedAt": "2026-06-23T05:36:27.864Z",
+  "generatedAt": "2026-06-23T05:40:33.699Z",
   "categories": [
     {
       "key": "full",
@@ -402,6 +402,81 @@
                 {
                   "name": "加速线路 4",
                   "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/drivers/bat"
+                }
+              ]
+            },
+            {
+              "name": "dotnet-sdk-10.0.105-win-x64.exe",
+              "size": 216262504,
+              "downloadCount": 0,
+              "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/drivers/dotnet-sdk-10.0.105-win-x64.exe",
+              "category": "other",
+              "mirrors": [
+                {
+                  "name": "加速线路 1",
+                  "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/drivers/dotnet-sdk-10.0.105-win-x64.exe"
+                },
+                {
+                  "name": "加速线路 2",
+                  "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/drivers/dotnet-sdk-10.0.105-win-x64.exe"
+                },
+                {
+                  "name": "加速线路 3",
+                  "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/drivers/dotnet-sdk-10.0.105-win-x64.exe"
+                },
+                {
+                  "name": "加速线路 4",
+                  "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/drivers/dotnet-sdk-10.0.105-win-x64.exe"
+                }
+              ]
+            },
+            {
+              "name": "GPU-torch.bat",
+              "size": 2536,
+              "downloadCount": 0,
+              "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/drivers/GPU-torch.bat",
+              "category": "other",
+              "mirrors": [
+                {
+                  "name": "加速线路 1",
+                  "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/drivers/GPU-torch.bat"
+                },
+                {
+                  "name": "加速线路 2",
+                  "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/drivers/GPU-torch.bat"
+                },
+                {
+                  "name": "加速线路 3",
+                  "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/drivers/GPU-torch.bat"
+                },
+                {
+                  "name": "加速线路 4",
+                  "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/drivers/GPU-torch.bat"
+                }
+              ]
+            },
+            {
+              "name": "ndp48-x86-x64-allos-chs.exe",
+              "size": 5749144,
+              "downloadCount": 0,
+              "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/drivers/ndp48-x86-x64-allos-chs.exe",
+              "category": "other",
+              "mirrors": [
+                {
+                  "name": "加速线路 1",
+                  "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/drivers/ndp48-x86-x64-allos-chs.exe"
+                },
+                {
+                  "name": "加速线路 2",
+                  "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/drivers/ndp48-x86-x64-allos-chs.exe"
+                },
+                {
+                  "name": "加速线路 3",
+                  "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/drivers/ndp48-x86-x64-allos-chs.exe"
+                },
+                {
+                  "name": "加速线路 4",
+                  "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/drivers/ndp48-x86-x64-allos-chs.exe"
                 }
               ]
             }
@@ -5388,6 +5463,81 @@
             {
               "name": "加速线路 4",
               "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/drivers/bat"
+            }
+          ]
+        },
+        {
+          "name": "dotnet-sdk-10.0.105-win-x64.exe",
+          "size": 216262504,
+          "downloadCount": 0,
+          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/drivers/dotnet-sdk-10.0.105-win-x64.exe",
+          "category": "other",
+          "mirrors": [
+            {
+              "name": "加速线路 1",
+              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/drivers/dotnet-sdk-10.0.105-win-x64.exe"
+            },
+            {
+              "name": "加速线路 2",
+              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/drivers/dotnet-sdk-10.0.105-win-x64.exe"
+            },
+            {
+              "name": "加速线路 3",
+              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/drivers/dotnet-sdk-10.0.105-win-x64.exe"
+            },
+            {
+              "name": "加速线路 4",
+              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/drivers/dotnet-sdk-10.0.105-win-x64.exe"
+            }
+          ]
+        },
+        {
+          "name": "GPU-torch.bat",
+          "size": 2536,
+          "downloadCount": 0,
+          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/drivers/GPU-torch.bat",
+          "category": "other",
+          "mirrors": [
+            {
+              "name": "加速线路 1",
+              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/drivers/GPU-torch.bat"
+            },
+            {
+              "name": "加速线路 2",
+              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/drivers/GPU-torch.bat"
+            },
+            {
+              "name": "加速线路 3",
+              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/drivers/GPU-torch.bat"
+            },
+            {
+              "name": "加速线路 4",
+              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/drivers/GPU-torch.bat"
+            }
+          ]
+        },
+        {
+          "name": "ndp48-x86-x64-allos-chs.exe",
+          "size": 5749144,
+          "downloadCount": 0,
+          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/drivers/ndp48-x86-x64-allos-chs.exe",
+          "category": "other",
+          "mirrors": [
+            {
+              "name": "加速线路 1",
+              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/drivers/ndp48-x86-x64-allos-chs.exe"
+            },
+            {
+              "name": "加速线路 2",
+              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/drivers/ndp48-x86-x64-allos-chs.exe"
+            },
+            {
+              "name": "加速线路 3",
+              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/drivers/ndp48-x86-x64-allos-chs.exe"
+            },
+            {
+              "name": "加速线路 4",
+              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/drivers/ndp48-x86-x64-allos-chs.exe"
             }
           ]
         }
