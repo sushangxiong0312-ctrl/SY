@@ -2,7 +2,7 @@
   "site": "SY 软件下载",
   "subtitle": "官方下载 · 请认准本页面",
   "repo": "sushangxiong0312-ctrl/SY",
-  "generatedAt": "2026-06-23T03:16:33.093Z",
+  "generatedAt": "2026-06-23T03:17:39.751Z",
   "categories": [
     {
       "key": "full",
@@ -60,156 +60,6 @@
             {
               "name": "加速线路 4",
               "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/AutoSoftware_v2.9.8.zip"
-            }
-          ]
-        },
-        {
-          "name": "python-3.10.11-amd64.exe",
-          "size": 29037240,
-          "downloadCount": 0,
-          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/python-3.10.11-amd64.exe",
-          "category": "driver",
-          "mirrors": [
-            {
-              "name": "加速线路 1",
-              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/python-3.10.11-amd64.exe"
-            },
-            {
-              "name": "加速线路 2",
-              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/python-3.10.11-amd64.exe"
-            },
-            {
-              "name": "加速线路 3",
-              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/python-3.10.11-amd64.exe"
-            },
-            {
-              "name": "加速线路 4",
-              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/python-3.10.11-amd64.exe"
-            }
-          ]
-        },
-        {
-          "name": "vc_redist.x64.exe",
-          "size": 25635768,
-          "downloadCount": 0,
-          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/vc_redist.x64.exe",
-          "category": "driver",
-          "mirrors": [
-            {
-              "name": "加速线路 1",
-              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/vc_redist.x64.exe"
-            },
-            {
-              "name": "加速线路 2",
-              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/vc_redist.x64.exe"
-            },
-            {
-              "name": "加速线路 3",
-              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/vc_redist.x64.exe"
-            },
-            {
-              "name": "加速线路 4",
-              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/vc_redist.x64.exe"
-            }
-          ]
-        },
-        {
-          "name": "VS_RemoteTools.exe",
-          "size": 66874672,
-          "downloadCount": 0,
-          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/VS_RemoteTools.exe",
-          "category": "driver",
-          "mirrors": [
-            {
-              "name": "加速线路 1",
-              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/VS_RemoteTools.exe"
-            },
-            {
-              "name": "加速线路 2",
-              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/VS_RemoteTools.exe"
-            },
-            {
-              "name": "加速线路 3",
-              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/VS_RemoteTools.exe"
-            },
-            {
-              "name": "加速线路 4",
-              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/VS_RemoteTools.exe"
-            }
-          ]
-        },
-        {
-          "name": "windowsdesktop-runtime-10.0.5-win-x64.exe",
-          "size": 60082160,
-          "downloadCount": 0,
-          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/windowsdesktop-runtime-10.0.5-win-x64.exe",
-          "category": "driver",
-          "mirrors": [
-            {
-              "name": "加速线路 1",
-              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/windowsdesktop-runtime-10.0.5-win-x64.exe"
-            },
-            {
-              "name": "加速线路 2",
-              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/windowsdesktop-runtime-10.0.5-win-x64.exe"
-            },
-            {
-              "name": "加速线路 3",
-              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/windowsdesktop-runtime-10.0.5-win-x64.exe"
-            },
-            {
-              "name": "加速线路 4",
-              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/windowsdesktop-runtime-10.0.5-win-x64.exe"
-            }
-          ]
-        },
-        {
-          "name": "yolov8n-obb.pt",
-          "size": 6567590,
-          "downloadCount": 0,
-          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/yolov8n-obb.pt",
-          "category": "driver",
-          "mirrors": [
-            {
-              "name": "加速线路 1",
-              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/yolov8n-obb.pt"
-            },
-            {
-              "name": "加速线路 2",
-              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/yolov8n-obb.pt"
-            },
-            {
-              "name": "加速线路 3",
-              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/yolov8n-obb.pt"
-            },
-            {
-              "name": "加速线路 4",
-              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/yolov8n-obb.pt"
-            }
-          ]
-        },
-        {
-          "name": "yolo_offline_wheels.rar",
-          "size": 311387554,
-          "downloadCount": 0,
-          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/yolo_offline_wheels.rar",
-          "category": "driver",
-          "mirrors": [
-            {
-              "name": "加速线路 1",
-              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/yolo_offline_wheels.rar"
-            },
-            {
-              "name": "加速线路 2",
-              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/yolo_offline_wheels.rar"
-            },
-            {
-              "name": "加速线路 3",
-              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/yolo_offline_wheels.rar"
-            },
-            {
-              "name": "加速线路 4",
-              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/yolo_offline_wheels.rar"
             }
           ]
         },
@@ -335,6 +185,156 @@
             {
               "name": "加速线路 4",
               "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/ndp48-x86-x64-allos-chs.exe"
+            }
+          ]
+        },
+        {
+          "name": "NDP48-x86-x64-AllOS-ENU.exe",
+          "size": 121346568,
+          "downloadCount": 0,
+          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/NDP48-x86-x64-AllOS-ENU.exe",
+          "category": "driver",
+          "mirrors": [
+            {
+              "name": "加速线路 1",
+              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/NDP48-x86-x64-AllOS-ENU.exe"
+            },
+            {
+              "name": "加速线路 2",
+              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/NDP48-x86-x64-AllOS-ENU.exe"
+            },
+            {
+              "name": "加速线路 3",
+              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/NDP48-x86-x64-AllOS-ENU.exe"
+            },
+            {
+              "name": "加速线路 4",
+              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/NDP48-x86-x64-AllOS-ENU.exe"
+            }
+          ]
+        },
+        {
+          "name": "python-3.10.11-amd64.exe",
+          "size": 29037240,
+          "downloadCount": 0,
+          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/python-3.10.11-amd64.exe",
+          "category": "driver",
+          "mirrors": [
+            {
+              "name": "加速线路 1",
+              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/python-3.10.11-amd64.exe"
+            },
+            {
+              "name": "加速线路 2",
+              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/python-3.10.11-amd64.exe"
+            },
+            {
+              "name": "加速线路 3",
+              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/python-3.10.11-amd64.exe"
+            },
+            {
+              "name": "加速线路 4",
+              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/python-3.10.11-amd64.exe"
+            }
+          ]
+        },
+        {
+          "name": "vc_redist.x64.exe",
+          "size": 25635768,
+          "downloadCount": 0,
+          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/vc_redist.x64.exe",
+          "category": "driver",
+          "mirrors": [
+            {
+              "name": "加速线路 1",
+              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/vc_redist.x64.exe"
+            },
+            {
+              "name": "加速线路 2",
+              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/vc_redist.x64.exe"
+            },
+            {
+              "name": "加速线路 3",
+              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/vc_redist.x64.exe"
+            },
+            {
+              "name": "加速线路 4",
+              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/vc_redist.x64.exe"
+            }
+          ]
+        },
+        {
+          "name": "VS_RemoteTools.exe",
+          "size": 66874672,
+          "downloadCount": 0,
+          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/VS_RemoteTools.exe",
+          "category": "driver",
+          "mirrors": [
+            {
+              "name": "加速线路 1",
+              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/VS_RemoteTools.exe"
+            },
+            {
+              "name": "加速线路 2",
+              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/VS_RemoteTools.exe"
+            },
+            {
+              "name": "加速线路 3",
+              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/VS_RemoteTools.exe"
+            },
+            {
+              "name": "加速线路 4",
+              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/VS_RemoteTools.exe"
+            }
+          ]
+        },
+        {
+          "name": "windowsdesktop-runtime-10.0.5-win-x64.exe",
+          "size": 60082160,
+          "downloadCount": 0,
+          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/windowsdesktop-runtime-10.0.5-win-x64.exe",
+          "category": "driver",
+          "mirrors": [
+            {
+              "name": "加速线路 1",
+              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/windowsdesktop-runtime-10.0.5-win-x64.exe"
+            },
+            {
+              "name": "加速线路 2",
+              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/windowsdesktop-runtime-10.0.5-win-x64.exe"
+            },
+            {
+              "name": "加速线路 3",
+              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/windowsdesktop-runtime-10.0.5-win-x64.exe"
+            },
+            {
+              "name": "加速线路 4",
+              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/windowsdesktop-runtime-10.0.5-win-x64.exe"
+            }
+          ]
+        },
+        {
+          "name": "yolov8n-obb.pt",
+          "size": 6567590,
+          "downloadCount": 0,
+          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/yolov8n-obb.pt",
+          "category": "driver",
+          "mirrors": [
+            {
+              "name": "加速线路 1",
+              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/yolov8n-obb.pt"
+            },
+            {
+              "name": "加速线路 2",
+              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/yolov8n-obb.pt"
+            },
+            {
+              "name": "加速线路 3",
+              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/yolov8n-obb.pt"
+            },
+            {
+              "name": "加速线路 4",
+              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/yolov8n-obb.pt"
             }
           ]
         }
