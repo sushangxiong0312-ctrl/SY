@@ -2,7 +2,7 @@
   "site": "SY 软件下载",
   "subtitle": "官方下载 · 请认准本页面",
   "repo": "sushangxiong0312-ctrl/SY",
-  "generatedAt": "2026-06-23T03:04:52.892Z",
+  "generatedAt": "2026-06-23T03:05:45.603Z",
   "categories": [
     {
       "key": "full",
@@ -37,7 +37,33 @@
       "date": "2026-06-23T03:04:39Z",
       "prerelease": false,
       "body": "- 修复 工序\"组\"重开后丢失: 真根因是开机二次编译重新注册工序时, 把刚加载的分组信息一并擦掉了(与保存逻辑、料号都无关), 现已修复 —— 设好的工序分组重启后稳定保留, 编辑器里改工序代码保存也不再丢组。\n- 工序编辑器 Ctrl+F 查找新增\"全局\"开关: 勾选后跨所有工序搜索源码(结果在底部, 双击跳到对应工序的行), 默认不勾只搜当前工序。原顶部\"全工序查找\"栏已并入此处。",
-      "files": []
+      "files": [
+        {
+          "name": "AutoSoftware_v2.9.8.zip",
+          "size": 231573528,
+          "downloadCount": 0,
+          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/AutoSoftware_v2.9.8.zip",
+          "category": "full",
+          "mirrors": [
+            {
+              "name": "加速线路 1",
+              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/AutoSoftware_v2.9.8.zip"
+            },
+            {
+              "name": "加速线路 2",
+              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/AutoSoftware_v2.9.8.zip"
+            },
+            {
+              "name": "加速线路 3",
+              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/AutoSoftware_v2.9.8.zip"
+            },
+            {
+              "name": "加速线路 4",
+              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/AutoSoftware_v2.9.8.zip"
+            }
+          ]
+        }
+      ]
     },
     {
       "version": "v2.5.11",
