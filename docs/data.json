@@ -2,7 +2,7 @@
   "site": "SY 软件下载",
   "subtitle": "官方下载 · 请认准本页面",
   "repo": "sushangxiong0312-ctrl/SY",
-  "generatedAt": "2026-06-23T04:57:50.181Z",
+  "generatedAt": "2026-06-23T04:58:30.535Z",
   "categories": [
     {
       "key": "full",
@@ -43,7 +43,33 @@
           "date": "2026-06-23T04:57:37Z",
           "prerelease": false,
           "body": "- 产品定位(ProductYolo)新增\"偏移补偿\":可设产品自身坐标系下的 X/Y 偏移与角度补偿,按每个产品检测到的角度自动旋转后叠加到取料点,产品转多少补偿跟着转多少。\n- 设备目录新增 Control 文件夹:把自定义 WPF 控件 DLL 丢进去,重启后自动出现在 HMI 设计器工具箱,可直接拖到画面使用。\n- 设备目录新增 DLL 文件夹:把第三方类库 DLL 丢进去,工序、脚本节点、自定义变量、HMI 页事件里都能 using 调用。\n- 消息日志落盘:ShowMessage 与工作流 LogMessage 现在会写盘到 D:\\Log(一天一个文件),该路径可在\"路径管理\"里修改。\n- 工作流运行日志默认保留天数由 30 天改为 3 天,避免日志(数据库+图像)长期累积把 C 盘写满。",
-          "files": []
+          "files": [
+            {
+              "name": "AutoSoftware_v2.9.9.zip",
+              "size": 231780340,
+              "downloadCount": 0,
+              "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.9/AutoSoftware_v2.9.9.zip",
+              "category": "other",
+              "mirrors": [
+                {
+                  "name": "加速线路 1",
+                  "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.9/AutoSoftware_v2.9.9.zip"
+                },
+                {
+                  "name": "加速线路 2",
+                  "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.9/AutoSoftware_v2.9.9.zip"
+                },
+                {
+                  "name": "加速线路 3",
+                  "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.9/AutoSoftware_v2.9.9.zip"
+                },
+                {
+                  "name": "加速线路 4",
+                  "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.9/AutoSoftware_v2.9.9.zip"
+                }
+              ]
+            }
+          ]
         },
         {
           "version": "v2.9.8",
@@ -80,31 +106,6 @@
               ]
             },
             {
-              "name": "bat",
-              "size": 7135,
-              "downloadCount": 0,
-              "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/bat",
-              "category": "driver",
-              "mirrors": [
-                {
-                  "name": "加速线路 1",
-                  "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/bat"
-                },
-                {
-                  "name": "加速线路 2",
-                  "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/bat"
-                },
-                {
-                  "name": "加速线路 3",
-                  "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/bat"
-                },
-                {
-                  "name": "加速线路 4",
-                  "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/bat"
-                }
-              ]
-            },
-            {
               "name": "dotnet-sdk-10.0.105-win-x64.exe",
               "size": 216262504,
               "downloadCount": 0,
@@ -126,31 +127,6 @@
                 {
                   "name": "加速线路 4",
                   "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/dotnet-sdk-10.0.105-win-x64.exe"
-                }
-              ]
-            },
-            {
-              "name": "GPU-torch.bat",
-              "size": 2536,
-              "downloadCount": 0,
-              "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/GPU-torch.bat",
-              "category": "driver",
-              "mirrors": [
-                {
-                  "name": "加速线路 1",
-                  "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/GPU-torch.bat"
-                },
-                {
-                  "name": "加速线路 2",
-                  "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/GPU-torch.bat"
-                },
-                {
-                  "name": "加速线路 3",
-                  "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/GPU-torch.bat"
-                },
-                {
-                  "name": "加速线路 4",
-                  "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/GPU-torch.bat"
                 }
               ]
             },
@@ -226,31 +202,6 @@
                 {
                   "name": "加速线路 4",
                   "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/python-3.10.11-amd64.exe"
-                }
-              ]
-            },
-            {
-              "name": "torch-.bat",
-              "size": 1284,
-              "downloadCount": 0,
-              "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/torch-.bat",
-              "category": "driver",
-              "mirrors": [
-                {
-                  "name": "加速线路 1",
-                  "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/torch-.bat"
-                },
-                {
-                  "name": "加速线路 2",
-                  "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/torch-.bat"
-                },
-                {
-                  "name": "加速线路 3",
-                  "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/torch-.bat"
-                },
-                {
-                  "name": "加速线路 4",
-                  "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/torch-.bat"
                 }
               ]
             },
@@ -378,6 +329,81 @@
                   "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/yolo_offline_wheels.rar"
                 }
               ]
+            },
+            {
+              "name": "bat",
+              "size": 7135,
+              "downloadCount": 0,
+              "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/bat",
+              "category": "driver",
+              "mirrors": [
+                {
+                  "name": "加速线路 1",
+                  "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/bat"
+                },
+                {
+                  "name": "加速线路 2",
+                  "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/bat"
+                },
+                {
+                  "name": "加速线路 3",
+                  "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/bat"
+                },
+                {
+                  "name": "加速线路 4",
+                  "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/bat"
+                }
+              ]
+            },
+            {
+              "name": "torch-.bat",
+              "size": 1284,
+              "downloadCount": 0,
+              "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/torch-.bat",
+              "category": "driver",
+              "mirrors": [
+                {
+                  "name": "加速线路 1",
+                  "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/torch-.bat"
+                },
+                {
+                  "name": "加速线路 2",
+                  "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/torch-.bat"
+                },
+                {
+                  "name": "加速线路 3",
+                  "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/torch-.bat"
+                },
+                {
+                  "name": "加速线路 4",
+                  "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/torch-.bat"
+                }
+              ]
+            },
+            {
+              "name": "GPU-torch.bat",
+              "size": 2536,
+              "downloadCount": 0,
+              "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/GPU-torch.bat",
+              "category": "driver",
+              "mirrors": [
+                {
+                  "name": "加速线路 1",
+                  "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/GPU-torch.bat"
+                },
+                {
+                  "name": "加速线路 2",
+                  "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/GPU-torch.bat"
+                },
+                {
+                  "name": "加速线路 3",
+                  "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/GPU-torch.bat"
+                },
+                {
+                  "name": "加速线路 4",
+                  "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/GPU-torch.bat"
+                }
+              ]
             }
           ]
         },
@@ -498,6 +524,31 @@
           "prerelease": false,
           "body": "- 维护页改版：高级功能统一为弹出式入口（工作流编辑 / 设备状态 / 全局参数脚本 / 工序编辑 / 产品标注训练）\n- 左侧菜单栏底部新增：切换语言 / 静音（屏蔽蜂鸣器）/ 关于\n- 新增「关于」窗口：上层显示软件版本与授权信息，下层集成软件更新检测\n- 完善自动更新中心：版本检测与一键升级",
           "files": [
+            {
+              "name": "VS_RemoteTools.exe",
+              "size": 66874672,
+              "downloadCount": 0,
+              "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v1.0.0/VS_RemoteTools.exe",
+              "category": "other",
+              "mirrors": [
+                {
+                  "name": "加速线路 1",
+                  "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v1.0.0/VS_RemoteTools.exe"
+                },
+                {
+                  "name": "加速线路 2",
+                  "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v1.0.0/VS_RemoteTools.exe"
+                },
+                {
+                  "name": "加速线路 3",
+                  "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v1.0.0/VS_RemoteTools.exe"
+                },
+                {
+                  "name": "加速线路 4",
+                  "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v1.0.0/VS_RemoteTools.exe"
+                }
+              ]
+            },
             {
               "name": "AppData.dat",
               "size": 717,
@@ -645,31 +696,6 @@
                 {
                   "name": "加速线路 4",
                   "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v1.0.0/AutoSoftware.pdb"
-                }
-              ]
-            },
-            {
-              "name": "AutoSoftware_v1.0.0.zip",
-              "size": 289820707,
-              "downloadCount": 1,
-              "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v1.0.0/AutoSoftware_v1.0.0.zip",
-              "category": "full",
-              "mirrors": [
-                {
-                  "name": "加速线路 1",
-                  "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v1.0.0/AutoSoftware_v1.0.0.zip"
-                },
-                {
-                  "name": "加速线路 2",
-                  "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v1.0.0/AutoSoftware_v1.0.0.zip"
-                },
-                {
-                  "name": "加速线路 3",
-                  "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v1.0.0/AutoSoftware_v1.0.0.zip"
-                },
-                {
-                  "name": "加速线路 4",
-                  "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v1.0.0/AutoSoftware_v1.0.0.zip"
                 }
               ]
             },
@@ -4524,31 +4550,6 @@
               ]
             },
             {
-              "name": "VS_RemoteTools.exe",
-              "size": 66874672,
-              "downloadCount": 0,
-              "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v1.0.0/VS_RemoteTools.exe",
-              "category": "other",
-              "mirrors": [
-                {
-                  "name": "加速线路 1",
-                  "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v1.0.0/VS_RemoteTools.exe"
-                },
-                {
-                  "name": "加速线路 2",
-                  "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v1.0.0/VS_RemoteTools.exe"
-                },
-                {
-                  "name": "加速线路 3",
-                  "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v1.0.0/VS_RemoteTools.exe"
-                },
-                {
-                  "name": "加速线路 4",
-                  "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v1.0.0/VS_RemoteTools.exe"
-                }
-              ]
-            },
-            {
               "name": "YamlDotNet.dll",
               "size": 291840,
               "downloadCount": 0,
@@ -4647,6 +4648,31 @@
                   "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v1.0.0/ZXing.Windows.Compatibility.dll"
                 }
               ]
+            },
+            {
+              "name": "AutoSoftware_v1.0.0.zip",
+              "size": 289820707,
+              "downloadCount": 1,
+              "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v1.0.0/AutoSoftware_v1.0.0.zip",
+              "category": "full",
+              "mirrors": [
+                {
+                  "name": "加速线路 1",
+                  "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v1.0.0/AutoSoftware_v1.0.0.zip"
+                },
+                {
+                  "name": "加速线路 2",
+                  "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v1.0.0/AutoSoftware_v1.0.0.zip"
+                },
+                {
+                  "name": "加速线路 3",
+                  "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v1.0.0/AutoSoftware_v1.0.0.zip"
+                },
+                {
+                  "name": "加速线路 4",
+                  "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v1.0.0/AutoSoftware_v1.0.0.zip"
+                }
+              ]
             }
           ]
         }
@@ -4662,7 +4688,33 @@
       "date": "2026-06-23T04:57:37Z",
       "prerelease": false,
       "body": "- 产品定位(ProductYolo)新增\"偏移补偿\":可设产品自身坐标系下的 X/Y 偏移与角度补偿,按每个产品检测到的角度自动旋转后叠加到取料点,产品转多少补偿跟着转多少。\n- 设备目录新增 Control 文件夹:把自定义 WPF 控件 DLL 丢进去,重启后自动出现在 HMI 设计器工具箱,可直接拖到画面使用。\n- 设备目录新增 DLL 文件夹:把第三方类库 DLL 丢进去,工序、脚本节点、自定义变量、HMI 页事件里都能 using 调用。\n- 消息日志落盘:ShowMessage 与工作流 LogMessage 现在会写盘到 D:\\Log(一天一个文件),该路径可在\"路径管理\"里修改。\n- 工作流运行日志默认保留天数由 30 天改为 3 天,避免日志(数据库+图像)长期累积把 C 盘写满。",
-      "files": []
+      "files": [
+        {
+          "name": "AutoSoftware_v2.9.9.zip",
+          "size": 231780340,
+          "downloadCount": 0,
+          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.9/AutoSoftware_v2.9.9.zip",
+          "category": "other",
+          "mirrors": [
+            {
+              "name": "加速线路 1",
+              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.9/AutoSoftware_v2.9.9.zip"
+            },
+            {
+              "name": "加速线路 2",
+              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.9/AutoSoftware_v2.9.9.zip"
+            },
+            {
+              "name": "加速线路 3",
+              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.9/AutoSoftware_v2.9.9.zip"
+            },
+            {
+              "name": "加速线路 4",
+              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.9/AutoSoftware_v2.9.9.zip"
+            }
+          ]
+        }
+      ]
     },
     {
       "version": "v2.9.8",
@@ -4699,31 +4751,6 @@
           ]
         },
         {
-          "name": "bat",
-          "size": 7135,
-          "downloadCount": 0,
-          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/bat",
-          "category": "driver",
-          "mirrors": [
-            {
-              "name": "加速线路 1",
-              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/bat"
-            },
-            {
-              "name": "加速线路 2",
-              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/bat"
-            },
-            {
-              "name": "加速线路 3",
-              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/bat"
-            },
-            {
-              "name": "加速线路 4",
-              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/bat"
-            }
-          ]
-        },
-        {
           "name": "dotnet-sdk-10.0.105-win-x64.exe",
           "size": 216262504,
           "downloadCount": 0,
@@ -4745,31 +4772,6 @@
             {
               "name": "加速线路 4",
               "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/dotnet-sdk-10.0.105-win-x64.exe"
-            }
-          ]
-        },
-        {
-          "name": "GPU-torch.bat",
-          "size": 2536,
-          "downloadCount": 0,
-          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/GPU-torch.bat",
-          "category": "driver",
-          "mirrors": [
-            {
-              "name": "加速线路 1",
-              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/GPU-torch.bat"
-            },
-            {
-              "name": "加速线路 2",
-              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/GPU-torch.bat"
-            },
-            {
-              "name": "加速线路 3",
-              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/GPU-torch.bat"
-            },
-            {
-              "name": "加速线路 4",
-              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/GPU-torch.bat"
             }
           ]
         },
@@ -4845,31 +4847,6 @@
             {
               "name": "加速线路 4",
               "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/python-3.10.11-amd64.exe"
-            }
-          ]
-        },
-        {
-          "name": "torch-.bat",
-          "size": 1284,
-          "downloadCount": 0,
-          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/torch-.bat",
-          "category": "driver",
-          "mirrors": [
-            {
-              "name": "加速线路 1",
-              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/torch-.bat"
-            },
-            {
-              "name": "加速线路 2",
-              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/torch-.bat"
-            },
-            {
-              "name": "加速线路 3",
-              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/torch-.bat"
-            },
-            {
-              "name": "加速线路 4",
-              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/torch-.bat"
             }
           ]
         },
@@ -4997,6 +4974,81 @@
               "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/yolo_offline_wheels.rar"
             }
           ]
+        },
+        {
+          "name": "bat",
+          "size": 7135,
+          "downloadCount": 0,
+          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/bat",
+          "category": "driver",
+          "mirrors": [
+            {
+              "name": "加速线路 1",
+              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/bat"
+            },
+            {
+              "name": "加速线路 2",
+              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/bat"
+            },
+            {
+              "name": "加速线路 3",
+              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/bat"
+            },
+            {
+              "name": "加速线路 4",
+              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/bat"
+            }
+          ]
+        },
+        {
+          "name": "torch-.bat",
+          "size": 1284,
+          "downloadCount": 0,
+          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/torch-.bat",
+          "category": "driver",
+          "mirrors": [
+            {
+              "name": "加速线路 1",
+              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/torch-.bat"
+            },
+            {
+              "name": "加速线路 2",
+              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/torch-.bat"
+            },
+            {
+              "name": "加速线路 3",
+              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/torch-.bat"
+            },
+            {
+              "name": "加速线路 4",
+              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/torch-.bat"
+            }
+          ]
+        },
+        {
+          "name": "GPU-torch.bat",
+          "size": 2536,
+          "downloadCount": 0,
+          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/GPU-torch.bat",
+          "category": "driver",
+          "mirrors": [
+            {
+              "name": "加速线路 1",
+              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/GPU-torch.bat"
+            },
+            {
+              "name": "加速线路 2",
+              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/GPU-torch.bat"
+            },
+            {
+              "name": "加速线路 3",
+              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/GPU-torch.bat"
+            },
+            {
+              "name": "加速线路 4",
+              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.9.8/GPU-torch.bat"
+            }
+          ]
         }
       ]
     },
@@ -5117,6 +5169,31 @@
       "prerelease": false,
       "body": "- 维护页改版：高级功能统一为弹出式入口（工作流编辑 / 设备状态 / 全局参数脚本 / 工序编辑 / 产品标注训练）\n- 左侧菜单栏底部新增：切换语言 / 静音（屏蔽蜂鸣器）/ 关于\n- 新增「关于」窗口：上层显示软件版本与授权信息，下层集成软件更新检测\n- 完善自动更新中心：版本检测与一键升级",
       "files": [
+        {
+          "name": "VS_RemoteTools.exe",
+          "size": 66874672,
+          "downloadCount": 0,
+          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v1.0.0/VS_RemoteTools.exe",
+          "category": "other",
+          "mirrors": [
+            {
+              "name": "加速线路 1",
+              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v1.0.0/VS_RemoteTools.exe"
+            },
+            {
+              "name": "加速线路 2",
+              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v1.0.0/VS_RemoteTools.exe"
+            },
+            {
+              "name": "加速线路 3",
+              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v1.0.0/VS_RemoteTools.exe"
+            },
+            {
+              "name": "加速线路 4",
+              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v1.0.0/VS_RemoteTools.exe"
+            }
+          ]
+        },
         {
           "name": "AppData.dat",
           "size": 717,
@@ -5264,31 +5341,6 @@
             {
               "name": "加速线路 4",
               "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v1.0.0/AutoSoftware.pdb"
-            }
-          ]
-        },
-        {
-          "name": "AutoSoftware_v1.0.0.zip",
-          "size": 289820707,
-          "downloadCount": 1,
-          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v1.0.0/AutoSoftware_v1.0.0.zip",
-          "category": "full",
-          "mirrors": [
-            {
-              "name": "加速线路 1",
-              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v1.0.0/AutoSoftware_v1.0.0.zip"
-            },
-            {
-              "name": "加速线路 2",
-              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v1.0.0/AutoSoftware_v1.0.0.zip"
-            },
-            {
-              "name": "加速线路 3",
-              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v1.0.0/AutoSoftware_v1.0.0.zip"
-            },
-            {
-              "name": "加速线路 4",
-              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v1.0.0/AutoSoftware_v1.0.0.zip"
             }
           ]
         },
@@ -9143,31 +9195,6 @@
           ]
         },
         {
-          "name": "VS_RemoteTools.exe",
-          "size": 66874672,
-          "downloadCount": 0,
-          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v1.0.0/VS_RemoteTools.exe",
-          "category": "other",
-          "mirrors": [
-            {
-              "name": "加速线路 1",
-              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v1.0.0/VS_RemoteTools.exe"
-            },
-            {
-              "name": "加速线路 2",
-              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v1.0.0/VS_RemoteTools.exe"
-            },
-            {
-              "name": "加速线路 3",
-              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v1.0.0/VS_RemoteTools.exe"
-            },
-            {
-              "name": "加速线路 4",
-              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v1.0.0/VS_RemoteTools.exe"
-            }
-          ]
-        },
-        {
           "name": "YamlDotNet.dll",
           "size": 291840,
           "downloadCount": 0,
@@ -9264,6 +9291,31 @@
             {
               "name": "加速线路 4",
               "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v1.0.0/ZXing.Windows.Compatibility.dll"
+            }
+          ]
+        },
+        {
+          "name": "AutoSoftware_v1.0.0.zip",
+          "size": 289820707,
+          "downloadCount": 1,
+          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v1.0.0/AutoSoftware_v1.0.0.zip",
+          "category": "full",
+          "mirrors": [
+            {
+              "name": "加速线路 1",
+              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v1.0.0/AutoSoftware_v1.0.0.zip"
+            },
+            {
+              "name": "加速线路 2",
+              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v1.0.0/AutoSoftware_v1.0.0.zip"
+            },
+            {
+              "name": "加速线路 3",
+              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v1.0.0/AutoSoftware_v1.0.0.zip"
+            },
+            {
+              "name": "加速线路 4",
+              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v1.0.0/AutoSoftware_v1.0.0.zip"
             }
           ]
         }
