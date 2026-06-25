@@ -2,7 +2,7 @@
   "site": "SY 软件下载",
   "subtitle": "官方下载 · 请认准本页面",
   "repo": "sushangxiong0312-ctrl/SY",
-  "generatedAt": "2026-06-25T14:57:26.549Z",
+  "generatedAt": "2026-06-25T14:58:08.268Z",
   "categories": [
     {
       "key": "full",
@@ -44,7 +44,33 @@
           "date": "2026-06-25T14:57:10Z",
           "prerelease": false,
           "body": "- HMI 事件代码新增 Ctx.GetParam<T>(参数,字段) 类型化读取——值类型 bool/int/double 也能直接拿,不用再写 as/强制转换(as bool 这类对值类型本就编译不过)\n- 编辑器补全与运行期均补 using System.Windows.Media,Brushes/Color 可用且 = 后面能正常补全",
-          "files": []
+          "files": [
+            {
+              "name": "AutoSoftware_v2.10.29.zip",
+              "size": 231917941,
+              "downloadCount": 0,
+              "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.10.29/AutoSoftware_v2.10.29.zip",
+              "category": "full",
+              "mirrors": [
+                {
+                  "name": "加速线路 1",
+                  "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.10.29/AutoSoftware_v2.10.29.zip"
+                },
+                {
+                  "name": "加速线路 2",
+                  "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.10.29/AutoSoftware_v2.10.29.zip"
+                },
+                {
+                  "name": "加速线路 3",
+                  "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.10.29/AutoSoftware_v2.10.29.zip"
+                },
+                {
+                  "name": "加速线路 4",
+                  "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.10.29/AutoSoftware_v2.10.29.zip"
+                }
+              ]
+            }
+          ]
         },
         {
           "version": "v2.9.9",
@@ -4706,7 +4732,33 @@
       "date": "2026-06-25T14:57:10Z",
       "prerelease": false,
       "body": "- HMI 事件代码新增 Ctx.GetParam<T>(参数,字段) 类型化读取——值类型 bool/int/double 也能直接拿,不用再写 as/强制转换(as bool 这类对值类型本就编译不过)\n- 编辑器补全与运行期均补 using System.Windows.Media,Brushes/Color 可用且 = 后面能正常补全",
-      "files": []
+      "files": [
+        {
+          "name": "AutoSoftware_v2.10.29.zip",
+          "size": 231917941,
+          "downloadCount": 0,
+          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.10.29/AutoSoftware_v2.10.29.zip",
+          "category": "full",
+          "mirrors": [
+            {
+              "name": "加速线路 1",
+              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.10.29/AutoSoftware_v2.10.29.zip"
+            },
+            {
+              "name": "加速线路 2",
+              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.10.29/AutoSoftware_v2.10.29.zip"
+            },
+            {
+              "name": "加速线路 3",
+              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.10.29/AutoSoftware_v2.10.29.zip"
+            },
+            {
+              "name": "加速线路 4",
+              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.10.29/AutoSoftware_v2.10.29.zip"
+            }
+          ]
+        }
+      ]
     },
     {
       "version": "v2.9.9",
