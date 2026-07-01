@@ -2,7 +2,7 @@
   "site": "SY 软件下载",
   "subtitle": "官方下载 · 请认准本页面",
   "repo": "sushangxiong0312-ctrl/SY",
-  "generatedAt": "2026-07-01T10:25:52.255Z",
+  "generatedAt": "2026-07-01T10:26:40.697Z",
   "categories": [
     {
       "key": "full",
@@ -44,7 +44,33 @@
           "date": "2026-07-01T10:25:40Z",
           "prerelease": false,
           "body": "- �������������� HMI ��λ dataedit.main���� HMI �������ҳ��ָ�ɵ��ò�λ������� HMI ҳ��ûָ�������ԭ Sample �����ͼ(��ȫ������)��֧�������� + ������ߴ���ʾ ��1822��712��\n- ����༭������������д(����䴫ֵ)����������� ���� ԭ��������д�����б�ע�͡�ճ������Ч���ָ�Ϊ��ֱ���õ� ParamStore.GetFieldValue / SetFieldValue(���ֶ���, ����ת����)��\n- HMI �����ؼ�(HmiTouchControls.dll���Ÿ��� Control Ŀ¼)���£�TouchPointXYZR ��Բ�ǿ�Ƭ����(CornerRadius ����)��TouchNumericBox / TouchPointXYZR �� FontSize ��ʱ��Ч(ֵ�ı���4 ����������֮����)��",
-          "files": []
+          "files": [
+            {
+              "name": "AutoSoftware_v2.10.38.zip",
+              "size": 270795995,
+              "downloadCount": 0,
+              "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.10.38/AutoSoftware_v2.10.38.zip",
+              "category": "full",
+              "mirrors": [
+                {
+                  "name": "加速线路 1",
+                  "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.10.38/AutoSoftware_v2.10.38.zip"
+                },
+                {
+                  "name": "加速线路 2",
+                  "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.10.38/AutoSoftware_v2.10.38.zip"
+                },
+                {
+                  "name": "加速线路 3",
+                  "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.10.38/AutoSoftware_v2.10.38.zip"
+                },
+                {
+                  "name": "加速线路 4",
+                  "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.10.38/AutoSoftware_v2.10.38.zip"
+                }
+              ]
+            }
+          ]
         },
         {
           "version": "v2.10.29",
@@ -4742,7 +4768,33 @@
       "date": "2026-07-01T10:25:40Z",
       "prerelease": false,
       "body": "- �������������� HMI ��λ dataedit.main���� HMI �������ҳ��ָ�ɵ��ò�λ������� HMI ҳ��ûָ�������ԭ Sample �����ͼ(��ȫ������)��֧�������� + ������ߴ���ʾ ��1822��712��\n- ����༭������������д(����䴫ֵ)����������� ���� ԭ��������д�����б�ע�͡�ճ������Ч���ָ�Ϊ��ֱ���õ� ParamStore.GetFieldValue / SetFieldValue(���ֶ���, ����ת����)��\n- HMI �����ؼ�(HmiTouchControls.dll���Ÿ��� Control Ŀ¼)���£�TouchPointXYZR ��Բ�ǿ�Ƭ����(CornerRadius ����)��TouchNumericBox / TouchPointXYZR �� FontSize ��ʱ��Ч(ֵ�ı���4 ����������֮����)��",
-      "files": []
+      "files": [
+        {
+          "name": "AutoSoftware_v2.10.38.zip",
+          "size": 270795995,
+          "downloadCount": 0,
+          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.10.38/AutoSoftware_v2.10.38.zip",
+          "category": "full",
+          "mirrors": [
+            {
+              "name": "加速线路 1",
+              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.10.38/AutoSoftware_v2.10.38.zip"
+            },
+            {
+              "name": "加速线路 2",
+              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.10.38/AutoSoftware_v2.10.38.zip"
+            },
+            {
+              "name": "加速线路 3",
+              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.10.38/AutoSoftware_v2.10.38.zip"
+            },
+            {
+              "name": "加速线路 4",
+              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.10.38/AutoSoftware_v2.10.38.zip"
+            }
+          ]
+        }
+      ]
     },
     {
       "version": "v2.10.29",
