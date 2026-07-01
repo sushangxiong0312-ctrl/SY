@@ -2,7 +2,7 @@
   "site": "SY 软件下载",
   "subtitle": "官方下载 · 请认准本页面",
   "repo": "sushangxiong0312-ctrl/SY",
-  "generatedAt": "2026-06-25T14:58:08.268Z",
+  "generatedAt": "2026-07-01T10:25:52.255Z",
   "categories": [
     {
       "key": "full",
@@ -36,6 +36,16 @@
       "label": "主程序",
       "mode": "versions",
       "versions": [
+        {
+          "version": "v2.10.38",
+          "tag": "v2.10.38",
+          "trackKey": "app",
+          "title": "v2.10.38",
+          "date": "2026-07-01T10:25:40Z",
+          "prerelease": false,
+          "body": "- �������������� HMI ��λ dataedit.main���� HMI �������ҳ��ָ�ɵ��ò�λ������� HMI ҳ��ûָ�������ԭ Sample �����ͼ(��ȫ������)��֧�������� + ������ߴ���ʾ ��1822��712��\n- ����༭������������д(����䴫ֵ)����������� ���� ԭ��������д�����б�ע�͡�ճ������Ч���ָ�Ϊ��ֱ���õ� ParamStore.GetFieldValue / SetFieldValue(���ֶ���, ����ת����)��\n- HMI �����ؼ�(HmiTouchControls.dll���Ÿ��� Control Ŀ¼)���£�TouchPointXYZR ��Բ�ǿ�Ƭ����(CornerRadius ����)��TouchNumericBox / TouchPointXYZR �� FontSize ��ʱ��Ч(ֵ�ı���4 ����������֮����)��",
+          "files": []
+        },
         {
           "version": "v2.10.29",
           "tag": "v2.10.29",
@@ -4724,6 +4734,16 @@
     }
   ],
   "versions": [
+    {
+      "version": "v2.10.38",
+      "tag": "v2.10.38",
+      "trackKey": "app",
+      "title": "v2.10.38",
+      "date": "2026-07-01T10:25:40Z",
+      "prerelease": false,
+      "body": "- �������������� HMI ��λ dataedit.main���� HMI �������ҳ��ָ�ɵ��ò�λ������� HMI ҳ��ûָ�������ԭ Sample �����ͼ(��ȫ������)��֧�������� + ������ߴ���ʾ ��1822��712��\n- ����༭������������д(����䴫ֵ)����������� ���� ԭ��������д�����б�ע�͡�ճ������Ч���ָ�Ϊ��ֱ���õ� ParamStore.GetFieldValue / SetFieldValue(���ֶ���, ����ת����)��\n- HMI �����ؼ�(HmiTouchControls.dll���Ÿ��� Control Ŀ¼)���£�TouchPointXYZR ��Բ�ǿ�Ƭ����(CornerRadius ����)��TouchNumericBox / TouchPointXYZR �� FontSize ��ʱ��Ч(ֵ�ı���4 ����������֮����)��",
+      "files": []
+    },
     {
       "version": "v2.10.29",
       "tag": "v2.10.29",
