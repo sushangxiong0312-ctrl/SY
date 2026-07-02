@@ -2,7 +2,7 @@
   "site": "SY 软件下载",
   "subtitle": "官方下载 · 请认准本页面",
   "repo": "sushangxiong0312-ctrl/SY",
-  "generatedAt": "2026-07-01T10:26:40.697Z",
+  "generatedAt": "2026-07-02T05:47:26.797Z",
   "categories": [
     {
       "key": "full",
@@ -36,6 +36,16 @@
       "label": "主程序",
       "mode": "versions",
       "versions": [
+        {
+          "version": "v2.11.0",
+          "tag": "v2.11.0",
+          "trackKey": "app",
+          "title": "v2.11.0",
+          "date": "2026-07-02T05:47:12Z",
+          "prerelease": false,
+          "body": "- HMI 控件二次开发体系:新增基类库 Smart.Hmi.ControlKit(HmiControlBase/FlatButtonBase/共享轮询/[HmiBindable] 特性),一个控件一个 dll+只引一个基类 dll,设计器自动识别控件自声明的常用属性、绑定目标与对象类型\n- SampleHmiControl 重写为标准二开模板\n- HMI 界面设计器整体改版:VS 2022 深色风格外壳+现代画布(深色工作区衬页面画板卡片+阴影),工具箱彩色字形图标+搜索框,右下缩放条(百分比/适应页面),窗口默认最大化\n- 运行页面与主程序其它页面保持原亮色不受影响\n- 设计器独立为 HmiDesignerWindow,可整体移植到其他项目\n- HMI 图像显示:LiveVisionView 的「显示窗口」在设计器常用面板直接下拉选工作流显示节点,显示节点空 key 自动补「工作流名/节点标题」并保存,选好即用\n- HmiTouchControls.dll(各机 Control 目录)全部控件迁移到新基类:删私有 200ms 轮询改共享轮询,可绑属性带 [HmiBindable] 特性进常用面板\n- 修复:数据修正页反复切换偶发闪退(插件视图缓存复用+切换时确定性释放 WinForms 宿主)\n- 修复:工序编辑偶发点击无反应(关闭时兜底清扫遗留的透明补全窗)",
+          "files": []
+        },
         {
           "version": "v2.10.38",
           "tag": "v2.10.38",
@@ -4760,6 +4770,16 @@
     }
   ],
   "versions": [
+    {
+      "version": "v2.11.0",
+      "tag": "v2.11.0",
+      "trackKey": "app",
+      "title": "v2.11.0",
+      "date": "2026-07-02T05:47:12Z",
+      "prerelease": false,
+      "body": "- HMI 控件二次开发体系:新增基类库 Smart.Hmi.ControlKit(HmiControlBase/FlatButtonBase/共享轮询/[HmiBindable] 特性),一个控件一个 dll+只引一个基类 dll,设计器自动识别控件自声明的常用属性、绑定目标与对象类型\n- SampleHmiControl 重写为标准二开模板\n- HMI 界面设计器整体改版:VS 2022 深色风格外壳+现代画布(深色工作区衬页面画板卡片+阴影),工具箱彩色字形图标+搜索框,右下缩放条(百分比/适应页面),窗口默认最大化\n- 运行页面与主程序其它页面保持原亮色不受影响\n- 设计器独立为 HmiDesignerWindow,可整体移植到其他项目\n- HMI 图像显示:LiveVisionView 的「显示窗口」在设计器常用面板直接下拉选工作流显示节点,显示节点空 key 自动补「工作流名/节点标题」并保存,选好即用\n- HmiTouchControls.dll(各机 Control 目录)全部控件迁移到新基类:删私有 200ms 轮询改共享轮询,可绑属性带 [HmiBindable] 特性进常用面板\n- 修复:数据修正页反复切换偶发闪退(插件视图缓存复用+切换时确定性释放 WinForms 宿主)\n- 修复:工序编辑偶发点击无反应(关闭时兜底清扫遗留的透明补全窗)",
+      "files": []
+    },
     {
       "version": "v2.10.38",
       "tag": "v2.10.38",
