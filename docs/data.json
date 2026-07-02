@@ -2,7 +2,7 @@
   "site": "SY 软件下载",
   "subtitle": "官方下载 · 请认准本页面",
   "repo": "sushangxiong0312-ctrl/SY",
-  "generatedAt": "2026-07-02T15:39:13.917Z",
+  "generatedAt": "2026-07-02T16:40:49.584Z",
   "categories": [
     {
       "key": "full",
@@ -36,6 +36,16 @@
       "label": "主程序",
       "mode": "versions",
       "versions": [
+        {
+          "version": "v2.12.1",
+          "tag": "v2.12.1",
+          "trackKey": "app",
+          "title": "v2.12.1",
+          "date": "2026-07-02T16:40:36Z",
+          "prerelease": false,
+          "body": "- 工序新增报警交互 ShowError(消息, true): 设备状态置【报警】(红灯+蜂鸣)→弹确认框→确认后整机暂停, 处理完点【运行】从当前步原地续跑\n- 工序新增提醒交互 ShowChoice(标题, 提示, true, 选项...): 弹框期间设备状态置【提醒】, 选择后自动回【运行】; 弹框期间人为改状态则不干预\n- 修复: 参数(DeviceParam.cs)/工序重编译后, 工作流脚本节点自动重新编译并绑定新类型, 不再需要重启软件",
+          "files": []
+        },
         {
           "version": "v2.12.0",
           "tag": "v2.12.0",
@@ -4832,6 +4842,16 @@
     }
   ],
   "versions": [
+    {
+      "version": "v2.12.1",
+      "tag": "v2.12.1",
+      "trackKey": "app",
+      "title": "v2.12.1",
+      "date": "2026-07-02T16:40:36Z",
+      "prerelease": false,
+      "body": "- 工序新增报警交互 ShowError(消息, true): 设备状态置【报警】(红灯+蜂鸣)→弹确认框→确认后整机暂停, 处理完点【运行】从当前步原地续跑\n- 工序新增提醒交互 ShowChoice(标题, 提示, true, 选项...): 弹框期间设备状态置【提醒】, 选择后自动回【运行】; 弹框期间人为改状态则不干预\n- 修复: 参数(DeviceParam.cs)/工序重编译后, 工作流脚本节点自动重新编译并绑定新类型, 不再需要重启软件",
+      "files": []
+    },
     {
       "version": "v2.12.0",
       "tag": "v2.12.0",
