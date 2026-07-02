@@ -2,7 +2,7 @@
   "site": "SY 软件下载",
   "subtitle": "官方下载 · 请认准本页面",
   "repo": "sushangxiong0312-ctrl/SY",
-  "generatedAt": "2026-07-02T16:40:49.584Z",
+  "generatedAt": "2026-07-02T16:41:26.912Z",
   "categories": [
     {
       "key": "full",
@@ -44,7 +44,33 @@
           "date": "2026-07-02T16:40:36Z",
           "prerelease": false,
           "body": "- 工序新增报警交互 ShowError(消息, true): 设备状态置【报警】(红灯+蜂鸣)→弹确认框→确认后整机暂停, 处理完点【运行】从当前步原地续跑\n- 工序新增提醒交互 ShowChoice(标题, 提示, true, 选项...): 弹框期间设备状态置【提醒】, 选择后自动回【运行】; 弹框期间人为改状态则不干预\n- 修复: 参数(DeviceParam.cs)/工序重编译后, 工作流脚本节点自动重新编译并绑定新类型, 不再需要重启软件",
-          "files": []
+          "files": [
+            {
+              "name": "AutoSoftware_v2.12.1.zip",
+              "size": 288948897,
+              "downloadCount": 0,
+              "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.1/AutoSoftware_v2.12.1.zip",
+              "category": "full",
+              "mirrors": [
+                {
+                  "name": "加速线路 1",
+                  "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.1/AutoSoftware_v2.12.1.zip"
+                },
+                {
+                  "name": "加速线路 2",
+                  "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.1/AutoSoftware_v2.12.1.zip"
+                },
+                {
+                  "name": "加速线路 3",
+                  "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.1/AutoSoftware_v2.12.1.zip"
+                },
+                {
+                  "name": "加速线路 4",
+                  "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.1/AutoSoftware_v2.12.1.zip"
+                }
+              ]
+            }
+          ]
         },
         {
           "version": "v2.12.0",
@@ -4850,7 +4876,33 @@
       "date": "2026-07-02T16:40:36Z",
       "prerelease": false,
       "body": "- 工序新增报警交互 ShowError(消息, true): 设备状态置【报警】(红灯+蜂鸣)→弹确认框→确认后整机暂停, 处理完点【运行】从当前步原地续跑\n- 工序新增提醒交互 ShowChoice(标题, 提示, true, 选项...): 弹框期间设备状态置【提醒】, 选择后自动回【运行】; 弹框期间人为改状态则不干预\n- 修复: 参数(DeviceParam.cs)/工序重编译后, 工作流脚本节点自动重新编译并绑定新类型, 不再需要重启软件",
-      "files": []
+      "files": [
+        {
+          "name": "AutoSoftware_v2.12.1.zip",
+          "size": 288948897,
+          "downloadCount": 0,
+          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.1/AutoSoftware_v2.12.1.zip",
+          "category": "full",
+          "mirrors": [
+            {
+              "name": "加速线路 1",
+              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.1/AutoSoftware_v2.12.1.zip"
+            },
+            {
+              "name": "加速线路 2",
+              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.1/AutoSoftware_v2.12.1.zip"
+            },
+            {
+              "name": "加速线路 3",
+              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.1/AutoSoftware_v2.12.1.zip"
+            },
+            {
+              "name": "加速线路 4",
+              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.1/AutoSoftware_v2.12.1.zip"
+            }
+          ]
+        }
+      ]
     },
     {
       "version": "v2.12.0",
