@@ -2,7 +2,7 @@
   "site": "SY 软件下载",
   "subtitle": "官方下载 · 请认准本页面",
   "repo": "sushangxiong0312-ctrl/SY",
-  "generatedAt": "2026-07-04T08:36:55.857Z",
+  "generatedAt": "2026-07-04T08:37:46.425Z",
   "categories": [
     {
       "key": "full",
@@ -44,7 +44,33 @@
           "date": "2026-07-04T08:34:31Z",
           "prerelease": false,
           "body": "- 修复: 流程监控页的报警信息(LastError)再次运行不清除 — 工序 Start/单步重新开跑时自动清上一轮错误, 报警条随之消失; 停止状态下保留错误便于排查",
-          "files": []
+          "files": [
+            {
+              "name": "AutoSoftware_v2.12.7.zip",
+              "size": 288956994,
+              "downloadCount": 0,
+              "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.7/AutoSoftware_v2.12.7.zip",
+              "category": "full",
+              "mirrors": [
+                {
+                  "name": "加速线路 1",
+                  "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.7/AutoSoftware_v2.12.7.zip"
+                },
+                {
+                  "name": "加速线路 2",
+                  "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.7/AutoSoftware_v2.12.7.zip"
+                },
+                {
+                  "name": "加速线路 3",
+                  "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.7/AutoSoftware_v2.12.7.zip"
+                },
+                {
+                  "name": "加速线路 4",
+                  "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.7/AutoSoftware_v2.12.7.zip"
+                }
+              ]
+            }
+          ]
         },
         {
           "version": "v2.12.6",
@@ -5066,7 +5092,33 @@
       "date": "2026-07-04T08:34:31Z",
       "prerelease": false,
       "body": "- 修复: 流程监控页的报警信息(LastError)再次运行不清除 — 工序 Start/单步重新开跑时自动清上一轮错误, 报警条随之消失; 停止状态下保留错误便于排查",
-      "files": []
+      "files": [
+        {
+          "name": "AutoSoftware_v2.12.7.zip",
+          "size": 288956994,
+          "downloadCount": 0,
+          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.7/AutoSoftware_v2.12.7.zip",
+          "category": "full",
+          "mirrors": [
+            {
+              "name": "加速线路 1",
+              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.7/AutoSoftware_v2.12.7.zip"
+            },
+            {
+              "name": "加速线路 2",
+              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.7/AutoSoftware_v2.12.7.zip"
+            },
+            {
+              "name": "加速线路 3",
+              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.7/AutoSoftware_v2.12.7.zip"
+            },
+            {
+              "name": "加速线路 4",
+              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.7/AutoSoftware_v2.12.7.zip"
+            }
+          ]
+        }
+      ]
     },
     {
       "version": "v2.12.6",
