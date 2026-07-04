@@ -2,7 +2,7 @@
   "site": "SY 软件下载",
   "subtitle": "官方下载 · 请认准本页面",
   "repo": "sushangxiong0312-ctrl/SY",
-  "generatedAt": "2026-07-04T02:52:51.200Z",
+  "generatedAt": "2026-07-04T02:53:50.042Z",
   "categories": [
     {
       "key": "full",
@@ -44,7 +44,33 @@
           "date": "2026-07-04T02:52:40Z",
           "prerelease": false,
           "body": "- 修复: 图像通道序全链路统一为 RGB 正典 — 工作流节点图像显示不再红蓝对调(拍照节点正常、下游节点黄色变蓝的问题); BMP 存/读、GDI 位图互转、WPF 位图互转全部按正典换序, 顺带修复非 32 位图导入行距错位",
-          "files": []
+          "files": [
+            {
+              "name": "AutoSoftware_v2.12.3.zip",
+              "size": 288955927,
+              "downloadCount": 0,
+              "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.3/AutoSoftware_v2.12.3.zip",
+              "category": "full",
+              "mirrors": [
+                {
+                  "name": "加速线路 1",
+                  "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.3/AutoSoftware_v2.12.3.zip"
+                },
+                {
+                  "name": "加速线路 2",
+                  "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.3/AutoSoftware_v2.12.3.zip"
+                },
+                {
+                  "name": "加速线路 3",
+                  "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.3/AutoSoftware_v2.12.3.zip"
+                },
+                {
+                  "name": "加速线路 4",
+                  "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.3/AutoSoftware_v2.12.3.zip"
+                }
+              ]
+            }
+          ]
         },
         {
           "version": "v2.12.2",
@@ -4922,7 +4948,33 @@
       "date": "2026-07-04T02:52:40Z",
       "prerelease": false,
       "body": "- 修复: 图像通道序全链路统一为 RGB 正典 — 工作流节点图像显示不再红蓝对调(拍照节点正常、下游节点黄色变蓝的问题); BMP 存/读、GDI 位图互转、WPF 位图互转全部按正典换序, 顺带修复非 32 位图导入行距错位",
-      "files": []
+      "files": [
+        {
+          "name": "AutoSoftware_v2.12.3.zip",
+          "size": 288955927,
+          "downloadCount": 0,
+          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.3/AutoSoftware_v2.12.3.zip",
+          "category": "full",
+          "mirrors": [
+            {
+              "name": "加速线路 1",
+              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.3/AutoSoftware_v2.12.3.zip"
+            },
+            {
+              "name": "加速线路 2",
+              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.3/AutoSoftware_v2.12.3.zip"
+            },
+            {
+              "name": "加速线路 3",
+              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.3/AutoSoftware_v2.12.3.zip"
+            },
+            {
+              "name": "加速线路 4",
+              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.3/AutoSoftware_v2.12.3.zip"
+            }
+          ]
+        }
+      ]
     },
     {
       "version": "v2.12.2",
