@@ -2,7 +2,7 @@
   "site": "SY 软件下载",
   "subtitle": "官方下载 · 请认准本页面",
   "repo": "sushangxiong0312-ctrl/SY",
-  "generatedAt": "2026-07-04T04:38:04.250Z",
+  "generatedAt": "2026-07-04T04:38:59.144Z",
   "categories": [
     {
       "key": "full",
@@ -44,7 +44,33 @@
           "date": "2026-07-04T04:37:52Z",
           "prerelease": false,
           "body": "- 升级: 上相机标定文件\"中心化\" — 标定(含旋转点)完成后, 仿射平移项自动并入吸持偏差, 此后凡是用该标定文件做像素→物理转换的工具(CoordTransform / PixelToMachine / 工序调用)输出的直接就是产品中心物理坐标; 吸取计算(UpCameraPick/ComputePick)自动识别新旧文件, 吸取指令与升级前完全一致\n- 新增: UpCameraPick 节点输出\"料中心X/Y(物理)\"\n- 说明: 旧标定文件(无 affineCentered 标志)吸取照常准, 但转换仍带吸持偏置; 重跑一次上相机标定即得新语义\n- 修复: 工序点停止后偶发多执行一次 Step 0 — 停止把 Step 复位与工作线程睡循环间隔存在竞态, 现醒后复查状态且复位延后到在飞一轮退出, 并修复\"停止时正在执行的步会盖掉复位、下次启动从中间续跑\"的连带问题",
-          "files": []
+          "files": [
+            {
+              "name": "AutoSoftware_v2.12.4.zip",
+              "size": 288957289,
+              "downloadCount": 0,
+              "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.4/AutoSoftware_v2.12.4.zip",
+              "category": "full",
+              "mirrors": [
+                {
+                  "name": "加速线路 1",
+                  "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.4/AutoSoftware_v2.12.4.zip"
+                },
+                {
+                  "name": "加速线路 2",
+                  "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.4/AutoSoftware_v2.12.4.zip"
+                },
+                {
+                  "name": "加速线路 3",
+                  "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.4/AutoSoftware_v2.12.4.zip"
+                },
+                {
+                  "name": "加速线路 4",
+                  "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.4/AutoSoftware_v2.12.4.zip"
+                }
+              ]
+            }
+          ]
         },
         {
           "version": "v2.12.3",
@@ -4958,7 +4984,33 @@
       "date": "2026-07-04T04:37:52Z",
       "prerelease": false,
       "body": "- 升级: 上相机标定文件\"中心化\" — 标定(含旋转点)完成后, 仿射平移项自动并入吸持偏差, 此后凡是用该标定文件做像素→物理转换的工具(CoordTransform / PixelToMachine / 工序调用)输出的直接就是产品中心物理坐标; 吸取计算(UpCameraPick/ComputePick)自动识别新旧文件, 吸取指令与升级前完全一致\n- 新增: UpCameraPick 节点输出\"料中心X/Y(物理)\"\n- 说明: 旧标定文件(无 affineCentered 标志)吸取照常准, 但转换仍带吸持偏置; 重跑一次上相机标定即得新语义\n- 修复: 工序点停止后偶发多执行一次 Step 0 — 停止把 Step 复位与工作线程睡循环间隔存在竞态, 现醒后复查状态且复位延后到在飞一轮退出, 并修复\"停止时正在执行的步会盖掉复位、下次启动从中间续跑\"的连带问题",
-      "files": []
+      "files": [
+        {
+          "name": "AutoSoftware_v2.12.4.zip",
+          "size": 288957289,
+          "downloadCount": 0,
+          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.4/AutoSoftware_v2.12.4.zip",
+          "category": "full",
+          "mirrors": [
+            {
+              "name": "加速线路 1",
+              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.4/AutoSoftware_v2.12.4.zip"
+            },
+            {
+              "name": "加速线路 2",
+              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.4/AutoSoftware_v2.12.4.zip"
+            },
+            {
+              "name": "加速线路 3",
+              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.4/AutoSoftware_v2.12.4.zip"
+            },
+            {
+              "name": "加速线路 4",
+              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.4/AutoSoftware_v2.12.4.zip"
+            }
+          ]
+        }
+      ]
     },
     {
       "version": "v2.12.3",
