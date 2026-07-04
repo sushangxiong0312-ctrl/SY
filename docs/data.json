@@ -2,7 +2,7 @@
   "site": "SY 软件下载",
   "subtitle": "官方下载 · 请认准本页面",
   "repo": "sushangxiong0312-ctrl/SY",
-  "generatedAt": "2026-07-04T02:40:07.740Z",
+  "generatedAt": "2026-07-04T02:41:27.454Z",
   "categories": [
     {
       "key": "full",
@@ -44,7 +44,33 @@
           "date": "2026-07-04T02:39:56Z",
           "prerelease": false,
           "body": "- 新增: 上相机标定/吸取补正节点 UpCameraCalibrate + UpCameraPick(视觉/标定): 标定端转 R 复放复拍(0/90/180)自动解出\"产品中心↔吸取点\"偏差与旋向符号, 运行端按检测角旋转补偿吸取 X/Y/R — 产品旋转后吸取不准的问题由此解决; 标定文件与 N 点仿射同文件合并存放(pickRef 块), 工序可直接调 SolvePickRef/ComputePick 同一份算法\n- 修复: 海康相机像素格式为 BGR8 时输出图像红蓝对调(黄色变蓝), 现统一经 SDK 转 RGB8; YUV422 系列格式同步纳入转换(原会输出黑图)\n- 修复: 点阵畸变标定在大分辨率/大圆点下检测不到点报 \"samples is empty\": 检测器面积上限随图像自适应 + 黑点白底/白点黑底两种极性自动重试, 失败时给出中文排查提示",
-          "files": []
+          "files": [
+            {
+              "name": "AutoSoftware_v2.12.2.zip",
+              "size": 288955933,
+              "downloadCount": 0,
+              "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.2/AutoSoftware_v2.12.2.zip",
+              "category": "full",
+              "mirrors": [
+                {
+                  "name": "加速线路 1",
+                  "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.2/AutoSoftware_v2.12.2.zip"
+                },
+                {
+                  "name": "加速线路 2",
+                  "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.2/AutoSoftware_v2.12.2.zip"
+                },
+                {
+                  "name": "加速线路 3",
+                  "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.2/AutoSoftware_v2.12.2.zip"
+                },
+                {
+                  "name": "加速线路 4",
+                  "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.2/AutoSoftware_v2.12.2.zip"
+                }
+              ]
+            }
+          ]
         },
         {
           "version": "v2.12.1",
@@ -4886,7 +4912,33 @@
       "date": "2026-07-04T02:39:56Z",
       "prerelease": false,
       "body": "- 新增: 上相机标定/吸取补正节点 UpCameraCalibrate + UpCameraPick(视觉/标定): 标定端转 R 复放复拍(0/90/180)自动解出\"产品中心↔吸取点\"偏差与旋向符号, 运行端按检测角旋转补偿吸取 X/Y/R — 产品旋转后吸取不准的问题由此解决; 标定文件与 N 点仿射同文件合并存放(pickRef 块), 工序可直接调 SolvePickRef/ComputePick 同一份算法\n- 修复: 海康相机像素格式为 BGR8 时输出图像红蓝对调(黄色变蓝), 现统一经 SDK 转 RGB8; YUV422 系列格式同步纳入转换(原会输出黑图)\n- 修复: 点阵畸变标定在大分辨率/大圆点下检测不到点报 \"samples is empty\": 检测器面积上限随图像自适应 + 黑点白底/白点黑底两种极性自动重试, 失败时给出中文排查提示",
-      "files": []
+      "files": [
+        {
+          "name": "AutoSoftware_v2.12.2.zip",
+          "size": 288955933,
+          "downloadCount": 0,
+          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.2/AutoSoftware_v2.12.2.zip",
+          "category": "full",
+          "mirrors": [
+            {
+              "name": "加速线路 1",
+              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.2/AutoSoftware_v2.12.2.zip"
+            },
+            {
+              "name": "加速线路 2",
+              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.2/AutoSoftware_v2.12.2.zip"
+            },
+            {
+              "name": "加速线路 3",
+              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.2/AutoSoftware_v2.12.2.zip"
+            },
+            {
+              "name": "加速线路 4",
+              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.2/AutoSoftware_v2.12.2.zip"
+            }
+          ]
+        }
+      ]
     },
     {
       "version": "v2.12.1",
