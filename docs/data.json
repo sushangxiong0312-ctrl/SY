@@ -2,7 +2,7 @@
   "site": "SY 软件下载",
   "subtitle": "官方下载 · 请认准本页面",
   "repo": "sushangxiong0312-ctrl/SY",
-  "generatedAt": "2026-07-04T04:43:52.925Z",
+  "generatedAt": "2026-07-04T04:44:46.704Z",
   "categories": [
     {
       "key": "full",
@@ -44,7 +44,33 @@
           "date": "2026-07-04T04:43:41Z",
           "prerelease": false,
           "body": "- 新增: 内置设备状态\"初始化中\"(Initializing, 靛蓝色) — 与停止/暂停/运行中/报警/提醒并列, 不可删可改名改色; 点【回零】自动进入初始化中(Home 工序结束时自行置停止, 或由启动/停止切走); 工序代码用 Device.StateCodes.Initializing / 工作流状态节点下拉直接可选",
-          "files": []
+          "files": [
+            {
+              "name": "AutoSoftware_v2.12.5.zip",
+              "size": 288956911,
+              "downloadCount": 0,
+              "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.5/AutoSoftware_v2.12.5.zip",
+              "category": "full",
+              "mirrors": [
+                {
+                  "name": "加速线路 1",
+                  "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.5/AutoSoftware_v2.12.5.zip"
+                },
+                {
+                  "name": "加速线路 2",
+                  "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.5/AutoSoftware_v2.12.5.zip"
+                },
+                {
+                  "name": "加速线路 3",
+                  "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.5/AutoSoftware_v2.12.5.zip"
+                },
+                {
+                  "name": "加速线路 4",
+                  "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.5/AutoSoftware_v2.12.5.zip"
+                }
+              ]
+            }
+          ]
         },
         {
           "version": "v2.12.4",
@@ -4994,7 +5020,33 @@
       "date": "2026-07-04T04:43:41Z",
       "prerelease": false,
       "body": "- 新增: 内置设备状态\"初始化中\"(Initializing, 靛蓝色) — 与停止/暂停/运行中/报警/提醒并列, 不可删可改名改色; 点【回零】自动进入初始化中(Home 工序结束时自行置停止, 或由启动/停止切走); 工序代码用 Device.StateCodes.Initializing / 工作流状态节点下拉直接可选",
-      "files": []
+      "files": [
+        {
+          "name": "AutoSoftware_v2.12.5.zip",
+          "size": 288956911,
+          "downloadCount": 0,
+          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.5/AutoSoftware_v2.12.5.zip",
+          "category": "full",
+          "mirrors": [
+            {
+              "name": "加速线路 1",
+              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.5/AutoSoftware_v2.12.5.zip"
+            },
+            {
+              "name": "加速线路 2",
+              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.5/AutoSoftware_v2.12.5.zip"
+            },
+            {
+              "name": "加速线路 3",
+              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.5/AutoSoftware_v2.12.5.zip"
+            },
+            {
+              "name": "加速线路 4",
+              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.5/AutoSoftware_v2.12.5.zip"
+            }
+          ]
+        }
+      ]
     },
     {
       "version": "v2.12.4",
