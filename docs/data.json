@@ -2,7 +2,7 @@
   "site": "SY 软件下载",
   "subtitle": "官方下载 · 请认准本页面",
   "repo": "sushangxiong0312-ctrl/SY",
-  "generatedAt": "2026-07-02T16:41:26.912Z",
+  "generatedAt": "2026-07-04T02:40:07.740Z",
   "categories": [
     {
       "key": "full",
@@ -37,6 +37,16 @@
       "mode": "versions",
       "versions": [
         {
+          "version": "v2.12.2",
+          "tag": "v2.12.2",
+          "trackKey": "app",
+          "title": "v2.12.2",
+          "date": "2026-07-04T02:39:56Z",
+          "prerelease": false,
+          "body": "- 新增: 上相机标定/吸取补正节点 UpCameraCalibrate + UpCameraPick(视觉/标定): 标定端转 R 复放复拍(0/90/180)自动解出\"产品中心↔吸取点\"偏差与旋向符号, 运行端按检测角旋转补偿吸取 X/Y/R — 产品旋转后吸取不准的问题由此解决; 标定文件与 N 点仿射同文件合并存放(pickRef 块), 工序可直接调 SolvePickRef/ComputePick 同一份算法\n- 修复: 海康相机像素格式为 BGR8 时输出图像红蓝对调(黄色变蓝), 现统一经 SDK 转 RGB8; YUV422 系列格式同步纳入转换(原会输出黑图)\n- 修复: 点阵畸变标定在大分辨率/大圆点下检测不到点报 \"samples is empty\": 检测器面积上限随图像自适应 + 黑点白底/白点黑底两种极性自动重试, 失败时给出中文排查提示",
+          "files": []
+        },
+        {
           "version": "v2.12.1",
           "tag": "v2.12.1",
           "trackKey": "app",
@@ -48,7 +58,7 @@
             {
               "name": "AutoSoftware_v2.12.1.zip",
               "size": 288948897,
-              "downloadCount": 0,
+              "downloadCount": 1,
               "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.1/AutoSoftware_v2.12.1.zip",
               "category": "full",
               "mirrors": [
@@ -4869,6 +4879,16 @@
   ],
   "versions": [
     {
+      "version": "v2.12.2",
+      "tag": "v2.12.2",
+      "trackKey": "app",
+      "title": "v2.12.2",
+      "date": "2026-07-04T02:39:56Z",
+      "prerelease": false,
+      "body": "- 新增: 上相机标定/吸取补正节点 UpCameraCalibrate + UpCameraPick(视觉/标定): 标定端转 R 复放复拍(0/90/180)自动解出\"产品中心↔吸取点\"偏差与旋向符号, 运行端按检测角旋转补偿吸取 X/Y/R — 产品旋转后吸取不准的问题由此解决; 标定文件与 N 点仿射同文件合并存放(pickRef 块), 工序可直接调 SolvePickRef/ComputePick 同一份算法\n- 修复: 海康相机像素格式为 BGR8 时输出图像红蓝对调(黄色变蓝), 现统一经 SDK 转 RGB8; YUV422 系列格式同步纳入转换(原会输出黑图)\n- 修复: 点阵畸变标定在大分辨率/大圆点下检测不到点报 \"samples is empty\": 检测器面积上限随图像自适应 + 黑点白底/白点黑底两种极性自动重试, 失败时给出中文排查提示",
+      "files": []
+    },
+    {
       "version": "v2.12.1",
       "tag": "v2.12.1",
       "trackKey": "app",
@@ -4880,7 +4900,7 @@
         {
           "name": "AutoSoftware_v2.12.1.zip",
           "size": 288948897,
-          "downloadCount": 0,
+          "downloadCount": 1,
           "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.1/AutoSoftware_v2.12.1.zip",
           "category": "full",
           "mirrors": [
