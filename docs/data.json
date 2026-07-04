@@ -2,7 +2,7 @@
   "site": "SY 软件下载",
   "subtitle": "官方下载 · 请认准本页面",
   "repo": "sushangxiong0312-ctrl/SY",
-  "generatedAt": "2026-07-04T04:44:46.704Z",
+  "generatedAt": "2026-07-04T05:09:26.081Z",
   "categories": [
     {
       "key": "full",
@@ -36,6 +36,16 @@
       "label": "主程序",
       "mode": "versions",
       "versions": [
+        {
+          "version": "v2.12.6",
+          "tag": "v2.12.6",
+          "trackKey": "app",
+          "title": "v2.12.6",
+          "date": "2026-07-04T05:09:12Z",
+          "prerelease": false,
+          "body": "- 修复: 生产页右上角\"当前状态\"卡片不跟随设备状态 — 现订阅 Device.CurrentStateChanged, 启动/暂停/停止/回零(初始化中)/工序或工作流置状态都会实时刷新, 显示名与颜色取自维护页状态注册表(可自定义)",
+          "files": []
+        },
         {
           "version": "v2.12.5",
           "tag": "v2.12.5",
@@ -5012,6 +5022,16 @@
     }
   ],
   "versions": [
+    {
+      "version": "v2.12.6",
+      "tag": "v2.12.6",
+      "trackKey": "app",
+      "title": "v2.12.6",
+      "date": "2026-07-04T05:09:12Z",
+      "prerelease": false,
+      "body": "- 修复: 生产页右上角\"当前状态\"卡片不跟随设备状态 — 现订阅 Device.CurrentStateChanged, 启动/暂停/停止/回零(初始化中)/工序或工作流置状态都会实时刷新, 显示名与颜色取自维护页状态注册表(可自定义)",
+      "files": []
+    },
     {
       "version": "v2.12.5",
       "tag": "v2.12.5",
