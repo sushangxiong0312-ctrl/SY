@@ -2,7 +2,7 @@
   "site": "SY 软件下载",
   "subtitle": "官方下载 · 请认准本页面",
   "repo": "sushangxiong0312-ctrl/SY",
-  "generatedAt": "2026-07-04T05:10:17.532Z",
+  "generatedAt": "2026-07-04T08:34:41.551Z",
   "categories": [
     {
       "key": "full",
@@ -36,6 +36,16 @@
       "label": "主程序",
       "mode": "versions",
       "versions": [
+        {
+          "version": "v2.12.7",
+          "tag": "v2.12.7",
+          "trackKey": "app",
+          "title": "v2.12.7",
+          "date": "2026-07-04T08:34:31Z",
+          "prerelease": false,
+          "body": "- 修复: 流程监控页的报警信息(LastError)再次运行不清除 — 工序 Start/单步重新开跑时自动清上一轮错误, 报警条随之消失; 停止状态下保留错误便于排查",
+          "files": []
+        },
         {
           "version": "v2.12.6",
           "tag": "v2.12.6",
@@ -5048,6 +5058,16 @@
     }
   ],
   "versions": [
+    {
+      "version": "v2.12.7",
+      "tag": "v2.12.7",
+      "trackKey": "app",
+      "title": "v2.12.7",
+      "date": "2026-07-04T08:34:31Z",
+      "prerelease": false,
+      "body": "- 修复: 流程监控页的报警信息(LastError)再次运行不清除 — 工序 Start/单步重新开跑时自动清上一轮错误, 报警条随之消失; 停止状态下保留错误便于排查",
+      "files": []
+    },
     {
       "version": "v2.12.6",
       "tag": "v2.12.6",
