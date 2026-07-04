@@ -2,7 +2,7 @@
   "site": "SY 软件下载",
   "subtitle": "官方下载 · 请认准本页面",
   "repo": "sushangxiong0312-ctrl/SY",
-  "generatedAt": "2026-07-04T04:38:59.144Z",
+  "generatedAt": "2026-07-04T04:43:52.925Z",
   "categories": [
     {
       "key": "full",
@@ -36,6 +36,16 @@
       "label": "主程序",
       "mode": "versions",
       "versions": [
+        {
+          "version": "v2.12.5",
+          "tag": "v2.12.5",
+          "trackKey": "app",
+          "title": "v2.12.5",
+          "date": "2026-07-04T04:43:41Z",
+          "prerelease": false,
+          "body": "- 新增: 内置设备状态\"初始化中\"(Initializing, 靛蓝色) — 与停止/暂停/运行中/报警/提醒并列, 不可删可改名改色; 点【回零】自动进入初始化中(Home 工序结束时自行置停止, 或由启动/停止切走); 工序代码用 Device.StateCodes.Initializing / 工作流状态节点下拉直接可选",
+          "files": []
+        },
         {
           "version": "v2.12.4",
           "tag": "v2.12.4",
@@ -4976,6 +4986,16 @@
     }
   ],
   "versions": [
+    {
+      "version": "v2.12.5",
+      "tag": "v2.12.5",
+      "trackKey": "app",
+      "title": "v2.12.5",
+      "date": "2026-07-04T04:43:41Z",
+      "prerelease": false,
+      "body": "- 新增: 内置设备状态\"初始化中\"(Initializing, 靛蓝色) — 与停止/暂停/运行中/报警/提醒并列, 不可删可改名改色; 点【回零】自动进入初始化中(Home 工序结束时自行置停止, 或由启动/停止切走); 工序代码用 Device.StateCodes.Initializing / 工作流状态节点下拉直接可选",
+      "files": []
+    },
     {
       "version": "v2.12.4",
       "tag": "v2.12.4",
