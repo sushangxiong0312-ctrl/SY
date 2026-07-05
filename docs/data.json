@@ -2,7 +2,7 @@
   "site": "SY 软件下载",
   "subtitle": "官方下载 · 请认准本页面",
   "repo": "sushangxiong0312-ctrl/SY",
-  "generatedAt": "2026-07-05T12:02:44.221Z",
+  "generatedAt": "2026-07-05T12:03:54.061Z",
   "categories": [
     {
       "key": "full",
@@ -44,7 +44,33 @@
           "date": "2026-07-05T12:02:31Z",
           "prerelease": false,
           "body": "- 产品定向标注(pose)新增删除本图/清空全部按钮\n- pose标注支持多数据集(下拉/新建/删除), 工作流ProductPose节点模型下拉可选子数据集模型\n- 修复pose标注旋转框保存重开后角度变0的问题(标签写外接AABB+边车文件保角度)",
-          "files": []
+          "files": [
+            {
+              "name": "AutoSoftware_v2.12.9.zip",
+              "size": 288959920,
+              "downloadCount": 0,
+              "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.9/AutoSoftware_v2.12.9.zip",
+              "category": "full",
+              "mirrors": [
+                {
+                  "name": "加速线路 1",
+                  "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.9/AutoSoftware_v2.12.9.zip"
+                },
+                {
+                  "name": "加速线路 2",
+                  "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.9/AutoSoftware_v2.12.9.zip"
+                },
+                {
+                  "name": "加速线路 3",
+                  "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.9/AutoSoftware_v2.12.9.zip"
+                },
+                {
+                  "name": "加速线路 4",
+                  "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.9/AutoSoftware_v2.12.9.zip"
+                }
+              ]
+            }
+          ]
         },
         {
           "version": "v2.12.7",
@@ -5102,7 +5128,33 @@
       "date": "2026-07-05T12:02:31Z",
       "prerelease": false,
       "body": "- 产品定向标注(pose)新增删除本图/清空全部按钮\n- pose标注支持多数据集(下拉/新建/删除), 工作流ProductPose节点模型下拉可选子数据集模型\n- 修复pose标注旋转框保存重开后角度变0的问题(标签写外接AABB+边车文件保角度)",
-      "files": []
+      "files": [
+        {
+          "name": "AutoSoftware_v2.12.9.zip",
+          "size": 288959920,
+          "downloadCount": 0,
+          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.9/AutoSoftware_v2.12.9.zip",
+          "category": "full",
+          "mirrors": [
+            {
+              "name": "加速线路 1",
+              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.9/AutoSoftware_v2.12.9.zip"
+            },
+            {
+              "name": "加速线路 2",
+              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.9/AutoSoftware_v2.12.9.zip"
+            },
+            {
+              "name": "加速线路 3",
+              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.9/AutoSoftware_v2.12.9.zip"
+            },
+            {
+              "name": "加速线路 4",
+              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.9/AutoSoftware_v2.12.9.zip"
+            }
+          ]
+        }
+      ]
     },
     {
       "version": "v2.12.7",
