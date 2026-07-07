@@ -2,7 +2,7 @@
   "site": "SY 软件下载",
   "subtitle": "官方下载 · 请认准本页面",
   "repo": "sushangxiong0312-ctrl/SY",
-  "generatedAt": "2026-07-07T11:50:44.649Z",
+  "generatedAt": "2026-07-07T11:52:10.995Z",
   "categories": [
     {
       "key": "full",
@@ -44,7 +44,58 @@
           "date": "2026-07-07T11:50:32Z",
           "prerelease": false,
           "body": "- HMI 点动按钮速率边界管控: Speed/Accel/Decel 百分比 <0 按 1% 处理, >100 按 100% 处理 (0/不绑仍=轴最大值)\n- TouchIcon 新增「文件」11个(保存/文件夹/文件/上传下载/数据库/打印/剪贴板)+「网络/电脑」13个(网口/网线/串口/USB/局域网/WiFi/服务器/台式机/显示器/笔记本等)图标, 共93个\n- HMI 图标选择窗改分类页签: 视觉/运动控制/元器件/指向/手势/通用/工业/文件/网络电脑 分组浏览, 打开自动定位当前图标所在组\n- 修复: HMI 设计器删除控件保存后运行界面仍显示旧控件 — 「保存」现在保存后自动刷新运行页(原来只有「热重载」按钮才刷)\n- HMI 设计器新增「控件列表」: 列出页面全部控件(名称/类型/事件数), 点行选中画布控件, ✕ 删除\n- HMI 设计器删除控件(Del键/删除按钮/控件列表)同步删除该控件的全部事件方法, 不再残留孤儿代码(撤销只还原控件不还原代码)",
-          "files": []
+          "files": [
+            {
+              "name": "AutoSoftware_v2.12.22.zip",
+              "size": 289005227,
+              "downloadCount": 0,
+              "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.22/AutoSoftware_v2.12.22.zip",
+              "category": "full",
+              "mirrors": [
+                {
+                  "name": "加速线路 1",
+                  "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.22/AutoSoftware_v2.12.22.zip"
+                },
+                {
+                  "name": "加速线路 2",
+                  "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.22/AutoSoftware_v2.12.22.zip"
+                },
+                {
+                  "name": "加速线路 3",
+                  "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.22/AutoSoftware_v2.12.22.zip"
+                },
+                {
+                  "name": "加速线路 4",
+                  "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.22/AutoSoftware_v2.12.22.zip"
+                }
+              ]
+            },
+            {
+              "name": "HmiTouchControls.dll",
+              "size": 89600,
+              "downloadCount": 0,
+              "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.22/HmiTouchControls.dll",
+              "category": "other",
+              "mirrors": [
+                {
+                  "name": "加速线路 1",
+                  "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.22/HmiTouchControls.dll"
+                },
+                {
+                  "name": "加速线路 2",
+                  "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.22/HmiTouchControls.dll"
+                },
+                {
+                  "name": "加速线路 3",
+                  "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.22/HmiTouchControls.dll"
+                },
+                {
+                  "name": "加速线路 4",
+                  "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.22/HmiTouchControls.dll"
+                }
+              ]
+            }
+          ]
         },
         {
           "version": "v2.12.21",
@@ -5260,7 +5311,58 @@
       "date": "2026-07-07T11:50:32Z",
       "prerelease": false,
       "body": "- HMI 点动按钮速率边界管控: Speed/Accel/Decel 百分比 <0 按 1% 处理, >100 按 100% 处理 (0/不绑仍=轴最大值)\n- TouchIcon 新增「文件」11个(保存/文件夹/文件/上传下载/数据库/打印/剪贴板)+「网络/电脑」13个(网口/网线/串口/USB/局域网/WiFi/服务器/台式机/显示器/笔记本等)图标, 共93个\n- HMI 图标选择窗改分类页签: 视觉/运动控制/元器件/指向/手势/通用/工业/文件/网络电脑 分组浏览, 打开自动定位当前图标所在组\n- 修复: HMI 设计器删除控件保存后运行界面仍显示旧控件 — 「保存」现在保存后自动刷新运行页(原来只有「热重载」按钮才刷)\n- HMI 设计器新增「控件列表」: 列出页面全部控件(名称/类型/事件数), 点行选中画布控件, ✕ 删除\n- HMI 设计器删除控件(Del键/删除按钮/控件列表)同步删除该控件的全部事件方法, 不再残留孤儿代码(撤销只还原控件不还原代码)",
-      "files": []
+      "files": [
+        {
+          "name": "AutoSoftware_v2.12.22.zip",
+          "size": 289005227,
+          "downloadCount": 0,
+          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.22/AutoSoftware_v2.12.22.zip",
+          "category": "full",
+          "mirrors": [
+            {
+              "name": "加速线路 1",
+              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.22/AutoSoftware_v2.12.22.zip"
+            },
+            {
+              "name": "加速线路 2",
+              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.22/AutoSoftware_v2.12.22.zip"
+            },
+            {
+              "name": "加速线路 3",
+              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.22/AutoSoftware_v2.12.22.zip"
+            },
+            {
+              "name": "加速线路 4",
+              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.22/AutoSoftware_v2.12.22.zip"
+            }
+          ]
+        },
+        {
+          "name": "HmiTouchControls.dll",
+          "size": 89600,
+          "downloadCount": 0,
+          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.22/HmiTouchControls.dll",
+          "category": "other",
+          "mirrors": [
+            {
+              "name": "加速线路 1",
+              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.22/HmiTouchControls.dll"
+            },
+            {
+              "name": "加速线路 2",
+              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.22/HmiTouchControls.dll"
+            },
+            {
+              "name": "加速线路 3",
+              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.22/HmiTouchControls.dll"
+            },
+            {
+              "name": "加速线路 4",
+              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.22/HmiTouchControls.dll"
+            }
+          ]
+        }
+      ]
     },
     {
       "version": "v2.12.21",
