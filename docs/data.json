@@ -2,7 +2,7 @@
   "site": "SY 软件下载",
   "subtitle": "官方下载 · 请认准本页面",
   "repo": "sushangxiong0312-ctrl/SY",
-  "generatedAt": "2026-07-07T14:47:40.472Z",
+  "generatedAt": "2026-07-07T15:31:04.318Z",
   "categories": [
     {
       "key": "full",
@@ -36,6 +36,16 @@
       "label": "主程序",
       "mode": "versions",
       "versions": [
+        {
+          "version": "v2.12.29",
+          "tag": "v2.12.29",
+          "trackKey": "app",
+          "title": "v2.12.29",
+          "date": "2026-07-07T15:30:46Z",
+          "prerelease": false,
+          "body": "- 新增卡尺式找圆工具 FindCircleCaliper (Cognex Find Circle 风格): 画期望圆沿圆周等分卡尺沿径向找边缘拟合圆, 支持极性/选边/扫描方向/角度范围/剔除最差点, 输出圆心半径和径向RMS, 结果叠加环带+卡尺+边缘点",
+          "files": []
+        },
         {
           "version": "v2.12.28",
           "tag": "v2.12.28",
@@ -5669,6 +5679,16 @@
     }
   ],
   "versions": [
+    {
+      "version": "v2.12.29",
+      "tag": "v2.12.29",
+      "trackKey": "app",
+      "title": "v2.12.29",
+      "date": "2026-07-07T15:30:46Z",
+      "prerelease": false,
+      "body": "- 新增卡尺式找圆工具 FindCircleCaliper (Cognex Find Circle 风格): 画期望圆沿圆周等分卡尺沿径向找边缘拟合圆, 支持极性/选边/扫描方向/角度范围/剔除最差点, 输出圆心半径和径向RMS, 结果叠加环带+卡尺+边缘点",
+      "files": []
+    },
     {
       "version": "v2.12.28",
       "tag": "v2.12.28",
