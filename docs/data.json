@@ -2,7 +2,7 @@
   "site": "SY 软件下载",
   "subtitle": "官方下载 · 请认准本页面",
   "repo": "sushangxiong0312-ctrl/SY",
-  "generatedAt": "2026-07-07T12:48:34.651Z",
+  "generatedAt": "2026-07-07T12:49:31.725Z",
   "categories": [
     {
       "key": "full",
@@ -44,7 +44,58 @@
           "date": "2026-07-07T12:48:21Z",
           "prerelease": false,
           "body": "- 工序新增 ShowChoiceRequired 必选对话框: 无取消按钮且关不掉, 必须选一个选项才返回(支持 notice 状态联动, 离线未注入 UI 时仍返回 -1)\n- HMI 新增触屏开关控件 TouchSwitch: Value 双向绑定 bool 参数/变量(点开关直接写回), 开/关颜色可配, 可编辑=false 只读, 页面事件 On_名_Toggled\n- 修复: 自定义参数脚本加字段重编译后, 原有 public 字段的值被重置 — 实例迁移现在属性和公共字段都拷贝, 嵌套自定义类型/集合走 JSON 转换不再丢失",
-          "files": []
+          "files": [
+            {
+              "name": "AutoSoftware_v2.12.23.zip",
+              "size": 289007787,
+              "downloadCount": 0,
+              "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.23/AutoSoftware_v2.12.23.zip",
+              "category": "full",
+              "mirrors": [
+                {
+                  "name": "加速线路 1",
+                  "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.23/AutoSoftware_v2.12.23.zip"
+                },
+                {
+                  "name": "加速线路 2",
+                  "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.23/AutoSoftware_v2.12.23.zip"
+                },
+                {
+                  "name": "加速线路 3",
+                  "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.23/AutoSoftware_v2.12.23.zip"
+                },
+                {
+                  "name": "加速线路 4",
+                  "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.23/AutoSoftware_v2.12.23.zip"
+                }
+              ]
+            },
+            {
+              "name": "HmiTouchControls.dll",
+              "size": 93696,
+              "downloadCount": 0,
+              "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.23/HmiTouchControls.dll",
+              "category": "other",
+              "mirrors": [
+                {
+                  "name": "加速线路 1",
+                  "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.23/HmiTouchControls.dll"
+                },
+                {
+                  "name": "加速线路 2",
+                  "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.23/HmiTouchControls.dll"
+                },
+                {
+                  "name": "加速线路 3",
+                  "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.23/HmiTouchControls.dll"
+                },
+                {
+                  "name": "加速线路 4",
+                  "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.23/HmiTouchControls.dll"
+                }
+              ]
+            }
+          ]
         },
         {
           "version": "v2.12.22",
@@ -5321,7 +5372,58 @@
       "date": "2026-07-07T12:48:21Z",
       "prerelease": false,
       "body": "- 工序新增 ShowChoiceRequired 必选对话框: 无取消按钮且关不掉, 必须选一个选项才返回(支持 notice 状态联动, 离线未注入 UI 时仍返回 -1)\n- HMI 新增触屏开关控件 TouchSwitch: Value 双向绑定 bool 参数/变量(点开关直接写回), 开/关颜色可配, 可编辑=false 只读, 页面事件 On_名_Toggled\n- 修复: 自定义参数脚本加字段重编译后, 原有 public 字段的值被重置 — 实例迁移现在属性和公共字段都拷贝, 嵌套自定义类型/集合走 JSON 转换不再丢失",
-      "files": []
+      "files": [
+        {
+          "name": "AutoSoftware_v2.12.23.zip",
+          "size": 289007787,
+          "downloadCount": 0,
+          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.23/AutoSoftware_v2.12.23.zip",
+          "category": "full",
+          "mirrors": [
+            {
+              "name": "加速线路 1",
+              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.23/AutoSoftware_v2.12.23.zip"
+            },
+            {
+              "name": "加速线路 2",
+              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.23/AutoSoftware_v2.12.23.zip"
+            },
+            {
+              "name": "加速线路 3",
+              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.23/AutoSoftware_v2.12.23.zip"
+            },
+            {
+              "name": "加速线路 4",
+              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.23/AutoSoftware_v2.12.23.zip"
+            }
+          ]
+        },
+        {
+          "name": "HmiTouchControls.dll",
+          "size": 93696,
+          "downloadCount": 0,
+          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.23/HmiTouchControls.dll",
+          "category": "other",
+          "mirrors": [
+            {
+              "name": "加速线路 1",
+              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.23/HmiTouchControls.dll"
+            },
+            {
+              "name": "加速线路 2",
+              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.23/HmiTouchControls.dll"
+            },
+            {
+              "name": "加速线路 3",
+              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.23/HmiTouchControls.dll"
+            },
+            {
+              "name": "加速线路 4",
+              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.23/HmiTouchControls.dll"
+            }
+          ]
+        }
+      ]
     },
     {
       "version": "v2.12.22",
