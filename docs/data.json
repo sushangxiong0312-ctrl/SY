@@ -2,7 +2,7 @@
   "site": "SY 软件下载",
   "subtitle": "官方下载 · 请认准本页面",
   "repo": "sushangxiong0312-ctrl/SY",
-  "generatedAt": "2026-07-07T03:23:36.086Z",
+  "generatedAt": "2026-07-07T09:20:52.407Z",
   "categories": [
     {
       "key": "full",
@@ -36,6 +36,16 @@
       "label": "主程序",
       "mode": "versions",
       "versions": [
+        {
+          "version": "v2.12.21",
+          "tag": "v2.12.21",
+          "trackKey": "app",
+          "title": "v2.12.21",
+          "date": "2026-07-07T09:20:40Z",
+          "prerelease": false,
+          "body": "- 运动卡新增按槽位/节点寻址的 SDO 读写 API (SdoReadNode/SdoWriteNode, 等价 BASIC SDO_READ/SDO_WRITE), 未映射成轴的总线从站(如总线步进驱动)参数可写\n- HMI 点动按钮新增「减速% (Decel)」属性: 松手停止的减速度 = Decel% × 轴最大减速度, 不设=跟加速度一致; MoveContinuous 支持加/减速度分开给\n- 工序智能生成新增结果模式开关: 默认「提示」只在对话里展示生成代码(可选中/一键复制不动编辑器), 切「插入代码」才直接填入编辑器/插到光标\n- 修复: HMI 页面切走再打开后绑定不再刷新(位置等实时值静止) — 页面刷新改挂起/恢复, 重开页面恢复 200ms 刷新\n- 修复: 触屏数字框设了最小/最大值后, −/+ 步进和键盘录入仍会把越界值写进绑定参数 — 写入前先夹取范围",
+          "files": []
+        },
         {
           "version": "v2.12.20",
           "tag": "v2.12.20",
@@ -5181,6 +5191,16 @@
     }
   ],
   "versions": [
+    {
+      "version": "v2.12.21",
+      "tag": "v2.12.21",
+      "trackKey": "app",
+      "title": "v2.12.21",
+      "date": "2026-07-07T09:20:40Z",
+      "prerelease": false,
+      "body": "- 运动卡新增按槽位/节点寻址的 SDO 读写 API (SdoReadNode/SdoWriteNode, 等价 BASIC SDO_READ/SDO_WRITE), 未映射成轴的总线从站(如总线步进驱动)参数可写\n- HMI 点动按钮新增「减速% (Decel)」属性: 松手停止的减速度 = Decel% × 轴最大减速度, 不设=跟加速度一致; MoveContinuous 支持加/减速度分开给\n- 工序智能生成新增结果模式开关: 默认「提示」只在对话里展示生成代码(可选中/一键复制不动编辑器), 切「插入代码」才直接填入编辑器/插到光标\n- 修复: HMI 页面切走再打开后绑定不再刷新(位置等实时值静止) — 页面刷新改挂起/恢复, 重开页面恢复 200ms 刷新\n- 修复: 触屏数字框设了最小/最大值后, −/+ 步进和键盘录入仍会把越界值写进绑定参数 — 写入前先夹取范围",
+      "files": []
+    },
     {
       "version": "v2.12.20",
       "tag": "v2.12.20",
