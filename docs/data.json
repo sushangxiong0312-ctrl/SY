@@ -2,7 +2,7 @@
   "site": "SY 软件下载",
   "subtitle": "官方下载 · 请认准本页面",
   "repo": "sushangxiong0312-ctrl/SY",
-  "generatedAt": "2026-07-07T14:09:48.867Z",
+  "generatedAt": "2026-07-07T14:10:41.939Z",
   "categories": [
     {
       "key": "full",
@@ -44,7 +44,58 @@
           "date": "2026-07-07T14:09:31Z",
           "prerelease": false,
           "body": "- 工序 AI 助手新增「问答」动作: 直接回答工序 API/写法问题(如 ShowChoice 怎么用), 单轮直答不走编译闭环, 答案可复制不碰编辑器\n- AI 助手改模式切换制: 右侧按钮只切换模式(默认问答), 回车/「发送」才执行, 不再点按钮立即跑\n- AI 模型加载体验: 显存不足导致推理进程退出时自动降 CPU 重试(不再傻等180秒超时), 等待期每10秒报进度, 失败报错附 llama-server 最近日志",
-          "files": []
+          "files": [
+            {
+              "name": "AutoSoftware_v2.12.26.zip",
+              "size": 289011017,
+              "downloadCount": 0,
+              "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.26/AutoSoftware_v2.12.26.zip",
+              "category": "full",
+              "mirrors": [
+                {
+                  "name": "加速线路 1",
+                  "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.26/AutoSoftware_v2.12.26.zip"
+                },
+                {
+                  "name": "加速线路 2",
+                  "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.26/AutoSoftware_v2.12.26.zip"
+                },
+                {
+                  "name": "加速线路 3",
+                  "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.26/AutoSoftware_v2.12.26.zip"
+                },
+                {
+                  "name": "加速线路 4",
+                  "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.26/AutoSoftware_v2.12.26.zip"
+                }
+              ]
+            },
+            {
+              "name": "HmiTouchControls.dll",
+              "size": 93696,
+              "downloadCount": 0,
+              "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.26/HmiTouchControls.dll",
+              "category": "other",
+              "mirrors": [
+                {
+                  "name": "加速线路 1",
+                  "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.26/HmiTouchControls.dll"
+                },
+                {
+                  "name": "加速线路 2",
+                  "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.26/HmiTouchControls.dll"
+                },
+                {
+                  "name": "加速线路 3",
+                  "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.26/HmiTouchControls.dll"
+                },
+                {
+                  "name": "加速线路 4",
+                  "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.26/HmiTouchControls.dll"
+                }
+              ]
+            }
+          ]
         },
         {
           "version": "v2.12.25",
@@ -5504,7 +5555,58 @@
       "date": "2026-07-07T14:09:31Z",
       "prerelease": false,
       "body": "- 工序 AI 助手新增「问答」动作: 直接回答工序 API/写法问题(如 ShowChoice 怎么用), 单轮直答不走编译闭环, 答案可复制不碰编辑器\n- AI 助手改模式切换制: 右侧按钮只切换模式(默认问答), 回车/「发送」才执行, 不再点按钮立即跑\n- AI 模型加载体验: 显存不足导致推理进程退出时自动降 CPU 重试(不再傻等180秒超时), 等待期每10秒报进度, 失败报错附 llama-server 最近日志",
-      "files": []
+      "files": [
+        {
+          "name": "AutoSoftware_v2.12.26.zip",
+          "size": 289011017,
+          "downloadCount": 0,
+          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.26/AutoSoftware_v2.12.26.zip",
+          "category": "full",
+          "mirrors": [
+            {
+              "name": "加速线路 1",
+              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.26/AutoSoftware_v2.12.26.zip"
+            },
+            {
+              "name": "加速线路 2",
+              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.26/AutoSoftware_v2.12.26.zip"
+            },
+            {
+              "name": "加速线路 3",
+              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.26/AutoSoftware_v2.12.26.zip"
+            },
+            {
+              "name": "加速线路 4",
+              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.26/AutoSoftware_v2.12.26.zip"
+            }
+          ]
+        },
+        {
+          "name": "HmiTouchControls.dll",
+          "size": 93696,
+          "downloadCount": 0,
+          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.26/HmiTouchControls.dll",
+          "category": "other",
+          "mirrors": [
+            {
+              "name": "加速线路 1",
+              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.26/HmiTouchControls.dll"
+            },
+            {
+              "name": "加速线路 2",
+              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.26/HmiTouchControls.dll"
+            },
+            {
+              "name": "加速线路 3",
+              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.26/HmiTouchControls.dll"
+            },
+            {
+              "name": "加速线路 4",
+              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.26/HmiTouchControls.dll"
+            }
+          ]
+        }
+      ]
     },
     {
       "version": "v2.12.25",
