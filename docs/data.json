@@ -2,7 +2,7 @@
   "site": "SY 软件下载",
   "subtitle": "官方下载 · 请认准本页面",
   "repo": "sushangxiong0312-ctrl/SY",
-  "generatedAt": "2026-07-07T12:56:49.155Z",
+  "generatedAt": "2026-07-07T13:06:08.013Z",
   "categories": [
     {
       "key": "full",
@@ -36,6 +36,16 @@
       "label": "主程序",
       "mode": "versions",
       "versions": [
+        {
+          "version": "v2.12.25",
+          "tag": "v2.12.25",
+          "trackKey": "app",
+          "title": "v2.12.25",
+          "date": "2026-07-07T13:05:53Z",
+          "prerelease": false,
+          "body": "- 修复: 自定义参数脚本重编译后, HMI 页面按钮里 GetParam as 类型 转换失败报空引用 — 编译成功自动重挂所有 HMI 槽位页面, 页面逻辑对新参数程序集重编译保持类型一致",
+          "files": []
+        },
         {
           "version": "v2.12.24",
           "tag": "v2.12.24",
@@ -5425,6 +5435,16 @@
     }
   ],
   "versions": [
+    {
+      "version": "v2.12.25",
+      "tag": "v2.12.25",
+      "trackKey": "app",
+      "title": "v2.12.25",
+      "date": "2026-07-07T13:05:53Z",
+      "prerelease": false,
+      "body": "- 修复: 自定义参数脚本重编译后, HMI 页面按钮里 GetParam as 类型 转换失败报空引用 — 编译成功自动重挂所有 HMI 槽位页面, 页面逻辑对新参数程序集重编译保持类型一致",
+      "files": []
+    },
     {
       "version": "v2.12.24",
       "tag": "v2.12.24",
