@@ -2,7 +2,7 @@
   "site": "SY 软件下载",
   "subtitle": "官方下载 · 请认准本页面",
   "repo": "sushangxiong0312-ctrl/SY",
-  "generatedAt": "2026-07-07T14:10:41.939Z",
+  "generatedAt": "2026-07-07T14:27:40.261Z",
   "categories": [
     {
       "key": "full",
@@ -36,6 +36,16 @@
       "label": "主程序",
       "mode": "versions",
       "versions": [
+        {
+          "version": "v2.12.27",
+          "tag": "v2.12.27",
+          "trackKey": "app",
+          "title": "v2.12.27",
+          "date": "2026-07-07T14:27:27Z",
+          "prerelease": false,
+          "body": "- 工序问答不再依赖 AI: 内置本地 API 手册(ShowChoice/气缸/DI/DO/按钮/单轴/参数/Modbus 等15类, 签名与代码严格一致), 问答模式输入方法名/关键词毫秒级出 参数介绍+示例(可复制); 未收录的问题才交给大模型, 没装模型也能查手册",
+          "files": []
+        },
         {
           "version": "v2.12.26",
           "tag": "v2.12.26",
@@ -5547,6 +5557,16 @@
     }
   ],
   "versions": [
+    {
+      "version": "v2.12.27",
+      "tag": "v2.12.27",
+      "trackKey": "app",
+      "title": "v2.12.27",
+      "date": "2026-07-07T14:27:27Z",
+      "prerelease": false,
+      "body": "- 工序问答不再依赖 AI: 内置本地 API 手册(ShowChoice/气缸/DI/DO/按钮/单轴/参数/Modbus 等15类, 签名与代码严格一致), 问答模式输入方法名/关键词毫秒级出 参数介绍+示例(可复制); 未收录的问题才交给大模型, 没装模型也能查手册",
+      "files": []
+    },
     {
       "version": "v2.12.26",
       "tag": "v2.12.26",
