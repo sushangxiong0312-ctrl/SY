@@ -2,7 +2,7 @@
   "site": "SY 软件下载",
   "subtitle": "官方下载 · 请认准本页面",
   "repo": "sushangxiong0312-ctrl/SY",
-  "generatedAt": "2026-07-07T11:52:10.995Z",
+  "generatedAt": "2026-07-07T12:48:34.651Z",
   "categories": [
     {
       "key": "full",
@@ -36,6 +36,16 @@
       "label": "主程序",
       "mode": "versions",
       "versions": [
+        {
+          "version": "v2.12.23",
+          "tag": "v2.12.23",
+          "trackKey": "app",
+          "title": "v2.12.23",
+          "date": "2026-07-07T12:48:21Z",
+          "prerelease": false,
+          "body": "- 工序新增 ShowChoiceRequired 必选对话框: 无取消按钮且关不掉, 必须选一个选项才返回(支持 notice 状态联动, 离线未注入 UI 时仍返回 -1)\n- HMI 新增触屏开关控件 TouchSwitch: Value 双向绑定 bool 参数/变量(点开关直接写回), 开/关颜色可配, 可编辑=false 只读, 页面事件 On_名_Toggled\n- 修复: 自定义参数脚本加字段重编译后, 原有 public 字段的值被重置 — 实例迁移现在属性和公共字段都拷贝, 嵌套自定义类型/集合走 JSON 转换不再丢失",
+          "files": []
+        },
         {
           "version": "v2.12.22",
           "tag": "v2.12.22",
@@ -5303,6 +5313,16 @@
     }
   ],
   "versions": [
+    {
+      "version": "v2.12.23",
+      "tag": "v2.12.23",
+      "trackKey": "app",
+      "title": "v2.12.23",
+      "date": "2026-07-07T12:48:21Z",
+      "prerelease": false,
+      "body": "- 工序新增 ShowChoiceRequired 必选对话框: 无取消按钮且关不掉, 必须选一个选项才返回(支持 notice 状态联动, 离线未注入 UI 时仍返回 -1)\n- HMI 新增触屏开关控件 TouchSwitch: Value 双向绑定 bool 参数/变量(点开关直接写回), 开/关颜色可配, 可编辑=false 只读, 页面事件 On_名_Toggled\n- 修复: 自定义参数脚本加字段重编译后, 原有 public 字段的值被重置 — 实例迁移现在属性和公共字段都拷贝, 嵌套自定义类型/集合走 JSON 转换不再丢失",
+      "files": []
+    },
     {
       "version": "v2.12.22",
       "tag": "v2.12.22",
