@@ -2,7 +2,7 @@
   "site": "SY 软件下载",
   "subtitle": "官方下载 · 请认准本页面",
   "repo": "sushangxiong0312-ctrl/SY",
-  "generatedAt": "2026-07-07T15:32:07.758Z",
+  "generatedAt": "2026-07-08T12:20:59.838Z",
   "categories": [
     {
       "key": "full",
@@ -36,6 +36,16 @@
       "label": "主程序",
       "mode": "versions",
       "versions": [
+        {
+          "version": "v2.12.31",
+          "tag": "v2.12.31",
+          "trackKey": "app",
+          "title": "v2.12.31",
+          "date": "2026-07-08T12:20:45Z",
+          "prerelease": false,
+          "body": "- 元件检测多框训练支持 Ctrl+C 复制/Ctrl+V 粘贴选中框(带偏移的副本, 新框训练/确定时自动截模板)\n- 修复 HMI 页面事件代码在老页面使用 Brushes 等 System.Windows.Media 类型报'不存在'导致编译失败(编译期强制注入基线 using, 老页面无需改代码)",
+          "files": []
+        },
         {
           "version": "v2.12.29",
           "tag": "v2.12.29",
@@ -5730,6 +5740,16 @@
     }
   ],
   "versions": [
+    {
+      "version": "v2.12.31",
+      "tag": "v2.12.31",
+      "trackKey": "app",
+      "title": "v2.12.31",
+      "date": "2026-07-08T12:20:45Z",
+      "prerelease": false,
+      "body": "- 元件检测多框训练支持 Ctrl+C 复制/Ctrl+V 粘贴选中框(带偏移的副本, 新框训练/确定时自动截模板)\n- 修复 HMI 页面事件代码在老页面使用 Brushes 等 System.Windows.Media 类型报'不存在'导致编译失败(编译期强制注入基线 using, 老页面无需改代码)",
+      "files": []
+    },
     {
       "version": "v2.12.29",
       "tag": "v2.12.29",
