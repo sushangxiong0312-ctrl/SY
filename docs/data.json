@@ -2,7 +2,7 @@
   "site": "SY 软件下载",
   "subtitle": "官方下载 · 请认准本页面",
   "repo": "sushangxiong0312-ctrl/SY",
-  "generatedAt": "2026-07-08T16:07:00.970Z",
+  "generatedAt": "2026-07-08T16:16:18.084Z",
   "categories": [
     {
       "key": "full",
@@ -45,31 +45,6 @@
           "prerelease": false,
           "body": "- 机器调整气缸页: 单作用(单点)气缸也显示「缩回」按钮——缩回=断伸出线圈DO(弹簧复位), 与伸出构成一个点的 on/off 两态控制",
           "files": [
-            {
-              "name": "AutoSoftware_v2.12.37.zip",
-              "size": 289109064,
-              "downloadCount": 0,
-              "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.37/AutoSoftware_v2.12.37.zip",
-              "category": "full",
-              "mirrors": [
-                {
-                  "name": "加速线路 1",
-                  "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.37/AutoSoftware_v2.12.37.zip"
-                },
-                {
-                  "name": "加速线路 2",
-                  "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.37/AutoSoftware_v2.12.37.zip"
-                },
-                {
-                  "name": "加速线路 3",
-                  "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.37/AutoSoftware_v2.12.37.zip"
-                },
-                {
-                  "name": "加速线路 4",
-                  "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.37/AutoSoftware_v2.12.37.zip"
-                }
-              ]
-            },
             {
               "name": "HmiTouchControls.dll",
               "size": 93696,
@@ -1695,6 +1670,31 @@
           "body": "- 维护页改版：高级功能统一为弹出式入口（工作流编辑 / 设备状态 / 全局参数脚本 / 工序编辑 / 产品标注训练）\n- 左侧菜单栏底部新增：切换语言 / 静音（屏蔽蜂鸣器）/ 关于\n- 新增「关于」窗口：上层显示软件版本与授权信息，下层集成软件更新检测\n- 完善自动更新中心：版本检测与一键升级",
           "files": [
             {
+              "name": "VS_RemoteTools.exe",
+              "size": 66874672,
+              "downloadCount": 0,
+              "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v1.0.0/VS_RemoteTools.exe",
+              "category": "other",
+              "mirrors": [
+                {
+                  "name": "加速线路 1",
+                  "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v1.0.0/VS_RemoteTools.exe"
+                },
+                {
+                  "name": "加速线路 2",
+                  "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v1.0.0/VS_RemoteTools.exe"
+                },
+                {
+                  "name": "加速线路 3",
+                  "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v1.0.0/VS_RemoteTools.exe"
+                },
+                {
+                  "name": "加速线路 4",
+                  "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v1.0.0/VS_RemoteTools.exe"
+                }
+              ]
+            },
+            {
               "name": "AppData.dat",
               "size": 717,
               "downloadCount": 0,
@@ -1841,31 +1841,6 @@
                 {
                   "name": "加速线路 4",
                   "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v1.0.0/AutoSoftware.pdb"
-                }
-              ]
-            },
-            {
-              "name": "AutoSoftware_v1.0.0.zip",
-              "size": 289820707,
-              "downloadCount": 1,
-              "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v1.0.0/AutoSoftware_v1.0.0.zip",
-              "category": "full",
-              "mirrors": [
-                {
-                  "name": "加速线路 1",
-                  "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v1.0.0/AutoSoftware_v1.0.0.zip"
-                },
-                {
-                  "name": "加速线路 2",
-                  "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v1.0.0/AutoSoftware_v1.0.0.zip"
-                },
-                {
-                  "name": "加速线路 3",
-                  "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v1.0.0/AutoSoftware_v1.0.0.zip"
-                },
-                {
-                  "name": "加速线路 4",
-                  "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v1.0.0/AutoSoftware_v1.0.0.zip"
                 }
               ]
             },
@@ -5720,31 +5695,6 @@
               ]
             },
             {
-              "name": "VS_RemoteTools.exe",
-              "size": 66874672,
-              "downloadCount": 0,
-              "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v1.0.0/VS_RemoteTools.exe",
-              "category": "other",
-              "mirrors": [
-                {
-                  "name": "加速线路 1",
-                  "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v1.0.0/VS_RemoteTools.exe"
-                },
-                {
-                  "name": "加速线路 2",
-                  "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v1.0.0/VS_RemoteTools.exe"
-                },
-                {
-                  "name": "加速线路 3",
-                  "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v1.0.0/VS_RemoteTools.exe"
-                },
-                {
-                  "name": "加速线路 4",
-                  "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v1.0.0/VS_RemoteTools.exe"
-                }
-              ]
-            },
-            {
               "name": "YamlDotNet.dll",
               "size": 291840,
               "downloadCount": 0,
@@ -5841,6 +5791,31 @@
                 {
                   "name": "加速线路 4",
                   "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v1.0.0/ZXing.Windows.Compatibility.dll"
+                }
+              ]
+            },
+            {
+              "name": "AutoSoftware_v1.0.0.zip",
+              "size": 289820707,
+              "downloadCount": 1,
+              "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v1.0.0/AutoSoftware_v1.0.0.zip",
+              "category": "full",
+              "mirrors": [
+                {
+                  "name": "加速线路 1",
+                  "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v1.0.0/AutoSoftware_v1.0.0.zip"
+                },
+                {
+                  "name": "加速线路 2",
+                  "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v1.0.0/AutoSoftware_v1.0.0.zip"
+                },
+                {
+                  "name": "加速线路 3",
+                  "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v1.0.0/AutoSoftware_v1.0.0.zip"
+                },
+                {
+                  "name": "加速线路 4",
+                  "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v1.0.0/AutoSoftware_v1.0.0.zip"
                 }
               ]
             }
@@ -6166,31 +6141,6 @@
       "prerelease": false,
       "body": "- 机器调整气缸页: 单作用(单点)气缸也显示「缩回」按钮——缩回=断伸出线圈DO(弹簧复位), 与伸出构成一个点的 on/off 两态控制",
       "files": [
-        {
-          "name": "AutoSoftware_v2.12.37.zip",
-          "size": 289109064,
-          "downloadCount": 0,
-          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.37/AutoSoftware_v2.12.37.zip",
-          "category": "full",
-          "mirrors": [
-            {
-              "name": "加速线路 1",
-              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.37/AutoSoftware_v2.12.37.zip"
-            },
-            {
-              "name": "加速线路 2",
-              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.37/AutoSoftware_v2.12.37.zip"
-            },
-            {
-              "name": "加速线路 3",
-              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.37/AutoSoftware_v2.12.37.zip"
-            },
-            {
-              "name": "加速线路 4",
-              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.37/AutoSoftware_v2.12.37.zip"
-            }
-          ]
-        },
         {
           "name": "HmiTouchControls.dll",
           "size": 93696,
@@ -8127,6 +8077,31 @@
       "body": "- 维护页改版：高级功能统一为弹出式入口（工作流编辑 / 设备状态 / 全局参数脚本 / 工序编辑 / 产品标注训练）\n- 左侧菜单栏底部新增：切换语言 / 静音（屏蔽蜂鸣器）/ 关于\n- 新增「关于」窗口：上层显示软件版本与授权信息，下层集成软件更新检测\n- 完善自动更新中心：版本检测与一键升级",
       "files": [
         {
+          "name": "VS_RemoteTools.exe",
+          "size": 66874672,
+          "downloadCount": 0,
+          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v1.0.0/VS_RemoteTools.exe",
+          "category": "other",
+          "mirrors": [
+            {
+              "name": "加速线路 1",
+              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v1.0.0/VS_RemoteTools.exe"
+            },
+            {
+              "name": "加速线路 2",
+              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v1.0.0/VS_RemoteTools.exe"
+            },
+            {
+              "name": "加速线路 3",
+              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v1.0.0/VS_RemoteTools.exe"
+            },
+            {
+              "name": "加速线路 4",
+              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v1.0.0/VS_RemoteTools.exe"
+            }
+          ]
+        },
+        {
           "name": "AppData.dat",
           "size": 717,
           "downloadCount": 0,
@@ -8273,31 +8248,6 @@
             {
               "name": "加速线路 4",
               "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v1.0.0/AutoSoftware.pdb"
-            }
-          ]
-        },
-        {
-          "name": "AutoSoftware_v1.0.0.zip",
-          "size": 289820707,
-          "downloadCount": 1,
-          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v1.0.0/AutoSoftware_v1.0.0.zip",
-          "category": "full",
-          "mirrors": [
-            {
-              "name": "加速线路 1",
-              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v1.0.0/AutoSoftware_v1.0.0.zip"
-            },
-            {
-              "name": "加速线路 2",
-              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v1.0.0/AutoSoftware_v1.0.0.zip"
-            },
-            {
-              "name": "加速线路 3",
-              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v1.0.0/AutoSoftware_v1.0.0.zip"
-            },
-            {
-              "name": "加速线路 4",
-              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v1.0.0/AutoSoftware_v1.0.0.zip"
             }
           ]
         },
@@ -12152,31 +12102,6 @@
           ]
         },
         {
-          "name": "VS_RemoteTools.exe",
-          "size": 66874672,
-          "downloadCount": 0,
-          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v1.0.0/VS_RemoteTools.exe",
-          "category": "other",
-          "mirrors": [
-            {
-              "name": "加速线路 1",
-              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v1.0.0/VS_RemoteTools.exe"
-            },
-            {
-              "name": "加速线路 2",
-              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v1.0.0/VS_RemoteTools.exe"
-            },
-            {
-              "name": "加速线路 3",
-              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v1.0.0/VS_RemoteTools.exe"
-            },
-            {
-              "name": "加速线路 4",
-              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v1.0.0/VS_RemoteTools.exe"
-            }
-          ]
-        },
-        {
           "name": "YamlDotNet.dll",
           "size": 291840,
           "downloadCount": 0,
@@ -12273,6 +12198,31 @@
             {
               "name": "加速线路 4",
               "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v1.0.0/ZXing.Windows.Compatibility.dll"
+            }
+          ]
+        },
+        {
+          "name": "AutoSoftware_v1.0.0.zip",
+          "size": 289820707,
+          "downloadCount": 1,
+          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v1.0.0/AutoSoftware_v1.0.0.zip",
+          "category": "full",
+          "mirrors": [
+            {
+              "name": "加速线路 1",
+              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v1.0.0/AutoSoftware_v1.0.0.zip"
+            },
+            {
+              "name": "加速线路 2",
+              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v1.0.0/AutoSoftware_v1.0.0.zip"
+            },
+            {
+              "name": "加速线路 3",
+              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v1.0.0/AutoSoftware_v1.0.0.zip"
+            },
+            {
+              "name": "加速线路 4",
+              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v1.0.0/AutoSoftware_v1.0.0.zip"
             }
           ]
         }
