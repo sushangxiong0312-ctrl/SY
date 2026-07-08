@@ -2,7 +2,7 @@
   "site": "SY 软件下载",
   "subtitle": "官方下载 · 请认准本页面",
   "repo": "sushangxiong0312-ctrl/SY",
-  "generatedAt": "2026-07-08T14:07:38.704Z",
+  "generatedAt": "2026-07-08T16:06:11.059Z",
   "categories": [
     {
       "key": "full",
@@ -36,6 +36,16 @@
       "label": "主程序",
       "mode": "versions",
       "versions": [
+        {
+          "version": "v2.12.37",
+          "tag": "v2.12.37",
+          "trackKey": "app",
+          "title": "v2.12.37",
+          "date": "2026-07-08T16:05:55Z",
+          "prerelease": false,
+          "body": "- 机器调整气缸页: 单作用(单点)气缸也显示「缩回」按钮——缩回=断伸出线圈DO(弹簧复位), 与伸出构成一个点的 on/off 两态控制",
+          "files": []
+        },
         {
           "version": "v2.12.36",
           "tag": "v2.12.36",
@@ -6096,6 +6106,16 @@
     }
   ],
   "versions": [
+    {
+      "version": "v2.12.37",
+      "tag": "v2.12.37",
+      "trackKey": "app",
+      "title": "v2.12.37",
+      "date": "2026-07-08T16:05:55Z",
+      "prerelease": false,
+      "body": "- 机器调整气缸页: 单作用(单点)气缸也显示「缩回」按钮——缩回=断伸出线圈DO(弹簧复位), 与伸出构成一个点的 on/off 两态控制",
+      "files": []
+    },
     {
       "version": "v2.12.36",
       "tag": "v2.12.36",
