@@ -2,7 +2,7 @@
   "site": "SY 软件下载",
   "subtitle": "官方下载 · 请认准本页面",
   "repo": "sushangxiong0312-ctrl/SY",
-  "generatedAt": "2026-07-08T12:34:28.428Z",
+  "generatedAt": "2026-07-08T12:57:54.276Z",
   "categories": [
     {
       "key": "full",
@@ -36,6 +36,16 @@
       "label": "主程序",
       "mode": "versions",
       "versions": [
+        {
+          "version": "v2.12.33",
+          "tag": "v2.12.33",
+          "trackKey": "app",
+          "title": "v2.12.33",
+          "date": "2026-07-08T12:57:42Z",
+          "prerelease": false,
+          "body": "- HMI 页面按钮可让当前页面全屏(Ctx.FullScreen(), 按 Esc 或再调一次退出还原到原位置)\n- 视觉工具失败若非图像原因(元件检测未找到/NG、无匹配等)仍输出图像+结果形状, 节点勾'出错后继续'即可在下游看到 NG 图",
+          "files": []
+        },
         {
           "version": "v2.12.32",
           "tag": "v2.12.32",
@@ -5852,6 +5862,16 @@
     }
   ],
   "versions": [
+    {
+      "version": "v2.12.33",
+      "tag": "v2.12.33",
+      "trackKey": "app",
+      "title": "v2.12.33",
+      "date": "2026-07-08T12:57:42Z",
+      "prerelease": false,
+      "body": "- HMI 页面按钮可让当前页面全屏(Ctx.FullScreen(), 按 Esc 或再调一次退出还原到原位置)\n- 视觉工具失败若非图像原因(元件检测未找到/NG、无匹配等)仍输出图像+结果形状, 节点勾'出错后继续'即可在下游看到 NG 图",
+      "files": []
+    },
     {
       "version": "v2.12.32",
       "tag": "v2.12.32",
