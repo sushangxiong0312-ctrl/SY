@@ -2,7 +2,7 @@
   "site": "SY 软件下载",
   "subtitle": "官方下载 · 请认准本页面",
   "repo": "sushangxiong0312-ctrl/SY",
-  "generatedAt": "2026-07-08T13:56:04.121Z",
+  "generatedAt": "2026-07-08T14:06:46.830Z",
   "categories": [
     {
       "key": "full",
@@ -36,6 +36,16 @@
       "label": "主程序",
       "mode": "versions",
       "versions": [
+        {
+          "version": "v2.12.36",
+          "tag": "v2.12.36",
+          "trackKey": "app",
+          "title": "v2.12.36",
+          "date": "2026-07-08T14:06:32Z",
+          "prerelease": false,
+          "body": "- 修复 HMI 设计器「铺满页面」及横向/纵向排列报 Left doesn't exist——Canvas.Left/Top 附加属性改走 GetAttachedProperty",
+          "files": []
+        },
         {
           "version": "v2.12.35",
           "tag": "v2.12.35",
@@ -6035,6 +6045,16 @@
     }
   ],
   "versions": [
+    {
+      "version": "v2.12.36",
+      "tag": "v2.12.36",
+      "trackKey": "app",
+      "title": "v2.12.36",
+      "date": "2026-07-08T14:06:32Z",
+      "prerelease": false,
+      "body": "- 修复 HMI 设计器「铺满页面」及横向/纵向排列报 Left doesn't exist——Canvas.Left/Top 附加属性改走 GetAttachedProperty",
+      "files": []
+    },
     {
       "version": "v2.12.35",
       "tag": "v2.12.35",
