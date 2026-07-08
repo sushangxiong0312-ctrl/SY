@@ -2,7 +2,7 @@
   "site": "SY 软件下载",
   "subtitle": "官方下载 · 请认准本页面",
   "repo": "sushangxiong0312-ctrl/SY",
-  "generatedAt": "2026-07-08T12:21:48.707Z",
+  "generatedAt": "2026-07-08T12:33:29.372Z",
   "categories": [
     {
       "key": "full",
@@ -36,6 +36,16 @@
       "label": "主程序",
       "mode": "versions",
       "versions": [
+        {
+          "version": "v2.12.32",
+          "tag": "v2.12.32",
+          "trackKey": "app",
+          "title": "v2.12.32",
+          "date": "2026-07-08T12:33:17Z",
+          "prerelease": false,
+          "body": "- 元件检测多框训练: Ctrl+V 粘贴改为落到当前鼠标位置(原为固定偏移), 多框保持相对布局",
+          "files": []
+        },
         {
           "version": "v2.12.31",
           "tag": "v2.12.31",
@@ -5791,6 +5801,16 @@
     }
   ],
   "versions": [
+    {
+      "version": "v2.12.32",
+      "tag": "v2.12.32",
+      "trackKey": "app",
+      "title": "v2.12.32",
+      "date": "2026-07-08T12:33:17Z",
+      "prerelease": false,
+      "body": "- 元件检测多框训练: Ctrl+V 粘贴改为落到当前鼠标位置(原为固定偏移), 多框保持相对布局",
+      "files": []
+    },
     {
       "version": "v2.12.31",
       "tag": "v2.12.31",
