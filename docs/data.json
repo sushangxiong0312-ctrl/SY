@@ -2,7 +2,7 @@
   "site": "SY 软件下载",
   "subtitle": "官方下载 · 请认准本页面",
   "repo": "sushangxiong0312-ctrl/SY",
-  "generatedAt": "2026-07-09T04:10:04.226Z",
+  "generatedAt": "2026-07-09T05:54:47.844Z",
   "categories": [
     {
       "key": "full",
@@ -36,6 +36,67 @@
       "label": "主程序",
       "mode": "versions",
       "versions": [
+        {
+          "version": "v2.13.1",
+          "tag": "v2.13.1",
+          "trackKey": "app",
+          "title": "v2.13.1",
+          "date": "2026-07-09T05:43:41Z",
+          "prerelease": false,
+          "body": "- 修复HMI页面全屏时弹出报警框后全屏页面失去焦点无法操作(回不去)的问题\n- 工作流人工选择弹窗/文件选择框在全屏时同样修正为弹在全屏页上层",
+          "files": [
+            {
+              "name": "AutoSoftware_v2.13.1.zip",
+              "size": 289114869,
+              "downloadCount": 0,
+              "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.13.1/AutoSoftware_v2.13.1.zip",
+              "category": "full",
+              "mirrors": [
+                {
+                  "name": "加速线路 1",
+                  "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.13.1/AutoSoftware_v2.13.1.zip"
+                },
+                {
+                  "name": "加速线路 2",
+                  "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.13.1/AutoSoftware_v2.13.1.zip"
+                },
+                {
+                  "name": "加速线路 3",
+                  "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.13.1/AutoSoftware_v2.13.1.zip"
+                },
+                {
+                  "name": "加速线路 4",
+                  "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.13.1/AutoSoftware_v2.13.1.zip"
+                }
+              ]
+            },
+            {
+              "name": "HmiTouchControls.dll",
+              "size": 93696,
+              "downloadCount": 0,
+              "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.13.1/HmiTouchControls.dll",
+              "category": "other",
+              "mirrors": [
+                {
+                  "name": "加速线路 1",
+                  "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.13.1/HmiTouchControls.dll"
+                },
+                {
+                  "name": "加速线路 2",
+                  "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.13.1/HmiTouchControls.dll"
+                },
+                {
+                  "name": "加速线路 3",
+                  "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.13.1/HmiTouchControls.dll"
+                },
+                {
+                  "name": "加速线路 4",
+                  "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.13.1/HmiTouchControls.dll"
+                }
+              ]
+            }
+          ]
+        },
         {
           "version": "v2.13.0",
           "tag": "v2.13.0",
@@ -6279,6 +6340,67 @@
     }
   ],
   "versions": [
+    {
+      "version": "v2.13.1",
+      "tag": "v2.13.1",
+      "trackKey": "app",
+      "title": "v2.13.1",
+      "date": "2026-07-09T05:43:41Z",
+      "prerelease": false,
+      "body": "- 修复HMI页面全屏时弹出报警框后全屏页面失去焦点无法操作(回不去)的问题\n- 工作流人工选择弹窗/文件选择框在全屏时同样修正为弹在全屏页上层",
+      "files": [
+        {
+          "name": "AutoSoftware_v2.13.1.zip",
+          "size": 289114869,
+          "downloadCount": 0,
+          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.13.1/AutoSoftware_v2.13.1.zip",
+          "category": "full",
+          "mirrors": [
+            {
+              "name": "加速线路 1",
+              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.13.1/AutoSoftware_v2.13.1.zip"
+            },
+            {
+              "name": "加速线路 2",
+              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.13.1/AutoSoftware_v2.13.1.zip"
+            },
+            {
+              "name": "加速线路 3",
+              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.13.1/AutoSoftware_v2.13.1.zip"
+            },
+            {
+              "name": "加速线路 4",
+              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.13.1/AutoSoftware_v2.13.1.zip"
+            }
+          ]
+        },
+        {
+          "name": "HmiTouchControls.dll",
+          "size": 93696,
+          "downloadCount": 0,
+          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.13.1/HmiTouchControls.dll",
+          "category": "other",
+          "mirrors": [
+            {
+              "name": "加速线路 1",
+              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.13.1/HmiTouchControls.dll"
+            },
+            {
+              "name": "加速线路 2",
+              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.13.1/HmiTouchControls.dll"
+            },
+            {
+              "name": "加速线路 3",
+              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.13.1/HmiTouchControls.dll"
+            },
+            {
+              "name": "加速线路 4",
+              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.13.1/HmiTouchControls.dll"
+            }
+          ]
+        }
+      ]
+    },
     {
       "version": "v2.13.0",
       "tag": "v2.13.0",
