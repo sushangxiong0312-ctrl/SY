@@ -2,7 +2,7 @@
   "site": "SY 软件下载",
   "subtitle": "官方下载 · 请认准本页面",
   "repo": "sushangxiong0312-ctrl/SY",
-  "generatedAt": "2026-07-09T05:54:47.844Z",
+  "generatedAt": "2026-07-09T12:17:47.118Z",
   "categories": [
     {
       "key": "full",
@@ -36,6 +36,16 @@
       "label": "主程序",
       "mode": "versions",
       "versions": [
+        {
+          "version": "v2.14.0",
+          "tag": "v2.14.0",
+          "trackKey": "app",
+          "title": "v2.14.0",
+          "date": "2026-07-09T12:17:35Z",
+          "prerelease": false,
+          "body": "- 上相机标定节点双击进入编辑弹窗: 可录入仿射 N 点与旋转 N 点, 右侧底图叠加点位, 内置试算与吸取补正测试\n- 设备硬件配置页新增「视觉系统」分类: 可直接添加/编辑/删除海康 VM, 方案文件随料号加载, 配置存入 vision.json 重启不丢",
+          "files": []
+        },
         {
           "version": "v2.13.1",
           "tag": "v2.13.1",
@@ -6340,6 +6350,16 @@
     }
   ],
   "versions": [
+    {
+      "version": "v2.14.0",
+      "tag": "v2.14.0",
+      "trackKey": "app",
+      "title": "v2.14.0",
+      "date": "2026-07-09T12:17:35Z",
+      "prerelease": false,
+      "body": "- 上相机标定节点双击进入编辑弹窗: 可录入仿射 N 点与旋转 N 点, 右侧底图叠加点位, 内置试算与吸取补正测试\n- 设备硬件配置页新增「视觉系统」分类: 可直接添加/编辑/删除海康 VM, 方案文件随料号加载, 配置存入 vision.json 重启不丢",
+      "files": []
+    },
     {
       "version": "v2.13.1",
       "tag": "v2.13.1",
