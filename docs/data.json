@@ -2,7 +2,7 @@
   "site": "SY 软件下载",
   "subtitle": "官方下载 · 请认准本页面",
   "repo": "sushangxiong0312-ctrl/SY",
-  "generatedAt": "2026-07-08T16:18:31.919Z",
+  "generatedAt": "2026-07-09T04:10:04.226Z",
   "categories": [
     {
       "key": "full",
@@ -36,6 +36,67 @@
       "label": "主程序",
       "mode": "versions",
       "versions": [
+        {
+          "version": "v2.13.0",
+          "tag": "v2.13.0",
+          "trackKey": "app",
+          "title": "v2.13.0",
+          "date": "2026-07-09T04:08:57Z",
+          "prerelease": false,
+          "body": "- 新增轴单向联动功能:主轴运动时从轴按可设置比例自动跟随,从轴自主运动不影响主轴,联动期间从轴仍可正常移动\n- 新增伺服扭矩模式:TorqueMove恒扭矩输出(收膜恒张力等场景),位置/扭矩模式自动切换,切回位置模式自动同步坐标防窜动",
+          "files": [
+            {
+              "name": "AutoSoftware_v2.13.0.zip",
+              "size": 289114291,
+              "downloadCount": 0,
+              "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.13.0/AutoSoftware_v2.13.0.zip",
+              "category": "full",
+              "mirrors": [
+                {
+                  "name": "加速线路 1",
+                  "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.13.0/AutoSoftware_v2.13.0.zip"
+                },
+                {
+                  "name": "加速线路 2",
+                  "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.13.0/AutoSoftware_v2.13.0.zip"
+                },
+                {
+                  "name": "加速线路 3",
+                  "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.13.0/AutoSoftware_v2.13.0.zip"
+                },
+                {
+                  "name": "加速线路 4",
+                  "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.13.0/AutoSoftware_v2.13.0.zip"
+                }
+              ]
+            },
+            {
+              "name": "HmiTouchControls.dll",
+              "size": 93696,
+              "downloadCount": 0,
+              "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.13.0/HmiTouchControls.dll",
+              "category": "other",
+              "mirrors": [
+                {
+                  "name": "加速线路 1",
+                  "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.13.0/HmiTouchControls.dll"
+                },
+                {
+                  "name": "加速线路 2",
+                  "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.13.0/HmiTouchControls.dll"
+                },
+                {
+                  "name": "加速线路 3",
+                  "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.13.0/HmiTouchControls.dll"
+                },
+                {
+                  "name": "加速线路 4",
+                  "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.13.0/HmiTouchControls.dll"
+                }
+              ]
+            }
+          ]
+        },
         {
           "version": "v2.12.38",
           "tag": "v2.12.38",
@@ -6218,6 +6279,67 @@
     }
   ],
   "versions": [
+    {
+      "version": "v2.13.0",
+      "tag": "v2.13.0",
+      "trackKey": "app",
+      "title": "v2.13.0",
+      "date": "2026-07-09T04:08:57Z",
+      "prerelease": false,
+      "body": "- 新增轴单向联动功能:主轴运动时从轴按可设置比例自动跟随,从轴自主运动不影响主轴,联动期间从轴仍可正常移动\n- 新增伺服扭矩模式:TorqueMove恒扭矩输出(收膜恒张力等场景),位置/扭矩模式自动切换,切回位置模式自动同步坐标防窜动",
+      "files": [
+        {
+          "name": "AutoSoftware_v2.13.0.zip",
+          "size": 289114291,
+          "downloadCount": 0,
+          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.13.0/AutoSoftware_v2.13.0.zip",
+          "category": "full",
+          "mirrors": [
+            {
+              "name": "加速线路 1",
+              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.13.0/AutoSoftware_v2.13.0.zip"
+            },
+            {
+              "name": "加速线路 2",
+              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.13.0/AutoSoftware_v2.13.0.zip"
+            },
+            {
+              "name": "加速线路 3",
+              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.13.0/AutoSoftware_v2.13.0.zip"
+            },
+            {
+              "name": "加速线路 4",
+              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.13.0/AutoSoftware_v2.13.0.zip"
+            }
+          ]
+        },
+        {
+          "name": "HmiTouchControls.dll",
+          "size": 93696,
+          "downloadCount": 0,
+          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.13.0/HmiTouchControls.dll",
+          "category": "other",
+          "mirrors": [
+            {
+              "name": "加速线路 1",
+              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.13.0/HmiTouchControls.dll"
+            },
+            {
+              "name": "加速线路 2",
+              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.13.0/HmiTouchControls.dll"
+            },
+            {
+              "name": "加速线路 3",
+              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.13.0/HmiTouchControls.dll"
+            },
+            {
+              "name": "加速线路 4",
+              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.13.0/HmiTouchControls.dll"
+            }
+          ]
+        }
+      ]
+    },
     {
       "version": "v2.12.38",
       "tag": "v2.12.38",
