@@ -2,7 +2,7 @@
   "site": "SY 软件下载",
   "subtitle": "官方下载 · 请认准本页面",
   "repo": "sushangxiong0312-ctrl/SY",
-  "generatedAt": "2026-07-10T07:06:30.739Z",
+  "generatedAt": "2026-07-10T07:07:36.374Z",
   "categories": [
     {
       "key": "full",
@@ -44,7 +44,58 @@
           "date": "2026-07-10T07:06:14Z",
           "prerelease": false,
           "body": "- 新增「生成形状」节点: 工具栏拖拽绘制矩形/有向框/圆/线段/点/多边形, 形状随补正源跟随, 每个形状独立输出端口可绑下游\n- 形状描边与标签改为屏幕恒定宽度, 视图缩放不再细到看不见, 标签任意缩放可读\n- 新增「视觉结果显示」节点: 把海康VM流程的输出图像和结果转成SImage+形状, HMI显示控件通用\n- 图像预处理工具彩色保持: CLAHE/直方图均衡化/快速去噪/形态学/平场矫正 彩色输入输出彩色, 只对亮度处理不动色彩\n- 新增 视觉/彩色 工具分类: 饱和度(含自然饱和度)/白平衡(灰度世界+手动增益)/色温色调/自动色阶/通道提取\n- 自动更新源整理: 旧E盘共享下线, 未迁移机器自动回退互联网通道",
-          "files": []
+          "files": [
+            {
+              "name": "AutoSoftware_v2.15.0.zip",
+              "size": 289178771,
+              "downloadCount": 0,
+              "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.15.0/AutoSoftware_v2.15.0.zip",
+              "category": "full",
+              "mirrors": [
+                {
+                  "name": "加速线路 1",
+                  "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.15.0/AutoSoftware_v2.15.0.zip"
+                },
+                {
+                  "name": "加速线路 2",
+                  "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.15.0/AutoSoftware_v2.15.0.zip"
+                },
+                {
+                  "name": "加速线路 3",
+                  "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.15.0/AutoSoftware_v2.15.0.zip"
+                },
+                {
+                  "name": "加速线路 4",
+                  "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.15.0/AutoSoftware_v2.15.0.zip"
+                }
+              ]
+            },
+            {
+              "name": "HmiTouchControls.dll",
+              "size": 93696,
+              "downloadCount": 0,
+              "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.15.0/HmiTouchControls.dll",
+              "category": "other",
+              "mirrors": [
+                {
+                  "name": "加速线路 1",
+                  "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.15.0/HmiTouchControls.dll"
+                },
+                {
+                  "name": "加速线路 2",
+                  "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.15.0/HmiTouchControls.dll"
+                },
+                {
+                  "name": "加速线路 3",
+                  "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.15.0/HmiTouchControls.dll"
+                },
+                {
+                  "name": "加速线路 4",
+                  "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.15.0/HmiTouchControls.dll"
+                }
+              ]
+            }
+          ]
         },
         {
           "version": "v2.14.0",
@@ -6419,7 +6470,58 @@
       "date": "2026-07-10T07:06:14Z",
       "prerelease": false,
       "body": "- 新增「生成形状」节点: 工具栏拖拽绘制矩形/有向框/圆/线段/点/多边形, 形状随补正源跟随, 每个形状独立输出端口可绑下游\n- 形状描边与标签改为屏幕恒定宽度, 视图缩放不再细到看不见, 标签任意缩放可读\n- 新增「视觉结果显示」节点: 把海康VM流程的输出图像和结果转成SImage+形状, HMI显示控件通用\n- 图像预处理工具彩色保持: CLAHE/直方图均衡化/快速去噪/形态学/平场矫正 彩色输入输出彩色, 只对亮度处理不动色彩\n- 新增 视觉/彩色 工具分类: 饱和度(含自然饱和度)/白平衡(灰度世界+手动增益)/色温色调/自动色阶/通道提取\n- 自动更新源整理: 旧E盘共享下线, 未迁移机器自动回退互联网通道",
-      "files": []
+      "files": [
+        {
+          "name": "AutoSoftware_v2.15.0.zip",
+          "size": 289178771,
+          "downloadCount": 0,
+          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.15.0/AutoSoftware_v2.15.0.zip",
+          "category": "full",
+          "mirrors": [
+            {
+              "name": "加速线路 1",
+              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.15.0/AutoSoftware_v2.15.0.zip"
+            },
+            {
+              "name": "加速线路 2",
+              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.15.0/AutoSoftware_v2.15.0.zip"
+            },
+            {
+              "name": "加速线路 3",
+              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.15.0/AutoSoftware_v2.15.0.zip"
+            },
+            {
+              "name": "加速线路 4",
+              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.15.0/AutoSoftware_v2.15.0.zip"
+            }
+          ]
+        },
+        {
+          "name": "HmiTouchControls.dll",
+          "size": 93696,
+          "downloadCount": 0,
+          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.15.0/HmiTouchControls.dll",
+          "category": "other",
+          "mirrors": [
+            {
+              "name": "加速线路 1",
+              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.15.0/HmiTouchControls.dll"
+            },
+            {
+              "name": "加速线路 2",
+              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.15.0/HmiTouchControls.dll"
+            },
+            {
+              "name": "加速线路 3",
+              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.15.0/HmiTouchControls.dll"
+            },
+            {
+              "name": "加速线路 4",
+              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.15.0/HmiTouchControls.dll"
+            }
+          ]
+        }
+      ]
     },
     {
       "version": "v2.14.0",
