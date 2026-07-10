@@ -2,7 +2,7 @@
   "site": "SY 软件下载",
   "subtitle": "官方下载 · 请认准本页面",
   "repo": "sushangxiong0312-ctrl/SY",
-  "generatedAt": "2026-07-10T12:32:56.884Z",
+  "generatedAt": "2026-07-10T13:50:20.044Z",
   "categories": [
     {
       "key": "full",
@@ -36,6 +36,16 @@
       "label": "主程序",
       "mode": "versions",
       "versions": [
+        {
+          "version": "v2.17.1",
+          "tag": "v2.17.1",
+          "trackKey": "app",
+          "title": "v2.17.1",
+          "date": "2026-07-10T13:50:06Z",
+          "prerelease": false,
+          "body": "- 双向轴联动: 从轴改为逻辑坐标显示(联动补偿不再改变从轴显示坐标), 联动期间绝对定位自动补偿修正, 换向/回零坐标不跳变, 补偿量可通过虚拟轴坐标查看\n- 加载页logo更换为透明底高清版",
+          "files": []
+        },
         {
           "version": "v2.17.0",
           "tag": "v2.17.0",
@@ -6620,6 +6630,16 @@
     }
   ],
   "versions": [
+    {
+      "version": "v2.17.1",
+      "tag": "v2.17.1",
+      "trackKey": "app",
+      "title": "v2.17.1",
+      "date": "2026-07-10T13:50:06Z",
+      "prerelease": false,
+      "body": "- 双向轴联动: 从轴改为逻辑坐标显示(联动补偿不再改变从轴显示坐标), 联动期间绝对定位自动补偿修正, 换向/回零坐标不跳变, 补偿量可通过虚拟轴坐标查看\n- 加载页logo更换为透明底高清版",
+      "files": []
+    },
     {
       "version": "v2.17.0",
       "tag": "v2.17.0",
