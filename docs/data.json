@@ -2,7 +2,7 @@
   "site": "SY 软件下载",
   "subtitle": "官方下载 · 请认准本页面",
   "repo": "sushangxiong0312-ctrl/SY",
-  "generatedAt": "2026-07-10T10:24:03.642Z",
+  "generatedAt": "2026-07-10T10:58:58.116Z",
   "categories": [
     {
       "key": "full",
@@ -45,31 +45,6 @@
           "prerelease": false,
           "body": "- 视觉结果显示节点: 还原海康VM「流程显示」配置的文本和矩形框(格式串内容+OK/NG颜色+跟随匹配位置, 与VM渲染一致, 保存sol后生效)\n- 视觉结果显示节点: 新增「显示窗口」参数可直接发布到HMI图像控件, 移除图像输出名/文本输出名参数(全自动)\n- HMI设计器: 图像显示控件的显示窗口下拉现在能列出视觉结果显示节点的窗口名",
           "files": [
-            {
-              "name": "AutoSoftware_v2.16.0.zip",
-              "size": 135410831,
-              "downloadCount": 0,
-              "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.16.0/AutoSoftware_v2.16.0.zip",
-              "category": "full",
-              "mirrors": [
-                {
-                  "name": "加速线路 1",
-                  "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.16.0/AutoSoftware_v2.16.0.zip"
-                },
-                {
-                  "name": "加速线路 2",
-                  "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.16.0/AutoSoftware_v2.16.0.zip"
-                },
-                {
-                  "name": "加速线路 3",
-                  "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.16.0/AutoSoftware_v2.16.0.zip"
-                },
-                {
-                  "name": "加速线路 4",
-                  "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.16.0/AutoSoftware_v2.16.0.zip"
-                }
-              ]
-            },
             {
               "name": "HmiTouchControls.dll",
               "size": 93696,
@@ -6593,31 +6568,6 @@
       "prerelease": false,
       "body": "- 视觉结果显示节点: 还原海康VM「流程显示」配置的文本和矩形框(格式串内容+OK/NG颜色+跟随匹配位置, 与VM渲染一致, 保存sol后生效)\n- 视觉结果显示节点: 新增「显示窗口」参数可直接发布到HMI图像控件, 移除图像输出名/文本输出名参数(全自动)\n- HMI设计器: 图像显示控件的显示窗口下拉现在能列出视觉结果显示节点的窗口名",
       "files": [
-        {
-          "name": "AutoSoftware_v2.16.0.zip",
-          "size": 135410831,
-          "downloadCount": 0,
-          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.16.0/AutoSoftware_v2.16.0.zip",
-          "category": "full",
-          "mirrors": [
-            {
-              "name": "加速线路 1",
-              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.16.0/AutoSoftware_v2.16.0.zip"
-            },
-            {
-              "name": "加速线路 2",
-              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.16.0/AutoSoftware_v2.16.0.zip"
-            },
-            {
-              "name": "加速线路 3",
-              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.16.0/AutoSoftware_v2.16.0.zip"
-            },
-            {
-              "name": "加速线路 4",
-              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.16.0/AutoSoftware_v2.16.0.zip"
-            }
-          ]
-        },
         {
           "name": "HmiTouchControls.dll",
           "size": 93696,
