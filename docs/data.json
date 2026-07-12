@@ -2,7 +2,7 @@
   "site": "SY 软件下载",
   "subtitle": "官方下载 · 请认准本页面",
   "repo": "sushangxiong0312-ctrl/SY",
-  "generatedAt": "2026-07-12T02:02:18.511Z",
+  "generatedAt": "2026-07-12T05:43:53.221Z",
   "categories": [
     {
       "key": "full",
@@ -37,6 +37,16 @@
       "mode": "versions",
       "versions": [
         {
+          "version": "v2.18.1",
+          "tag": "v2.18.1",
+          "trackKey": "app",
+          "title": "v2.18.1",
+          "date": "2026-07-12T05:43:42Z",
+          "prerelease": false,
+          "body": "- 修复工序 ShowError(消息, true) 连弹报警框和确认框两个弹窗的问题, 现在只弹一个报警确认框, 确认后才整机暂停\n- 新增轴运动暂停/继续 API(MovePause/MoveResume, 正运动卡), 轴可停在半路并从暂停处按原轨迹续走\n- 工序暂停/继续生命周期钩子(OnPausedCore/OnContinuedCore)补充文档, 可重写实现轴联动暂停与恢复",
+          "files": []
+        },
+        {
           "version": "v2.18.0",
           "tag": "v2.18.0",
           "trackKey": "app",
@@ -48,7 +58,7 @@
             {
               "name": "AutoSoftware_v2.18.0.zip",
               "size": 135497277,
-              "downloadCount": 0,
+              "downloadCount": 2,
               "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.18.0/AutoSoftware_v2.18.0.zip",
               "category": "full",
               "mirrors": [
@@ -6743,6 +6753,16 @@
   ],
   "versions": [
     {
+      "version": "v2.18.1",
+      "tag": "v2.18.1",
+      "trackKey": "app",
+      "title": "v2.18.1",
+      "date": "2026-07-12T05:43:42Z",
+      "prerelease": false,
+      "body": "- 修复工序 ShowError(消息, true) 连弹报警框和确认框两个弹窗的问题, 现在只弹一个报警确认框, 确认后才整机暂停\n- 新增轴运动暂停/继续 API(MovePause/MoveResume, 正运动卡), 轴可停在半路并从暂停处按原轨迹续走\n- 工序暂停/继续生命周期钩子(OnPausedCore/OnContinuedCore)补充文档, 可重写实现轴联动暂停与恢复",
+      "files": []
+    },
+    {
       "version": "v2.18.0",
       "tag": "v2.18.0",
       "trackKey": "app",
@@ -6754,7 +6774,7 @@
         {
           "name": "AutoSoftware_v2.18.0.zip",
           "size": 135497277,
-          "downloadCount": 0,
+          "downloadCount": 2,
           "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.18.0/AutoSoftware_v2.18.0.zip",
           "category": "full",
           "mirrors": [
