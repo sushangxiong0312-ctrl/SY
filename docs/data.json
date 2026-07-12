@@ -2,7 +2,7 @@
   "site": "SY 软件下载",
   "subtitle": "官方下载 · 请认准本页面",
   "repo": "sushangxiong0312-ctrl/SY",
-  "generatedAt": "2026-07-10T13:50:51.173Z",
+  "generatedAt": "2026-07-12T02:01:55.460Z",
   "categories": [
     {
       "key": "full",
@@ -36,6 +36,16 @@
       "label": "主程序",
       "mode": "versions",
       "versions": [
+        {
+          "version": "v2.18.0",
+          "tag": "v2.18.0",
+          "trackKey": "app",
+          "title": "v2.18.0",
+          "date": "2026-07-12T02:01:40Z",
+          "prerelease": false,
+          "body": "- 新增 ReadGerber 工作流节点, 支持 Gerber/Excellon 文件解析﹑可视化筛选﹑两点对齐与 CSV 导出\n- RF 轴解耦改为丝杆花键组合模型, 支持插补旋转与扭矩模式\n- AI 写工序提示词与本地 API 手册更新\n- 界面细节与多语言文案更新",
+          "files": []
+        },
         {
           "version": "v2.17.1",
           "tag": "v2.17.1",
@@ -6681,6 +6691,16 @@
     }
   ],
   "versions": [
+    {
+      "version": "v2.18.0",
+      "tag": "v2.18.0",
+      "trackKey": "app",
+      "title": "v2.18.0",
+      "date": "2026-07-12T02:01:40Z",
+      "prerelease": false,
+      "body": "- 新增 ReadGerber 工作流节点, 支持 Gerber/Excellon 文件解析﹑可视化筛选﹑两点对齐与 CSV 导出\n- RF 轴解耦改为丝杆花键组合模型, 支持插补旋转与扭矩模式\n- AI 写工序提示词与本地 API 手册更新\n- 界面细节与多语言文案更新",
+      "files": []
+    },
     {
       "version": "v2.17.1",
       "tag": "v2.17.1",
