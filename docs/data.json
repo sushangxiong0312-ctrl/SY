@@ -2,7 +2,7 @@
   "site": "SY 软件下载",
   "subtitle": "官方下载 · 请认准本页面",
   "repo": "sushangxiong0312-ctrl/SY",
-  "generatedAt": "2026-07-12T07:02:58.287Z",
+  "generatedAt": "2026-07-12T08:06:22.383Z",
   "categories": [
     {
       "key": "full",
@@ -36,6 +36,16 @@
       "label": "主程序",
       "mode": "versions",
       "versions": [
+        {
+          "version": "v2.19.0",
+          "tag": "v2.19.0",
+          "trackKey": "app",
+          "title": "v2.19.0",
+          "date": "2026-07-12T08:06:11Z",
+          "prerelease": false,
+          "body": "- 修复用户管理页修改用户/角色后列表不刷新﹑修改密码需重启才生效的问题\n- 工序基类新增 GoStep(步号, 描述) 跳步辅助方法, 跳步同时打印运行状态\n- 系统维护能力增强",
+          "files": []
+        },
         {
           "version": "v2.18.2",
           "tag": "v2.18.2",
@@ -6864,6 +6874,16 @@
     }
   ],
   "versions": [
+    {
+      "version": "v2.19.0",
+      "tag": "v2.19.0",
+      "trackKey": "app",
+      "title": "v2.19.0",
+      "date": "2026-07-12T08:06:11Z",
+      "prerelease": false,
+      "body": "- 修复用户管理页修改用户/角色后列表不刷新﹑修改密码需重启才生效的问题\n- 工序基类新增 GoStep(步号, 描述) 跳步辅助方法, 跳步同时打印运行状态\n- 系统维护能力增强",
+      "files": []
+    },
     {
       "version": "v2.18.2",
       "tag": "v2.18.2",
