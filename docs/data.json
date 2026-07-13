@@ -2,7 +2,7 @@
   "site": "SY 软件下载",
   "subtitle": "官方下载 · 请认准本页面",
   "repo": "sushangxiong0312-ctrl/SY",
-  "generatedAt": "2026-07-13T06:57:14.187Z",
+  "generatedAt": "2026-07-13T06:57:42.250Z",
   "categories": [
     {
       "key": "full",
@@ -44,7 +44,58 @@
           "date": "2026-07-13T06:56:59Z",
           "prerelease": false,
           "body": "- RF丝杆花键: 丝杆螺距配置化, 进给口径变毫米(单轴配置不动)\n- RF丝杆花键: 张力标定表(千分比对牛顿, 至少2点分段线性), 张力直接输入牛顿, 状态行N与千分比双显\n- RF丝杆花键: 扭矩模式中点旋转自动退出扭矩, 新增单独旋转/单独进给方法及工序代码段\n- 相机事件工作流改为帧泵执行: 相机回调不再被业务节点堵死, 丢帧/超时有可见告警, 修复编辑保存后事件工作流取不到图像的问题\n- 轴原点指示: 总线驱动器IO未映射时自动降级走60FD显示(机器设定与机器调整两处)",
-          "files": []
+          "files": [
+            {
+              "name": "AutoSoftware_v2.21.0.zip",
+              "size": 135510115,
+              "downloadCount": 0,
+              "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.21.0/AutoSoftware_v2.21.0.zip",
+              "category": "full",
+              "mirrors": [
+                {
+                  "name": "加速线路 1",
+                  "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.21.0/AutoSoftware_v2.21.0.zip"
+                },
+                {
+                  "name": "加速线路 2",
+                  "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.21.0/AutoSoftware_v2.21.0.zip"
+                },
+                {
+                  "name": "加速线路 3",
+                  "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.21.0/AutoSoftware_v2.21.0.zip"
+                },
+                {
+                  "name": "加速线路 4",
+                  "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.21.0/AutoSoftware_v2.21.0.zip"
+                }
+              ]
+            },
+            {
+              "name": "HmiTouchControls.dll",
+              "size": 93696,
+              "downloadCount": 0,
+              "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.21.0/HmiTouchControls.dll",
+              "category": "other",
+              "mirrors": [
+                {
+                  "name": "加速线路 1",
+                  "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.21.0/HmiTouchControls.dll"
+                },
+                {
+                  "name": "加速线路 2",
+                  "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.21.0/HmiTouchControls.dll"
+                },
+                {
+                  "name": "加速线路 3",
+                  "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.21.0/HmiTouchControls.dll"
+                },
+                {
+                  "name": "加速线路 4",
+                  "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.21.0/HmiTouchControls.dll"
+                }
+              ]
+            }
+          ]
         },
         {
           "version": "v2.20.0",
@@ -7004,7 +7055,58 @@
       "date": "2026-07-13T06:56:59Z",
       "prerelease": false,
       "body": "- RF丝杆花键: 丝杆螺距配置化, 进给口径变毫米(单轴配置不动)\n- RF丝杆花键: 张力标定表(千分比对牛顿, 至少2点分段线性), 张力直接输入牛顿, 状态行N与千分比双显\n- RF丝杆花键: 扭矩模式中点旋转自动退出扭矩, 新增单独旋转/单独进给方法及工序代码段\n- 相机事件工作流改为帧泵执行: 相机回调不再被业务节点堵死, 丢帧/超时有可见告警, 修复编辑保存后事件工作流取不到图像的问题\n- 轴原点指示: 总线驱动器IO未映射时自动降级走60FD显示(机器设定与机器调整两处)",
-      "files": []
+      "files": [
+        {
+          "name": "AutoSoftware_v2.21.0.zip",
+          "size": 135510115,
+          "downloadCount": 0,
+          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.21.0/AutoSoftware_v2.21.0.zip",
+          "category": "full",
+          "mirrors": [
+            {
+              "name": "加速线路 1",
+              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.21.0/AutoSoftware_v2.21.0.zip"
+            },
+            {
+              "name": "加速线路 2",
+              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.21.0/AutoSoftware_v2.21.0.zip"
+            },
+            {
+              "name": "加速线路 3",
+              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.21.0/AutoSoftware_v2.21.0.zip"
+            },
+            {
+              "name": "加速线路 4",
+              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.21.0/AutoSoftware_v2.21.0.zip"
+            }
+          ]
+        },
+        {
+          "name": "HmiTouchControls.dll",
+          "size": 93696,
+          "downloadCount": 0,
+          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.21.0/HmiTouchControls.dll",
+          "category": "other",
+          "mirrors": [
+            {
+              "name": "加速线路 1",
+              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.21.0/HmiTouchControls.dll"
+            },
+            {
+              "name": "加速线路 2",
+              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.21.0/HmiTouchControls.dll"
+            },
+            {
+              "name": "加速线路 3",
+              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.21.0/HmiTouchControls.dll"
+            },
+            {
+              "name": "加速线路 4",
+              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.21.0/HmiTouchControls.dll"
+            }
+          ]
+        }
+      ]
     },
     {
       "version": "v2.20.0",
