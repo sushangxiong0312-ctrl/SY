@@ -2,7 +2,7 @@
   "site": "SY 软件下载",
   "subtitle": "官方下载 · 请认准本页面",
   "repo": "sushangxiong0312-ctrl/SY",
-  "generatedAt": "2026-07-14T05:46:22.481Z",
+  "generatedAt": "2026-07-14T05:58:48.451Z",
   "categories": [
     {
       "key": "full",
@@ -36,6 +36,16 @@
       "label": "主程序",
       "mode": "versions",
       "versions": [
+        {
+          "version": "v2.24.4",
+          "tag": "v2.24.4",
+          "trackKey": "app",
+          "title": "v2.24.4",
+          "date": "2026-07-14T05:58:36Z",
+          "prerelease": false,
+          "body": "- 手机远程: 修复本机有多网卡/虚拟网卡时连接网址列表混入不可达IP(169.254 APIPA等)导致扫码连不上, 现只列可路由的局域网IP",
+          "files": []
+        },
         {
           "version": "v2.24.3",
           "tag": "v2.24.3",
@@ -7474,6 +7484,16 @@
     }
   ],
   "versions": [
+    {
+      "version": "v2.24.4",
+      "tag": "v2.24.4",
+      "trackKey": "app",
+      "title": "v2.24.4",
+      "date": "2026-07-14T05:58:36Z",
+      "prerelease": false,
+      "body": "- 手机远程: 修复本机有多网卡/虚拟网卡时连接网址列表混入不可达IP(169.254 APIPA等)导致扫码连不上, 现只列可路由的局域网IP",
+      "files": []
+    },
     {
       "version": "v2.24.3",
       "tag": "v2.24.3",
