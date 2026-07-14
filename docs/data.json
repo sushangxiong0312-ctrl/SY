@@ -2,7 +2,7 @@
   "site": "SY 软件下载",
   "subtitle": "官方下载 · 请认准本页面",
   "repo": "sushangxiong0312-ctrl/SY",
-  "generatedAt": "2026-07-13T09:36:32.714Z",
+  "generatedAt": "2026-07-14T02:23:55.389Z",
   "categories": [
     {
       "key": "full",
@@ -37,6 +37,16 @@
       "mode": "versions",
       "versions": [
         {
+          "version": "v2.22.0",
+          "tag": "v2.22.0",
+          "trackKey": "app",
+          "title": "v2.22.0",
+          "date": "2026-07-14T02:23:43Z",
+          "prerelease": false,
+          "body": "- XYZR直角坐标机器人: 新增运动/取位与工件·工具坐标系示教工具, 支持XY平面与空间面补正\n- AI工序助手完善: 内置API帮助手册, 对话栏交互与提示词优化\n- HTTP/WebService通讯工具增强(REST/SOAP)\n- 虚拟运动卡完善, 支持无硬件仿真调试\n- 报警窗口与工序编辑器界面改进及多项稳定性修复",
+          "files": []
+        },
+        {
           "version": "v2.21.2",
           "tag": "v2.21.2",
           "trackKey": "app",
@@ -48,7 +58,7 @@
             {
               "name": "AutoSoftware_v2.21.2.zip",
               "size": 135510392,
-              "downloadCount": 0,
+              "downloadCount": 3,
               "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.21.2/AutoSoftware_v2.21.2.zip",
               "category": "full",
               "mirrors": [
@@ -7170,6 +7180,16 @@
   ],
   "versions": [
     {
+      "version": "v2.22.0",
+      "tag": "v2.22.0",
+      "trackKey": "app",
+      "title": "v2.22.0",
+      "date": "2026-07-14T02:23:43Z",
+      "prerelease": false,
+      "body": "- XYZR直角坐标机器人: 新增运动/取位与工件·工具坐标系示教工具, 支持XY平面与空间面补正\n- AI工序助手完善: 内置API帮助手册, 对话栏交互与提示词优化\n- HTTP/WebService通讯工具增强(REST/SOAP)\n- 虚拟运动卡完善, 支持无硬件仿真调试\n- 报警窗口与工序编辑器界面改进及多项稳定性修复",
+      "files": []
+    },
+    {
       "version": "v2.21.2",
       "tag": "v2.21.2",
       "trackKey": "app",
@@ -7181,7 +7201,7 @@
         {
           "name": "AutoSoftware_v2.21.2.zip",
           "size": 135510392,
-          "downloadCount": 0,
+          "downloadCount": 3,
           "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.21.2/AutoSoftware_v2.21.2.zip",
           "category": "full",
           "mirrors": [
