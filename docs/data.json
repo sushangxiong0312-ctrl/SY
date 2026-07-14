@@ -2,7 +2,7 @@
   "site": "SY 软件下载",
   "subtitle": "官方下载 · 请认准本页面",
   "repo": "sushangxiong0312-ctrl/SY",
-  "generatedAt": "2026-07-14T02:58:53.009Z",
+  "generatedAt": "2026-07-14T03:17:29.527Z",
   "categories": [
     {
       "key": "full",
@@ -36,6 +36,16 @@
       "label": "主程序",
       "mode": "versions",
       "versions": [
+        {
+          "version": "v2.24.0",
+          "tag": "v2.24.0",
+          "trackKey": "app",
+          "title": "v2.24.0",
+          "date": "2026-07-14T03:17:18Z",
+          "prerelease": false,
+          "body": "- 手机远程控制: 维护页新增「手机远程控制」, 手机扫码或输入连接码即可远程点动调试轴/气缸/DI\n- 远程点动服务内置于主程序进程, 死人开关松手即停, 默认关闭需现场开启「允许远程控制」",
+          "files": []
+        },
         {
           "version": "v2.23.0",
           "tag": "v2.23.0",
@@ -109,7 +119,7 @@
             {
               "name": "AutoSoftware_v2.22.0.zip",
               "size": 135547816,
-              "downloadCount": 0,
+              "downloadCount": 1,
               "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.22.0/AutoSoftware_v2.22.0.zip",
               "category": "full",
               "mirrors": [
@@ -7292,6 +7302,16 @@
   ],
   "versions": [
     {
+      "version": "v2.24.0",
+      "tag": "v2.24.0",
+      "trackKey": "app",
+      "title": "v2.24.0",
+      "date": "2026-07-14T03:17:18Z",
+      "prerelease": false,
+      "body": "- 手机远程控制: 维护页新增「手机远程控制」, 手机扫码或输入连接码即可远程点动调试轴/气缸/DI\n- 远程点动服务内置于主程序进程, 死人开关松手即停, 默认关闭需现场开启「允许远程控制」",
+      "files": []
+    },
+    {
       "version": "v2.23.0",
       "tag": "v2.23.0",
       "trackKey": "app",
@@ -7364,7 +7384,7 @@
         {
           "name": "AutoSoftware_v2.22.0.zip",
           "size": 135547816,
-          "downloadCount": 0,
+          "downloadCount": 1,
           "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.22.0/AutoSoftware_v2.22.0.zip",
           "category": "full",
           "mirrors": [
