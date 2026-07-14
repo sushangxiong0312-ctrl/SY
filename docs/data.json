@@ -2,7 +2,7 @@
   "site": "SY 软件下载",
   "subtitle": "官方下载 · 请认准本页面",
   "repo": "sushangxiong0312-ctrl/SY",
-  "generatedAt": "2026-07-14T05:59:19.272Z",
+  "generatedAt": "2026-07-14T07:53:15.432Z",
   "categories": [
     {
       "key": "full",
@@ -36,6 +36,16 @@
       "label": "主程序",
       "mode": "versions",
       "versions": [
+        {
+          "version": "v2.24.5",
+          "tag": "v2.24.5",
+          "trackKey": "app",
+          "title": "v2.24.5",
+          "date": "2026-07-14T07:53:03Z",
+          "prerelease": false,
+          "body": "- 工序 ShowNotice 加时间参数 ShowNotice(消息,秒): 秒<=0(默认)横幅不自动消失、点确定或Esc才关, 正数则该秒数后自动消失\n- 修复丝杆花键手机远程进给绝对移动不动: 进给显示改用解耦进给坐标, 与绝对/相对移动同坐标系",
+          "files": []
+        },
         {
           "version": "v2.24.4",
           "tag": "v2.24.4",
@@ -7535,6 +7545,16 @@
     }
   ],
   "versions": [
+    {
+      "version": "v2.24.5",
+      "tag": "v2.24.5",
+      "trackKey": "app",
+      "title": "v2.24.5",
+      "date": "2026-07-14T07:53:03Z",
+      "prerelease": false,
+      "body": "- 工序 ShowNotice 加时间参数 ShowNotice(消息,秒): 秒<=0(默认)横幅不自动消失、点确定或Esc才关, 正数则该秒数后自动消失\n- 修复丝杆花键手机远程进给绝对移动不动: 进给显示改用解耦进给坐标, 与绝对/相对移动同坐标系",
+      "files": []
+    },
     {
       "version": "v2.24.4",
       "tag": "v2.24.4",
