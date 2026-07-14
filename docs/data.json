@@ -2,7 +2,7 @@
   "site": "SY 软件下载",
   "subtitle": "官方下载 · 请认准本页面",
   "repo": "sushangxiong0312-ctrl/SY",
-  "generatedAt": "2026-07-14T05:45:41.670Z",
+  "generatedAt": "2026-07-14T05:46:22.481Z",
   "categories": [
     {
       "key": "full",
@@ -44,7 +44,58 @@
           "date": "2026-07-14T05:45:30Z",
           "prerelease": false,
           "body": "- 手机远程点动完善: DI补全(通用DI+传感器) + 新增DO输出置位/复位 + 气缸/DI/DO显示中文备注名\n- 连接码持久化(重启不再变), 码错自动清旧码可重输, 手机界面改网络优先永远最新\n- 手机端界面优化: 去速度表改文字显示, 参数区加宽, 限位/原点移到模式按钮上方\n- 机器调整手动页新增模拟量输入显示与现场 Scale/Offset 标定(持久化到 device.json)\n- 机器调整手动页新增松亚标签供料器支持, XYZR/机械手/丝杆花键纳入手动调试\n- 轴手动调试增强: 坐标清零/速率百分比/限位与原点信号灯, 优化设备行刷新性能",
-          "files": []
+          "files": [
+            {
+              "name": "AutoSoftware_v2.24.3.zip",
+              "size": 135664552,
+              "downloadCount": 0,
+              "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.24.3/AutoSoftware_v2.24.3.zip",
+              "category": "full",
+              "mirrors": [
+                {
+                  "name": "加速线路 1",
+                  "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.24.3/AutoSoftware_v2.24.3.zip"
+                },
+                {
+                  "name": "加速线路 2",
+                  "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.24.3/AutoSoftware_v2.24.3.zip"
+                },
+                {
+                  "name": "加速线路 3",
+                  "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.24.3/AutoSoftware_v2.24.3.zip"
+                },
+                {
+                  "name": "加速线路 4",
+                  "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.24.3/AutoSoftware_v2.24.3.zip"
+                }
+              ]
+            },
+            {
+              "name": "HmiTouchControls.dll",
+              "size": 93696,
+              "downloadCount": 0,
+              "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.24.3/HmiTouchControls.dll",
+              "category": "other",
+              "mirrors": [
+                {
+                  "name": "加速线路 1",
+                  "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.24.3/HmiTouchControls.dll"
+                },
+                {
+                  "name": "加速线路 2",
+                  "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.24.3/HmiTouchControls.dll"
+                },
+                {
+                  "name": "加速线路 3",
+                  "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.24.3/HmiTouchControls.dll"
+                },
+                {
+                  "name": "加速线路 4",
+                  "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.24.3/HmiTouchControls.dll"
+                }
+              ]
+            }
+          ]
         },
         {
           "version": "v2.24.1",
@@ -7431,7 +7482,58 @@
       "date": "2026-07-14T05:45:30Z",
       "prerelease": false,
       "body": "- 手机远程点动完善: DI补全(通用DI+传感器) + 新增DO输出置位/复位 + 气缸/DI/DO显示中文备注名\n- 连接码持久化(重启不再变), 码错自动清旧码可重输, 手机界面改网络优先永远最新\n- 手机端界面优化: 去速度表改文字显示, 参数区加宽, 限位/原点移到模式按钮上方\n- 机器调整手动页新增模拟量输入显示与现场 Scale/Offset 标定(持久化到 device.json)\n- 机器调整手动页新增松亚标签供料器支持, XYZR/机械手/丝杆花键纳入手动调试\n- 轴手动调试增强: 坐标清零/速率百分比/限位与原点信号灯, 优化设备行刷新性能",
-      "files": []
+      "files": [
+        {
+          "name": "AutoSoftware_v2.24.3.zip",
+          "size": 135664552,
+          "downloadCount": 0,
+          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.24.3/AutoSoftware_v2.24.3.zip",
+          "category": "full",
+          "mirrors": [
+            {
+              "name": "加速线路 1",
+              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.24.3/AutoSoftware_v2.24.3.zip"
+            },
+            {
+              "name": "加速线路 2",
+              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.24.3/AutoSoftware_v2.24.3.zip"
+            },
+            {
+              "name": "加速线路 3",
+              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.24.3/AutoSoftware_v2.24.3.zip"
+            },
+            {
+              "name": "加速线路 4",
+              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.24.3/AutoSoftware_v2.24.3.zip"
+            }
+          ]
+        },
+        {
+          "name": "HmiTouchControls.dll",
+          "size": 93696,
+          "downloadCount": 0,
+          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.24.3/HmiTouchControls.dll",
+          "category": "other",
+          "mirrors": [
+            {
+              "name": "加速线路 1",
+              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.24.3/HmiTouchControls.dll"
+            },
+            {
+              "name": "加速线路 2",
+              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.24.3/HmiTouchControls.dll"
+            },
+            {
+              "name": "加速线路 3",
+              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.24.3/HmiTouchControls.dll"
+            },
+            {
+              "name": "加速线路 4",
+              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.24.3/HmiTouchControls.dll"
+            }
+          ]
+        }
+      ]
     },
     {
       "version": "v2.24.1",
