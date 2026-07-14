@@ -2,7 +2,7 @@
   "site": "SY 软件下载",
   "subtitle": "官方下载 · 请认准本页面",
   "repo": "sushangxiong0312-ctrl/SY",
-  "generatedAt": "2026-07-14T09:41:38.856Z",
+  "generatedAt": "2026-07-14T09:42:04.868Z",
   "categories": [
     {
       "key": "full",
@@ -44,7 +44,58 @@
           "date": "2026-07-14T09:41:25Z",
           "prerelease": false,
           "body": "- 新增多头组合运动模型(共用XY龙门 + 多头 Z+丝杆花键RF): 对外当XYZR用, MoveAbsolute 自动偏心TCP补偿 + R+F保进给(转R不再拧坏夹爪、不报F跟随误差), SelectHead切头, 相机自动建每头TCP(CalibrateHeadTool)\n- 机器设定硬件配置页可添加/编辑(共用X/Y + 头表选Z单轴/丝杆花键RF/安装偏移), 按名复用现有RF1/RF2/RF3",
-          "files": []
+          "files": [
+            {
+              "name": "AutoSoftware_v2.25.0.zip",
+              "size": 135673462,
+              "downloadCount": 0,
+              "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.25.0/AutoSoftware_v2.25.0.zip",
+              "category": "full",
+              "mirrors": [
+                {
+                  "name": "加速线路 1",
+                  "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.25.0/AutoSoftware_v2.25.0.zip"
+                },
+                {
+                  "name": "加速线路 2",
+                  "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.25.0/AutoSoftware_v2.25.0.zip"
+                },
+                {
+                  "name": "加速线路 3",
+                  "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.25.0/AutoSoftware_v2.25.0.zip"
+                },
+                {
+                  "name": "加速线路 4",
+                  "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.25.0/AutoSoftware_v2.25.0.zip"
+                }
+              ]
+            },
+            {
+              "name": "HmiTouchControls.dll",
+              "size": 93696,
+              "downloadCount": 0,
+              "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.25.0/HmiTouchControls.dll",
+              "category": "other",
+              "mirrors": [
+                {
+                  "name": "加速线路 1",
+                  "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.25.0/HmiTouchControls.dll"
+                },
+                {
+                  "name": "加速线路 2",
+                  "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.25.0/HmiTouchControls.dll"
+                },
+                {
+                  "name": "加速线路 3",
+                  "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.25.0/HmiTouchControls.dll"
+                },
+                {
+                  "name": "加速线路 4",
+                  "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.25.0/HmiTouchControls.dll"
+                }
+              ]
+            }
+          ]
         },
         {
           "version": "v2.24.5",
@@ -7614,7 +7665,58 @@
       "date": "2026-07-14T09:41:25Z",
       "prerelease": false,
       "body": "- 新增多头组合运动模型(共用XY龙门 + 多头 Z+丝杆花键RF): 对外当XYZR用, MoveAbsolute 自动偏心TCP补偿 + R+F保进给(转R不再拧坏夹爪、不报F跟随误差), SelectHead切头, 相机自动建每头TCP(CalibrateHeadTool)\n- 机器设定硬件配置页可添加/编辑(共用X/Y + 头表选Z单轴/丝杆花键RF/安装偏移), 按名复用现有RF1/RF2/RF3",
-      "files": []
+      "files": [
+        {
+          "name": "AutoSoftware_v2.25.0.zip",
+          "size": 135673462,
+          "downloadCount": 0,
+          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.25.0/AutoSoftware_v2.25.0.zip",
+          "category": "full",
+          "mirrors": [
+            {
+              "name": "加速线路 1",
+              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.25.0/AutoSoftware_v2.25.0.zip"
+            },
+            {
+              "name": "加速线路 2",
+              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.25.0/AutoSoftware_v2.25.0.zip"
+            },
+            {
+              "name": "加速线路 3",
+              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.25.0/AutoSoftware_v2.25.0.zip"
+            },
+            {
+              "name": "加速线路 4",
+              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.25.0/AutoSoftware_v2.25.0.zip"
+            }
+          ]
+        },
+        {
+          "name": "HmiTouchControls.dll",
+          "size": 93696,
+          "downloadCount": 0,
+          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.25.0/HmiTouchControls.dll",
+          "category": "other",
+          "mirrors": [
+            {
+              "name": "加速线路 1",
+              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.25.0/HmiTouchControls.dll"
+            },
+            {
+              "name": "加速线路 2",
+              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.25.0/HmiTouchControls.dll"
+            },
+            {
+              "name": "加速线路 3",
+              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.25.0/HmiTouchControls.dll"
+            },
+            {
+              "name": "加速线路 4",
+              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.25.0/HmiTouchControls.dll"
+            }
+          ]
+        }
+      ]
     },
     {
       "version": "v2.24.5",
