@@ -2,7 +2,7 @@
   "site": "SY 软件下载",
   "subtitle": "官方下载 · 请认准本页面",
   "repo": "sushangxiong0312-ctrl/SY",
-  "generatedAt": "2026-07-15T13:11:52.016Z",
+  "generatedAt": "2026-07-15T13:29:07.792Z",
   "categories": [
     {
       "key": "full",
@@ -36,6 +36,16 @@
       "label": "主程序",
       "mode": "versions",
       "versions": [
+        {
+          "version": "v2.28.2",
+          "tag": "v2.28.2",
+          "trackKey": "app",
+          "title": "v2.28.2",
+          "date": "2026-07-15T13:28:53Z",
+          "prerelease": false,
+          "body": "- 修复「颜色保留」node 双击报错(该字符串未被识别为有效bool): Denoise 布尔参数按约定序列化为 True/False(向后兼容旧节点), 属性面板 bool 解析兼容 1/0 防崩",
+          "files": []
+        },
         {
           "version": "v2.28.1",
           "tag": "v2.28.1",
@@ -7779,6 +7789,16 @@
     }
   ],
   "versions": [
+    {
+      "version": "v2.28.2",
+      "tag": "v2.28.2",
+      "trackKey": "app",
+      "title": "v2.28.2",
+      "date": "2026-07-15T13:28:53Z",
+      "prerelease": false,
+      "body": "- 修复「颜色保留」node 双击报错(该字符串未被识别为有效bool): Denoise 布尔参数按约定序列化为 True/False(向后兼容旧节点), 属性面板 bool 解析兼容 1/0 防崩",
+      "files": []
+    },
     {
       "version": "v2.28.1",
       "tag": "v2.28.1",
