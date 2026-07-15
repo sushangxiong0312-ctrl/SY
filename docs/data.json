@@ -2,7 +2,7 @@
   "site": "SY 软件下载",
   "subtitle": "官方下载 · 请认准本页面",
   "repo": "sushangxiong0312-ctrl/SY",
-  "generatedAt": "2026-07-15T13:29:32.859Z",
+  "generatedAt": "2026-07-15T14:11:24.220Z",
   "categories": [
     {
       "key": "full",
@@ -36,6 +36,67 @@
       "label": "主程序",
       "mode": "versions",
       "versions": [
+        {
+          "version": "v2.28.3",
+          "tag": "v2.28.3",
+          "trackKey": "app",
+          "title": "v2.28.3",
+          "date": "2026-07-15T14:06:08Z",
+          "prerelease": false,
+          "body": "- 多头模型 机器调整页显示完整 X/Y/Z/R(原只显示X), 且随面补正启用=补正后/禁用=原始\n- 多头 XY 面补正加启用/禁用开关(硬件配置页选文件+开关+状态, 关掉直通原始不丢文件, 便于重新标定), 随 models.json 持久化\n- 多头 MoveAbsolute 补 PointXYZR 单参重载",
+          "files": [
+            {
+              "name": "AutoSoftware_v2.28.3.zip",
+              "size": 135678080,
+              "downloadCount": 0,
+              "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.28.3/AutoSoftware_v2.28.3.zip",
+              "category": "full",
+              "mirrors": [
+                {
+                  "name": "加速线路 1",
+                  "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.28.3/AutoSoftware_v2.28.3.zip"
+                },
+                {
+                  "name": "加速线路 2",
+                  "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.28.3/AutoSoftware_v2.28.3.zip"
+                },
+                {
+                  "name": "加速线路 3",
+                  "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.28.3/AutoSoftware_v2.28.3.zip"
+                },
+                {
+                  "name": "加速线路 4",
+                  "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.28.3/AutoSoftware_v2.28.3.zip"
+                }
+              ]
+            },
+            {
+              "name": "HmiTouchControls.dll",
+              "size": 93696,
+              "downloadCount": 0,
+              "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.28.3/HmiTouchControls.dll",
+              "category": "lib",
+              "mirrors": [
+                {
+                  "name": "加速线路 1",
+                  "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.28.3/HmiTouchControls.dll"
+                },
+                {
+                  "name": "加速线路 2",
+                  "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.28.3/HmiTouchControls.dll"
+                },
+                {
+                  "name": "加速线路 3",
+                  "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.28.3/HmiTouchControls.dll"
+                },
+                {
+                  "name": "加速线路 4",
+                  "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.28.3/HmiTouchControls.dll"
+                }
+              ]
+            }
+          ]
+        },
         {
           "version": "v2.28.2",
           "tag": "v2.28.2",
@@ -7840,6 +7901,67 @@
     }
   ],
   "versions": [
+    {
+      "version": "v2.28.3",
+      "tag": "v2.28.3",
+      "trackKey": "app",
+      "title": "v2.28.3",
+      "date": "2026-07-15T14:06:08Z",
+      "prerelease": false,
+      "body": "- 多头模型 机器调整页显示完整 X/Y/Z/R(原只显示X), 且随面补正启用=补正后/禁用=原始\n- 多头 XY 面补正加启用/禁用开关(硬件配置页选文件+开关+状态, 关掉直通原始不丢文件, 便于重新标定), 随 models.json 持久化\n- 多头 MoveAbsolute 补 PointXYZR 单参重载",
+      "files": [
+        {
+          "name": "AutoSoftware_v2.28.3.zip",
+          "size": 135678080,
+          "downloadCount": 0,
+          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.28.3/AutoSoftware_v2.28.3.zip",
+          "category": "full",
+          "mirrors": [
+            {
+              "name": "加速线路 1",
+              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.28.3/AutoSoftware_v2.28.3.zip"
+            },
+            {
+              "name": "加速线路 2",
+              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.28.3/AutoSoftware_v2.28.3.zip"
+            },
+            {
+              "name": "加速线路 3",
+              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.28.3/AutoSoftware_v2.28.3.zip"
+            },
+            {
+              "name": "加速线路 4",
+              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.28.3/AutoSoftware_v2.28.3.zip"
+            }
+          ]
+        },
+        {
+          "name": "HmiTouchControls.dll",
+          "size": 93696,
+          "downloadCount": 0,
+          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.28.3/HmiTouchControls.dll",
+          "category": "lib",
+          "mirrors": [
+            {
+              "name": "加速线路 1",
+              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.28.3/HmiTouchControls.dll"
+            },
+            {
+              "name": "加速线路 2",
+              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.28.3/HmiTouchControls.dll"
+            },
+            {
+              "name": "加速线路 3",
+              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.28.3/HmiTouchControls.dll"
+            },
+            {
+              "name": "加速线路 4",
+              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.28.3/HmiTouchControls.dll"
+            }
+          ]
+        }
+      ]
+    },
     {
       "version": "v2.28.2",
       "tag": "v2.28.2",
