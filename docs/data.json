@@ -2,7 +2,7 @@
   "site": "SY 软件下载",
   "subtitle": "官方下载 · 请认准本页面",
   "repo": "sushangxiong0312-ctrl/SY",
-  "generatedAt": "2026-07-15T14:11:24.220Z",
+  "generatedAt": "2026-07-15T16:27:57.295Z",
   "categories": [
     {
       "key": "full",
@@ -36,6 +36,16 @@
       "label": "主程序",
       "mode": "versions",
       "versions": [
+        {
+          "version": "v2.28.4",
+          "tag": "v2.28.4",
+          "trackKey": "app",
+          "title": "v2.28.4",
+          "date": "2026-07-15T16:27:45Z",
+          "prerelease": false,
+          "body": "- LiveVisionView(图像显示控件)新增 ImageClicked 事件: 点击/触摸图像抛出图像像素坐标(触屏+鼠标, 图外不抛), HMI 页面按约定 On_控件名_ImageClicked 接, 可做点图取点/定位\n- 设计器⚡事件面板加 ImageClicked",
+          "files": []
+        },
         {
           "version": "v2.28.3",
           "tag": "v2.28.3",
@@ -7901,6 +7911,16 @@
     }
   ],
   "versions": [
+    {
+      "version": "v2.28.4",
+      "tag": "v2.28.4",
+      "trackKey": "app",
+      "title": "v2.28.4",
+      "date": "2026-07-15T16:27:45Z",
+      "prerelease": false,
+      "body": "- LiveVisionView(图像显示控件)新增 ImageClicked 事件: 点击/触摸图像抛出图像像素坐标(触屏+鼠标, 图外不抛), HMI 页面按约定 On_控件名_ImageClicked 接, 可做点图取点/定位\n- 设计器⚡事件面板加 ImageClicked",
+      "files": []
+    },
     {
       "version": "v2.28.3",
       "tag": "v2.28.3",
