@@ -2,7 +2,7 @@
   "site": "SY 软件下载",
   "subtitle": "官方下载 · 请认准本页面",
   "repo": "sushangxiong0312-ctrl/SY",
-  "generatedAt": "2026-07-14T09:42:04.868Z",
+  "generatedAt": "2026-07-15T11:38:20.866Z",
   "categories": [
     {
       "key": "full",
@@ -36,6 +36,16 @@
       "label": "主程序",
       "mode": "versions",
       "versions": [
+        {
+          "version": "v2.28.0",
+          "tag": "v2.28.0",
+          "trackKey": "app",
+          "title": "v2.28.0",
+          "date": "2026-07-15T11:38:08Z",
+          "prerelease": false,
+          "body": "- 轮廓匹配/轮廓线匹配工具结果叠加显示: ContourMatchTool 和 ContourLineMatchTool 补上 IResultShapeProvider, 匹配结果输出为叠加形状(匹配框AffineRectangle[中心/尺寸/角度]+中心点+分数标题), 显示节点/流程显示现在能画出匹配框(之前这俩工具没实现该接口, 结果不显示)",
+          "files": []
+        },
         {
           "version": "v2.25.0",
           "tag": "v2.25.0",
@@ -7657,6 +7667,16 @@
     }
   ],
   "versions": [
+    {
+      "version": "v2.28.0",
+      "tag": "v2.28.0",
+      "trackKey": "app",
+      "title": "v2.28.0",
+      "date": "2026-07-15T11:38:08Z",
+      "prerelease": false,
+      "body": "- 轮廓匹配/轮廓线匹配工具结果叠加显示: ContourMatchTool 和 ContourLineMatchTool 补上 IResultShapeProvider, 匹配结果输出为叠加形状(匹配框AffineRectangle[中心/尺寸/角度]+中心点+分数标题), 显示节点/流程显示现在能画出匹配框(之前这俩工具没实现该接口, 结果不显示)",
+      "files": []
+    },
     {
       "version": "v2.25.0",
       "tag": "v2.25.0",
