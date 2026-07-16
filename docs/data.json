@@ -2,7 +2,7 @@
   "site": "SY 软件下载",
   "subtitle": "官方下载 · 请认准本页面",
   "repo": "sushangxiong0312-ctrl/SY",
-  "generatedAt": "2026-07-16T10:22:57.362Z",
+  "generatedAt": "2026-07-16T10:23:23.219Z",
   "categories": [
     {
       "key": "full",
@@ -44,7 +44,58 @@
           "date": "2026-07-16T10:22:41Z",
           "prerelease": false,
           "body": "- 新增「集成编辑器」(Studio): VS 风格一站式编辑外壳, 参数/工序/工作流/HMI 树上双击直达\n- 自定义参数每类型独立文档, 左侧实例面板可新建实例与编辑字段默认值\n- 工序与 HMI 页面每成员独立选项卡, 共享引擎切换不丢撤销\n- 解决方案树右键: 四分类可新建, 工序/工作流可改名与改类型, 按类型分色\n- 全部编译(Ctrl+Shift+B)按依赖顺序 参数→工序, 错误行双击跨文档跳转到出错行\n- HMI 设计器支持停靠模式并新增页面导航/新建/保存接口",
-          "files": []
+          "files": [
+            {
+              "name": "AutoSoftware_v2.30.0.zip",
+              "size": 135713626,
+              "downloadCount": 0,
+              "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.30.0/AutoSoftware_v2.30.0.zip",
+              "category": "full",
+              "mirrors": [
+                {
+                  "name": "加速线路 1",
+                  "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.30.0/AutoSoftware_v2.30.0.zip"
+                },
+                {
+                  "name": "加速线路 2",
+                  "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.30.0/AutoSoftware_v2.30.0.zip"
+                },
+                {
+                  "name": "加速线路 3",
+                  "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.30.0/AutoSoftware_v2.30.0.zip"
+                },
+                {
+                  "name": "加速线路 4",
+                  "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.30.0/AutoSoftware_v2.30.0.zip"
+                }
+              ]
+            },
+            {
+              "name": "HmiTouchControls.dll",
+              "size": 93696,
+              "downloadCount": 0,
+              "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.30.0/HmiTouchControls.dll",
+              "category": "lib",
+              "mirrors": [
+                {
+                  "name": "加速线路 1",
+                  "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.30.0/HmiTouchControls.dll"
+                },
+                {
+                  "name": "加速线路 2",
+                  "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.30.0/HmiTouchControls.dll"
+                },
+                {
+                  "name": "加速线路 3",
+                  "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.30.0/HmiTouchControls.dll"
+                },
+                {
+                  "name": "加速线路 4",
+                  "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.30.0/HmiTouchControls.dll"
+                }
+              ]
+            }
+          ]
         },
         {
           "version": "v2.29.0",
@@ -8041,7 +8092,58 @@
       "date": "2026-07-16T10:22:41Z",
       "prerelease": false,
       "body": "- 新增「集成编辑器」(Studio): VS 风格一站式编辑外壳, 参数/工序/工作流/HMI 树上双击直达\n- 自定义参数每类型独立文档, 左侧实例面板可新建实例与编辑字段默认值\n- 工序与 HMI 页面每成员独立选项卡, 共享引擎切换不丢撤销\n- 解决方案树右键: 四分类可新建, 工序/工作流可改名与改类型, 按类型分色\n- 全部编译(Ctrl+Shift+B)按依赖顺序 参数→工序, 错误行双击跨文档跳转到出错行\n- HMI 设计器支持停靠模式并新增页面导航/新建/保存接口",
-      "files": []
+      "files": [
+        {
+          "name": "AutoSoftware_v2.30.0.zip",
+          "size": 135713626,
+          "downloadCount": 0,
+          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.30.0/AutoSoftware_v2.30.0.zip",
+          "category": "full",
+          "mirrors": [
+            {
+              "name": "加速线路 1",
+              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.30.0/AutoSoftware_v2.30.0.zip"
+            },
+            {
+              "name": "加速线路 2",
+              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.30.0/AutoSoftware_v2.30.0.zip"
+            },
+            {
+              "name": "加速线路 3",
+              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.30.0/AutoSoftware_v2.30.0.zip"
+            },
+            {
+              "name": "加速线路 4",
+              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.30.0/AutoSoftware_v2.30.0.zip"
+            }
+          ]
+        },
+        {
+          "name": "HmiTouchControls.dll",
+          "size": 93696,
+          "downloadCount": 0,
+          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.30.0/HmiTouchControls.dll",
+          "category": "lib",
+          "mirrors": [
+            {
+              "name": "加速线路 1",
+              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.30.0/HmiTouchControls.dll"
+            },
+            {
+              "name": "加速线路 2",
+              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.30.0/HmiTouchControls.dll"
+            },
+            {
+              "name": "加速线路 3",
+              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.30.0/HmiTouchControls.dll"
+            },
+            {
+              "name": "加速线路 4",
+              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.30.0/HmiTouchControls.dll"
+            }
+          ]
+        }
+      ]
     },
     {
       "version": "v2.29.0",
