@@ -2,7 +2,7 @@
   "site": "SY 软件下载",
   "subtitle": "官方下载 · 请认准本页面",
   "repo": "sushangxiong0312-ctrl/SY",
-  "generatedAt": "2026-07-16T10:59:05.836Z",
+  "generatedAt": "2026-07-17T04:09:26.047Z",
   "categories": [
     {
       "key": "full",
@@ -36,6 +36,16 @@
       "label": "主程序",
       "mode": "versions",
       "versions": [
+        {
+          "version": "v2.31.2",
+          "tag": "v2.31.2",
+          "trackKey": "app",
+          "title": "v2.31.2",
+          "date": "2026-07-17T04:09:14Z",
+          "prerelease": false,
+          "body": "- 修复 HMI 页面逻辑编译误报名称不存在的问题(表达式以控件名结尾时被误判为已手写声明)\n- 视觉节点失败/NG 时也输出图像与结果形状, 配合出错后继续可在显示与存图节点看到 NG 图",
+          "files": []
+        },
         {
           "version": "v2.30.1",
           "tag": "v2.30.1",
@@ -8145,6 +8155,16 @@
     }
   ],
   "versions": [
+    {
+      "version": "v2.31.2",
+      "tag": "v2.31.2",
+      "trackKey": "app",
+      "title": "v2.31.2",
+      "date": "2026-07-17T04:09:14Z",
+      "prerelease": false,
+      "body": "- 修复 HMI 页面逻辑编译误报名称不存在的问题(表达式以控件名结尾时被误判为已手写声明)\n- 视觉节点失败/NG 时也输出图像与结果形状, 配合出错后继续可在显示与存图节点看到 NG 图",
+      "files": []
+    },
     {
       "version": "v2.30.1",
       "tag": "v2.30.1",
