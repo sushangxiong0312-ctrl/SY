@@ -2,7 +2,7 @@
   "site": "SY 软件下载",
   "subtitle": "官方下载 · 请认准本页面",
   "repo": "sushangxiong0312-ctrl/SY",
-  "generatedAt": "2026-07-17T07:14:11.280Z",
+  "generatedAt": "2026-07-17T09:01:09.829Z",
   "categories": [
     {
       "key": "full",
@@ -36,6 +36,16 @@
       "label": "主程序",
       "mode": "versions",
       "versions": [
+        {
+          "version": "v2.32.3",
+          "tag": "v2.32.3",
+          "trackKey": "app",
+          "title": "v2.32.3",
+          "date": "2026-07-17T09:00:58Z",
+          "prerelease": false,
+          "body": "- 轮廓匹配Master结果叠加升级为完整渲染: 匹配位姿绿框(模型轮廓外接框)+青色匹配特征点+红色中心十字+分数, 节点双击预览恢复特征点显示(v2.32.2 曾被简单匹配框顶掉), 显示节点同样受益",
+          "files": []
+        },
         {
           "version": "v2.32.2",
           "tag": "v2.32.2",
@@ -8450,6 +8460,16 @@
     }
   ],
   "versions": [
+    {
+      "version": "v2.32.3",
+      "tag": "v2.32.3",
+      "trackKey": "app",
+      "title": "v2.32.3",
+      "date": "2026-07-17T09:00:58Z",
+      "prerelease": false,
+      "body": "- 轮廓匹配Master结果叠加升级为完整渲染: 匹配位姿绿框(模型轮廓外接框)+青色匹配特征点+红色中心十字+分数, 节点双击预览恢复特征点显示(v2.32.2 曾被简单匹配框顶掉), 显示节点同样受益",
+      "files": []
+    },
     {
       "version": "v2.32.2",
       "tag": "v2.32.2",
