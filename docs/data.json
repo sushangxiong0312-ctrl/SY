@@ -2,7 +2,7 @@
   "site": "SY 软件下载",
   "subtitle": "官方下载 · 请认准本页面",
   "repo": "sushangxiong0312-ctrl/SY",
-  "generatedAt": "2026-07-17T05:20:18.585Z",
+  "generatedAt": "2026-07-17T05:20:43.101Z",
   "categories": [
     {
       "key": "full",
@@ -44,7 +44,58 @@
           "date": "2026-07-17T05:20:04Z",
           "prerelease": false,
           "body": "- 丝杆花键模型新增花键耦合开关: 禁用后 R/F 作为两根普通独立单轴(旋转不带 F 跟随、进给为 F 轴自身坐标、点动不挂电子齿轮), 扭矩/力控与位置移动照常可用\n- 机器设定 RF 模型页可切换开关(即时生效并落盘), 工序代码可直接设置 CouplingEnabled 属性\n- 多头组合模型自动适配: 该头禁用耦合时移动退为 X/Y/Z/R 四轴插补, F 不参与保进给",
-          "files": []
+          "files": [
+            {
+              "name": "AutoSoftware_v2.31.3.zip",
+              "size": 135666625,
+              "downloadCount": 0,
+              "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.31.3/AutoSoftware_v2.31.3.zip",
+              "category": "full",
+              "mirrors": [
+                {
+                  "name": "加速线路 1",
+                  "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.31.3/AutoSoftware_v2.31.3.zip"
+                },
+                {
+                  "name": "加速线路 2",
+                  "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.31.3/AutoSoftware_v2.31.3.zip"
+                },
+                {
+                  "name": "加速线路 3",
+                  "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.31.3/AutoSoftware_v2.31.3.zip"
+                },
+                {
+                  "name": "加速线路 4",
+                  "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.31.3/AutoSoftware_v2.31.3.zip"
+                }
+              ]
+            },
+            {
+              "name": "HmiTouchControls.dll",
+              "size": 93696,
+              "downloadCount": 0,
+              "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.31.3/HmiTouchControls.dll",
+              "category": "lib",
+              "mirrors": [
+                {
+                  "name": "加速线路 1",
+                  "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.31.3/HmiTouchControls.dll"
+                },
+                {
+                  "name": "加速线路 2",
+                  "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.31.3/HmiTouchControls.dll"
+                },
+                {
+                  "name": "加速线路 3",
+                  "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.31.3/HmiTouchControls.dll"
+                },
+                {
+                  "name": "加速线路 4",
+                  "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.31.3/HmiTouchControls.dll"
+                }
+              ]
+            }
+          ]
         },
         {
           "version": "v2.31.2",
@@ -8224,7 +8275,58 @@
       "date": "2026-07-17T05:20:04Z",
       "prerelease": false,
       "body": "- 丝杆花键模型新增花键耦合开关: 禁用后 R/F 作为两根普通独立单轴(旋转不带 F 跟随、进给为 F 轴自身坐标、点动不挂电子齿轮), 扭矩/力控与位置移动照常可用\n- 机器设定 RF 模型页可切换开关(即时生效并落盘), 工序代码可直接设置 CouplingEnabled 属性\n- 多头组合模型自动适配: 该头禁用耦合时移动退为 X/Y/Z/R 四轴插补, F 不参与保进给",
-      "files": []
+      "files": [
+        {
+          "name": "AutoSoftware_v2.31.3.zip",
+          "size": 135666625,
+          "downloadCount": 0,
+          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.31.3/AutoSoftware_v2.31.3.zip",
+          "category": "full",
+          "mirrors": [
+            {
+              "name": "加速线路 1",
+              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.31.3/AutoSoftware_v2.31.3.zip"
+            },
+            {
+              "name": "加速线路 2",
+              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.31.3/AutoSoftware_v2.31.3.zip"
+            },
+            {
+              "name": "加速线路 3",
+              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.31.3/AutoSoftware_v2.31.3.zip"
+            },
+            {
+              "name": "加速线路 4",
+              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.31.3/AutoSoftware_v2.31.3.zip"
+            }
+          ]
+        },
+        {
+          "name": "HmiTouchControls.dll",
+          "size": 93696,
+          "downloadCount": 0,
+          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.31.3/HmiTouchControls.dll",
+          "category": "lib",
+          "mirrors": [
+            {
+              "name": "加速线路 1",
+              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.31.3/HmiTouchControls.dll"
+            },
+            {
+              "name": "加速线路 2",
+              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.31.3/HmiTouchControls.dll"
+            },
+            {
+              "name": "加速线路 3",
+              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.31.3/HmiTouchControls.dll"
+            },
+            {
+              "name": "加速线路 4",
+              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.31.3/HmiTouchControls.dll"
+            }
+          ]
+        }
+      ]
     },
     {
       "version": "v2.31.2",
