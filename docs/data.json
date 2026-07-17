@@ -2,7 +2,7 @@
   "site": "SY 软件下载",
   "subtitle": "官方下载 · 请认准本页面",
   "repo": "sushangxiong0312-ctrl/SY",
-  "generatedAt": "2026-07-17T09:24:47.716Z",
+  "generatedAt": "2026-07-17T09:59:04.601Z",
   "categories": [
     {
       "key": "full",
@@ -36,6 +36,16 @@
       "label": "主程序",
       "mode": "versions",
       "versions": [
+        {
+          "version": "v2.33.1",
+          "tag": "v2.33.1",
+          "trackKey": "app",
+          "title": "v2.33.1",
+          "date": "2026-07-17T09:58:48Z",
+          "prerelease": false,
+          "body": "- 修复插补运动零距离卡死: 目标位与当前位完全相同时(如原地转R到当前角度), 插补速度被算成0发给运动卡, 轴挂在运动中永不完成\n- 现已在目标位直接跳过发指令。涉及丝杆花键/XYZR/多头模型全部8处插补调用",
+          "files": []
+        },
         {
           "version": "v2.33.0",
           "tag": "v2.33.0",
@@ -8572,6 +8582,16 @@
     }
   ],
   "versions": [
+    {
+      "version": "v2.33.1",
+      "tag": "v2.33.1",
+      "trackKey": "app",
+      "title": "v2.33.1",
+      "date": "2026-07-17T09:58:48Z",
+      "prerelease": false,
+      "body": "- 修复插补运动零距离卡死: 目标位与当前位完全相同时(如原地转R到当前角度), 插补速度被算成0发给运动卡, 轴挂在运动中永不完成\n- 现已在目标位直接跳过发指令。涉及丝杆花键/XYZR/多头模型全部8处插补调用",
+      "files": []
+    },
     {
       "version": "v2.33.0",
       "tag": "v2.33.0",
