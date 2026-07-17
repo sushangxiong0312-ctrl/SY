@@ -2,7 +2,7 @@
   "site": "SY 软件下载",
   "subtitle": "官方下载 · 请认准本页面",
   "repo": "sushangxiong0312-ctrl/SY",
-  "generatedAt": "2026-07-17T04:09:52.225Z",
+  "generatedAt": "2026-07-17T05:20:18.585Z",
   "categories": [
     {
       "key": "full",
@@ -36,6 +36,16 @@
       "label": "主程序",
       "mode": "versions",
       "versions": [
+        {
+          "version": "v2.31.3",
+          "tag": "v2.31.3",
+          "trackKey": "app",
+          "title": "v2.31.3",
+          "date": "2026-07-17T05:20:04Z",
+          "prerelease": false,
+          "body": "- 丝杆花键模型新增花键耦合开关: 禁用后 R/F 作为两根普通独立单轴(旋转不带 F 跟随、进给为 F 轴自身坐标、点动不挂电子齿轮), 扭矩/力控与位置移动照常可用\n- 机器设定 RF 模型页可切换开关(即时生效并落盘), 工序代码可直接设置 CouplingEnabled 属性\n- 多头组合模型自动适配: 该头禁用耦合时移动退为 X/Y/Z/R 四轴插补, F 不参与保进给",
+          "files": []
+        },
         {
           "version": "v2.31.2",
           "tag": "v2.31.2",
@@ -8206,6 +8216,16 @@
     }
   ],
   "versions": [
+    {
+      "version": "v2.31.3",
+      "tag": "v2.31.3",
+      "trackKey": "app",
+      "title": "v2.31.3",
+      "date": "2026-07-17T05:20:04Z",
+      "prerelease": false,
+      "body": "- 丝杆花键模型新增花键耦合开关: 禁用后 R/F 作为两根普通独立单轴(旋转不带 F 跟随、进给为 F 轴自身坐标、点动不挂电子齿轮), 扭矩/力控与位置移动照常可用\n- 机器设定 RF 模型页可切换开关(即时生效并落盘), 工序代码可直接设置 CouplingEnabled 属性\n- 多头组合模型自动适配: 该头禁用耦合时移动退为 X/Y/Z/R 四轴插补, F 不参与保进给",
+      "files": []
+    },
     {
       "version": "v2.31.2",
       "tag": "v2.31.2",
