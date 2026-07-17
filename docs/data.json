@@ -2,7 +2,7 @@
   "site": "SY 软件下载",
   "subtitle": "官方下载 · 请认准本页面",
   "repo": "sushangxiong0312-ctrl/SY",
-  "generatedAt": "2026-07-17T06:33:38.421Z",
+  "generatedAt": "2026-07-17T06:45:50.137Z",
   "categories": [
     {
       "key": "full",
@@ -36,6 +36,16 @@
       "label": "主程序",
       "mode": "versions",
       "versions": [
+        {
+          "version": "v2.32.1",
+          "tag": "v2.32.1",
+          "trackKey": "app",
+          "title": "v2.32.1",
+          "date": "2026-07-17T06:45:34Z",
+          "prerelease": false,
+          "body": "- 工作流输入项支持默认值: 输入项对话框新增默认值列(按声明类型转换), 调用方(手动运行/流程调用/工序 SetInputs)未传该输入时自动用默认值兜底, 外部传入值始终优先",
+          "files": []
+        },
         {
           "version": "v2.32.0",
           "tag": "v2.32.0",
@@ -8328,6 +8338,16 @@
     }
   ],
   "versions": [
+    {
+      "version": "v2.32.1",
+      "tag": "v2.32.1",
+      "trackKey": "app",
+      "title": "v2.32.1",
+      "date": "2026-07-17T06:45:34Z",
+      "prerelease": false,
+      "body": "- 工作流输入项支持默认值: 输入项对话框新增默认值列(按声明类型转换), 调用方(手动运行/流程调用/工序 SetInputs)未传该输入时自动用默认值兜底, 外部传入值始终优先",
+      "files": []
+    },
     {
       "version": "v2.32.0",
       "tag": "v2.32.0",
