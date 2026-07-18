@@ -2,7 +2,7 @@
   "site": "SY 软件下载",
   "subtitle": "官方下载 · 请认准本页面",
   "repo": "sushangxiong0312-ctrl/SY",
-  "generatedAt": "2026-07-17T10:25:22.896Z",
+  "generatedAt": "2026-07-18T02:34:41.127Z",
   "categories": [
     {
       "key": "full",
@@ -36,6 +36,16 @@
       "label": "主程序",
       "mode": "versions",
       "versions": [
+        {
+          "version": "v2.34.1",
+          "tag": "v2.34.1",
+          "trackKey": "app",
+          "title": "v2.34.1",
+          "date": "2026-07-18T02:34:25Z",
+          "prerelease": false,
+          "body": "- HMI新增工作流调试按钮TouchWorkflowButton: 下拉选择工作流, 点击直接打开该工作流的调试窗\n- 机器调整页新增点镭射专属行: 实时显示转换后距离(mm)/电压/K/B及未接、超量程、未标定状态\n- 点镭射模型增加单次采样VoltageRaw供UI高频显示不卡顿",
+          "files": []
+        },
         {
           "version": "v2.33.2",
           "tag": "v2.33.2",
@@ -8694,6 +8704,16 @@
     }
   ],
   "versions": [
+    {
+      "version": "v2.34.1",
+      "tag": "v2.34.1",
+      "trackKey": "app",
+      "title": "v2.34.1",
+      "date": "2026-07-18T02:34:25Z",
+      "prerelease": false,
+      "body": "- HMI新增工作流调试按钮TouchWorkflowButton: 下拉选择工作流, 点击直接打开该工作流的调试窗\n- 机器调整页新增点镭射专属行: 实时显示转换后距离(mm)/电压/K/B及未接、超量程、未标定状态\n- 点镭射模型增加单次采样VoltageRaw供UI高频显示不卡顿",
+      "files": []
+    },
     {
       "version": "v2.33.2",
       "tag": "v2.33.2",
