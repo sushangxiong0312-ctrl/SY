@@ -3,7 +3,8 @@
   "subtitle": "官方下载 · 请认准本页面",
   "tracks": [
     { "key": "app", "label": "主程序", "tagPrefix": "", "mode": "versions" },
-    { "key": "driver", "label": "🖥️ 驱动", "tagPrefix": "driver", "mode": "flat", "categories": ["driver"] }
+    { "key": "driver", "label": "🖥️ 驱动", "tagPrefix": "driver", "mode": "flat", "categories": ["driver"] },
+    { "key": "device", "label": "🏭 设备程序", "tagPrefix": "device", "mode": "flat", "categories": ["other"] }
   ],
   "mirrors": [
     { "name": "加速线路 1", "prefix": "https://ghfast.top/" },
