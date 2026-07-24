@@ -2,7 +2,7 @@
   "site": "SY 软件下载",
   "subtitle": "官方下载 · 请认准本页面",
   "repo": "sushangxiong0312-ctrl/SY",
-  "generatedAt": "2026-07-24T15:48:17.785Z",
+  "generatedAt": "2026-07-24T15:54:16.419Z",
   "categories": [
     {
       "key": "full",
@@ -3607,6 +3607,31 @@
       "label": "🏭 设备程序",
       "mode": "flat",
       "files": [
+        {
+          "name": "onload_unload_all_20260724.zip",
+          "size": 93342108,
+          "downloadCount": 0,
+          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/device-20260724/onload_unload_all_20260724.zip",
+          "category": "other",
+          "mirrors": [
+            {
+              "name": "加速线路 1",
+              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/device-20260724/onload_unload_all_20260724.zip"
+            },
+            {
+              "name": "加速线路 2",
+              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/device-20260724/onload_unload_all_20260724.zip"
+            },
+            {
+              "name": "加速线路 3",
+              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/device-20260724/onload_unload_all_20260724.zip"
+            },
+            {
+              "name": "加速线路 4",
+              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/device-20260724/onload_unload_all_20260724.zip"
+            }
+          ]
+        },
         {
           "name": "HmiTouchControls.dll",
           "size": 93696,
@@ -7744,7 +7769,33 @@
       "date": "2026-07-24T15:48:04Z",
       "prerelease": false,
       "body": "onload + unload 设备程序完整包\n- onload 装载机 / unload 卸载机 全部内容(代码/配方/文档)\n- 打包日期 2026-07-24",
-      "files": []
+      "files": [
+        {
+          "name": "onload_unload_all_20260724.zip",
+          "size": 93342108,
+          "downloadCount": 0,
+          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/device-20260724/onload_unload_all_20260724.zip",
+          "category": "other",
+          "mirrors": [
+            {
+              "name": "加速线路 1",
+              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/device-20260724/onload_unload_all_20260724.zip"
+            },
+            {
+              "name": "加速线路 2",
+              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/device-20260724/onload_unload_all_20260724.zip"
+            },
+            {
+              "name": "加速线路 3",
+              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/device-20260724/onload_unload_all_20260724.zip"
+            },
+            {
+              "name": "加速线路 4",
+              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/device-20260724/onload_unload_all_20260724.zip"
+            }
+          ]
+        }
+      ]
     },
     {
       "version": "v2.34.1",
