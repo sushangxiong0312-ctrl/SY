@@ -2,7 +2,7 @@
   "site": "SY 软件下载",
   "subtitle": "官方下载 · 请认准本页面",
   "repo": "sushangxiong0312-ctrl/SY",
-  "generatedAt": "2026-07-24T15:38:36.792Z",
+  "generatedAt": "2026-07-24T15:46:44.500Z",
   "categories": [
     {
       "key": "full",
@@ -36,42 +36,6 @@
       "label": "主程序",
       "mode": "versions",
       "versions": [
-        {
-          "version": "v2.35.1",
-          "tag": "v2.35.1",
-          "trackKey": "app",
-          "title": "v2.35.1",
-          "date": "2026-07-24T15:37:25Z",
-          "prerelease": false,
-          "body": "- 代码编辑器悬停提示补全: 非调试态悬停显示符号签名+注释(工序内自写的 /// summary、自定义参数字段、单轴/DI/DO 模型属性都能出), 调试暂停时仍优先显示变量实时值\n- 悬停查询走后台不卡界面, 鼠标移开自动作废",
-          "files": [
-            {
-              "name": "onload_unload_all_20260724.zip",
-              "size": 93342108,
-              "downloadCount": 0,
-              "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.35.1/onload_unload_all_20260724.zip",
-              "category": "other",
-              "mirrors": [
-                {
-                  "name": "加速线路 1",
-                  "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.35.1/onload_unload_all_20260724.zip"
-                },
-                {
-                  "name": "加速线路 2",
-                  "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.35.1/onload_unload_all_20260724.zip"
-                },
-                {
-                  "name": "加速线路 3",
-                  "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.35.1/onload_unload_all_20260724.zip"
-                },
-                {
-                  "name": "加速线路 4",
-                  "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.35.1/onload_unload_all_20260724.zip"
-                }
-              ]
-            }
-          ]
-        },
         {
           "version": "v2.34.1",
           "tag": "v2.34.1",
@@ -8791,42 +8755,6 @@
     }
   ],
   "versions": [
-    {
-      "version": "v2.35.1",
-      "tag": "v2.35.1",
-      "trackKey": "app",
-      "title": "v2.35.1",
-      "date": "2026-07-24T15:37:25Z",
-      "prerelease": false,
-      "body": "- 代码编辑器悬停提示补全: 非调试态悬停显示符号签名+注释(工序内自写的 /// summary、自定义参数字段、单轴/DI/DO 模型属性都能出), 调试暂停时仍优先显示变量实时值\n- 悬停查询走后台不卡界面, 鼠标移开自动作废",
-      "files": [
-        {
-          "name": "onload_unload_all_20260724.zip",
-          "size": 93342108,
-          "downloadCount": 0,
-          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.35.1/onload_unload_all_20260724.zip",
-          "category": "other",
-          "mirrors": [
-            {
-              "name": "加速线路 1",
-              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.35.1/onload_unload_all_20260724.zip"
-            },
-            {
-              "name": "加速线路 2",
-              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.35.1/onload_unload_all_20260724.zip"
-            },
-            {
-              "name": "加速线路 3",
-              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.35.1/onload_unload_all_20260724.zip"
-            },
-            {
-              "name": "加速线路 4",
-              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.35.1/onload_unload_all_20260724.zip"
-            }
-          ]
-        }
-      ]
-    },
     {
       "version": "v2.34.1",
       "tag": "v2.34.1",
