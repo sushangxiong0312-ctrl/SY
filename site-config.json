@@ -4,7 +4,7 @@
   "tracks": [
     { "key": "app", "label": "主程序", "tagPrefix": "", "mode": "versions" },
     { "key": "driver", "label": "🖥️ 驱动", "tagPrefix": "driver", "mode": "flat", "categories": ["driver"] },
-    { "key": "device", "label": "🏭 设备程序", "tagPrefix": "device", "mode": "flat", "categories": ["other"] }
+    { "key": "device", "label": "📁 其他文件", "tagPrefix": "device", "mode": "flat", "categories": ["other"] }
   ],
   "mirrors": [
     { "name": "加速线路 1", "prefix": "https://ghfast.top/" },
