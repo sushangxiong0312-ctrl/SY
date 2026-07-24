@@ -2,7 +2,7 @@
   "site": "SY 软件下载",
   "subtitle": "官方下载 · 请认准本页面",
   "repo": "sushangxiong0312-ctrl/SY",
-  "generatedAt": "2026-07-18T02:36:34.342Z",
+  "generatedAt": "2026-07-24T15:37:40.562Z",
   "categories": [
     {
       "key": "full",
@@ -37,6 +37,16 @@
       "mode": "versions",
       "versions": [
         {
+          "version": "v2.35.1",
+          "tag": "v2.35.1",
+          "trackKey": "app",
+          "title": "v2.35.1",
+          "date": "2026-07-24T15:37:25Z",
+          "prerelease": false,
+          "body": "- 代码编辑器悬停提示补全: 非调试态悬停显示符号签名+注释(工序内自写的 /// summary、自定义参数字段、单轴/DI/DO 模型属性都能出), 调试暂停时仍优先显示变量实时值\n- 悬停查询走后台不卡界面, 鼠标移开自动作废",
+          "files": []
+        },
+        {
           "version": "v2.34.1",
           "tag": "v2.34.1",
           "trackKey": "app",
@@ -48,7 +58,7 @@
             {
               "name": "AutoSoftware_v2.34.1.zip",
               "size": 135682640,
-              "downloadCount": 0,
+              "downloadCount": 1,
               "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.34.1/AutoSoftware_v2.34.1.zip",
               "category": "full",
               "mirrors": [
@@ -8756,6 +8766,16 @@
   ],
   "versions": [
     {
+      "version": "v2.35.1",
+      "tag": "v2.35.1",
+      "trackKey": "app",
+      "title": "v2.35.1",
+      "date": "2026-07-24T15:37:25Z",
+      "prerelease": false,
+      "body": "- 代码编辑器悬停提示补全: 非调试态悬停显示符号签名+注释(工序内自写的 /// summary、自定义参数字段、单轴/DI/DO 模型属性都能出), 调试暂停时仍优先显示变量实时值\n- 悬停查询走后台不卡界面, 鼠标移开自动作废",
+      "files": []
+    },
+    {
       "version": "v2.34.1",
       "tag": "v2.34.1",
       "trackKey": "app",
@@ -8767,7 +8787,7 @@
         {
           "name": "AutoSoftware_v2.34.1.zip",
           "size": 135682640,
-          "downloadCount": 0,
+          "downloadCount": 1,
           "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.34.1/AutoSoftware_v2.34.1.zip",
           "category": "full",
           "mirrors": [
