@@ -2,7 +2,7 @@
   "site": "SY 软件下载",
   "subtitle": "官方下载 · 请认准本页面",
   "repo": "sushangxiong0312-ctrl/SY",
-  "generatedAt": "2026-07-24T16:09:00.017Z",
+  "generatedAt": "2026-07-28T01:59:03.381Z",
   "categories": [
     {
       "key": "full",
@@ -36,6 +36,16 @@
       "label": "主程序",
       "mode": "versions",
       "versions": [
+        {
+          "version": "v2.35.2",
+          "tag": "v2.35.2",
+          "trackKey": "app",
+          "title": "v2.35.2",
+          "date": "2026-07-28T01:58:49Z",
+          "prerelease": false,
+          "body": "- 元件检测每框结果带出角度/XY限定值(RLimit/XLimit/YLimit)\n- 工作流脚本输入项支持手写字面值+连接(绑定优先)\n- 新增元件检测出测试报告txt工作流(Camera)",
+          "files": []
+        },
         {
           "version": "v2.34.1",
           "tag": "v2.34.1",
@@ -8761,7 +8771,7 @@
         {
           "name": "onload_20260724.zip",
           "size": 68980921,
-          "downloadCount": 0,
+          "downloadCount": 1,
           "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/device-20260724/onload_20260724.zip",
           "category": "other",
           "mirrors": [
@@ -8786,7 +8796,7 @@
         {
           "name": "unload_20260724.zip",
           "size": 24361209,
-          "downloadCount": 0,
+          "downloadCount": 1,
           "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/device-20260724/unload_20260724.zip",
           "category": "other",
           "mirrors": [
@@ -8813,6 +8823,16 @@
   ],
   "versions": [
     {
+      "version": "v2.35.2",
+      "tag": "v2.35.2",
+      "trackKey": "app",
+      "title": "v2.35.2",
+      "date": "2026-07-28T01:58:49Z",
+      "prerelease": false,
+      "body": "- 元件检测每框结果带出角度/XY限定值(RLimit/XLimit/YLimit)\n- 工作流脚本输入项支持手写字面值+连接(绑定优先)\n- 新增元件检测出测试报告txt工作流(Camera)",
+      "files": []
+    },
+    {
       "version": "-20260724",
       "tag": "device-20260724",
       "trackKey": "device",
@@ -8824,7 +8844,7 @@
         {
           "name": "onload_20260724.zip",
           "size": 68980921,
-          "downloadCount": 0,
+          "downloadCount": 1,
           "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/device-20260724/onload_20260724.zip",
           "category": "other",
           "mirrors": [
@@ -8849,7 +8869,7 @@
         {
           "name": "unload_20260724.zip",
           "size": 24361209,
-          "downloadCount": 0,
+          "downloadCount": 1,
           "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/device-20260724/unload_20260724.zip",
           "category": "other",
           "mirrors": [
