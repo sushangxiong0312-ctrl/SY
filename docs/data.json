@@ -2,7 +2,7 @@
   "site": "SY 软件下载",
   "subtitle": "官方下载 · 请认准本页面",
   "repo": "sushangxiong0312-ctrl/SY",
-  "generatedAt": "2026-07-28T01:59:29.294Z",
+  "generatedAt": "2026-07-29T14:35:25.104Z",
   "categories": [
     {
       "key": "full",
@@ -36,6 +36,16 @@
       "label": "主程序",
       "mode": "versions",
       "versions": [
+        {
+          "version": "v2.36.0",
+          "tag": "v2.36.0",
+          "trackKey": "app",
+          "title": "v2.36.0",
+          "date": "2026-07-29T14:35:10Z",
+          "prerelease": false,
+          "body": "- 写文件节点路径拆成 文件夹/文件名/扩展名 三段, 每段可单独绑定(料号、日期、OK/NG)\n- 新增 删文件 节点: 文件存在则删除, 不存在则跳过(不算失败), 路径同样三段",
+          "files": []
+        },
         {
           "version": "v2.35.2",
           "tag": "v2.35.2",
@@ -8873,6 +8883,16 @@
     }
   ],
   "versions": [
+    {
+      "version": "v2.36.0",
+      "tag": "v2.36.0",
+      "trackKey": "app",
+      "title": "v2.36.0",
+      "date": "2026-07-29T14:35:10Z",
+      "prerelease": false,
+      "body": "- 写文件节点路径拆成 文件夹/文件名/扩展名 三段, 每段可单独绑定(料号、日期、OK/NG)\n- 新增 删文件 节点: 文件存在则删除, 不存在则跳过(不算失败), 路径同样三段",
+      "files": []
+    },
     {
       "version": "v2.35.2",
       "tag": "v2.35.2",
