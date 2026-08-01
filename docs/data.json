@@ -2,7 +2,7 @@
   "site": "SY 软件下载",
   "subtitle": "官方下载 · 请认准本页面",
   "repo": "sushangxiong0312-ctrl/SY",
-  "generatedAt": "2026-08-01T12:55:52.408Z",
+  "generatedAt": "2026-08-01T12:56:27.468Z",
   "categories": [
     {
       "key": "full",
@@ -44,7 +44,58 @@
           "date": "2026-08-01T12:55:39Z",
           "prerelease": false,
           "body": "- 新增「电容检测」视觉工具: 电解电容有无+极性色带方向判定, 可按期望方向判反插, 期望方向角一并输出到结果\n- 新增「DataCode2D」二维码读取工具(Halcon): 支持 DataMatrix/QR/PDF417/DotCode/Aztec/MicroQR, 识别强度三档(最大档专读DPM激光刻码), 读失败可开亮度补偿逐级调亮暗+对比放缩重试, 读码区域可绑上游形状\n- 新增「海康CNN读码」工具: 深度学习读码, CPU/GPU可选并预热, 擅长低对比DPM码, 与Halcon读码互补\n- 新增 Modbus 从站(设备作服务端被外部主站读写): 支持 TCP 与 RTU, 提供读写映像节点\n- 缺陷异常检测打磨: 模型加载失败即判NG, 反旋转裁剪让定位补正真正生效, 新增OK-NG/异常分/缺陷面积输出口, 支持文件夹批量训练与模型预热\n- 读码与检测类工具的搜索区域可绑上游单形状或形状列表逐框循环, 循环命中改为显示真实目标轮廓与内容\n- 机器调整-料号参数页: List与复杂类型参数改为只读展示内容(可查看复制不可编辑)\n- 脚本2节点默认代码改为空白, 从零编写",
-          "files": []
+          "files": [
+            {
+              "name": "AutoSoftware_v2.38.0.zip",
+              "size": 135756511,
+              "downloadCount": 0,
+              "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.38.0/AutoSoftware_v2.38.0.zip",
+              "category": "full",
+              "mirrors": [
+                {
+                  "name": "加速线路 1",
+                  "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.38.0/AutoSoftware_v2.38.0.zip"
+                },
+                {
+                  "name": "加速线路 2",
+                  "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.38.0/AutoSoftware_v2.38.0.zip"
+                },
+                {
+                  "name": "加速线路 3",
+                  "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.38.0/AutoSoftware_v2.38.0.zip"
+                },
+                {
+                  "name": "加速线路 4",
+                  "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.38.0/AutoSoftware_v2.38.0.zip"
+                }
+              ]
+            },
+            {
+              "name": "HmiTouchControls.dll",
+              "size": 94208,
+              "downloadCount": 0,
+              "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.38.0/HmiTouchControls.dll",
+              "category": "lib",
+              "mirrors": [
+                {
+                  "name": "加速线路 1",
+                  "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.38.0/HmiTouchControls.dll"
+                },
+                {
+                  "name": "加速线路 2",
+                  "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.38.0/HmiTouchControls.dll"
+                },
+                {
+                  "name": "加速线路 3",
+                  "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.38.0/HmiTouchControls.dll"
+                },
+                {
+                  "name": "加速线路 4",
+                  "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.38.0/HmiTouchControls.dll"
+                }
+              ]
+            }
+          ]
         },
         {
           "version": "v2.36.0",
@@ -8952,7 +9003,58 @@
       "date": "2026-08-01T12:55:39Z",
       "prerelease": false,
       "body": "- 新增「电容检测」视觉工具: 电解电容有无+极性色带方向判定, 可按期望方向判反插, 期望方向角一并输出到结果\n- 新增「DataCode2D」二维码读取工具(Halcon): 支持 DataMatrix/QR/PDF417/DotCode/Aztec/MicroQR, 识别强度三档(最大档专读DPM激光刻码), 读失败可开亮度补偿逐级调亮暗+对比放缩重试, 读码区域可绑上游形状\n- 新增「海康CNN读码」工具: 深度学习读码, CPU/GPU可选并预热, 擅长低对比DPM码, 与Halcon读码互补\n- 新增 Modbus 从站(设备作服务端被外部主站读写): 支持 TCP 与 RTU, 提供读写映像节点\n- 缺陷异常检测打磨: 模型加载失败即判NG, 反旋转裁剪让定位补正真正生效, 新增OK-NG/异常分/缺陷面积输出口, 支持文件夹批量训练与模型预热\n- 读码与检测类工具的搜索区域可绑上游单形状或形状列表逐框循环, 循环命中改为显示真实目标轮廓与内容\n- 机器调整-料号参数页: List与复杂类型参数改为只读展示内容(可查看复制不可编辑)\n- 脚本2节点默认代码改为空白, 从零编写",
-      "files": []
+      "files": [
+        {
+          "name": "AutoSoftware_v2.38.0.zip",
+          "size": 135756511,
+          "downloadCount": 0,
+          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.38.0/AutoSoftware_v2.38.0.zip",
+          "category": "full",
+          "mirrors": [
+            {
+              "name": "加速线路 1",
+              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.38.0/AutoSoftware_v2.38.0.zip"
+            },
+            {
+              "name": "加速线路 2",
+              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.38.0/AutoSoftware_v2.38.0.zip"
+            },
+            {
+              "name": "加速线路 3",
+              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.38.0/AutoSoftware_v2.38.0.zip"
+            },
+            {
+              "name": "加速线路 4",
+              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.38.0/AutoSoftware_v2.38.0.zip"
+            }
+          ]
+        },
+        {
+          "name": "HmiTouchControls.dll",
+          "size": 94208,
+          "downloadCount": 0,
+          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.38.0/HmiTouchControls.dll",
+          "category": "lib",
+          "mirrors": [
+            {
+              "name": "加速线路 1",
+              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.38.0/HmiTouchControls.dll"
+            },
+            {
+              "name": "加速线路 2",
+              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.38.0/HmiTouchControls.dll"
+            },
+            {
+              "name": "加速线路 3",
+              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.38.0/HmiTouchControls.dll"
+            },
+            {
+              "name": "加速线路 4",
+              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.38.0/HmiTouchControls.dll"
+            }
+          ]
+        }
+      ]
     },
     {
       "version": "v2.36.0",
