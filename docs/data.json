@@ -2,7 +2,7 @@
   "site": "SY 软件下载",
   "subtitle": "官方下载 · 请认准本页面",
   "repo": "sushangxiong0312-ctrl/SY",
-  "generatedAt": "2026-08-01T12:56:27.468Z",
+  "generatedAt": "2026-08-02T10:37:33.789Z",
   "categories": [
     {
       "key": "full",
@@ -36,6 +36,16 @@
       "label": "主程序",
       "mode": "versions",
       "versions": [
+        {
+          "version": "v2.38.1",
+          "tag": "v2.38.1",
+          "trackKey": "app",
+          "title": "v2.38.1",
+          "date": "2026-08-02T10:37:17Z",
+          "prerelease": false,
+          "body": "- ShowChoice 人工选择对话框隐藏取消按钮(默认单选态也不再显示取消, code-behind 与事件保留未删除)",
+          "files": []
+        },
         {
           "version": "v2.38.0",
           "tag": "v2.38.0",
@@ -8995,6 +9005,16 @@
     }
   ],
   "versions": [
+    {
+      "version": "v2.38.1",
+      "tag": "v2.38.1",
+      "trackKey": "app",
+      "title": "v2.38.1",
+      "date": "2026-08-02T10:37:17Z",
+      "prerelease": false,
+      "body": "- ShowChoice 人工选择对话框隐藏取消按钮(默认单选态也不再显示取消, code-behind 与事件保留未删除)",
+      "files": []
+    },
     {
       "version": "v2.38.0",
       "tag": "v2.38.0",
