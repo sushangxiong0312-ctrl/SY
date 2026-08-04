@@ -2,7 +2,7 @@
   "site": "SY 软件下载",
   "subtitle": "官方下载 · 请认准本页面",
   "repo": "sushangxiong0312-ctrl/SY",
-  "generatedAt": "2026-08-02T10:41:07.189Z",
+  "generatedAt": "2026-08-04T11:55:46.010Z",
   "categories": [
     {
       "key": "full",
@@ -37,6 +37,16 @@
       "mode": "versions",
       "versions": [
         {
+          "version": "v2.39.6",
+          "tag": "v2.39.6",
+          "trackKey": "app",
+          "title": "v2.39.6",
+          "date": "2026-08-04T11:55:31Z",
+          "prerelease": false,
+          "body": "- HMI 页面现在可以当作弹出输入框用, 工序跑到某一步弹出页面让操作员填数值, 点确定后把值带回工序继续执行\n- 弹框页面上的控件直接绑定就能读写这些数值, 确定和取消按钮在设计器的动作下拉里直接选, 不用写代码\n- 同一张页面既能当常驻页面用, 也能当弹框用, 互不影响",
+          "files": []
+        },
+        {
           "version": "v2.38.1",
           "tag": "v2.38.1",
           "trackKey": "app",
@@ -48,7 +58,7 @@
             {
               "name": "AutoSoftware_v2.38.1.zip",
               "size": 135759411,
-              "downloadCount": 0,
+              "downloadCount": 3,
               "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.38.1/AutoSoftware_v2.38.1.zip",
               "category": "full",
               "mirrors": [
@@ -73,7 +83,7 @@
             {
               "name": "HmiTouchControls.dll",
               "size": 94208,
-              "downloadCount": 0,
+              "downloadCount": 1,
               "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.38.1/HmiTouchControls.dll",
               "category": "lib",
               "mirrors": [
@@ -9057,6 +9067,16 @@
   ],
   "versions": [
     {
+      "version": "v2.39.6",
+      "tag": "v2.39.6",
+      "trackKey": "app",
+      "title": "v2.39.6",
+      "date": "2026-08-04T11:55:31Z",
+      "prerelease": false,
+      "body": "- HMI 页面现在可以当作弹出输入框用, 工序跑到某一步弹出页面让操作员填数值, 点确定后把值带回工序继续执行\n- 弹框页面上的控件直接绑定就能读写这些数值, 确定和取消按钮在设计器的动作下拉里直接选, 不用写代码\n- 同一张页面既能当常驻页面用, 也能当弹框用, 互不影响",
+      "files": []
+    },
+    {
       "version": "v2.38.1",
       "tag": "v2.38.1",
       "trackKey": "app",
@@ -9068,7 +9088,7 @@
         {
           "name": "AutoSoftware_v2.38.1.zip",
           "size": 135759411,
-          "downloadCount": 0,
+          "downloadCount": 3,
           "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.38.1/AutoSoftware_v2.38.1.zip",
           "category": "full",
           "mirrors": [
@@ -9093,7 +9113,7 @@
         {
           "name": "HmiTouchControls.dll",
           "size": 94208,
-          "downloadCount": 0,
+          "downloadCount": 1,
           "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.38.1/HmiTouchControls.dll",
           "category": "lib",
           "mirrors": [
