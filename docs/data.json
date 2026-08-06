@@ -2,7 +2,7 @@
   "site": "SY 软件下载",
   "subtitle": "官方下载 · 请认准本页面",
   "repo": "sushangxiong0312-ctrl/SY",
-  "generatedAt": "2026-08-06T13:19:13.672Z",
+  "generatedAt": "2026-08-06T15:48:45.515Z",
   "categories": [
     {
       "key": "full",
@@ -36,6 +36,67 @@
       "label": "主程序",
       "mode": "versions",
       "versions": [
+        {
+          "version": "v2.39.12",
+          "tag": "v2.39.12",
+          "trackKey": "app",
+          "title": "v2.39.12",
+          "date": "2026-08-06T15:46:16Z",
+          "prerelease": false,
+          "body": "- XYZR、XYZR机器人和XYR在机器设定中增加工件坐标系与工具坐标系的查看、编辑和激活切换\n- 标准XYZR模型增加坐标系变换与持久化，重启后保留当前选择\n- 机器调整模拟量输入移除比例、偏移、取反和应用，仅显示实时值、信号状态及只读Min/Max",
+          "files": [
+            {
+              "name": "AutoSoftware_v2.39.12.zip",
+              "size": 135791187,
+              "downloadCount": 0,
+              "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.12/AutoSoftware_v2.39.12.zip",
+              "category": "full",
+              "mirrors": [
+                {
+                  "name": "加速线路 1",
+                  "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.12/AutoSoftware_v2.39.12.zip"
+                },
+                {
+                  "name": "加速线路 2",
+                  "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.12/AutoSoftware_v2.39.12.zip"
+                },
+                {
+                  "name": "加速线路 3",
+                  "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.12/AutoSoftware_v2.39.12.zip"
+                },
+                {
+                  "name": "加速线路 4",
+                  "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.12/AutoSoftware_v2.39.12.zip"
+                }
+              ]
+            },
+            {
+              "name": "HmiTouchControls.dll",
+              "size": 100352,
+              "downloadCount": 0,
+              "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.12/HmiTouchControls.dll",
+              "category": "lib",
+              "mirrors": [
+                {
+                  "name": "加速线路 1",
+                  "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.12/HmiTouchControls.dll"
+                },
+                {
+                  "name": "加速线路 2",
+                  "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.12/HmiTouchControls.dll"
+                },
+                {
+                  "name": "加速线路 3",
+                  "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.12/HmiTouchControls.dll"
+                },
+                {
+                  "name": "加速线路 4",
+                  "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.12/HmiTouchControls.dll"
+                }
+              ]
+            }
+          ]
+        },
         {
           "version": "v2.39.11",
           "tag": "v2.39.11",
@@ -9300,6 +9361,67 @@
     }
   ],
   "versions": [
+    {
+      "version": "v2.39.12",
+      "tag": "v2.39.12",
+      "trackKey": "app",
+      "title": "v2.39.12",
+      "date": "2026-08-06T15:46:16Z",
+      "prerelease": false,
+      "body": "- XYZR、XYZR机器人和XYR在机器设定中增加工件坐标系与工具坐标系的查看、编辑和激活切换\n- 标准XYZR模型增加坐标系变换与持久化，重启后保留当前选择\n- 机器调整模拟量输入移除比例、偏移、取反和应用，仅显示实时值、信号状态及只读Min/Max",
+      "files": [
+        {
+          "name": "AutoSoftware_v2.39.12.zip",
+          "size": 135791187,
+          "downloadCount": 0,
+          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.12/AutoSoftware_v2.39.12.zip",
+          "category": "full",
+          "mirrors": [
+            {
+              "name": "加速线路 1",
+              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.12/AutoSoftware_v2.39.12.zip"
+            },
+            {
+              "name": "加速线路 2",
+              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.12/AutoSoftware_v2.39.12.zip"
+            },
+            {
+              "name": "加速线路 3",
+              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.12/AutoSoftware_v2.39.12.zip"
+            },
+            {
+              "name": "加速线路 4",
+              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.12/AutoSoftware_v2.39.12.zip"
+            }
+          ]
+        },
+        {
+          "name": "HmiTouchControls.dll",
+          "size": 100352,
+          "downloadCount": 0,
+          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.12/HmiTouchControls.dll",
+          "category": "lib",
+          "mirrors": [
+            {
+              "name": "加速线路 1",
+              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.12/HmiTouchControls.dll"
+            },
+            {
+              "name": "加速线路 2",
+              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.12/HmiTouchControls.dll"
+            },
+            {
+              "name": "加速线路 3",
+              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.12/HmiTouchControls.dll"
+            },
+            {
+              "name": "加速线路 4",
+              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.12/HmiTouchControls.dll"
+            }
+          ]
+        }
+      ]
+    },
     {
       "version": "v2.39.11",
       "tag": "v2.39.11",
