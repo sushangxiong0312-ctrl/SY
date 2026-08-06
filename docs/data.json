@@ -2,7 +2,7 @@
   "site": "SY 软件下载",
   "subtitle": "官方下载 · 请认准本页面",
   "repo": "sushangxiong0312-ctrl/SY",
-  "generatedAt": "2026-08-06T08:23:26.077Z",
+  "generatedAt": "2026-08-06T11:08:56.500Z",
   "categories": [
     {
       "key": "full",
@@ -36,6 +36,16 @@
       "label": "主程序",
       "mode": "versions",
       "versions": [
+        {
+          "version": "v2.39.10",
+          "tag": "v2.39.10",
+          "trackKey": "app",
+          "title": "v2.39.10",
+          "date": "2026-08-06T11:08:40Z",
+          "prerelease": false,
+          "body": "- HMI 新增 DO 滑动开关 TouchDoSwitch，可绑定整个 DoSignalModel 对象\n- 点击滑动开关即可切换 DO 输出，开关位置持续读取绑定 DO 的 IsHigh 状态并同步显示\n- 支持开启色、关闭色及禁止操作设置，已接入 HMI 工具箱和 DO 类型绑定筛选",
+          "files": []
+        },
         {
           "version": "v2.39.9",
           "tag": "v2.39.9",
@@ -9178,6 +9188,16 @@
     }
   ],
   "versions": [
+    {
+      "version": "v2.39.10",
+      "tag": "v2.39.10",
+      "trackKey": "app",
+      "title": "v2.39.10",
+      "date": "2026-08-06T11:08:40Z",
+      "prerelease": false,
+      "body": "- HMI 新增 DO 滑动开关 TouchDoSwitch，可绑定整个 DoSignalModel 对象\n- 点击滑动开关即可切换 DO 输出，开关位置持续读取绑定 DO 的 IsHigh 状态并同步显示\n- 支持开启色、关闭色及禁止操作设置，已接入 HMI 工具箱和 DO 类型绑定筛选",
+      "files": []
+    },
     {
       "version": "v2.39.9",
       "tag": "v2.39.9",
