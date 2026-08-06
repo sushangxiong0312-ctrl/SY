@@ -2,7 +2,7 @@
   "site": "SY 软件下载",
   "subtitle": "官方下载 · 请认准本页面",
   "repo": "sushangxiong0312-ctrl/SY",
-  "generatedAt": "2026-08-06T13:15:12.491Z",
+  "generatedAt": "2026-08-06T13:19:13.672Z",
   "categories": [
     {
       "key": "full",
@@ -44,7 +44,58 @@
           "date": "2026-08-06T13:14:57Z",
           "prerelease": false,
           "body": "- 修复 HMI 控件绑定自定义参数后，工序或外部线程修改参数但界面不刷新的问题\n- TouchSwitch 绑定 bool 参数后现在可正确双向同步：点击控件写回参数，工序改值也会自动跟随\n- 同一修复同时覆盖绑定自定义参数的数字框、文字等其他 HMI 控件",
-          "files": []
+          "files": [
+            {
+              "name": "AutoSoftware_v2.39.11.zip",
+              "size": 135787124,
+              "downloadCount": 0,
+              "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.11/AutoSoftware_v2.39.11.zip",
+              "category": "full",
+              "mirrors": [
+                {
+                  "name": "加速线路 1",
+                  "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.11/AutoSoftware_v2.39.11.zip"
+                },
+                {
+                  "name": "加速线路 2",
+                  "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.11/AutoSoftware_v2.39.11.zip"
+                },
+                {
+                  "name": "加速线路 3",
+                  "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.11/AutoSoftware_v2.39.11.zip"
+                },
+                {
+                  "name": "加速线路 4",
+                  "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.11/AutoSoftware_v2.39.11.zip"
+                }
+              ]
+            },
+            {
+              "name": "HmiTouchControls.dll",
+              "size": 100352,
+              "downloadCount": 0,
+              "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.11/HmiTouchControls.dll",
+              "category": "lib",
+              "mirrors": [
+                {
+                  "name": "加速线路 1",
+                  "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.11/HmiTouchControls.dll"
+                },
+                {
+                  "name": "加速线路 2",
+                  "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.11/HmiTouchControls.dll"
+                },
+                {
+                  "name": "加速线路 3",
+                  "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.11/HmiTouchControls.dll"
+                },
+                {
+                  "name": "加速线路 4",
+                  "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.11/HmiTouchControls.dll"
+                }
+              ]
+            }
+          ]
         },
         {
           "version": "v2.39.10",
@@ -9257,7 +9308,58 @@
       "date": "2026-08-06T13:14:57Z",
       "prerelease": false,
       "body": "- 修复 HMI 控件绑定自定义参数后，工序或外部线程修改参数但界面不刷新的问题\n- TouchSwitch 绑定 bool 参数后现在可正确双向同步：点击控件写回参数，工序改值也会自动跟随\n- 同一修复同时覆盖绑定自定义参数的数字框、文字等其他 HMI 控件",
-      "files": []
+      "files": [
+        {
+          "name": "AutoSoftware_v2.39.11.zip",
+          "size": 135787124,
+          "downloadCount": 0,
+          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.11/AutoSoftware_v2.39.11.zip",
+          "category": "full",
+          "mirrors": [
+            {
+              "name": "加速线路 1",
+              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.11/AutoSoftware_v2.39.11.zip"
+            },
+            {
+              "name": "加速线路 2",
+              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.11/AutoSoftware_v2.39.11.zip"
+            },
+            {
+              "name": "加速线路 3",
+              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.11/AutoSoftware_v2.39.11.zip"
+            },
+            {
+              "name": "加速线路 4",
+              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.11/AutoSoftware_v2.39.11.zip"
+            }
+          ]
+        },
+        {
+          "name": "HmiTouchControls.dll",
+          "size": 100352,
+          "downloadCount": 0,
+          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.11/HmiTouchControls.dll",
+          "category": "lib",
+          "mirrors": [
+            {
+              "name": "加速线路 1",
+              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.11/HmiTouchControls.dll"
+            },
+            {
+              "name": "加速线路 2",
+              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.11/HmiTouchControls.dll"
+            },
+            {
+              "name": "加速线路 3",
+              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.11/HmiTouchControls.dll"
+            },
+            {
+              "name": "加速线路 4",
+              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.11/HmiTouchControls.dll"
+            }
+          ]
+        }
+      ]
     },
     {
       "version": "v2.39.10",
