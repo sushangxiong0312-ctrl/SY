@@ -2,7 +2,7 @@
   "site": "SY 软件下载",
   "subtitle": "官方下载 · 请认准本页面",
   "repo": "sushangxiong0312-ctrl/SY",
-  "generatedAt": "2026-08-06T11:14:51.193Z",
+  "generatedAt": "2026-08-06T13:15:12.491Z",
   "categories": [
     {
       "key": "full",
@@ -36,6 +36,16 @@
       "label": "主程序",
       "mode": "versions",
       "versions": [
+        {
+          "version": "v2.39.11",
+          "tag": "v2.39.11",
+          "trackKey": "app",
+          "title": "v2.39.11",
+          "date": "2026-08-06T13:14:57Z",
+          "prerelease": false,
+          "body": "- 修复 HMI 控件绑定自定义参数后，工序或外部线程修改参数但界面不刷新的问题\n- TouchSwitch 绑定 bool 参数后现在可正确双向同步：点击控件写回参数，工序改值也会自动跟随\n- 同一修复同时覆盖绑定自定义参数的数字框、文字等其他 HMI 控件",
+          "files": []
+        },
         {
           "version": "v2.39.10",
           "tag": "v2.39.10",
@@ -9239,6 +9249,16 @@
     }
   ],
   "versions": [
+    {
+      "version": "v2.39.11",
+      "tag": "v2.39.11",
+      "trackKey": "app",
+      "title": "v2.39.11",
+      "date": "2026-08-06T13:14:57Z",
+      "prerelease": false,
+      "body": "- 修复 HMI 控件绑定自定义参数后，工序或外部线程修改参数但界面不刷新的问题\n- TouchSwitch 绑定 bool 参数后现在可正确双向同步：点击控件写回参数，工序改值也会自动跟随\n- 同一修复同时覆盖绑定自定义参数的数字框、文字等其他 HMI 控件",
+      "files": []
+    },
     {
       "version": "v2.39.10",
       "tag": "v2.39.10",
