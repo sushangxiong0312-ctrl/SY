@@ -2,7 +2,7 @@
   "site": "SY 软件下载",
   "subtitle": "官方下载 · 请认准本页面",
   "repo": "sushangxiong0312-ctrl/SY",
-  "generatedAt": "2026-08-04T11:56:57.726Z",
+  "generatedAt": "2026-08-06T08:22:41.766Z",
   "categories": [
     {
       "key": "full",
@@ -36,6 +36,16 @@
       "label": "主程序",
       "mode": "versions",
       "versions": [
+        {
+          "version": "v2.39.9",
+          "tag": "v2.39.9",
+          "trackKey": "app",
+          "title": "v2.39.9",
+          "date": "2026-08-06T08:22:21Z",
+          "prerelease": false,
+          "body": "- 模拟量输入新增 Min/Max 区间阈值和取反设置，区间内输出最终布尔信号\n- 机器设定和机器调整页面新增模拟量当前值及信号 ON/OFF 状态\n- 工序模拟量读取新增 Signal 最终信号和 IsWithinRange 原始区间结果\n- HMI 新增模拟量区间信号指示控件，可像 DI 一样绑定整个 AnalogInputModel 对象",
+          "files": []
+        },
         {
           "version": "v2.39.6",
           "tag": "v2.39.6",
@@ -9117,6 +9127,16 @@
     }
   ],
   "versions": [
+    {
+      "version": "v2.39.9",
+      "tag": "v2.39.9",
+      "trackKey": "app",
+      "title": "v2.39.9",
+      "date": "2026-08-06T08:22:21Z",
+      "prerelease": false,
+      "body": "- 模拟量输入新增 Min/Max 区间阈值和取反设置，区间内输出最终布尔信号\n- 机器设定和机器调整页面新增模拟量当前值及信号 ON/OFF 状态\n- 工序模拟量读取新增 Signal 最终信号和 IsWithinRange 原始区间结果\n- HMI 新增模拟量区间信号指示控件，可像 DI 一样绑定整个 AnalogInputModel 对象",
+      "files": []
+    },
     {
       "version": "v2.39.6",
       "tag": "v2.39.6",
