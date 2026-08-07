@@ -2,7 +2,7 @@
   "site": "SY 软件下载",
   "subtitle": "官方下载 · 请认准本页面",
   "repo": "sushangxiong0312-ctrl/SY",
-  "generatedAt": "2026-08-06T15:48:45.515Z",
+  "generatedAt": "2026-08-07T09:01:57.462Z",
   "categories": [
     {
       "key": "full",
@@ -36,6 +36,16 @@
       "label": "主程序",
       "mode": "versions",
       "versions": [
+        {
+          "version": "v2.39.16",
+          "tag": "v2.39.16",
+          "trackKey": "app",
+          "title": "v2.39.16",
+          "date": "2026-08-07T09:01:42Z",
+          "prerelease": false,
+          "body": "- HMI 工具箱改为现代卡片式分类并增加详细悬停说明\n- 新增图标化 JOG、DO、气缸、工序和工作流常用控件\n- 工序和工作流显示真实状态颜色及执行步号\n- 工具箱一级分类和二级分组默认折叠\n- 完善高低界面质量及旧 HMI 页面兼容",
+          "files": []
+        },
         {
           "version": "v2.39.12",
           "tag": "v2.39.12",
@@ -9361,6 +9371,16 @@
     }
   ],
   "versions": [
+    {
+      "version": "v2.39.16",
+      "tag": "v2.39.16",
+      "trackKey": "app",
+      "title": "v2.39.16",
+      "date": "2026-08-07T09:01:42Z",
+      "prerelease": false,
+      "body": "- HMI 工具箱改为现代卡片式分类并增加详细悬停说明\n- 新增图标化 JOG、DO、气缸、工序和工作流常用控件\n- 工序和工作流显示真实状态颜色及执行步号\n- 工具箱一级分类和二级分组默认折叠\n- 完善高低界面质量及旧 HMI 页面兼容",
+      "files": []
+    },
     {
       "version": "v2.39.12",
       "tag": "v2.39.12",
