@@ -2,7 +2,7 @@
   "site": "SY 软件下载",
   "subtitle": "官方下载 · 请认准本页面",
   "repo": "sushangxiong0312-ctrl/SY",
-  "generatedAt": "2026-08-12T06:30:27.908Z",
+  "generatedAt": "2026-08-24T15:11:58.149Z",
   "categories": [
     {
       "key": "full",
@@ -37,6 +37,16 @@
       "mode": "versions",
       "versions": [
         {
+          "version": "v2.39.55",
+          "tag": "v2.39.55",
+          "trackKey": "app",
+          "title": "v2.39.55",
+          "date": "2026-08-24T15:11:42Z",
+          "prerelease": false,
+          "body": "- 工序编辑器与 Script2 的原始收发通讯快捷代码段新增「接收原始字节回调」和「读取最后接收文本」：可直接取得 byte[]，并提供 UTF-8 文本、十六进制接收记录示例\n- 新增原始收发通讯接口 IStreamCommunication：TCP 客户端、TCP 服务端与串口统一开放 Write、WriteString、WriteLine、DataReceived、ReceiveRecords、LastError；工序编辑器与 Script2 工具栏新增对应快捷代码段，既有 ICommunication 及其他项目兼容不受影响\n- 优化启动期运动控制卡连接失败处理：控制卡离线、未安装或 MotionRT 未启动时不再阻断程序启动；主窗加载后使用项目内报警提示框显示卡名和错误原因，可在机器调整修正后重连\n- 西门子 S7 PLC 的通用「PLC/读地址」「PLC/写地址」节点新增 String 类型：支持 TIA 指针地址 P#DB1200.DBX40.0，读写 STRING[N]，写入时可设置 StringLength\n- 硬件配置、工作流与工序工具栏同步完善微雪 USB2XXX LIN 接入：可添加、保存恢复、LIN 收发节点及工序/Script2 快捷代码段；设备切换和删除会清理 LIN 通道注册\n- 新增西门子 S7-1200/1500 标准 S7/TCP PLC：支持 I/Q/M/DB 位、字、双字及浮点访问，硬件配置可直接添加并配置 IP、端口、CPU、Rack、Slot、超时\n- 工作流新增 PLC/读地址、PLC/写地址通用节点（Bit、Int16、UInt16、Int32、UInt32、Float），现有 PLC 读DI/写DO/读写字节点同步支持西门子实例；工序和 Script2 工具栏增加 IPlc 代码段\n- 修复 AutoCode Debug 默认运行目录的触屏控件打包：每次 Debug 构建自动更新 HMIControl，避免启动时将旧控件同步到设备导致页面属性加载失败\n- 修复新版 HMI 页面控件兼容：更新包包含支持 TouchNumericBox.ShowBorder 的触屏控件，程序启动时自动同步至设备 Control 目录\n- 优化工作流 Script2 首次运行：启动期按工作流 Schema 串行预编译脚本并复用全局缓存，动态参数/工序程序集变更后自动失效重编；不再走有已知非托管崩溃风险的节点预热路径\n- 修复工序停止生命周期：未启动或已结束的工序点击停止不再触发 OnStoppedCore；运行中、暂停中的正常停止收尾不变\n- 优化手机远程控制状态刷新：保持 100ms 刷新周期；慢连接只保留最新状态帧，不再堆积过期状态，多个手机连接时刷新更稳定\n- 新增独立系统参数：与料号参数共用类型脚本，参数值保存到设备目录 SystemParameters，不随料号切换\n- 自定义参数新建实例可选择“料号参数 / 系统参数”，机器调整新增系统参数编辑与保存页面\n- 工序支持系统参数自动访问器 Sys_实例名、工具栏代码段及工作流脚本 SystemParams\n- XYR、XYZR、XYZRRobot 及 XYZR 多头模型的工件坐标系新增「Y反向」和「角度反向」独立设置\n- 机器设定的工件坐标系表格新增两列复选框，可按坐标系分别修改并持久化\n- 运动目标换算与坐标回读同步支持方向反转，旧配置默认不反向\n- 硬件配置页的运动控制卡改为“无引用可删除”；仍被轴、IO 模型或工序源码引用时会列出原因并阻止删除\n- 新增微雪 USB-CAN-A 通讯对象：支持 2 Mbps 虚拟串口、CAN 帧收发及 1 Mbps CAN 总线配置\n- 新增钛虎 Ti5 CAN 关节电机硬件项：可绑定 CAN 通讯与 CAN ID，保存后可随设备配置恢复\n- 修复 USB-CAN-A / 钛虎 Ti5 无法添加：正式发布会自动重建硬件插件，并从 Plugins 目录加载类型",
+          "files": []
+        },
+        {
           "version": "v2.39.26",
           "tag": "v2.39.26",
           "trackKey": "app",
@@ -58,7 +68,7 @@
             {
               "name": "AutoSoftware_v2.39.21.zip",
               "size": 135831356,
-              "downloadCount": 0,
+              "downloadCount": 1,
               "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.21/AutoSoftware_v2.39.21.zip",
               "category": "full",
               "mirrors": [
@@ -83,7 +93,7 @@
             {
               "name": "HmiTouchControls.dll",
               "size": 100352,
-              "downloadCount": 0,
+              "downloadCount": 1,
               "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.21/HmiTouchControls.dll",
               "category": "lib",
               "mirrors": [
@@ -9494,6 +9504,16 @@
   ],
   "versions": [
     {
+      "version": "v2.39.55",
+      "tag": "v2.39.55",
+      "trackKey": "app",
+      "title": "v2.39.55",
+      "date": "2026-08-24T15:11:42Z",
+      "prerelease": false,
+      "body": "- 工序编辑器与 Script2 的原始收发通讯快捷代码段新增「接收原始字节回调」和「读取最后接收文本」：可直接取得 byte[]，并提供 UTF-8 文本、十六进制接收记录示例\n- 新增原始收发通讯接口 IStreamCommunication：TCP 客户端、TCP 服务端与串口统一开放 Write、WriteString、WriteLine、DataReceived、ReceiveRecords、LastError；工序编辑器与 Script2 工具栏新增对应快捷代码段，既有 ICommunication 及其他项目兼容不受影响\n- 优化启动期运动控制卡连接失败处理：控制卡离线、未安装或 MotionRT 未启动时不再阻断程序启动；主窗加载后使用项目内报警提示框显示卡名和错误原因，可在机器调整修正后重连\n- 西门子 S7 PLC 的通用「PLC/读地址」「PLC/写地址」节点新增 String 类型：支持 TIA 指针地址 P#DB1200.DBX40.0，读写 STRING[N]，写入时可设置 StringLength\n- 硬件配置、工作流与工序工具栏同步完善微雪 USB2XXX LIN 接入：可添加、保存恢复、LIN 收发节点及工序/Script2 快捷代码段；设备切换和删除会清理 LIN 通道注册\n- 新增西门子 S7-1200/1500 标准 S7/TCP PLC：支持 I/Q/M/DB 位、字、双字及浮点访问，硬件配置可直接添加并配置 IP、端口、CPU、Rack、Slot、超时\n- 工作流新增 PLC/读地址、PLC/写地址通用节点（Bit、Int16、UInt16、Int32、UInt32、Float），现有 PLC 读DI/写DO/读写字节点同步支持西门子实例；工序和 Script2 工具栏增加 IPlc 代码段\n- 修复 AutoCode Debug 默认运行目录的触屏控件打包：每次 Debug 构建自动更新 HMIControl，避免启动时将旧控件同步到设备导致页面属性加载失败\n- 修复新版 HMI 页面控件兼容：更新包包含支持 TouchNumericBox.ShowBorder 的触屏控件，程序启动时自动同步至设备 Control 目录\n- 优化工作流 Script2 首次运行：启动期按工作流 Schema 串行预编译脚本并复用全局缓存，动态参数/工序程序集变更后自动失效重编；不再走有已知非托管崩溃风险的节点预热路径\n- 修复工序停止生命周期：未启动或已结束的工序点击停止不再触发 OnStoppedCore；运行中、暂停中的正常停止收尾不变\n- 优化手机远程控制状态刷新：保持 100ms 刷新周期；慢连接只保留最新状态帧，不再堆积过期状态，多个手机连接时刷新更稳定\n- 新增独立系统参数：与料号参数共用类型脚本，参数值保存到设备目录 SystemParameters，不随料号切换\n- 自定义参数新建实例可选择“料号参数 / 系统参数”，机器调整新增系统参数编辑与保存页面\n- 工序支持系统参数自动访问器 Sys_实例名、工具栏代码段及工作流脚本 SystemParams\n- XYR、XYZR、XYZRRobot 及 XYZR 多头模型的工件坐标系新增「Y反向」和「角度反向」独立设置\n- 机器设定的工件坐标系表格新增两列复选框，可按坐标系分别修改并持久化\n- 运动目标换算与坐标回读同步支持方向反转，旧配置默认不反向\n- 硬件配置页的运动控制卡改为“无引用可删除”；仍被轴、IO 模型或工序源码引用时会列出原因并阻止删除\n- 新增微雪 USB-CAN-A 通讯对象：支持 2 Mbps 虚拟串口、CAN 帧收发及 1 Mbps CAN 总线配置\n- 新增钛虎 Ti5 CAN 关节电机硬件项：可绑定 CAN 通讯与 CAN ID，保存后可随设备配置恢复\n- 修复 USB-CAN-A / 钛虎 Ti5 无法添加：正式发布会自动重建硬件插件，并从 Plugins 目录加载类型",
+      "files": []
+    },
+    {
       "version": "v2.39.26",
       "tag": "v2.39.26",
       "trackKey": "app",
@@ -9515,7 +9535,7 @@
         {
           "name": "AutoSoftware_v2.39.21.zip",
           "size": 135831356,
-          "downloadCount": 0,
+          "downloadCount": 1,
           "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.21/AutoSoftware_v2.39.21.zip",
           "category": "full",
           "mirrors": [
@@ -9540,7 +9560,7 @@
         {
           "name": "HmiTouchControls.dll",
           "size": 100352,
-          "downloadCount": 0,
+          "downloadCount": 1,
           "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.21/HmiTouchControls.dll",
           "category": "lib",
           "mirrors": [
