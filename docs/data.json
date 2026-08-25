@@ -2,7 +2,7 @@
   "site": "SY 软件下载",
   "subtitle": "官方下载 · 请认准本页面",
   "repo": "sushangxiong0312-ctrl/SY",
-  "generatedAt": "2026-08-25T14:16:42.458Z",
+  "generatedAt": "2026-08-25T14:17:11.481Z",
   "categories": [
     {
       "key": "full",
@@ -44,7 +44,58 @@
           "date": "2026-08-25T14:16:29Z",
           "prerelease": false,
           "body": "- 工序里直接写 JsonConvert 和 JObject 现在既有智能提示也能编译，不用自己加 using，因为编译期自动注入的 using 与编辑器智能感知已统一成同一份\n- 上一版 v2.39.72 写的「工序编辑器补齐 Newtonsoft.Json 智能感知」实际没生效，那一版随包的 Smart.Control.dll 是旧构建，本版才真正带上\n- 工作流「脚本2」节点同样支持 JsonConvert 和 JObject，此前脚本的引用集只收 Smart 开头的程序集，Newtonsoft 连引用都没有，自己写 using 也编不过\n- 脚本节点的 using 列表统一到唯一来源，顺带补齐编辑器里一直缺的 Smart.Motion 与 Smart.Communication 命名空间提示",
-          "files": []
+          "files": [
+            {
+              "name": "AutoSoftware_v2.39.73.zip",
+              "size": 136053608,
+              "downloadCount": 0,
+              "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.73/AutoSoftware_v2.39.73.zip",
+              "category": "full",
+              "mirrors": [
+                {
+                  "name": "加速线路 1",
+                  "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.73/AutoSoftware_v2.39.73.zip"
+                },
+                {
+                  "name": "加速线路 2",
+                  "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.73/AutoSoftware_v2.39.73.zip"
+                },
+                {
+                  "name": "加速线路 3",
+                  "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.73/AutoSoftware_v2.39.73.zip"
+                },
+                {
+                  "name": "加速线路 4",
+                  "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.73/AutoSoftware_v2.39.73.zip"
+                }
+              ]
+            },
+            {
+              "name": "HmiTouchControls.dll",
+              "size": 109568,
+              "downloadCount": 0,
+              "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.73/HmiTouchControls.dll",
+              "category": "lib",
+              "mirrors": [
+                {
+                  "name": "加速线路 1",
+                  "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.73/HmiTouchControls.dll"
+                },
+                {
+                  "name": "加速线路 2",
+                  "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.73/HmiTouchControls.dll"
+                },
+                {
+                  "name": "加速线路 3",
+                  "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.73/HmiTouchControls.dll"
+                },
+                {
+                  "name": "加速线路 4",
+                  "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.73/HmiTouchControls.dll"
+                }
+              ]
+            }
+          ]
         },
         {
           "version": "v2.39.55",
@@ -9547,7 +9598,58 @@
       "date": "2026-08-25T14:16:29Z",
       "prerelease": false,
       "body": "- 工序里直接写 JsonConvert 和 JObject 现在既有智能提示也能编译，不用自己加 using，因为编译期自动注入的 using 与编辑器智能感知已统一成同一份\n- 上一版 v2.39.72 写的「工序编辑器补齐 Newtonsoft.Json 智能感知」实际没生效，那一版随包的 Smart.Control.dll 是旧构建，本版才真正带上\n- 工作流「脚本2」节点同样支持 JsonConvert 和 JObject，此前脚本的引用集只收 Smart 开头的程序集，Newtonsoft 连引用都没有，自己写 using 也编不过\n- 脚本节点的 using 列表统一到唯一来源，顺带补齐编辑器里一直缺的 Smart.Motion 与 Smart.Communication 命名空间提示",
-      "files": []
+      "files": [
+        {
+          "name": "AutoSoftware_v2.39.73.zip",
+          "size": 136053608,
+          "downloadCount": 0,
+          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.73/AutoSoftware_v2.39.73.zip",
+          "category": "full",
+          "mirrors": [
+            {
+              "name": "加速线路 1",
+              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.73/AutoSoftware_v2.39.73.zip"
+            },
+            {
+              "name": "加速线路 2",
+              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.73/AutoSoftware_v2.39.73.zip"
+            },
+            {
+              "name": "加速线路 3",
+              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.73/AutoSoftware_v2.39.73.zip"
+            },
+            {
+              "name": "加速线路 4",
+              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.73/AutoSoftware_v2.39.73.zip"
+            }
+          ]
+        },
+        {
+          "name": "HmiTouchControls.dll",
+          "size": 109568,
+          "downloadCount": 0,
+          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.73/HmiTouchControls.dll",
+          "category": "lib",
+          "mirrors": [
+            {
+              "name": "加速线路 1",
+              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.73/HmiTouchControls.dll"
+            },
+            {
+              "name": "加速线路 2",
+              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.73/HmiTouchControls.dll"
+            },
+            {
+              "name": "加速线路 3",
+              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.73/HmiTouchControls.dll"
+            },
+            {
+              "name": "加速线路 4",
+              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.73/HmiTouchControls.dll"
+            }
+          ]
+        }
+      ]
     },
     {
       "version": "v2.39.55",
