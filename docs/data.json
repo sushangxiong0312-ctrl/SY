@@ -2,7 +2,7 @@
   "site": "SY 软件下载",
   "subtitle": "官方下载 · 请认准本页面",
   "repo": "sushangxiong0312-ctrl/SY",
-  "generatedAt": "2026-09-05T04:41:09.313Z",
+  "generatedAt": "2026-09-05T04:42:37.653Z",
   "categories": [
     {
       "key": "full",
@@ -44,7 +44,58 @@
           "date": "2026-09-05T04:40:56Z",
           "prerelease": false,
           "body": "- 维护页远程运维新增「示教器连接」：与手机远程共用同一服务(8088)/连接码，弹窗显示给示教器填的主机地址与6位连接码，并可实时查看局域网内发现的示教器(UDP心跳)与已连接的远程端；示教器(Smart.Pendant)填地址+连接码即可远程查看真实轴/气缸/传感器/机械手工具并点动调试，允许远程控制开关与全部停止与手机远程一致。\n- Smart.Remote 新增示教器管理控件 PendantStatusView(UDP 8100 发现监听+连接码/地址展示)，RemoteControlServer 随主程序启动自动开启不变；本次为示教器联调定版，与真机(BaiPan 9轴+13气缸+XYZR多头工具系)全链路验证通过：连接/使能/连续点动(DRO实时回报)/气缸状态/工具系读写。",
-          "files": []
+          "files": [
+            {
+              "name": "AutoSoftware_v2.39.132.zip",
+              "size": 136234537,
+              "downloadCount": 0,
+              "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.132/AutoSoftware_v2.39.132.zip",
+              "category": "full",
+              "mirrors": [
+                {
+                  "name": "加速线路 1",
+                  "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.132/AutoSoftware_v2.39.132.zip"
+                },
+                {
+                  "name": "加速线路 2",
+                  "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.132/AutoSoftware_v2.39.132.zip"
+                },
+                {
+                  "name": "加速线路 3",
+                  "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.132/AutoSoftware_v2.39.132.zip"
+                },
+                {
+                  "name": "加速线路 4",
+                  "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.132/AutoSoftware_v2.39.132.zip"
+                }
+              ]
+            },
+            {
+              "name": "HmiTouchControls.dll",
+              "size": 112640,
+              "downloadCount": 0,
+              "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.132/HmiTouchControls.dll",
+              "category": "lib",
+              "mirrors": [
+                {
+                  "name": "加速线路 1",
+                  "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.132/HmiTouchControls.dll"
+                },
+                {
+                  "name": "加速线路 2",
+                  "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.132/HmiTouchControls.dll"
+                },
+                {
+                  "name": "加速线路 3",
+                  "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.132/HmiTouchControls.dll"
+                },
+                {
+                  "name": "加速线路 4",
+                  "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.132/HmiTouchControls.dll"
+                }
+              ]
+            }
+          ]
         },
         {
           "version": "v2.39.75",
@@ -9669,7 +9720,58 @@
       "date": "2026-09-05T04:40:56Z",
       "prerelease": false,
       "body": "- 维护页远程运维新增「示教器连接」：与手机远程共用同一服务(8088)/连接码，弹窗显示给示教器填的主机地址与6位连接码，并可实时查看局域网内发现的示教器(UDP心跳)与已连接的远程端；示教器(Smart.Pendant)填地址+连接码即可远程查看真实轴/气缸/传感器/机械手工具并点动调试，允许远程控制开关与全部停止与手机远程一致。\n- Smart.Remote 新增示教器管理控件 PendantStatusView(UDP 8100 发现监听+连接码/地址展示)，RemoteControlServer 随主程序启动自动开启不变；本次为示教器联调定版，与真机(BaiPan 9轴+13气缸+XYZR多头工具系)全链路验证通过：连接/使能/连续点动(DRO实时回报)/气缸状态/工具系读写。",
-      "files": []
+      "files": [
+        {
+          "name": "AutoSoftware_v2.39.132.zip",
+          "size": 136234537,
+          "downloadCount": 0,
+          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.132/AutoSoftware_v2.39.132.zip",
+          "category": "full",
+          "mirrors": [
+            {
+              "name": "加速线路 1",
+              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.132/AutoSoftware_v2.39.132.zip"
+            },
+            {
+              "name": "加速线路 2",
+              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.132/AutoSoftware_v2.39.132.zip"
+            },
+            {
+              "name": "加速线路 3",
+              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.132/AutoSoftware_v2.39.132.zip"
+            },
+            {
+              "name": "加速线路 4",
+              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.132/AutoSoftware_v2.39.132.zip"
+            }
+          ]
+        },
+        {
+          "name": "HmiTouchControls.dll",
+          "size": 112640,
+          "downloadCount": 0,
+          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.132/HmiTouchControls.dll",
+          "category": "lib",
+          "mirrors": [
+            {
+              "name": "加速线路 1",
+              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.132/HmiTouchControls.dll"
+            },
+            {
+              "name": "加速线路 2",
+              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.132/HmiTouchControls.dll"
+            },
+            {
+              "name": "加速线路 3",
+              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.132/HmiTouchControls.dll"
+            },
+            {
+              "name": "加速线路 4",
+              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.132/HmiTouchControls.dll"
+            }
+          ]
+        }
+      ]
     },
     {
       "version": "v2.39.75",
