@@ -2,7 +2,7 @@
   "site": "SY 软件下载",
   "subtitle": "官方下载 · 请认准本页面",
   "repo": "sushangxiong0312-ctrl/SY",
-  "generatedAt": "2026-09-17T10:00:25.560Z",
+  "generatedAt": "2026-09-17T10:01:45.462Z",
   "categories": [
     {
       "key": "full",
@@ -44,7 +44,58 @@
           "date": "2026-09-17T10:00:11Z",
           "prerelease": false,
           "body": "- 浅色主题下工序编辑器光标看不见修复：编辑器构造时按当前主题上色(此前只靠切换主题事件纠正,浅色档冷启动=白底白光标不可见),主编辑器/参数页/Ctrl+G跳行框光标全部随主题\n- Ctrl+F查找替换面板配色统一跟随深浅主题：输入框/小钮hover/勾选态/计数文字换肤即时重刷,勾选统一蓝底白字;深色档观感与旧版一致\n- 工作流新增「XYZ移动」XyzMove节点(硬件/运动)：XYZ三轴模型三轴直线插补,绝对=套工件/工具坐标系+XY面补正(示教回放闭环),相对=增量插补;速度=插补合成速度mm/s,到位判定含各轴容差镇定\n- 运动节点双击弹点动面板扩展到全族：XyzrMove/XyzMove/XyrMultiMove/MultiAxisMove(按XY或XYZ模型定行数)/AxisMove(单轴)双击均弹浮动点动面板(相对/绝对/Jog三模式+实时位置状态灯+使能/清错/停止,关窗自动停轴),收敛为通用ModelJogWindow;机器调整页XYZR点动按钮同源",
-          "files": []
+          "files": [
+            {
+              "name": "AutoSoftware_v2.39.136.zip",
+              "size": 136252810,
+              "downloadCount": 0,
+              "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.136/AutoSoftware_v2.39.136.zip",
+              "category": "full",
+              "mirrors": [
+                {
+                  "name": "加速线路 1",
+                  "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.136/AutoSoftware_v2.39.136.zip"
+                },
+                {
+                  "name": "加速线路 2",
+                  "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.136/AutoSoftware_v2.39.136.zip"
+                },
+                {
+                  "name": "加速线路 3",
+                  "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.136/AutoSoftware_v2.39.136.zip"
+                },
+                {
+                  "name": "加速线路 4",
+                  "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.136/AutoSoftware_v2.39.136.zip"
+                }
+              ]
+            },
+            {
+              "name": "HmiTouchControls.dll",
+              "size": 209408,
+              "downloadCount": 0,
+              "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.136/HmiTouchControls.dll",
+              "category": "lib",
+              "mirrors": [
+                {
+                  "name": "加速线路 1",
+                  "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.136/HmiTouchControls.dll"
+                },
+                {
+                  "name": "加速线路 2",
+                  "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.136/HmiTouchControls.dll"
+                },
+                {
+                  "name": "加速线路 3",
+                  "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.136/HmiTouchControls.dll"
+                },
+                {
+                  "name": "加速线路 4",
+                  "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.136/HmiTouchControls.dll"
+                }
+              ]
+            }
+          ]
         },
         {
           "version": "v2.39.135",
@@ -9827,7 +9878,58 @@
       "date": "2026-09-17T10:00:11Z",
       "prerelease": false,
       "body": "- 浅色主题下工序编辑器光标看不见修复：编辑器构造时按当前主题上色(此前只靠切换主题事件纠正,浅色档冷启动=白底白光标不可见),主编辑器/参数页/Ctrl+G跳行框光标全部随主题\n- Ctrl+F查找替换面板配色统一跟随深浅主题：输入框/小钮hover/勾选态/计数文字换肤即时重刷,勾选统一蓝底白字;深色档观感与旧版一致\n- 工作流新增「XYZ移动」XyzMove节点(硬件/运动)：XYZ三轴模型三轴直线插补,绝对=套工件/工具坐标系+XY面补正(示教回放闭环),相对=增量插补;速度=插补合成速度mm/s,到位判定含各轴容差镇定\n- 运动节点双击弹点动面板扩展到全族：XyzrMove/XyzMove/XyrMultiMove/MultiAxisMove(按XY或XYZ模型定行数)/AxisMove(单轴)双击均弹浮动点动面板(相对/绝对/Jog三模式+实时位置状态灯+使能/清错/停止,关窗自动停轴),收敛为通用ModelJogWindow;机器调整页XYZR点动按钮同源",
-      "files": []
+      "files": [
+        {
+          "name": "AutoSoftware_v2.39.136.zip",
+          "size": 136252810,
+          "downloadCount": 0,
+          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.136/AutoSoftware_v2.39.136.zip",
+          "category": "full",
+          "mirrors": [
+            {
+              "name": "加速线路 1",
+              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.136/AutoSoftware_v2.39.136.zip"
+            },
+            {
+              "name": "加速线路 2",
+              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.136/AutoSoftware_v2.39.136.zip"
+            },
+            {
+              "name": "加速线路 3",
+              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.136/AutoSoftware_v2.39.136.zip"
+            },
+            {
+              "name": "加速线路 4",
+              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.136/AutoSoftware_v2.39.136.zip"
+            }
+          ]
+        },
+        {
+          "name": "HmiTouchControls.dll",
+          "size": 209408,
+          "downloadCount": 0,
+          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.136/HmiTouchControls.dll",
+          "category": "lib",
+          "mirrors": [
+            {
+              "name": "加速线路 1",
+              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.136/HmiTouchControls.dll"
+            },
+            {
+              "name": "加速线路 2",
+              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.136/HmiTouchControls.dll"
+            },
+            {
+              "name": "加速线路 3",
+              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.136/HmiTouchControls.dll"
+            },
+            {
+              "name": "加速线路 4",
+              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.136/HmiTouchControls.dll"
+            }
+          ]
+        }
+      ]
     },
     {
       "version": "v2.39.135",
