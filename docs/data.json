@@ -2,7 +2,7 @@
   "site": "SY 软件下载",
   "subtitle": "官方下载 · 请认准本页面",
   "repo": "sushangxiong0312-ctrl/SY",
-  "generatedAt": "2026-09-17T01:36:47.664Z",
+  "generatedAt": "2026-09-17T01:44:02.272Z",
   "categories": [
     {
       "key": "full",
@@ -44,7 +44,33 @@
           "date": "2026-09-17T01:36:34Z",
           "prerelease": false,
           "body": "- HMI 新控件「检测结果角标」：通过/不通过斜角标(默认45°可调)，绑定自定义参数 bool 变量，true/false 分别配置颜色和显示文字(默认绿OK/红NG)，宽窄高度设计器直接拖。\n- HMI 设计器颜色属性升级为可视化拾色：点色块弹出常用色板+饱和度/色相/透明度拖拽拾色器(支持半透明色)，文本手输 #RRGGBB 仍可用。\n- HmiTouchControls 工具箱按功能分类：状态显示/参数输入/轴点动/手动操作/流程控制/图形，不再平铺一大组。\n- HMI 静态图片控件：常用属性新增「本地图片路径」(输入或浏览选择，自动拷入页面目录随设备盘走)；也可绑定参数里的 SImage/Bitmap 图像，绑定后本地路径自动忽略。\n- 主菜单栏适配 1080p：最大化不再出滚动条，按钮间距压缩底部空白(88px→16px)。\n- 标题栏左上角二维码图标改为 SYVA 品牌字标；启动加载窗支持整卡拖动。",
-          "files": []
+          "files": [
+            {
+              "name": "AutoSoftware_v2.39.134.zip",
+              "size": 136244954,
+              "downloadCount": 0,
+              "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.134/AutoSoftware_v2.39.134.zip",
+              "category": "full",
+              "mirrors": [
+                {
+                  "name": "加速线路 1",
+                  "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.134/AutoSoftware_v2.39.134.zip"
+                },
+                {
+                  "name": "加速线路 2",
+                  "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.134/AutoSoftware_v2.39.134.zip"
+                },
+                {
+                  "name": "加速线路 3",
+                  "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.134/AutoSoftware_v2.39.134.zip"
+                },
+                {
+                  "name": "加速线路 4",
+                  "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.134/AutoSoftware_v2.39.134.zip"
+                }
+              ]
+            }
+          ]
         },
         {
           "version": "v2.39.132",
@@ -9730,7 +9756,33 @@
       "date": "2026-09-17T01:36:34Z",
       "prerelease": false,
       "body": "- HMI 新控件「检测结果角标」：通过/不通过斜角标(默认45°可调)，绑定自定义参数 bool 变量，true/false 分别配置颜色和显示文字(默认绿OK/红NG)，宽窄高度设计器直接拖。\n- HMI 设计器颜色属性升级为可视化拾色：点色块弹出常用色板+饱和度/色相/透明度拖拽拾色器(支持半透明色)，文本手输 #RRGGBB 仍可用。\n- HmiTouchControls 工具箱按功能分类：状态显示/参数输入/轴点动/手动操作/流程控制/图形，不再平铺一大组。\n- HMI 静态图片控件：常用属性新增「本地图片路径」(输入或浏览选择，自动拷入页面目录随设备盘走)；也可绑定参数里的 SImage/Bitmap 图像，绑定后本地路径自动忽略。\n- 主菜单栏适配 1080p：最大化不再出滚动条，按钮间距压缩底部空白(88px→16px)。\n- 标题栏左上角二维码图标改为 SYVA 品牌字标；启动加载窗支持整卡拖动。",
-      "files": []
+      "files": [
+        {
+          "name": "AutoSoftware_v2.39.134.zip",
+          "size": 136244954,
+          "downloadCount": 0,
+          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.134/AutoSoftware_v2.39.134.zip",
+          "category": "full",
+          "mirrors": [
+            {
+              "name": "加速线路 1",
+              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.134/AutoSoftware_v2.39.134.zip"
+            },
+            {
+              "name": "加速线路 2",
+              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.134/AutoSoftware_v2.39.134.zip"
+            },
+            {
+              "name": "加速线路 3",
+              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.134/AutoSoftware_v2.39.134.zip"
+            },
+            {
+              "name": "加速线路 4",
+              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.134/AutoSoftware_v2.39.134.zip"
+            }
+          ]
+        }
+      ]
     },
     {
       "version": "v2.39.132",
