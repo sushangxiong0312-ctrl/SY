@@ -2,7 +2,7 @@
   "site": "SY 软件下载",
   "subtitle": "官方下载 · 请认准本页面",
   "repo": "sushangxiong0312-ctrl/SY",
-  "generatedAt": "2026-09-17T13:38:46.839Z",
+  "generatedAt": "2026-09-17T13:39:38.900Z",
   "categories": [
     {
       "key": "full",
@@ -44,7 +44,58 @@
           "date": "2026-09-17T13:38:33Z",
           "prerelease": false,
           "body": "- HMI工序/工作流控件新增「显示步号」开关：设计器右侧常用面板可直接关掉按钮底部的 Step N 步号行(关闭后按钮文字自动垂直居中,悬停提示同步不再带步号);工序状态/启动/暂停/停止与工作流全套控件通用,默认显示=已有页面外观不变\n- 参数字段含图像时保存报错修复：设备参数的SImage运行时缓存字段(如大图BigImage)会让保存设备弹「Serialization of 'System.IntPtr' ... $.Values.DataPointer」并中断落盘(工作流加Image输出后跑过流程即触发);现在参数存档/系统参数/料号快照统一把图像值换成 {_type:SImage,_w,_h} 占位,保存恢复正常\n- 浅色主题下工序编辑器光标看不见修复：编辑器构造时按当前主题上色(此前只靠切换主题事件纠正,浅色档冷启动=白底白光标不可见),主编辑器/参数页/Ctrl+G跳行框光标全部随主题\n- Ctrl+F查找替换面板配色统一跟随深浅主题：输入框/小钮hover/勾选态/计数文字换肤即时重刷,勾选统一蓝底白字;深色档观感与旧版一致\n- 工作流新增「XYZ移动」XyzMove节点(硬件/运动)：XYZ三轴模型三轴直线插补,绝对=套工件/工具坐标系+XY面补正(示教回放闭环),相对=增量插补;速度=插补合成速度mm/s,到位判定含各轴容差镇定\n- 运动节点双击弹点动面板扩展到全族：XyzrMove/XyzMove/XyrMultiMove/MultiAxisMove(按XY或XYZ模型定行数)/AxisMove(单轴)双击均弹浮动点动面板(相对/绝对/Jog三模式+实时位置状态灯+使能/清错/停止,关窗自动停轴),收敛为通用ModelJogWindow;机器调整页XYZR点动按钮同源",
-          "files": []
+          "files": [
+            {
+              "name": "AutoSoftware_v2.39.137.zip",
+              "size": 136253688,
+              "downloadCount": 0,
+              "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.137/AutoSoftware_v2.39.137.zip",
+              "category": "full",
+              "mirrors": [
+                {
+                  "name": "加速线路 1",
+                  "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.137/AutoSoftware_v2.39.137.zip"
+                },
+                {
+                  "name": "加速线路 2",
+                  "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.137/AutoSoftware_v2.39.137.zip"
+                },
+                {
+                  "name": "加速线路 3",
+                  "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.137/AutoSoftware_v2.39.137.zip"
+                },
+                {
+                  "name": "加速线路 4",
+                  "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.137/AutoSoftware_v2.39.137.zip"
+                }
+              ]
+            },
+            {
+              "name": "HmiTouchControls.dll",
+              "size": 209920,
+              "downloadCount": 0,
+              "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.137/HmiTouchControls.dll",
+              "category": "lib",
+              "mirrors": [
+                {
+                  "name": "加速线路 1",
+                  "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.137/HmiTouchControls.dll"
+                },
+                {
+                  "name": "加速线路 2",
+                  "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.137/HmiTouchControls.dll"
+                },
+                {
+                  "name": "加速线路 3",
+                  "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.137/HmiTouchControls.dll"
+                },
+                {
+                  "name": "加速线路 4",
+                  "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.137/HmiTouchControls.dll"
+                }
+              ]
+            }
+          ]
         },
         {
           "version": "v2.39.136",
@@ -9888,7 +9939,58 @@
       "date": "2026-09-17T13:38:33Z",
       "prerelease": false,
       "body": "- HMI工序/工作流控件新增「显示步号」开关：设计器右侧常用面板可直接关掉按钮底部的 Step N 步号行(关闭后按钮文字自动垂直居中,悬停提示同步不再带步号);工序状态/启动/暂停/停止与工作流全套控件通用,默认显示=已有页面外观不变\n- 参数字段含图像时保存报错修复：设备参数的SImage运行时缓存字段(如大图BigImage)会让保存设备弹「Serialization of 'System.IntPtr' ... $.Values.DataPointer」并中断落盘(工作流加Image输出后跑过流程即触发);现在参数存档/系统参数/料号快照统一把图像值换成 {_type:SImage,_w,_h} 占位,保存恢复正常\n- 浅色主题下工序编辑器光标看不见修复：编辑器构造时按当前主题上色(此前只靠切换主题事件纠正,浅色档冷启动=白底白光标不可见),主编辑器/参数页/Ctrl+G跳行框光标全部随主题\n- Ctrl+F查找替换面板配色统一跟随深浅主题：输入框/小钮hover/勾选态/计数文字换肤即时重刷,勾选统一蓝底白字;深色档观感与旧版一致\n- 工作流新增「XYZ移动」XyzMove节点(硬件/运动)：XYZ三轴模型三轴直线插补,绝对=套工件/工具坐标系+XY面补正(示教回放闭环),相对=增量插补;速度=插补合成速度mm/s,到位判定含各轴容差镇定\n- 运动节点双击弹点动面板扩展到全族：XyzrMove/XyzMove/XyrMultiMove/MultiAxisMove(按XY或XYZ模型定行数)/AxisMove(单轴)双击均弹浮动点动面板(相对/绝对/Jog三模式+实时位置状态灯+使能/清错/停止,关窗自动停轴),收敛为通用ModelJogWindow;机器调整页XYZR点动按钮同源",
-      "files": []
+      "files": [
+        {
+          "name": "AutoSoftware_v2.39.137.zip",
+          "size": 136253688,
+          "downloadCount": 0,
+          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.137/AutoSoftware_v2.39.137.zip",
+          "category": "full",
+          "mirrors": [
+            {
+              "name": "加速线路 1",
+              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.137/AutoSoftware_v2.39.137.zip"
+            },
+            {
+              "name": "加速线路 2",
+              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.137/AutoSoftware_v2.39.137.zip"
+            },
+            {
+              "name": "加速线路 3",
+              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.137/AutoSoftware_v2.39.137.zip"
+            },
+            {
+              "name": "加速线路 4",
+              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.137/AutoSoftware_v2.39.137.zip"
+            }
+          ]
+        },
+        {
+          "name": "HmiTouchControls.dll",
+          "size": 209920,
+          "downloadCount": 0,
+          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.137/HmiTouchControls.dll",
+          "category": "lib",
+          "mirrors": [
+            {
+              "name": "加速线路 1",
+              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.137/HmiTouchControls.dll"
+            },
+            {
+              "name": "加速线路 2",
+              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.137/HmiTouchControls.dll"
+            },
+            {
+              "name": "加速线路 3",
+              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.137/HmiTouchControls.dll"
+            },
+            {
+              "name": "加速线路 4",
+              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.137/HmiTouchControls.dll"
+            }
+          ]
+        }
+      ]
     },
     {
       "version": "v2.39.136",
