@@ -2,7 +2,7 @@
   "site": "SY 软件下载",
   "subtitle": "官方下载 · 请认准本页面",
   "repo": "sushangxiong0312-ctrl/SY",
-  "generatedAt": "2026-09-17T01:44:02.272Z",
+  "generatedAt": "2026-09-17T03:26:28.622Z",
   "categories": [
     {
       "key": "full",
@@ -36,6 +36,16 @@
       "label": "主程序",
       "mode": "versions",
       "versions": [
+        {
+          "version": "v2.39.135",
+          "tag": "v2.39.135",
+          "trackKey": "app",
+          "title": "v2.39.135",
+          "date": "2026-09-17T03:26:12Z",
+          "prerelease": false,
+          "body": "- XYZ三轴模型补齐工具坐标系与工件坐标系和XY面补正：可命名工件系(平移+XY旋转+Z偏置+Y反向)与工具系(Ex/Ey/Ez固定偏置)多套管理+激活选择+XY面补正文件(与XYZR/XYR同一套,选文件即生效)\n- 变换链只挂绝对运动：新增MoveAbsolute(x,y,z,速度)/MoveAbsolute(PointXYZ)/MoveAbsoluteXY与ArcMoveXY终点圆心同变换,GetPositions/GetPositionsIn/GetTcpPositions读回用户坐标,VerifyReached到位校验;面补正标定采点用LineMoveXYRaw(裸机器坐标);默认全直通旧设备零影响\n- XYZ模型持久化与重启重建：models.json保存坐标系表与补正文件,开机build-mode自动重建XYZModel(原先暂不支持跳过)\n- 机器设定新增XYZ模型配置页(UcXyzModelConfig)：编辑并激活工件/工具坐标系表、选择面补正文件,应用即落盘重启保留\n- HMI新控件「XYZ点位」TouchPointXYZ：三数字框编辑X/Y/Z,绑PointXYZ参数对象就地写回,工具箱常用范例新增XYZ点位条目",
+          "files": []
+        },
         {
           "version": "v2.39.134",
           "tag": "v2.39.134",
@@ -9748,6 +9758,16 @@
     }
   ],
   "versions": [
+    {
+      "version": "v2.39.135",
+      "tag": "v2.39.135",
+      "trackKey": "app",
+      "title": "v2.39.135",
+      "date": "2026-09-17T03:26:12Z",
+      "prerelease": false,
+      "body": "- XYZ三轴模型补齐工具坐标系与工件坐标系和XY面补正：可命名工件系(平移+XY旋转+Z偏置+Y反向)与工具系(Ex/Ey/Ez固定偏置)多套管理+激活选择+XY面补正文件(与XYZR/XYR同一套,选文件即生效)\n- 变换链只挂绝对运动：新增MoveAbsolute(x,y,z,速度)/MoveAbsolute(PointXYZ)/MoveAbsoluteXY与ArcMoveXY终点圆心同变换,GetPositions/GetPositionsIn/GetTcpPositions读回用户坐标,VerifyReached到位校验;面补正标定采点用LineMoveXYRaw(裸机器坐标);默认全直通旧设备零影响\n- XYZ模型持久化与重启重建：models.json保存坐标系表与补正文件,开机build-mode自动重建XYZModel(原先暂不支持跳过)\n- 机器设定新增XYZ模型配置页(UcXyzModelConfig)：编辑并激活工件/工具坐标系表、选择面补正文件,应用即落盘重启保留\n- HMI新控件「XYZ点位」TouchPointXYZ：三数字框编辑X/Y/Z,绑PointXYZ参数对象就地写回,工具箱常用范例新增XYZ点位条目",
+      "files": []
+    },
     {
       "version": "v2.39.134",
       "tag": "v2.39.134",
