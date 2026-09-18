@@ -2,7 +2,7 @@
   "site": "SY 软件下载",
   "subtitle": "官方下载 · 请认准本页面",
   "repo": "sushangxiong0312-ctrl/SY",
-  "generatedAt": "2026-09-17T15:08:58.982Z",
+  "generatedAt": "2026-09-18T02:23:40.913Z",
   "categories": [
     {
       "key": "full",
@@ -36,6 +36,16 @@
       "label": "主程序",
       "mode": "versions",
       "versions": [
+        {
+          "version": "v2.39.140",
+          "tag": "v2.39.140",
+          "trackKey": "app",
+          "title": "v2.39.140",
+          "date": "2026-09-18T02:22:00Z",
+          "prerelease": false,
+          "body": "- 实时画面报错修复(接上版内存修复)：上版把循环工作流覆盖/跳转重置时的旧图改成立刻释放，但运行页、图像注册页等还握着上一轮的图继续显示，拿到已释放对象就报错；现在改成「退休队列」延迟释放——旧图保留3秒再释放(轮询读者绰绰有余)、同时封顶24张保证内存不涨；跳转循环型工作流的内存修复效果不回退\n- 新增「图像裁切」Crop工具(视觉/预处理组)：按矩形(X/Y/宽/高,全部可绑上游定位结果)裁出子图；超出图像边界自动夹住,完全在图外直接报错；输出裁后图+实际裁切框(CropX/Y/宽/高,裁后图坐标映射回原图用)；配套SImage.Crop(x,y,w,h)方法工序/脚本可直接调；冒烟18项全过(像素对位/夹边界/工作流端到端)\n- 带相机的工作流连续跑内存涨满修复：跳转循环型工作流(拍照→处理→跳回拍照)在同一数据仓里每轮覆盖相机图，旧图既不释放、像素数组又被永久钉死(GC收不回)，每轮硬泄漏一张整帧图；现在像素固定随Mat释放+数据仓覆盖即释放旧图，实测2539轮循环内存平稳，视觉工具链回归无变化\n- HMI工序/工作流控件新增「显示步号」开关：设计器右侧常用面板可直接关掉按钮底部的 Step N 步号行(关闭后按钮文字自动垂直居中,悬停提示同步不再带步号);工序状态/启动/暂停/停止与工作流全套控件通用,默认显示=已有页面外观不变\n- 参数字段含图像时保存报错修复：设备参数的SImage运行时缓存字段(如大图BigImage)会让保存设备弹「Serialization of 'System.IntPtr' ... $.Values.DataPointer」并中断落盘(工作流加Image输出后跑过流程即触发);现在参数存档/系统参数/料号快照统一把图像值换成 {_type:SImage,_w,_h} 占位,保存恢复正常\n- 浅色主题下工序编辑器光标看不见修复：编辑器构造时按当前主题上色(此前只靠切换主题事件纠正,浅色档冷启动=白底白光标不可见),主编辑器/参数页/Ctrl+G跳行框光标全部随主题\n- Ctrl+F查找替换面板配色统一跟随深浅主题：输入框/小钮hover/勾选态/计数文字换肤即时重刷,勾选统一蓝底白字;深色档观感与旧版一致\n- 工作流新增「XYZ移动」XyzMove节点(硬件/运动)：XYZ三轴模型三轴直线插补,绝对=套工件/工具坐标系+XY面补正(示教回放闭环),相对=增量插补;速度=插补合成速度mm/s,到位判定含各轴容差镇定\n- 运动节点双击弹点动面板扩展到全族：XyzrMove/XyzMove/XyrMultiMove/MultiAxisMove(按XY或XYZ模型定行数)/AxisMove(单轴)双击均弹浮动点动面板(相对/绝对/Jog三模式+实时位置状态灯+使能/清错/停止,关窗自动停轴),收敛为通用ModelJogWindow;机器调整页XYZR点动按钮同源",
+          "files": []
+        },
         {
           "version": "v2.39.139",
           "tag": "v2.39.139",
@@ -5451,42 +5461,6 @@
               ]
             }
           ]
-        },
-        {
-          "version": "v2.1.0",
-          "tag": "v2.1.0",
-          "trackKey": "app",
-          "title": "v2.1.0",
-          "date": "2026-06-13T05:53:08Z",
-          "prerelease": false,
-          "body": "- 高级功能新增「设备硬件配置」：可视化添加/删除/编辑 运动卡·IO模型(气缸/传感器/三色灯等)·通讯·相机，配置存设备并重启生效\n- 硬件配置改由设备存档(device.json)重建，便于跨机型迁移与现场调整\n- Modbus 增强：双字/浮点(Float32/Double64)/字符串 的读/写/缓写，支持字节序 ABCD/CDAB/BADC/DCBA 与缩放定点\n- 脚本编辑器新增「拆分视图」：参数页与 Run 页上下/左右分屏，可折叠拖动，编 Run 时常驻看参数\n- 脚本编辑器全角符号防呆：误打的中文标点(逗号/分号/括号等)红色高亮\n- 脚本编辑器工具箱拖入片段自动补齐 using 引用\n- 修复方法参数提示：输入左括号后正常弹出参数签名\n- 工序编辑器：编辑条左侧醒目显示当前工序名\n- 新建工序默认归类「未配置」\n- 更新新建工序模板\n- 设备模型(机器调整)：控制卡未连接弹提示不再闪退\n- 气缸「伸出/退回」按钮对调\n- 修复主窗口最大化按钮状态错乱\n- XYZR 多轴：移动速度改为「速率(0~100%)」按各轴最大速度钳制不过速\n- 新增到位判断(非阻塞)",
-          "files": [
-            {
-              "name": "AutoSoftware_v2.1.0.zip",
-              "size": 202947129,
-              "downloadCount": 0,
-              "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.1.0/AutoSoftware_v2.1.0.zip",
-              "category": "full",
-              "mirrors": [
-                {
-                  "name": "加速线路 1",
-                  "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.1.0/AutoSoftware_v2.1.0.zip"
-                },
-                {
-                  "name": "加速线路 2",
-                  "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.1.0/AutoSoftware_v2.1.0.zip"
-                },
-                {
-                  "name": "加速线路 3",
-                  "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.1.0/AutoSoftware_v2.1.0.zip"
-                },
-                {
-                  "name": "加速线路 4",
-                  "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.1.0/AutoSoftware_v2.1.0.zip"
-                }
-              ]
-            }
-          ]
         }
       ]
     },
@@ -5856,6 +5830,16 @@
     }
   ],
   "versions": [
+    {
+      "version": "v2.39.140",
+      "tag": "v2.39.140",
+      "trackKey": "app",
+      "title": "v2.39.140",
+      "date": "2026-09-18T02:22:00Z",
+      "prerelease": false,
+      "body": "- 实时画面报错修复(接上版内存修复)：上版把循环工作流覆盖/跳转重置时的旧图改成立刻释放，但运行页、图像注册页等还握着上一轮的图继续显示，拿到已释放对象就报错；现在改成「退休队列」延迟释放——旧图保留3秒再释放(轮询读者绰绰有余)、同时封顶24张保证内存不涨；跳转循环型工作流的内存修复效果不回退\n- 新增「图像裁切」Crop工具(视觉/预处理组)：按矩形(X/Y/宽/高,全部可绑上游定位结果)裁出子图；超出图像边界自动夹住,完全在图外直接报错；输出裁后图+实际裁切框(CropX/Y/宽/高,裁后图坐标映射回原图用)；配套SImage.Crop(x,y,w,h)方法工序/脚本可直接调；冒烟18项全过(像素对位/夹边界/工作流端到端)\n- 带相机的工作流连续跑内存涨满修复：跳转循环型工作流(拍照→处理→跳回拍照)在同一数据仓里每轮覆盖相机图，旧图既不释放、像素数组又被永久钉死(GC收不回)，每轮硬泄漏一张整帧图；现在像素固定随Mat释放+数据仓覆盖即释放旧图，实测2539轮循环内存平稳，视觉工具链回归无变化\n- HMI工序/工作流控件新增「显示步号」开关：设计器右侧常用面板可直接关掉按钮底部的 Step N 步号行(关闭后按钮文字自动垂直居中,悬停提示同步不再带步号);工序状态/启动/暂停/停止与工作流全套控件通用,默认显示=已有页面外观不变\n- 参数字段含图像时保存报错修复：设备参数的SImage运行时缓存字段(如大图BigImage)会让保存设备弹「Serialization of 'System.IntPtr' ... $.Values.DataPointer」并中断落盘(工作流加Image输出后跑过流程即触发);现在参数存档/系统参数/料号快照统一把图像值换成 {_type:SImage,_w,_h} 占位,保存恢复正常\n- 浅色主题下工序编辑器光标看不见修复：编辑器构造时按当前主题上色(此前只靠切换主题事件纠正,浅色档冷启动=白底白光标不可见),主编辑器/参数页/Ctrl+G跳行框光标全部随主题\n- Ctrl+F查找替换面板配色统一跟随深浅主题：输入框/小钮hover/勾选态/计数文字换肤即时重刷,勾选统一蓝底白字;深色档观感与旧版一致\n- 工作流新增「XYZ移动」XyzMove节点(硬件/运动)：XYZ三轴模型三轴直线插补,绝对=套工件/工具坐标系+XY面补正(示教回放闭环),相对=增量插补;速度=插补合成速度mm/s,到位判定含各轴容差镇定\n- 运动节点双击弹点动面板扩展到全族：XyzrMove/XyzMove/XyrMultiMove/MultiAxisMove(按XY或XYZ模型定行数)/AxisMove(单轴)双击均弹浮动点动面板(相对/绝对/Jog三模式+实时位置状态灯+使能/清错/停止,关窗自动停轴),收敛为通用ModelJogWindow;机器调整页XYZR点动按钮同源",
+      "files": []
+    },
     {
       "version": "v2.39.139",
       "tag": "v2.39.139",
@@ -11639,42 +11623,6 @@
             {
               "name": "加速线路 4",
               "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.5.11/AutoSoftware_v2.5.11.zip"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "version": "v2.1.0",
-      "tag": "v2.1.0",
-      "trackKey": "app",
-      "title": "v2.1.0",
-      "date": "2026-06-13T05:53:08Z",
-      "prerelease": false,
-      "body": "- 高级功能新增「设备硬件配置」：可视化添加/删除/编辑 运动卡·IO模型(气缸/传感器/三色灯等)·通讯·相机，配置存设备并重启生效\n- 硬件配置改由设备存档(device.json)重建，便于跨机型迁移与现场调整\n- Modbus 增强：双字/浮点(Float32/Double64)/字符串 的读/写/缓写，支持字节序 ABCD/CDAB/BADC/DCBA 与缩放定点\n- 脚本编辑器新增「拆分视图」：参数页与 Run 页上下/左右分屏，可折叠拖动，编 Run 时常驻看参数\n- 脚本编辑器全角符号防呆：误打的中文标点(逗号/分号/括号等)红色高亮\n- 脚本编辑器工具箱拖入片段自动补齐 using 引用\n- 修复方法参数提示：输入左括号后正常弹出参数签名\n- 工序编辑器：编辑条左侧醒目显示当前工序名\n- 新建工序默认归类「未配置」\n- 更新新建工序模板\n- 设备模型(机器调整)：控制卡未连接弹提示不再闪退\n- 气缸「伸出/退回」按钮对调\n- 修复主窗口最大化按钮状态错乱\n- XYZR 多轴：移动速度改为「速率(0~100%)」按各轴最大速度钳制不过速\n- 新增到位判断(非阻塞)",
-      "files": [
-        {
-          "name": "AutoSoftware_v2.1.0.zip",
-          "size": 202947129,
-          "downloadCount": 0,
-          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.1.0/AutoSoftware_v2.1.0.zip",
-          "category": "full",
-          "mirrors": [
-            {
-              "name": "加速线路 1",
-              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.1.0/AutoSoftware_v2.1.0.zip"
-            },
-            {
-              "name": "加速线路 2",
-              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.1.0/AutoSoftware_v2.1.0.zip"
-            },
-            {
-              "name": "加速线路 3",
-              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.1.0/AutoSoftware_v2.1.0.zip"
-            },
-            {
-              "name": "加速线路 4",
-              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.1.0/AutoSoftware_v2.1.0.zip"
             }
           ]
         }
