@@ -2,7 +2,7 @@
   "site": "SY 软件下载",
   "subtitle": "官方下载 · 请认准本页面",
   "repo": "sushangxiong0312-ctrl/SY",
-  "generatedAt": "2026-09-18T10:32:20.666Z",
+  "generatedAt": "2026-09-18T10:33:50.188Z",
   "categories": [
     {
       "key": "full",
@@ -44,7 +44,58 @@
           "date": "2026-09-18T10:32:07Z",
           "prerelease": false,
           "body": "- 工作流相机实时内存暴涨修复：①二值化工具输出图的像素数组被永久钉死(GC收不回),工具每执行一次硬泄漏一整张图,相机实时预览/相机事件工作流下每秒可漏数百MB——改走随用随释放的零拷贝包装,泄漏归零 ②相机每帧像素从双份分配减为单份,大图高频采集下GC压力减半 ③相机实时预览窗(双击拍照节点)与双目标定预览不再钉住帧数组、不再释放被多方共享的帧实例,预览窗与相机事件工作流同开时不再出现对方拿到已释放图像的隐患\n- 脚本节点/HMI脚本编辑器工具箱补「系统参数」分类：与工序编辑器同款——按参数列出全部系统参数(独立保存不随料号切换),每个参数给取引用/读字段/写字段代码段,另附按参数名+字段名直接读写的通用片段",
-          "files": []
+          "files": [
+            {
+              "name": "AutoSoftware_v2.39.142.zip",
+              "size": 136256278,
+              "downloadCount": 0,
+              "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.142/AutoSoftware_v2.39.142.zip",
+              "category": "full",
+              "mirrors": [
+                {
+                  "name": "加速线路 1",
+                  "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.142/AutoSoftware_v2.39.142.zip"
+                },
+                {
+                  "name": "加速线路 2",
+                  "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.142/AutoSoftware_v2.39.142.zip"
+                },
+                {
+                  "name": "加速线路 3",
+                  "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.142/AutoSoftware_v2.39.142.zip"
+                },
+                {
+                  "name": "加速线路 4",
+                  "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.142/AutoSoftware_v2.39.142.zip"
+                }
+              ]
+            },
+            {
+              "name": "HmiTouchControls.dll",
+              "size": 210944,
+              "downloadCount": 0,
+              "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.142/HmiTouchControls.dll",
+              "category": "lib",
+              "mirrors": [
+                {
+                  "name": "加速线路 1",
+                  "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.142/HmiTouchControls.dll"
+                },
+                {
+                  "name": "加速线路 2",
+                  "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.142/HmiTouchControls.dll"
+                },
+                {
+                  "name": "加速线路 3",
+                  "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.142/HmiTouchControls.dll"
+                },
+                {
+                  "name": "加速线路 4",
+                  "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.142/HmiTouchControls.dll"
+                }
+              ]
+            }
+          ]
         },
         {
           "version": "v2.39.141",
@@ -5888,7 +5939,58 @@
       "date": "2026-09-18T10:32:07Z",
       "prerelease": false,
       "body": "- 工作流相机实时内存暴涨修复：①二值化工具输出图的像素数组被永久钉死(GC收不回),工具每执行一次硬泄漏一整张图,相机实时预览/相机事件工作流下每秒可漏数百MB——改走随用随释放的零拷贝包装,泄漏归零 ②相机每帧像素从双份分配减为单份,大图高频采集下GC压力减半 ③相机实时预览窗(双击拍照节点)与双目标定预览不再钉住帧数组、不再释放被多方共享的帧实例,预览窗与相机事件工作流同开时不再出现对方拿到已释放图像的隐患\n- 脚本节点/HMI脚本编辑器工具箱补「系统参数」分类：与工序编辑器同款——按参数列出全部系统参数(独立保存不随料号切换),每个参数给取引用/读字段/写字段代码段,另附按参数名+字段名直接读写的通用片段",
-      "files": []
+      "files": [
+        {
+          "name": "AutoSoftware_v2.39.142.zip",
+          "size": 136256278,
+          "downloadCount": 0,
+          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.142/AutoSoftware_v2.39.142.zip",
+          "category": "full",
+          "mirrors": [
+            {
+              "name": "加速线路 1",
+              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.142/AutoSoftware_v2.39.142.zip"
+            },
+            {
+              "name": "加速线路 2",
+              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.142/AutoSoftware_v2.39.142.zip"
+            },
+            {
+              "name": "加速线路 3",
+              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.142/AutoSoftware_v2.39.142.zip"
+            },
+            {
+              "name": "加速线路 4",
+              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.142/AutoSoftware_v2.39.142.zip"
+            }
+          ]
+        },
+        {
+          "name": "HmiTouchControls.dll",
+          "size": 210944,
+          "downloadCount": 0,
+          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.142/HmiTouchControls.dll",
+          "category": "lib",
+          "mirrors": [
+            {
+              "name": "加速线路 1",
+              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.142/HmiTouchControls.dll"
+            },
+            {
+              "name": "加速线路 2",
+              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.142/HmiTouchControls.dll"
+            },
+            {
+              "name": "加速线路 3",
+              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.142/HmiTouchControls.dll"
+            },
+            {
+              "name": "加速线路 4",
+              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.142/HmiTouchControls.dll"
+            }
+          ]
+        }
+      ]
     },
     {
       "version": "v2.39.141",
