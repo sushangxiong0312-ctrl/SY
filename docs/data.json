@@ -2,7 +2,7 @@
   "site": "SY 软件下载",
   "subtitle": "官方下载 · 请认准本页面",
   "repo": "sushangxiong0312-ctrl/SY",
-  "generatedAt": "2026-09-19T15:31:05.695Z",
+  "generatedAt": "2026-09-19T15:54:40.273Z",
   "categories": [
     {
       "key": "full",
@@ -36,6 +36,16 @@
       "label": "主程序",
       "mode": "versions",
       "versions": [
+        {
+          "version": "v2.39.151",
+          "tag": "v2.39.151",
+          "trackKey": "app",
+          "title": "v2.39.151",
+          "date": "2026-09-19T15:54:28Z",
+          "prerelease": false,
+          "body": "- 视觉实时画面(LiveVisionView)新增「压缩倍率」：拼接大图(如 20000×20000, 整帧显示≈1.6GB)设 0.25 即按四分之一边长降采样显示(每帧 100MB)；1=不压缩。收到帧直接抽点出小图上屏，全程无中间整图拷贝，各像素格式与画面颜色不变",
+          "files": []
+        },
         {
           "version": "v2.39.150",
           "tag": "v2.39.150",
@@ -5762,42 +5772,6 @@
               ]
             }
           ]
-        },
-        {
-          "version": "v2.12.3",
-          "tag": "v2.12.3",
-          "trackKey": "app",
-          "title": "v2.12.3",
-          "date": "2026-07-04T02:52:40Z",
-          "prerelease": false,
-          "body": "- 修复: 图像通道序全链路统一为 RGB 正典 — 工作流节点图像显示不再红蓝对调(拍照节点正常、下游节点黄色变蓝的问题); BMP 存/读、GDI 位图互转、WPF 位图互转全部按正典换序, 顺带修复非 32 位图导入行距错位",
-          "files": [
-            {
-              "name": "AutoSoftware_v2.12.3.zip",
-              "size": 288955927,
-              "downloadCount": 0,
-              "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.3/AutoSoftware_v2.12.3.zip",
-              "category": "full",
-              "mirrors": [
-                {
-                  "name": "加速线路 1",
-                  "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.3/AutoSoftware_v2.12.3.zip"
-                },
-                {
-                  "name": "加速线路 2",
-                  "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.3/AutoSoftware_v2.12.3.zip"
-                },
-                {
-                  "name": "加速线路 3",
-                  "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.3/AutoSoftware_v2.12.3.zip"
-                },
-                {
-                  "name": "加速线路 4",
-                  "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.3/AutoSoftware_v2.12.3.zip"
-                }
-              ]
-            }
-          ]
         }
       ]
     },
@@ -5866,6 +5840,16 @@
     }
   ],
   "versions": [
+    {
+      "version": "v2.39.151",
+      "tag": "v2.39.151",
+      "trackKey": "app",
+      "title": "v2.39.151",
+      "date": "2026-09-19T15:54:28Z",
+      "prerelease": false,
+      "body": "- 视觉实时画面(LiveVisionView)新增「压缩倍率」：拼接大图(如 20000×20000, 整帧显示≈1.6GB)设 0.25 即按四分之一边长降采样显示(每帧 100MB)；1=不压缩。收到帧直接抽点出小图上屏，全程无中间整图拷贝，各像素格式与画面颜色不变",
+      "files": []
+    },
     {
       "version": "v2.39.150",
       "tag": "v2.39.150",
@@ -11649,42 +11633,6 @@
             {
               "name": "加速线路 4",
               "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.4/AutoSoftware_v2.12.4.zip"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "version": "v2.12.3",
-      "tag": "v2.12.3",
-      "trackKey": "app",
-      "title": "v2.12.3",
-      "date": "2026-07-04T02:52:40Z",
-      "prerelease": false,
-      "body": "- 修复: 图像通道序全链路统一为 RGB 正典 — 工作流节点图像显示不再红蓝对调(拍照节点正常、下游节点黄色变蓝的问题); BMP 存/读、GDI 位图互转、WPF 位图互转全部按正典换序, 顺带修复非 32 位图导入行距错位",
-      "files": [
-        {
-          "name": "AutoSoftware_v2.12.3.zip",
-          "size": 288955927,
-          "downloadCount": 0,
-          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.3/AutoSoftware_v2.12.3.zip",
-          "category": "full",
-          "mirrors": [
-            {
-              "name": "加速线路 1",
-              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.3/AutoSoftware_v2.12.3.zip"
-            },
-            {
-              "name": "加速线路 2",
-              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.3/AutoSoftware_v2.12.3.zip"
-            },
-            {
-              "name": "加速线路 3",
-              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.3/AutoSoftware_v2.12.3.zip"
-            },
-            {
-              "name": "加速线路 4",
-              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.3/AutoSoftware_v2.12.3.zip"
             }
           ]
         }
