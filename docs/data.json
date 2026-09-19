@@ -2,7 +2,7 @@
   "site": "SY 软件下载",
   "subtitle": "官方下载 · 请认准本页面",
   "repo": "sushangxiong0312-ctrl/SY",
-  "generatedAt": "2026-09-19T15:30:32.774Z",
+  "generatedAt": "2026-09-19T15:31:05.695Z",
   "categories": [
     {
       "key": "full",
@@ -44,7 +44,58 @@
           "date": "2026-09-19T15:30:20Z",
           "prerelease": false,
           "body": "- 轴流动条流动方向跟随轴实际速度：正向速度按设定方向流动，负向速度自动反向(轴往回走条纹跟着倒回)，速度为零时按设定方向；「左右/右左/上下/下上」的含义即正方向\n- 静态图片控件新增「压缩倍率」：拼接大图(如 20000×20000)直接显示会内存不足，设 0.25 即按四分之一边长降采样显示(内存 1.6GB→100MB)；1=不压缩。本地图片解码期降采样，内存图片(参数图像)抽点降采样后直接建小图，不再整图转拷",
-          "files": []
+          "files": [
+            {
+              "name": "AutoSoftware_v2.39.150.zip",
+              "size": 136262890,
+              "downloadCount": 0,
+              "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.150/AutoSoftware_v2.39.150.zip",
+              "category": "full",
+              "mirrors": [
+                {
+                  "name": "加速线路 1",
+                  "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.150/AutoSoftware_v2.39.150.zip"
+                },
+                {
+                  "name": "加速线路 2",
+                  "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.150/AutoSoftware_v2.39.150.zip"
+                },
+                {
+                  "name": "加速线路 3",
+                  "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.150/AutoSoftware_v2.39.150.zip"
+                },
+                {
+                  "name": "加速线路 4",
+                  "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.150/AutoSoftware_v2.39.150.zip"
+                }
+              ]
+            },
+            {
+              "name": "HmiTouchControls.dll",
+              "size": 220160,
+              "downloadCount": 0,
+              "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.150/HmiTouchControls.dll",
+              "category": "lib",
+              "mirrors": [
+                {
+                  "name": "加速线路 1",
+                  "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.150/HmiTouchControls.dll"
+                },
+                {
+                  "name": "加速线路 2",
+                  "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.150/HmiTouchControls.dll"
+                },
+                {
+                  "name": "加速线路 3",
+                  "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.150/HmiTouchControls.dll"
+                },
+                {
+                  "name": "加速线路 4",
+                  "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.150/HmiTouchControls.dll"
+                }
+              ]
+            }
+          ]
         },
         {
           "version": "v2.39.149",
@@ -5823,7 +5874,58 @@
       "date": "2026-09-19T15:30:20Z",
       "prerelease": false,
       "body": "- 轴流动条流动方向跟随轴实际速度：正向速度按设定方向流动，负向速度自动反向(轴往回走条纹跟着倒回)，速度为零时按设定方向；「左右/右左/上下/下上」的含义即正方向\n- 静态图片控件新增「压缩倍率」：拼接大图(如 20000×20000)直接显示会内存不足，设 0.25 即按四分之一边长降采样显示(内存 1.6GB→100MB)；1=不压缩。本地图片解码期降采样，内存图片(参数图像)抽点降采样后直接建小图，不再整图转拷",
-      "files": []
+      "files": [
+        {
+          "name": "AutoSoftware_v2.39.150.zip",
+          "size": 136262890,
+          "downloadCount": 0,
+          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.150/AutoSoftware_v2.39.150.zip",
+          "category": "full",
+          "mirrors": [
+            {
+              "name": "加速线路 1",
+              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.150/AutoSoftware_v2.39.150.zip"
+            },
+            {
+              "name": "加速线路 2",
+              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.150/AutoSoftware_v2.39.150.zip"
+            },
+            {
+              "name": "加速线路 3",
+              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.150/AutoSoftware_v2.39.150.zip"
+            },
+            {
+              "name": "加速线路 4",
+              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.150/AutoSoftware_v2.39.150.zip"
+            }
+          ]
+        },
+        {
+          "name": "HmiTouchControls.dll",
+          "size": 220160,
+          "downloadCount": 0,
+          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.150/HmiTouchControls.dll",
+          "category": "lib",
+          "mirrors": [
+            {
+              "name": "加速线路 1",
+              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.150/HmiTouchControls.dll"
+            },
+            {
+              "name": "加速线路 2",
+              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.150/HmiTouchControls.dll"
+            },
+            {
+              "name": "加速线路 3",
+              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.150/HmiTouchControls.dll"
+            },
+            {
+              "name": "加速线路 4",
+              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.150/HmiTouchControls.dll"
+            }
+          ]
+        }
+      ]
     },
     {
       "version": "v2.39.149",
