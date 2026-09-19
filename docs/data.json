@@ -2,7 +2,7 @@
   "site": "SY 软件下载",
   "subtitle": "官方下载 · 请认准本页面",
   "repo": "sushangxiong0312-ctrl/SY",
-  "generatedAt": "2026-09-19T15:55:30.262Z",
+  "generatedAt": "2026-09-19T16:16:52.625Z",
   "categories": [
     {
       "key": "full",
@@ -36,6 +36,16 @@
       "label": "主程序",
       "mode": "versions",
       "versions": [
+        {
+          "version": "v2.39.152",
+          "tag": "v2.39.152",
+          "trackKey": "app",
+          "title": "v2.39.152",
+          "date": "2026-09-19T16:16:39Z",
+          "prerelease": false,
+          "body": "- 图像显示控件(ImageControl)新增「压缩倍率」：拼接大图(如 20000×20000)建显示位图≈1.6GB×多道拷贝会内存不足，设 0.25 即按四分之一边长降采样显示；1=不压缩。结果框/点击/缩放坐标全按原图尺寸工作零错位，放大超过显示分辨率画面变软属正常",
+          "files": []
+        },
         {
           "version": "v2.39.151",
           "tag": "v2.39.151",
@@ -5787,42 +5797,6 @@
               ]
             }
           ]
-        },
-        {
-          "version": "v2.12.4",
-          "tag": "v2.12.4",
-          "trackKey": "app",
-          "title": "v2.12.4",
-          "date": "2026-07-04T04:37:52Z",
-          "prerelease": false,
-          "body": "- 升级: 上相机标定文件\"中心化\" — 标定(含旋转点)完成后, 仿射平移项自动并入吸持偏差, 此后凡是用该标定文件做像素→物理转换的工具(CoordTransform / PixelToMachine / 工序调用)输出的直接就是产品中心物理坐标; 吸取计算(UpCameraPick/ComputePick)自动识别新旧文件, 吸取指令与升级前完全一致\n- 新增: UpCameraPick 节点输出\"料中心X/Y(物理)\"\n- 说明: 旧标定文件(无 affineCentered 标志)吸取照常准, 但转换仍带吸持偏置; 重跑一次上相机标定即得新语义\n- 修复: 工序点停止后偶发多执行一次 Step 0 — 停止把 Step 复位与工作线程睡循环间隔存在竞态, 现醒后复查状态且复位延后到在飞一轮退出, 并修复\"停止时正在执行的步会盖掉复位、下次启动从中间续跑\"的连带问题",
-          "files": [
-            {
-              "name": "AutoSoftware_v2.12.4.zip",
-              "size": 288957289,
-              "downloadCount": 0,
-              "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.4/AutoSoftware_v2.12.4.zip",
-              "category": "full",
-              "mirrors": [
-                {
-                  "name": "加速线路 1",
-                  "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.4/AutoSoftware_v2.12.4.zip"
-                },
-                {
-                  "name": "加速线路 2",
-                  "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.4/AutoSoftware_v2.12.4.zip"
-                },
-                {
-                  "name": "加速线路 3",
-                  "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.4/AutoSoftware_v2.12.4.zip"
-                },
-                {
-                  "name": "加速线路 4",
-                  "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.4/AutoSoftware_v2.12.4.zip"
-                }
-              ]
-            }
-          ]
         }
       ]
     },
@@ -5891,6 +5865,16 @@
     }
   ],
   "versions": [
+    {
+      "version": "v2.39.152",
+      "tag": "v2.39.152",
+      "trackKey": "app",
+      "title": "v2.39.152",
+      "date": "2026-09-19T16:16:39Z",
+      "prerelease": false,
+      "body": "- 图像显示控件(ImageControl)新增「压缩倍率」：拼接大图(如 20000×20000)建显示位图≈1.6GB×多道拷贝会内存不足，设 0.25 即按四分之一边长降采样显示；1=不压缩。结果框/点击/缩放坐标全按原图尺寸工作零错位，放大超过显示分辨率画面变软属正常",
+      "files": []
+    },
     {
       "version": "v2.39.151",
       "tag": "v2.39.151",
@@ -11699,42 +11683,6 @@
             {
               "name": "加速线路 4",
               "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.5/AutoSoftware_v2.12.5.zip"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "version": "v2.12.4",
-      "tag": "v2.12.4",
-      "trackKey": "app",
-      "title": "v2.12.4",
-      "date": "2026-07-04T04:37:52Z",
-      "prerelease": false,
-      "body": "- 升级: 上相机标定文件\"中心化\" — 标定(含旋转点)完成后, 仿射平移项自动并入吸持偏差, 此后凡是用该标定文件做像素→物理转换的工具(CoordTransform / PixelToMachine / 工序调用)输出的直接就是产品中心物理坐标; 吸取计算(UpCameraPick/ComputePick)自动识别新旧文件, 吸取指令与升级前完全一致\n- 新增: UpCameraPick 节点输出\"料中心X/Y(物理)\"\n- 说明: 旧标定文件(无 affineCentered 标志)吸取照常准, 但转换仍带吸持偏置; 重跑一次上相机标定即得新语义\n- 修复: 工序点停止后偶发多执行一次 Step 0 — 停止把 Step 复位与工作线程睡循环间隔存在竞态, 现醒后复查状态且复位延后到在飞一轮退出, 并修复\"停止时正在执行的步会盖掉复位、下次启动从中间续跑\"的连带问题",
-      "files": [
-        {
-          "name": "AutoSoftware_v2.12.4.zip",
-          "size": 288957289,
-          "downloadCount": 0,
-          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.4/AutoSoftware_v2.12.4.zip",
-          "category": "full",
-          "mirrors": [
-            {
-              "name": "加速线路 1",
-              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.4/AutoSoftware_v2.12.4.zip"
-            },
-            {
-              "name": "加速线路 2",
-              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.4/AutoSoftware_v2.12.4.zip"
-            },
-            {
-              "name": "加速线路 3",
-              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.4/AutoSoftware_v2.12.4.zip"
-            },
-            {
-              "name": "加速线路 4",
-              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.4/AutoSoftware_v2.12.4.zip"
             }
           ]
         }
