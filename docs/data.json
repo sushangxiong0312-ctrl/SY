@@ -2,7 +2,7 @@
   "site": "SY 软件下载",
   "subtitle": "官方下载 · 请认准本页面",
   "repo": "sushangxiong0312-ctrl/SY",
-  "generatedAt": "2026-09-19T04:36:04.978Z",
+  "generatedAt": "2026-09-19T04:37:23.624Z",
   "categories": [
     {
       "key": "full",
@@ -44,7 +44,58 @@
           "date": "2026-09-19T04:35:50Z",
           "prerelease": false,
           "body": "- XYZR 模型 R 轴折角处理(轴参数软限位启用时生效)：①当前位置显示的 R 自动折算到 0~360, 不再显示累计多圈值(手动页/读取节点等所有显示面生效) ②按坐标系绝对移动时, R 目标自动换算成软限位窗口内够得着的等效绝对角(就近取, 不绕整圈), 工位切换后跟新 R 轴的限位 ③到位校验同口径换算, 绕圈落点不误报 ④窗口内无等效角度时报错并给出目标/窗口/当前值, 不静默夹紧。R 轴未启用软限位时行为与旧版完全一致",
-          "files": []
+          "files": [
+            {
+              "name": "AutoSoftware_v2.39.144.zip",
+              "size": 136257231,
+              "downloadCount": 0,
+              "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.144/AutoSoftware_v2.39.144.zip",
+              "category": "full",
+              "mirrors": [
+                {
+                  "name": "加速线路 1",
+                  "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.144/AutoSoftware_v2.39.144.zip"
+                },
+                {
+                  "name": "加速线路 2",
+                  "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.144/AutoSoftware_v2.39.144.zip"
+                },
+                {
+                  "name": "加速线路 3",
+                  "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.144/AutoSoftware_v2.39.144.zip"
+                },
+                {
+                  "name": "加速线路 4",
+                  "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.144/AutoSoftware_v2.39.144.zip"
+                }
+              ]
+            },
+            {
+              "name": "HmiTouchControls.dll",
+              "size": 211968,
+              "downloadCount": 0,
+              "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.144/HmiTouchControls.dll",
+              "category": "lib",
+              "mirrors": [
+                {
+                  "name": "加速线路 1",
+                  "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.144/HmiTouchControls.dll"
+                },
+                {
+                  "name": "加速线路 2",
+                  "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.144/HmiTouchControls.dll"
+                },
+                {
+                  "name": "加速线路 3",
+                  "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.144/HmiTouchControls.dll"
+                },
+                {
+                  "name": "加速线路 4",
+                  "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.144/HmiTouchControls.dll"
+                }
+              ]
+            }
+          ]
         },
         {
           "version": "v2.39.143",
@@ -5673,7 +5724,58 @@
       "date": "2026-09-19T04:35:50Z",
       "prerelease": false,
       "body": "- XYZR 模型 R 轴折角处理(轴参数软限位启用时生效)：①当前位置显示的 R 自动折算到 0~360, 不再显示累计多圈值(手动页/读取节点等所有显示面生效) ②按坐标系绝对移动时, R 目标自动换算成软限位窗口内够得着的等效绝对角(就近取, 不绕整圈), 工位切换后跟新 R 轴的限位 ③到位校验同口径换算, 绕圈落点不误报 ④窗口内无等效角度时报错并给出目标/窗口/当前值, 不静默夹紧。R 轴未启用软限位时行为与旧版完全一致",
-      "files": []
+      "files": [
+        {
+          "name": "AutoSoftware_v2.39.144.zip",
+          "size": 136257231,
+          "downloadCount": 0,
+          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.144/AutoSoftware_v2.39.144.zip",
+          "category": "full",
+          "mirrors": [
+            {
+              "name": "加速线路 1",
+              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.144/AutoSoftware_v2.39.144.zip"
+            },
+            {
+              "name": "加速线路 2",
+              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.144/AutoSoftware_v2.39.144.zip"
+            },
+            {
+              "name": "加速线路 3",
+              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.144/AutoSoftware_v2.39.144.zip"
+            },
+            {
+              "name": "加速线路 4",
+              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.144/AutoSoftware_v2.39.144.zip"
+            }
+          ]
+        },
+        {
+          "name": "HmiTouchControls.dll",
+          "size": 211968,
+          "downloadCount": 0,
+          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.144/HmiTouchControls.dll",
+          "category": "lib",
+          "mirrors": [
+            {
+              "name": "加速线路 1",
+              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.144/HmiTouchControls.dll"
+            },
+            {
+              "name": "加速线路 2",
+              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.144/HmiTouchControls.dll"
+            },
+            {
+              "name": "加速线路 3",
+              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.144/HmiTouchControls.dll"
+            },
+            {
+              "name": "加速线路 4",
+              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.144/HmiTouchControls.dll"
+            }
+          ]
+        }
+      ]
     },
     {
       "version": "v2.39.143",
