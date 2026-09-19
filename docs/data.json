@@ -2,7 +2,7 @@
   "site": "SY 软件下载",
   "subtitle": "官方下载 · 请认准本页面",
   "repo": "sushangxiong0312-ctrl/SY",
-  "generatedAt": "2026-09-19T12:22:53.663Z",
+  "generatedAt": "2026-09-19T12:33:38.315Z",
   "categories": [
     {
       "key": "full",
@@ -44,7 +44,58 @@
           "date": "2026-09-19T12:22:41Z",
           "prerelease": false,
           "body": "- HMI 页面内存泄漏修复(反复编辑/弹框/登录切换后内存不足)：页面上下文被静态档位事件钉死 —— 设计器保存热重载换下的旧页、关闭的弹框页、登录/登出重挂的页面, 每次都把整棵页面树(含图像控件当前帧)永久留在内存里收不回, 积累到「内存不足」报错；现在页面移出视觉树即解除订阅、换下的旧页可整棵回收, 弹框页关窗确定性释放",
-          "files": []
+          "files": [
+            {
+              "name": "AutoSoftware_v2.39.146.zip",
+              "size": 136257260,
+              "downloadCount": 0,
+              "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.146/AutoSoftware_v2.39.146.zip",
+              "category": "full",
+              "mirrors": [
+                {
+                  "name": "加速线路 1",
+                  "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.146/AutoSoftware_v2.39.146.zip"
+                },
+                {
+                  "name": "加速线路 2",
+                  "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.146/AutoSoftware_v2.39.146.zip"
+                },
+                {
+                  "name": "加速线路 3",
+                  "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.146/AutoSoftware_v2.39.146.zip"
+                },
+                {
+                  "name": "加速线路 4",
+                  "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.146/AutoSoftware_v2.39.146.zip"
+                }
+              ]
+            },
+            {
+              "name": "HmiTouchControls.dll",
+              "size": 211968,
+              "downloadCount": 0,
+              "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.146/HmiTouchControls.dll",
+              "category": "lib",
+              "mirrors": [
+                {
+                  "name": "加速线路 1",
+                  "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.146/HmiTouchControls.dll"
+                },
+                {
+                  "name": "加速线路 2",
+                  "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.146/HmiTouchControls.dll"
+                },
+                {
+                  "name": "加速线路 3",
+                  "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.146/HmiTouchControls.dll"
+                },
+                {
+                  "name": "加速线路 4",
+                  "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.146/HmiTouchControls.dll"
+                }
+              ]
+            }
+          ]
         },
         {
           "version": "v2.39.145",
@@ -5723,7 +5774,58 @@
       "date": "2026-09-19T12:22:41Z",
       "prerelease": false,
       "body": "- HMI 页面内存泄漏修复(反复编辑/弹框/登录切换后内存不足)：页面上下文被静态档位事件钉死 —— 设计器保存热重载换下的旧页、关闭的弹框页、登录/登出重挂的页面, 每次都把整棵页面树(含图像控件当前帧)永久留在内存里收不回, 积累到「内存不足」报错；现在页面移出视觉树即解除订阅、换下的旧页可整棵回收, 弹框页关窗确定性释放",
-      "files": []
+      "files": [
+        {
+          "name": "AutoSoftware_v2.39.146.zip",
+          "size": 136257260,
+          "downloadCount": 0,
+          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.146/AutoSoftware_v2.39.146.zip",
+          "category": "full",
+          "mirrors": [
+            {
+              "name": "加速线路 1",
+              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.146/AutoSoftware_v2.39.146.zip"
+            },
+            {
+              "name": "加速线路 2",
+              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.146/AutoSoftware_v2.39.146.zip"
+            },
+            {
+              "name": "加速线路 3",
+              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.146/AutoSoftware_v2.39.146.zip"
+            },
+            {
+              "name": "加速线路 4",
+              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.146/AutoSoftware_v2.39.146.zip"
+            }
+          ]
+        },
+        {
+          "name": "HmiTouchControls.dll",
+          "size": 211968,
+          "downloadCount": 0,
+          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.146/HmiTouchControls.dll",
+          "category": "lib",
+          "mirrors": [
+            {
+              "name": "加速线路 1",
+              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.146/HmiTouchControls.dll"
+            },
+            {
+              "name": "加速线路 2",
+              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.146/HmiTouchControls.dll"
+            },
+            {
+              "name": "加速线路 3",
+              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.146/HmiTouchControls.dll"
+            },
+            {
+              "name": "加速线路 4",
+              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.146/HmiTouchControls.dll"
+            }
+          ]
+        }
+      ]
     },
     {
       "version": "v2.39.145",
