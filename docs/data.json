@@ -2,7 +2,7 @@
   "site": "SY 软件下载",
   "subtitle": "官方下载 · 请认准本页面",
   "repo": "sushangxiong0312-ctrl/SY",
-  "generatedAt": "2026-09-20T02:07:00.052Z",
+  "generatedAt": "2026-09-20T04:41:33.009Z",
   "categories": [
     {
       "key": "full",
@@ -36,6 +36,16 @@
       "label": "主程序",
       "mode": "versions",
       "versions": [
+        {
+          "version": "v2.39.154",
+          "tag": "v2.39.154",
+          "trackKey": "app",
+          "title": "v2.39.154",
+          "date": "2026-09-20T04:41:18Z",
+          "prerelease": false,
+          "body": "- 轴流动条支持皮带/速度环轴：连续速度模式的轴(如皮带)没有位置目标，之前条纹不会流动；现在实测速度超过阈值即流动，方向照旧跟随速度正反\n- 下架工作流 v1 脚本节点：工具栏不再出现旧版「脚本」节点(不能新增)；新脚本请用「脚本2」。现有工作流不受影响",
+          "files": []
+        },
         {
           "version": "v2.39.153",
           "tag": "v2.39.153",
@@ -5837,42 +5847,6 @@
               ]
             }
           ]
-        },
-        {
-          "version": "v2.12.6",
-          "tag": "v2.12.6",
-          "trackKey": "app",
-          "title": "v2.12.6",
-          "date": "2026-07-04T05:09:12Z",
-          "prerelease": false,
-          "body": "- 修复: 生产页右上角\"当前状态\"卡片不跟随设备状态 — 现订阅 Device.CurrentStateChanged, 启动/暂停/停止/回零(初始化中)/工序或工作流置状态都会实时刷新, 显示名与颜色取自维护页状态注册表(可自定义)",
-          "files": [
-            {
-              "name": "AutoSoftware_v2.12.6.zip",
-              "size": 288957615,
-              "downloadCount": 0,
-              "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.6/AutoSoftware_v2.12.6.zip",
-              "category": "full",
-              "mirrors": [
-                {
-                  "name": "加速线路 1",
-                  "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.6/AutoSoftware_v2.12.6.zip"
-                },
-                {
-                  "name": "加速线路 2",
-                  "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.6/AutoSoftware_v2.12.6.zip"
-                },
-                {
-                  "name": "加速线路 3",
-                  "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.6/AutoSoftware_v2.12.6.zip"
-                },
-                {
-                  "name": "加速线路 4",
-                  "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.6/AutoSoftware_v2.12.6.zip"
-                }
-              ]
-            }
-          ]
         }
       ]
     },
@@ -5941,6 +5915,16 @@
     }
   ],
   "versions": [
+    {
+      "version": "v2.39.154",
+      "tag": "v2.39.154",
+      "trackKey": "app",
+      "title": "v2.39.154",
+      "date": "2026-09-20T04:41:18Z",
+      "prerelease": false,
+      "body": "- 轴流动条支持皮带/速度环轴：连续速度模式的轴(如皮带)没有位置目标，之前条纹不会流动；现在实测速度超过阈值即流动，方向照旧跟随速度正反\n- 下架工作流 v1 脚本节点：工具栏不再出现旧版「脚本」节点(不能新增)；新脚本请用「脚本2」。现有工作流不受影响",
+      "files": []
+    },
     {
       "version": "v2.39.153",
       "tag": "v2.39.153",
@@ -11799,42 +11783,6 @@
             {
               "name": "加速线路 4",
               "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.7/AutoSoftware_v2.12.7.zip"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "version": "v2.12.6",
-      "tag": "v2.12.6",
-      "trackKey": "app",
-      "title": "v2.12.6",
-      "date": "2026-07-04T05:09:12Z",
-      "prerelease": false,
-      "body": "- 修复: 生产页右上角\"当前状态\"卡片不跟随设备状态 — 现订阅 Device.CurrentStateChanged, 启动/暂停/停止/回零(初始化中)/工序或工作流置状态都会实时刷新, 显示名与颜色取自维护页状态注册表(可自定义)",
-      "files": [
-        {
-          "name": "AutoSoftware_v2.12.6.zip",
-          "size": 288957615,
-          "downloadCount": 0,
-          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.6/AutoSoftware_v2.12.6.zip",
-          "category": "full",
-          "mirrors": [
-            {
-              "name": "加速线路 1",
-              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.6/AutoSoftware_v2.12.6.zip"
-            },
-            {
-              "name": "加速线路 2",
-              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.6/AutoSoftware_v2.12.6.zip"
-            },
-            {
-              "name": "加速线路 3",
-              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.6/AutoSoftware_v2.12.6.zip"
-            },
-            {
-              "name": "加速线路 4",
-              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.6/AutoSoftware_v2.12.6.zip"
             }
           ]
         }
