@@ -2,7 +2,7 @@
   "site": "SY 软件下载",
   "subtitle": "官方下载 · 请认准本页面",
   "repo": "sushangxiong0312-ctrl/SY",
-  "generatedAt": "2026-09-20T04:47:32.585Z",
+  "generatedAt": "2026-09-20T05:54:26.053Z",
   "categories": [
     {
       "key": "full",
@@ -36,6 +36,16 @@
       "label": "主程序",
       "mode": "versions",
       "versions": [
+        {
+          "version": "v2.39.155",
+          "tag": "v2.39.155",
+          "trackKey": "app",
+          "title": "v2.39.155",
+          "date": "2026-09-20T05:54:13Z",
+          "prerelease": false,
+          "body": "- 轴流动条新增「斜纹方向」：正斜(/)/反斜(\\)/横纹(—)/竖纹(|) 四档可选，流动中切换即时生效不断流；默认正斜与旧版外观一致。另修复流动中修改「流动颜色」不生效的问题",
+          "files": []
+        },
         {
           "version": "v2.39.154",
           "tag": "v2.39.154",
@@ -5862,42 +5872,6 @@
               ]
             }
           ]
-        },
-        {
-          "version": "v2.12.7",
-          "tag": "v2.12.7",
-          "trackKey": "app",
-          "title": "v2.12.7",
-          "date": "2026-07-04T08:34:31Z",
-          "prerelease": false,
-          "body": "- 修复: 流程监控页的报警信息(LastError)再次运行不清除 — 工序 Start/单步重新开跑时自动清上一轮错误, 报警条随之消失; 停止状态下保留错误便于排查",
-          "files": [
-            {
-              "name": "AutoSoftware_v2.12.7.zip",
-              "size": 288956994,
-              "downloadCount": 0,
-              "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.7/AutoSoftware_v2.12.7.zip",
-              "category": "full",
-              "mirrors": [
-                {
-                  "name": "加速线路 1",
-                  "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.7/AutoSoftware_v2.12.7.zip"
-                },
-                {
-                  "name": "加速线路 2",
-                  "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.7/AutoSoftware_v2.12.7.zip"
-                },
-                {
-                  "name": "加速线路 3",
-                  "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.7/AutoSoftware_v2.12.7.zip"
-                },
-                {
-                  "name": "加速线路 4",
-                  "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.7/AutoSoftware_v2.12.7.zip"
-                }
-              ]
-            }
-          ]
         }
       ]
     },
@@ -5966,6 +5940,16 @@
     }
   ],
   "versions": [
+    {
+      "version": "v2.39.155",
+      "tag": "v2.39.155",
+      "trackKey": "app",
+      "title": "v2.39.155",
+      "date": "2026-09-20T05:54:13Z",
+      "prerelease": false,
+      "body": "- 轴流动条新增「斜纹方向」：正斜(/)/反斜(\\)/横纹(—)/竖纹(|) 四档可选，流动中切换即时生效不断流；默认正斜与旧版外观一致。另修复流动中修改「流动颜色」不生效的问题",
+      "files": []
+    },
     {
       "version": "v2.39.154",
       "tag": "v2.39.154",
@@ -11849,42 +11833,6 @@
             {
               "name": "加速线路 4",
               "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.9/AutoSoftware_v2.12.9.zip"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "version": "v2.12.7",
-      "tag": "v2.12.7",
-      "trackKey": "app",
-      "title": "v2.12.7",
-      "date": "2026-07-04T08:34:31Z",
-      "prerelease": false,
-      "body": "- 修复: 流程监控页的报警信息(LastError)再次运行不清除 — 工序 Start/单步重新开跑时自动清上一轮错误, 报警条随之消失; 停止状态下保留错误便于排查",
-      "files": [
-        {
-          "name": "AutoSoftware_v2.12.7.zip",
-          "size": 288956994,
-          "downloadCount": 0,
-          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.7/AutoSoftware_v2.12.7.zip",
-          "category": "full",
-          "mirrors": [
-            {
-              "name": "加速线路 1",
-              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.7/AutoSoftware_v2.12.7.zip"
-            },
-            {
-              "name": "加速线路 2",
-              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.7/AutoSoftware_v2.12.7.zip"
-            },
-            {
-              "name": "加速线路 3",
-              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.7/AutoSoftware_v2.12.7.zip"
-            },
-            {
-              "name": "加速线路 4",
-              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.7/AutoSoftware_v2.12.7.zip"
             }
           ]
         }
