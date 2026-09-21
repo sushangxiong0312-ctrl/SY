@@ -2,7 +2,7 @@
   "site": "SY 软件下载",
   "subtitle": "官方下载 · 请认准本页面",
   "repo": "sushangxiong0312-ctrl/SY",
-  "generatedAt": "2026-09-21T14:10:01.800Z",
+  "generatedAt": "2026-09-21T14:10:43.216Z",
   "categories": [
     {
       "key": "full",
@@ -46,8 +46,33 @@
           "body": "- 工序启动控件启停二态：启动用途的工序控件由「只发启动」改为与工作流一致——点击启动，运行中再点击即停止；悬停提示同步显示「点击停止」",
           "files": [
             {
+              "name": "AutoSoftware_v2.39.160.zip",
+              "size": 134117066,
+              "downloadCount": 0,
+              "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.160/AutoSoftware_v2.39.160.zip",
+              "category": "full",
+              "mirrors": [
+                {
+                  "name": "加速线路 1",
+                  "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.160/AutoSoftware_v2.39.160.zip"
+                },
+                {
+                  "name": "加速线路 2",
+                  "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.160/AutoSoftware_v2.39.160.zip"
+                },
+                {
+                  "name": "加速线路 3",
+                  "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.160/AutoSoftware_v2.39.160.zip"
+                },
+                {
+                  "name": "加速线路 4",
+                  "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.160/AutoSoftware_v2.39.160.zip"
+                }
+              ]
+            },
+            {
               "name": "HmiTouchControls.dll",
-              "size": 225280,
+              "size": 178176,
               "downloadCount": 0,
               "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.160/HmiTouchControls.dll",
               "category": "lib",
@@ -3702,31 +3727,6 @@
           "body": "- 工序 ShowNotice 加时间参数 ShowNotice(消息,秒): 秒<=0(默认)横幅不自动消失、点确定或Esc才关, 正数则该秒数后自动消失\n- 修复丝杆花键手机远程进给绝对移动不动: 进给显示改用解耦进给坐标, 与绝对/相对移动同坐标系",
           "files": [
             {
-              "name": "HmiTouchControls.dll",
-              "size": 93696,
-              "downloadCount": 0,
-              "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.24.5/HmiTouchControls.dll",
-              "category": "other",
-              "mirrors": [
-                {
-                  "name": "加速线路 1",
-                  "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.24.5/HmiTouchControls.dll"
-                },
-                {
-                  "name": "加速线路 2",
-                  "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.24.5/HmiTouchControls.dll"
-                },
-                {
-                  "name": "加速线路 3",
-                  "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.24.5/HmiTouchControls.dll"
-                },
-                {
-                  "name": "加速线路 4",
-                  "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.24.5/HmiTouchControls.dll"
-                }
-              ]
-            },
-            {
               "name": "AutoSoftware_v2.24.5.zip",
               "size": 135666018,
               "downloadCount": 1,
@@ -3748,6 +3748,31 @@
                 {
                   "name": "加速线路 4",
                   "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.24.5/AutoSoftware_v2.24.5.zip"
+                }
+              ]
+            },
+            {
+              "name": "HmiTouchControls.dll",
+              "size": 93696,
+              "downloadCount": 0,
+              "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.24.5/HmiTouchControls.dll",
+              "category": "other",
+              "mirrors": [
+                {
+                  "name": "加速线路 1",
+                  "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.24.5/HmiTouchControls.dll"
+                },
+                {
+                  "name": "加速线路 2",
+                  "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.24.5/HmiTouchControls.dll"
+                },
+                {
+                  "name": "加速线路 3",
+                  "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.24.5/HmiTouchControls.dll"
+                },
+                {
+                  "name": "加速线路 4",
+                  "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.24.5/HmiTouchControls.dll"
                 }
               ]
             }
@@ -5141,31 +5166,6 @@
           "body": "- 机器调整气缸页: 单作用(单点)气缸也显示「缩回」按钮——缩回=断伸出线圈DO(弹簧复位), 与伸出构成一个点的 on/off 两态控制",
           "files": [
             {
-              "name": "HmiTouchControls.dll",
-              "size": 93696,
-              "downloadCount": 0,
-              "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.37/HmiTouchControls.dll",
-              "category": "other",
-              "mirrors": [
-                {
-                  "name": "加速线路 1",
-                  "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.37/HmiTouchControls.dll"
-                },
-                {
-                  "name": "加速线路 2",
-                  "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.37/HmiTouchControls.dll"
-                },
-                {
-                  "name": "加速线路 3",
-                  "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.37/HmiTouchControls.dll"
-                },
-                {
-                  "name": "加速线路 4",
-                  "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.37/HmiTouchControls.dll"
-                }
-              ]
-            },
-            {
               "name": "AutoSoftware_v2.12.37.zip",
               "size": 289109064,
               "downloadCount": 0,
@@ -5187,6 +5187,31 @@
                 {
                   "name": "加速线路 4",
                   "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.37/AutoSoftware_v2.12.37.zip"
+                }
+              ]
+            },
+            {
+              "name": "HmiTouchControls.dll",
+              "size": 93696,
+              "downloadCount": 0,
+              "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.37/HmiTouchControls.dll",
+              "category": "other",
+              "mirrors": [
+                {
+                  "name": "加速线路 1",
+                  "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.37/HmiTouchControls.dll"
+                },
+                {
+                  "name": "加速线路 2",
+                  "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.37/HmiTouchControls.dll"
+                },
+                {
+                  "name": "加速线路 3",
+                  "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.37/HmiTouchControls.dll"
+                },
+                {
+                  "name": "加速线路 4",
+                  "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.37/HmiTouchControls.dll"
                 }
               ]
             }
@@ -6001,8 +6026,33 @@
       "body": "- 工序启动控件启停二态：启动用途的工序控件由「只发启动」改为与工作流一致——点击启动，运行中再点击即停止；悬停提示同步显示「点击停止」",
       "files": [
         {
+          "name": "AutoSoftware_v2.39.160.zip",
+          "size": 134117066,
+          "downloadCount": 0,
+          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.160/AutoSoftware_v2.39.160.zip",
+          "category": "full",
+          "mirrors": [
+            {
+              "name": "加速线路 1",
+              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.160/AutoSoftware_v2.39.160.zip"
+            },
+            {
+              "name": "加速线路 2",
+              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.160/AutoSoftware_v2.39.160.zip"
+            },
+            {
+              "name": "加速线路 3",
+              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.160/AutoSoftware_v2.39.160.zip"
+            },
+            {
+              "name": "加速线路 4",
+              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.160/AutoSoftware_v2.39.160.zip"
+            }
+          ]
+        },
+        {
           "name": "HmiTouchControls.dll",
-          "size": 225280,
+          "size": 178176,
           "downloadCount": 0,
           "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.160/HmiTouchControls.dll",
           "category": "lib",
@@ -9718,31 +9768,6 @@
       "body": "- 工序 ShowNotice 加时间参数 ShowNotice(消息,秒): 秒<=0(默认)横幅不自动消失、点确定或Esc才关, 正数则该秒数后自动消失\n- 修复丝杆花键手机远程进给绝对移动不动: 进给显示改用解耦进给坐标, 与绝对/相对移动同坐标系",
       "files": [
         {
-          "name": "HmiTouchControls.dll",
-          "size": 93696,
-          "downloadCount": 0,
-          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.24.5/HmiTouchControls.dll",
-          "category": "other",
-          "mirrors": [
-            {
-              "name": "加速线路 1",
-              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.24.5/HmiTouchControls.dll"
-            },
-            {
-              "name": "加速线路 2",
-              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.24.5/HmiTouchControls.dll"
-            },
-            {
-              "name": "加速线路 3",
-              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.24.5/HmiTouchControls.dll"
-            },
-            {
-              "name": "加速线路 4",
-              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.24.5/HmiTouchControls.dll"
-            }
-          ]
-        },
-        {
           "name": "AutoSoftware_v2.24.5.zip",
           "size": 135666018,
           "downloadCount": 1,
@@ -9764,6 +9789,31 @@
             {
               "name": "加速线路 4",
               "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.24.5/AutoSoftware_v2.24.5.zip"
+            }
+          ]
+        },
+        {
+          "name": "HmiTouchControls.dll",
+          "size": 93696,
+          "downloadCount": 0,
+          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.24.5/HmiTouchControls.dll",
+          "category": "other",
+          "mirrors": [
+            {
+              "name": "加速线路 1",
+              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.24.5/HmiTouchControls.dll"
+            },
+            {
+              "name": "加速线路 2",
+              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.24.5/HmiTouchControls.dll"
+            },
+            {
+              "name": "加速线路 3",
+              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.24.5/HmiTouchControls.dll"
+            },
+            {
+              "name": "加速线路 4",
+              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.24.5/HmiTouchControls.dll"
             }
           ]
         }
@@ -11157,31 +11207,6 @@
       "body": "- 机器调整气缸页: 单作用(单点)气缸也显示「缩回」按钮——缩回=断伸出线圈DO(弹簧复位), 与伸出构成一个点的 on/off 两态控制",
       "files": [
         {
-          "name": "HmiTouchControls.dll",
-          "size": 93696,
-          "downloadCount": 0,
-          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.37/HmiTouchControls.dll",
-          "category": "other",
-          "mirrors": [
-            {
-              "name": "加速线路 1",
-              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.37/HmiTouchControls.dll"
-            },
-            {
-              "name": "加速线路 2",
-              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.37/HmiTouchControls.dll"
-            },
-            {
-              "name": "加速线路 3",
-              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.37/HmiTouchControls.dll"
-            },
-            {
-              "name": "加速线路 4",
-              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.37/HmiTouchControls.dll"
-            }
-          ]
-        },
-        {
           "name": "AutoSoftware_v2.12.37.zip",
           "size": 289109064,
           "downloadCount": 0,
@@ -11203,6 +11228,31 @@
             {
               "name": "加速线路 4",
               "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.37/AutoSoftware_v2.12.37.zip"
+            }
+          ]
+        },
+        {
+          "name": "HmiTouchControls.dll",
+          "size": 93696,
+          "downloadCount": 0,
+          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.37/HmiTouchControls.dll",
+          "category": "other",
+          "mirrors": [
+            {
+              "name": "加速线路 1",
+              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.37/HmiTouchControls.dll"
+            },
+            {
+              "name": "加速线路 2",
+              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.37/HmiTouchControls.dll"
+            },
+            {
+              "name": "加速线路 3",
+              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.37/HmiTouchControls.dll"
+            },
+            {
+              "name": "加速线路 4",
+              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.37/HmiTouchControls.dll"
             }
           ]
         }
