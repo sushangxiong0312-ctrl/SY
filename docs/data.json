@@ -2,7 +2,7 @@
   "site": "SY 软件下载",
   "subtitle": "官方下载 · 请认准本页面",
   "repo": "sushangxiong0312-ctrl/SY",
-  "generatedAt": "2026-09-20T09:55:17.008Z",
+  "generatedAt": "2026-09-21T02:06:29.949Z",
   "categories": [
     {
       "key": "full",
@@ -36,6 +36,16 @@
       "label": "主程序",
       "mode": "versions",
       "versions": [
+        {
+          "version": "v2.39.158",
+          "tag": "v2.39.158",
+          "trackKey": "app",
+          "title": "v2.39.158",
+          "date": "2026-09-21T02:06:17Z",
+          "prerelease": false,
+          "body": "- 工序/工作流启动控件改版：由整块按钮升级为「状态条 + 动作方块」组合——状态条按实时状态着色（运行绿/暂停橙/异常红/完成蓝/停止灰）并显示名称和步号，点击只认右侧动作方块（启动绿▶/暂停橙⏸/停止红■），状态模式为纯状态条；默认尺寸加大到 224×56，老页面无需改动自动换新\n- 工具箱预设同步更新：工序/工作流的状态、启动、暂停、停止四项均为新样式尺寸",
+          "files": []
+        },
         {
           "version": "v2.39.157",
           "tag": "v2.39.157",
@@ -5887,67 +5897,6 @@
               ]
             }
           ]
-        },
-        {
-          "version": "v2.12.21",
-          "tag": "v2.12.21",
-          "trackKey": "app",
-          "title": "v2.12.21",
-          "date": "2026-07-07T09:20:40Z",
-          "prerelease": false,
-          "body": "- 运动卡新增按槽位/节点寻址的 SDO 读写 API (SdoReadNode/SdoWriteNode, 等价 BASIC SDO_READ/SDO_WRITE), 未映射成轴的总线从站(如总线步进驱动)参数可写\n- HMI 点动按钮新增「减速% (Decel)」属性: 松手停止的减速度 = Decel% × 轴最大减速度, 不设=跟加速度一致; MoveContinuous 支持加/减速度分开给\n- 工序智能生成新增结果模式开关: 默认「提示」只在对话里展示生成代码(可选中/一键复制不动编辑器), 切「插入代码」才直接填入编辑器/插到光标\n- 修复: HMI 页面切走再打开后绑定不再刷新(位置等实时值静止) — 页面刷新改挂起/恢复, 重开页面恢复 200ms 刷新\n- 修复: 触屏数字框设了最小/最大值后, −/+ 步进和键盘录入仍会把越界值写进绑定参数 — 写入前先夹取范围",
-          "files": [
-            {
-              "name": "AutoSoftware_v2.12.21.zip",
-              "size": 288998990,
-              "downloadCount": 0,
-              "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.21/AutoSoftware_v2.12.21.zip",
-              "category": "full",
-              "mirrors": [
-                {
-                  "name": "加速线路 1",
-                  "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.21/AutoSoftware_v2.12.21.zip"
-                },
-                {
-                  "name": "加速线路 2",
-                  "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.21/AutoSoftware_v2.12.21.zip"
-                },
-                {
-                  "name": "加速线路 3",
-                  "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.21/AutoSoftware_v2.12.21.zip"
-                },
-                {
-                  "name": "加速线路 4",
-                  "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.21/AutoSoftware_v2.12.21.zip"
-                }
-              ]
-            },
-            {
-              "name": "HmiTouchControls.dll",
-              "size": 79360,
-              "downloadCount": 0,
-              "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.21/HmiTouchControls.dll",
-              "category": "other",
-              "mirrors": [
-                {
-                  "name": "加速线路 1",
-                  "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.21/HmiTouchControls.dll"
-                },
-                {
-                  "name": "加速线路 2",
-                  "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.21/HmiTouchControls.dll"
-                },
-                {
-                  "name": "加速线路 3",
-                  "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.21/HmiTouchControls.dll"
-                },
-                {
-                  "name": "加速线路 4",
-                  "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.21/HmiTouchControls.dll"
-                }
-              ]
-            }
-          ]
         }
       ]
     },
@@ -6016,6 +5965,16 @@
     }
   ],
   "versions": [
+    {
+      "version": "v2.39.158",
+      "tag": "v2.39.158",
+      "trackKey": "app",
+      "title": "v2.39.158",
+      "date": "2026-09-21T02:06:17Z",
+      "prerelease": false,
+      "body": "- 工序/工作流启动控件改版：由整块按钮升级为「状态条 + 动作方块」组合——状态条按实时状态着色（运行绿/暂停橙/异常红/完成蓝/停止灰）并显示名称和步号，点击只认右侧动作方块（启动绿▶/暂停橙⏸/停止红■），状态模式为纯状态条；默认尺寸加大到 224×56，老页面无需改动自动换新\n- 工具箱预设同步更新：工序/工作流的状态、启动、暂停、停止四项均为新样式尺寸",
+      "files": []
+    },
     {
       "version": "v2.39.157",
       "tag": "v2.39.157",
@@ -11924,67 +11883,6 @@
             {
               "name": "加速线路 4",
               "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.22/HmiTouchControls.dll"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "version": "v2.12.21",
-      "tag": "v2.12.21",
-      "trackKey": "app",
-      "title": "v2.12.21",
-      "date": "2026-07-07T09:20:40Z",
-      "prerelease": false,
-      "body": "- 运动卡新增按槽位/节点寻址的 SDO 读写 API (SdoReadNode/SdoWriteNode, 等价 BASIC SDO_READ/SDO_WRITE), 未映射成轴的总线从站(如总线步进驱动)参数可写\n- HMI 点动按钮新增「减速% (Decel)」属性: 松手停止的减速度 = Decel% × 轴最大减速度, 不设=跟加速度一致; MoveContinuous 支持加/减速度分开给\n- 工序智能生成新增结果模式开关: 默认「提示」只在对话里展示生成代码(可选中/一键复制不动编辑器), 切「插入代码」才直接填入编辑器/插到光标\n- 修复: HMI 页面切走再打开后绑定不再刷新(位置等实时值静止) — 页面刷新改挂起/恢复, 重开页面恢复 200ms 刷新\n- 修复: 触屏数字框设了最小/最大值后, −/+ 步进和键盘录入仍会把越界值写进绑定参数 — 写入前先夹取范围",
-      "files": [
-        {
-          "name": "AutoSoftware_v2.12.21.zip",
-          "size": 288998990,
-          "downloadCount": 0,
-          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.21/AutoSoftware_v2.12.21.zip",
-          "category": "full",
-          "mirrors": [
-            {
-              "name": "加速线路 1",
-              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.21/AutoSoftware_v2.12.21.zip"
-            },
-            {
-              "name": "加速线路 2",
-              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.21/AutoSoftware_v2.12.21.zip"
-            },
-            {
-              "name": "加速线路 3",
-              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.21/AutoSoftware_v2.12.21.zip"
-            },
-            {
-              "name": "加速线路 4",
-              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.21/AutoSoftware_v2.12.21.zip"
-            }
-          ]
-        },
-        {
-          "name": "HmiTouchControls.dll",
-          "size": 79360,
-          "downloadCount": 0,
-          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.21/HmiTouchControls.dll",
-          "category": "other",
-          "mirrors": [
-            {
-              "name": "加速线路 1",
-              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.21/HmiTouchControls.dll"
-            },
-            {
-              "name": "加速线路 2",
-              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.21/HmiTouchControls.dll"
-            },
-            {
-              "name": "加速线路 3",
-              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.21/HmiTouchControls.dll"
-            },
-            {
-              "name": "加速线路 4",
-              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.21/HmiTouchControls.dll"
             }
           ]
         }
