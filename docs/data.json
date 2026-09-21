@@ -2,7 +2,7 @@
   "site": "SY 软件下载",
   "subtitle": "官方下载 · 请认准本页面",
   "repo": "sushangxiong0312-ctrl/SY",
-  "generatedAt": "2026-09-21T13:41:22.986Z",
+  "generatedAt": "2026-09-21T13:42:21.436Z",
   "categories": [
     {
       "key": "full",
@@ -44,7 +44,58 @@
           "date": "2026-09-21T13:41:10Z",
           "prerelease": false,
           "body": "- 工序/工作流启动控件改版：由整块按钮升级为「状态条 + 动作方块」组合——状态条按实时状态着色（运行绿/暂停橙/异常红/完成蓝/停止灰）并显示名称和步号，点击只认右侧动作方块（启动绿▶/暂停橙⏸/停止红■），状态模式为纯状态条；默认尺寸加大到 224×56，老页面无需改动自动换新\n- 工具箱预设同步更新：工序/工作流的状态、启动、暂停、停止四项均为新样式尺寸",
-          "files": []
+          "files": [
+            {
+              "name": "AutoSoftware_v2.39.159.zip",
+              "size": 134117369,
+              "downloadCount": 0,
+              "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.159/AutoSoftware_v2.39.159.zip",
+              "category": "full",
+              "mirrors": [
+                {
+                  "name": "加速线路 1",
+                  "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.159/AutoSoftware_v2.39.159.zip"
+                },
+                {
+                  "name": "加速线路 2",
+                  "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.159/AutoSoftware_v2.39.159.zip"
+                },
+                {
+                  "name": "加速线路 3",
+                  "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.159/AutoSoftware_v2.39.159.zip"
+                },
+                {
+                  "name": "加速线路 4",
+                  "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.159/AutoSoftware_v2.39.159.zip"
+                }
+              ]
+            },
+            {
+              "name": "HmiTouchControls.dll",
+              "size": 225280,
+              "downloadCount": 0,
+              "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.159/HmiTouchControls.dll",
+              "category": "lib",
+              "mirrors": [
+                {
+                  "name": "加速线路 1",
+                  "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.159/HmiTouchControls.dll"
+                },
+                {
+                  "name": "加速线路 2",
+                  "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.159/HmiTouchControls.dll"
+                },
+                {
+                  "name": "加速线路 3",
+                  "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.159/HmiTouchControls.dll"
+                },
+                {
+                  "name": "加速线路 4",
+                  "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.159/HmiTouchControls.dll"
+                }
+              ]
+            }
+          ]
         },
         {
           "version": "v2.39.158",
@@ -5973,7 +6024,58 @@
       "date": "2026-09-21T13:41:10Z",
       "prerelease": false,
       "body": "- 工序/工作流启动控件改版：由整块按钮升级为「状态条 + 动作方块」组合——状态条按实时状态着色（运行绿/暂停橙/异常红/完成蓝/停止灰）并显示名称和步号，点击只认右侧动作方块（启动绿▶/暂停橙⏸/停止红■），状态模式为纯状态条；默认尺寸加大到 224×56，老页面无需改动自动换新\n- 工具箱预设同步更新：工序/工作流的状态、启动、暂停、停止四项均为新样式尺寸",
-      "files": []
+      "files": [
+        {
+          "name": "AutoSoftware_v2.39.159.zip",
+          "size": 134117369,
+          "downloadCount": 0,
+          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.159/AutoSoftware_v2.39.159.zip",
+          "category": "full",
+          "mirrors": [
+            {
+              "name": "加速线路 1",
+              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.159/AutoSoftware_v2.39.159.zip"
+            },
+            {
+              "name": "加速线路 2",
+              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.159/AutoSoftware_v2.39.159.zip"
+            },
+            {
+              "name": "加速线路 3",
+              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.159/AutoSoftware_v2.39.159.zip"
+            },
+            {
+              "name": "加速线路 4",
+              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.159/AutoSoftware_v2.39.159.zip"
+            }
+          ]
+        },
+        {
+          "name": "HmiTouchControls.dll",
+          "size": 225280,
+          "downloadCount": 0,
+          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.159/HmiTouchControls.dll",
+          "category": "lib",
+          "mirrors": [
+            {
+              "name": "加速线路 1",
+              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.159/HmiTouchControls.dll"
+            },
+            {
+              "name": "加速线路 2",
+              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.159/HmiTouchControls.dll"
+            },
+            {
+              "name": "加速线路 3",
+              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.159/HmiTouchControls.dll"
+            },
+            {
+              "name": "加速线路 4",
+              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.159/HmiTouchControls.dll"
+            }
+          ]
+        }
+      ]
     },
     {
       "version": "v2.39.158",
