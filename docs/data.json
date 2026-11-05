@@ -2,7 +2,7 @@
   "site": "SY 软件下载",
   "subtitle": "官方下载 · 请认准本页面",
   "repo": "sushangxiong0312-ctrl/SY",
-  "generatedAt": "2026-09-28T09:11:25.859Z",
+  "generatedAt": "2026-11-05T07:42:06.688Z",
   "categories": [
     {
       "key": "full",
@@ -37,6 +37,16 @@
       "mode": "versions",
       "versions": [
         {
+          "version": "v2.39.344",
+          "tag": "v2.39.344",
+          "trackKey": "app",
+          "title": "v2.39.344",
+          "date": "2026-11-05T07:41:52Z",
+          "prerelease": false,
+          "body": "- 正运动 EtherCAT 回零按标准驱动器模式自动调用 BusCmd_Datum，114 等控制器模式保持 Single_Datum；删除额外回零方式选项，修正回零失败、取消及完成判断。\n- 工序控件改为「实时」同款单钮：整块按钮按实时状态着色（运行绿/暂停橙/异常红/完成蓝/停止灰）+名称/Step 行，组合式「状态条+动作方块」废弃；启动用途=点击启动、运行中再点停止；与工作流控件完全同款，老页面自动换新样子不用重拖",
+          "files": []
+        },
+        {
           "version": "v2.39.223",
           "tag": "v2.39.223",
           "trackKey": "app",
@@ -48,7 +58,7 @@
             {
               "name": "AutoSoftware_v2.39.223.zip",
               "size": 136412943,
-              "downloadCount": 0,
+              "downloadCount": 5,
               "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.223/AutoSoftware_v2.39.223.zip",
               "category": "full",
               "mirrors": [
@@ -5887,67 +5897,6 @@
               ]
             }
           ]
-        },
-        {
-          "version": "v2.12.25",
-          "tag": "v2.12.25",
-          "trackKey": "app",
-          "title": "v2.12.25",
-          "date": "2026-07-07T13:05:53Z",
-          "prerelease": false,
-          "body": "- 修复: 自定义参数脚本重编译后, HMI 页面按钮里 GetParam as 类型 转换失败报空引用 — 编译成功自动重挂所有 HMI 槽位页面, 页面逻辑对新参数程序集重编译保持类型一致",
-          "files": [
-            {
-              "name": "AutoSoftware_v2.12.25.zip",
-              "size": 289007852,
-              "downloadCount": 0,
-              "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.25/AutoSoftware_v2.12.25.zip",
-              "category": "full",
-              "mirrors": [
-                {
-                  "name": "加速线路 1",
-                  "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.25/AutoSoftware_v2.12.25.zip"
-                },
-                {
-                  "name": "加速线路 2",
-                  "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.25/AutoSoftware_v2.12.25.zip"
-                },
-                {
-                  "name": "加速线路 3",
-                  "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.25/AutoSoftware_v2.12.25.zip"
-                },
-                {
-                  "name": "加速线路 4",
-                  "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.25/AutoSoftware_v2.12.25.zip"
-                }
-              ]
-            },
-            {
-              "name": "HmiTouchControls.dll",
-              "size": 93696,
-              "downloadCount": 0,
-              "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.25/HmiTouchControls.dll",
-              "category": "other",
-              "mirrors": [
-                {
-                  "name": "加速线路 1",
-                  "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.25/HmiTouchControls.dll"
-                },
-                {
-                  "name": "加速线路 2",
-                  "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.25/HmiTouchControls.dll"
-                },
-                {
-                  "name": "加速线路 3",
-                  "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.25/HmiTouchControls.dll"
-                },
-                {
-                  "name": "加速线路 4",
-                  "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.25/HmiTouchControls.dll"
-                }
-              ]
-            }
-          ]
         }
       ]
     },
@@ -6017,6 +5966,16 @@
   ],
   "versions": [
     {
+      "version": "v2.39.344",
+      "tag": "v2.39.344",
+      "trackKey": "app",
+      "title": "v2.39.344",
+      "date": "2026-11-05T07:41:52Z",
+      "prerelease": false,
+      "body": "- 正运动 EtherCAT 回零按标准驱动器模式自动调用 BusCmd_Datum，114 等控制器模式保持 Single_Datum；删除额外回零方式选项，修正回零失败、取消及完成判断。\n- 工序控件改为「实时」同款单钮：整块按钮按实时状态着色（运行绿/暂停橙/异常红/完成蓝/停止灰）+名称/Step 行，组合式「状态条+动作方块」废弃；启动用途=点击启动、运行中再点停止；与工作流控件完全同款，老页面自动换新样子不用重拖",
+      "files": []
+    },
+    {
       "version": "v2.39.223",
       "tag": "v2.39.223",
       "trackKey": "app",
@@ -6028,7 +5987,7 @@
         {
           "name": "AutoSoftware_v2.39.223.zip",
           "size": 136412943,
-          "downloadCount": 0,
+          "downloadCount": 5,
           "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.39.223/AutoSoftware_v2.39.223.zip",
           "category": "full",
           "mirrors": [
@@ -11924,67 +11883,6 @@
             {
               "name": "加速线路 4",
               "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.26/HmiTouchControls.dll"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "version": "v2.12.25",
-      "tag": "v2.12.25",
-      "trackKey": "app",
-      "title": "v2.12.25",
-      "date": "2026-07-07T13:05:53Z",
-      "prerelease": false,
-      "body": "- 修复: 自定义参数脚本重编译后, HMI 页面按钮里 GetParam as 类型 转换失败报空引用 — 编译成功自动重挂所有 HMI 槽位页面, 页面逻辑对新参数程序集重编译保持类型一致",
-      "files": [
-        {
-          "name": "AutoSoftware_v2.12.25.zip",
-          "size": 289007852,
-          "downloadCount": 0,
-          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.25/AutoSoftware_v2.12.25.zip",
-          "category": "full",
-          "mirrors": [
-            {
-              "name": "加速线路 1",
-              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.25/AutoSoftware_v2.12.25.zip"
-            },
-            {
-              "name": "加速线路 2",
-              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.25/AutoSoftware_v2.12.25.zip"
-            },
-            {
-              "name": "加速线路 3",
-              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.25/AutoSoftware_v2.12.25.zip"
-            },
-            {
-              "name": "加速线路 4",
-              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.25/AutoSoftware_v2.12.25.zip"
-            }
-          ]
-        },
-        {
-          "name": "HmiTouchControls.dll",
-          "size": 93696,
-          "downloadCount": 0,
-          "url": "https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.25/HmiTouchControls.dll",
-          "category": "other",
-          "mirrors": [
-            {
-              "name": "加速线路 1",
-              "url": "https://ghfast.top/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.25/HmiTouchControls.dll"
-            },
-            {
-              "name": "加速线路 2",
-              "url": "https://ghproxy.net/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.25/HmiTouchControls.dll"
-            },
-            {
-              "name": "加速线路 3",
-              "url": "https://gh-proxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.25/HmiTouchControls.dll"
-            },
-            {
-              "name": "加速线路 4",
-              "url": "https://mirror.ghproxy.com/https://github.com/sushangxiong0312-ctrl/SY/releases/download/v2.12.25/HmiTouchControls.dll"
             }
           ]
         }
